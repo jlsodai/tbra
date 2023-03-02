@@ -9,6 +9,14 @@ module.exports = {
 	],
 	theme: {
 		extend: {
+			colors: {
+				darkblue: "#202945",
+				gold: {
+					900: "#CDAD7D",
+					500: "#EEEAD6",
+					100: "#F4F1EC",
+				},
+			},
 			// fontFamily: {
 			// 	sans: ["Roboto", "Arial", "sans-serif"],
 			// },
