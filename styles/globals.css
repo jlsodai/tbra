@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html { color: #4A4F54; font-size: 14px;}
+
+@layer components {
+  .btn { @apply border px-4 py-1 rounded-lg hover:text-purple-600 hover:border-purple-600; }
+  .menulink { @apply hover:text-purple-600 lg:mr-6 mb-1 lg:mb-0; }
+}
