@@ -4,7 +4,18 @@
 
 html { color: #4A4F54; font-size: 14px;}
 
+@layer base {
+  h3 { font-size: 36px; @apply text-gray-700 font-display; }
+  a { @apply inline-block }
+}
+
 @layer components {
-  .btn { @apply border px-4 py-1 rounded-lg hover:text-purple-600 hover:border-purple-600; }
+  .btn { @apply px-6 py-2 bg-gold hover:bg-gold-400 font-semibold inline-block; }
   .menulink { @apply hover:text-purple-600 lg:mr-6 mb-1 lg:mb-0; }
+  .imgCascade { @apply relative w-[48.3%] before:content-[''] before:absolute before:top-0 before:bottom-0 before:w-[1000%] before:bg-gold before:right-[50%]}
+  .innerPadding { @apply py-20}
+  .learnmore { @apply text-gold }
+  .QuoteCascade { @apply text-white bg-darkblue mt-[100px] pr-24 innerPadding relative w-[80%]}
+  .QuoteCascade:before { @apply content-[''] absolute top-0 bottom-0 w-[1000%] bg-darkblue right-[50%] -z-10 }
+  .QuoteCascade:after { @apply content-[''] absolute w-full top-[-100px] bottom-[70px] left-[113px] -z-10 bg-gold}
 }

@@ -1,0 +1,146 @@
+/* eslint-disable @next/next/no-img-element */
+
+import CascadeImg from "./components/CascadeImg";
+import HeroSection from "./sections/HeroSection";
+import Navigation from "./sections/Navigation";
+import TBRAKey from "./components/TBRAKey";
+
+export default function Home() {
+	return (
+		<>
+			<Navigation />
+			<HeroSection />
+
+			<section className="container">
+				<div className="grid grid-cols-2 gap-20">
+					<div className="grid grid-cols-5 innerPadding gap-10">
+						<TBRAKey />
+						<div className="col-span-3">
+							<h3>
+								The largest private network of women executives.
+							</h3>
+							<a className="text-white btn mt-4" href="#">
+								About Membership
+							</a>
+						</div>
+					</div>
+					<CascadeImg
+						position="right"
+						src="https://placeholder.com/400x600"
+					/>
+				</div>
+			</section>
+
+			<section className="bg-gray-100">
+				<div className="container grid grid-cols-2 gap-20">
+					<CascadeImg
+						position="left"
+						src="https://placeholder.com/400x600"
+					/>
+					<div className="grid grid-cols-5 innerPadding gap-10">
+						<div className="col-span-3">
+							<h3>Board opportunities</h3>
+							<p>
+								We work with companies and organisations to help
+								bridge the diversity gap on their boards by
+								sharing vacant roles with our network, providing
+								a shortlist of qualified candidates that meet
+								their criteria, or through our bespoke search
+								service.
+							</p>
+							<a href="#">Learn more</a>
+						</div>
+						<TBRAKey />
+					</div>
+				</div>
+			</section>
+
+			<section className="bg-white">
+				<div className="container my-28">
+					<h3 className="text-center">Trusted by</h3>
+					<img
+						src="https://placeholder.com/800x400"
+						className="mx-auto mt-10"
+						alt=""
+					/>
+				</div>
+			</section>
+
+			<section className="bg-gray-100">
+				<div className="container">
+					<div className="grid grid-cols-2 gap-20">
+						<div className="grid grid-cols-5 innerPadding gap-10">
+							<TBRAKey />
+							<div className="col-span-3">
+								<h3>
+									The largest private network of women
+									executives.
+								</h3>
+								<a className="text-white btn mt-4" href="#">
+									About Membership
+								</a>
+							</div>
+						</div>
+						<CascadeImg
+							position="right"
+							src="https://placeholder.com/400x600"
+						/>
+					</div>
+				</div>
+			</section>
+
+			<section className="container">
+				<div className="grid grid-cols-2 gap-20">
+					<div className="QuoteCascade">
+						<p>
+							Our partners and donors provide invaluable support
+							and share our vision for creating a gender-equal
+							world. From foundations to corporations, our
+							partners know that investing in TheBoardroom Africa
+							is an investment in a more inclusive society, a
+							stronger business community and Africa’s development
+							objectives. We work with our donors and partners to
+							achieve shared development objectives such as gender
+							inclusion and jobs created. We work with our donors
+							and partners to achieve shared development
+							objectives such as gender inclusion and jobs
+							created.
+						</p>
+					</div>
+					<div className="grid grid-cols-5 innerPadding gap-10">
+						<div className="col-span-3">
+							<h3>Our Partners</h3>
+							<p>
+								Our partners and donors provide invaluable
+								support and share our vision for creating a
+								gender-equal world. From foundations to
+								corporations, our partners know that investing
+								in TheBoardroom Africa is an investment in a
+								more inclusive society, a stronger business
+								community and Africa’s development objectives.
+								We work with our donors and partners to achieve
+								shared development objectives such as gender
+								inclusion and jobs created.
+							</p>
+							<a href="#">Partners</a>
+						</div>
+						<TBRAKey />
+					</div>
+				</div>
+			</section>
+
+			{/* <section className="container">
+				<div className="grid grid-cols-2 justify-between relative gap-20">
+					<CascadeImg
+						position="left"
+						src="https://placeholder.com/400x600"
+					/>
+					<CascadeImg
+						position="right"
+						src="https://placeholder.com/400x600"
+					/>
+				</div>
+			</section> */}
+		</>
+	);
+}
