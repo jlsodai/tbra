@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Libre+Baskerville&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,7 +7,9 @@
 html { color: #4A4F54; font-size: 14px;}
 
 @layer base {
-  h3 { font-size: 36px; @apply text-gray-700 font-display; }
+  h1, h2 { @apply font-serif }
+  h2 { font-size: 26px; @apply text-gold }
+  h3 { font-size: 36px; @apply text-gray-700 mb-8 }
   a { @apply inline-block }
 }
 

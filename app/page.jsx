@@ -57,7 +57,7 @@ export default function Home() {
 
 			<section className="bg-white">
 				<div className="container my-28">
-					<h3 className="text-center">Trusted by</h3>
+					<h2 className="text-center">trusted by.</h2>
 					<img
 						src="https://placeholder.com/800x400"
 						className="mx-auto mt-10"

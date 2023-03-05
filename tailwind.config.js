@@ -20,7 +20,9 @@ module.exports = {
 		},
 		fontFamily: {
 			display: ["Inter", "system-ui"],
+			body: ["Inter", "Libre Baskerville"],
 			sans: [
+				"Inter",
 				"system-ui",
 				"-apple-system",
 				"BlinkMacSystemFont",
@@ -36,6 +38,7 @@ module.exports = {
 				'"Noto Color Emoji"',
 			],
 			serif: [
+				"Libre Baskerville",
 				"Georgia",
 				"Cambria",
 				'"Times New Roman"',
