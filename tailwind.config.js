@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+
+const { fontFamily } = require("tailwindcss/defaultTheme");
 module.exports = {
 	content: [
 		"./app/**/*.{html,js,jsx}",
@@ -18,42 +20,6 @@ module.exports = {
 			center: true,
 			padding: "1rem",
 		},
-		fontFamily: {
-			display: ["Inter", "system-ui"],
-			body: ["Inter", "Libre Baskerville"],
-			sans: [
-				"Inter",
-				"system-ui",
-				"-apple-system",
-				"BlinkMacSystemFont",
-				'"Segoe UI"',
-				"Roboto",
-				'"Helvetica Neue"',
-				"Arial",
-				'"Noto Sans"',
-				"sans-serif",
-				'"Apple Color Emoji"',
-				'"Segoe UI Emoji"',
-				'"Segoe UI Symbol"',
-				'"Noto Color Emoji"',
-			],
-			serif: [
-				"Libre Baskerville",
-				"Georgia",
-				"Cambria",
-				'"Times New Roman"',
-				"Times",
-				"serif",
-			],
-			mono: [
-				"Menlo",
-				"Monaco",
-				"Consolas",
-				'"Liberation Mono"',
-				'"Courier New"',
-				"monospace",
-			],
-		},
 		extend: {
 			colors: {
 				darkblue: "#202945",
@@ -71,9 +37,10 @@ module.exports = {
 					900: "#4C391D",
 				},
 			},
-			// fontFamily: {
-			// 	sans: ["Roboto", "Arial", "sans-serif"],
-			// },
+			fontFamily: {
+				serif: ["Libre Baskerville", ...fontFamily.serif],
+				sans: ["Inter", ...fontFamily.sans],
+			},
 		},
 	},
 	plugins: [],

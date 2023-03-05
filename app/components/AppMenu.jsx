@@ -1,7 +1,7 @@
 const AppMenu = () => {
 	return (
 		<>
-			<a href="#" className="hover:text-purple-600 mr-4">
+			<a href="#" className="hover:text-gold mr-4">
 				Login
 			</a>
 			<a href="#" className="btn">

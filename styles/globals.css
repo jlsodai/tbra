@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Libre+Baskerville:wght@400;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -16,7 +16,7 @@ html { color: #4A4F54; font-size: 15px;}
 
 @layer components {
   .btn { @apply px-6 py-2 bg-gold hover:bg-gold-400 font-semibold inline-block; }
-  .menulink { @apply hover:text-purple-600 lg:mr-6 mb-1 lg:mb-0; }
+  .menulink { @apply hover:text-gold lg:mr-6 mb-1 lg:mb-0; }
   .imgCascade { @apply relative w-[48.3%] before:content-[''] before:absolute before:top-0 before:bottom-0 before:w-[1000%] before:bg-gold before:right-[50%]}
   .innerPadding { @apply py-20}
   .learnmore { @apply text-gold }
