@@ -23,6 +23,7 @@ module.exports = {
 		extend: {
 			colors: {
 				darkblue: "#202945",
+				darkgray: "#4a4f54",
 				gold: {
 					DEFAULT: "#CDAD7D",
 					50: "#FFFFFF",
