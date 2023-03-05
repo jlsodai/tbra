@@ -8,7 +8,7 @@ const HeroSection = () => {
 					alt=""
 				/>
 				<div className="z-10">
-					<h1 className="text-gold text-6xl">
+					<h1 className="text-gold">
 						Society thrives when women are equal decision makers.
 					</h1>
 					<p className="mt-4 text-gold-300 md:max-w-[65%]">

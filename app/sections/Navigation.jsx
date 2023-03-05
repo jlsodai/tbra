@@ -1,17 +1,20 @@
 /* eslint-disable @next/next/no-img-element */
 import Menu from "../components/Menu";
 import AppMenu from "../components/AppMenu";
+import Link from "next/link";
 
 const Navigation = () => {
 	return (
 		<div className="bg-white shadow">
 			<div className="container px-4">
 				<div className="flex items-center justify-between py-4">
-					<img
-						src="https://theboardroomafrica.com/wp-content/themes/tbra/assets/images/logo-primary.svg"
-						width="100px"
-						alt="Logo"
-					/>
+					<Link href="/">
+						<img
+							src="https://theboardroomafrica.com/wp-content/themes/tbra/assets/images/logo-primary.svg"
+							width="100px"
+							alt="Logo"
+						/>
+					</Link>
 
 					<div className="hidden lg:flex lg:items-center text-darkblue">
 						<Menu />

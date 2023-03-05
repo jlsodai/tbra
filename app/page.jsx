@@ -26,7 +26,7 @@ export default function Home() {
 					</div>
 					<CascadeImg
 						position="right"
-						src="https://placeholder.com/400x600"
+						src="https://placeholder.com/400x500"
 					/>
 				</div>
 			</section>
@@ -35,7 +35,7 @@ export default function Home() {
 				<div className="container grid grid-cols-2 gap-20">
 					<CascadeImg
 						position="left"
-						src="https://placeholder.com/400x600"
+						src="https://placeholder.com/400x500"
 					/>
 					<div className="grid grid-cols-5 innerPadding gap-10">
 						<div className="col-span-3">
@@ -83,7 +83,7 @@ export default function Home() {
 						</div>
 						<CascadeImg
 							position="right"
-							src="https://placeholder.com/400x600"
+							src="https://placeholder.com/400x500"
 						/>
 					</div>
 				</div>
@@ -143,11 +143,11 @@ export default function Home() {
 				<div className="grid grid-cols-2 justify-between relative gap-20">
 					<CascadeImg
 						position="left"
-						src="https://placeholder.com/400x600"
+						src="https://placeholder.com/400x500"
 					/>
 					<CascadeImg
 						position="right"
-						src="https://placeholder.com/400x600"
+						src="https://placeholder.com/400x500"
 					/>
 				</div>
 			</section> */}

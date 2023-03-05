@@ -1,9 +1,11 @@
+import Link from "next/link";
+
 const Menu = () => {
 	return (
 		<>
-			<a className="menulink" href="#">
+			<Link className="menulink" href="/about-us">
 				About Us
-			</a>
+			</Link>
 			<a className="menulink" href="#">
 				Board Roles
 			</a>
