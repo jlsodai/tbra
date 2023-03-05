@@ -1,8 +1,13 @@
 const HeroSection = () => {
 	return (
 		<div className="bg-darkblue">
-			<div className="flex container min-h-[calc(100dvh-75px)] px-4 justify-center items-center">
-				<div>
+			<div className="flex container min-h-[600px] relative px-4 justify-center items-center ">
+				<img
+					src="/images/white-key.png"
+					className="absolute left-0 h-[75%] -z-1 opacity-5"
+					alt=""
+				/>
+				<div className="z-10">
 					<h1 className="text-gold text-6xl">
 						Society thrives when women are equal decision makers.
 					</h1>

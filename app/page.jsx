@@ -4,11 +4,11 @@ import CascadeImg from "./components/CascadeImg";
 import HeroSection from "./sections/HeroSection";
 import Navigation from "./sections/Navigation";
 import TBRAKey from "./components/TBRAKey";
+import Image from "next/image";
 
 export default function Home() {
 	return (
 		<>
-			<Navigation />
 			<HeroSection />
 
 			<section className="container">
@@ -92,7 +92,13 @@ export default function Home() {
 			<section className="container">
 				<div className="grid grid-cols-2 gap-20">
 					<div className="QuoteCascade">
-						<p>
+						<img
+							src="/images/quote.svg"
+							height="150px"
+							alt="Quote"
+							className="mx-auto"
+						/>
+						<p className="mt-10">
 							Our partners and donors provide invaluable support
 							and share our vision for creating a gender-equal
 							world. From foundations to corporations, our
@@ -105,6 +111,10 @@ export default function Home() {
 							and partners to achieve shared development
 							objectives such as gender inclusion and jobs
 							created.
+						</p>
+						<p className="mt-4">
+							<strong>Liesel Pritzker Simmons</strong>, Co-founder
+							and Principle, Blue Haven Initiative
 						</p>
 					</div>
 					<div className="grid grid-cols-5 innerPadding gap-10">
