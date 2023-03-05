@@ -2,6 +2,7 @@ import HeaderTitle from "../sections/HeaderTitle";
 import TBRAKey from "../components/TBRAKey";
 import CascadeImg from "../components/CascadeImg";
 import Stats from "../components/Stats";
+import ArrowLink from "../components/ArrowLink";
 
 const About = () => {
 	return (
@@ -21,9 +22,7 @@ const About = () => {
 								options to help you share roles with our network
 								of senior executives.
 							</p>
-							<a className="mt-4" href="#">
-								Advertise now
-							</a>
+							<ArrowLink href="#" title="Advertise now" />
 						</div>
 					</div>
 					<CascadeImg
@@ -65,7 +64,7 @@ const About = () => {
 								candidates to identify those with the deep
 								skills and sector knowledge you need.
 							</p>
-							<a href="#">Get in touch</a>
+							<ArrowLink href="#" title="Get in touch" />
 						</div>
 						<TBRAKey />
 					</div>

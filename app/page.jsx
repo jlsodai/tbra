@@ -5,6 +5,7 @@ import HeroSection from "./sections/HeroSection";
 import Navigation from "./sections/Navigation";
 import TBRAKey from "./components/TBRAKey";
 import Image from "next/image";
+import ArrowLink from "./components/ArrowLink";
 
 export default function Home() {
 	return (
@@ -48,7 +49,8 @@ export default function Home() {
 								their criteria, or through our bespoke search
 								service.
 							</p>
-							<a href="#">Learn more</a>
+
+							<ArrowLink href="#" title="Learn more" />
 						</div>
 						<TBRAKey />
 					</div>
@@ -72,13 +74,16 @@ export default function Home() {
 						<div className="grid grid-cols-5 innerPadding gap-10">
 							<TBRAKey />
 							<div className="col-span-3">
-								<h3>
-									The largest private network of women
-									executives.
-								</h3>
-								<a className="text-white btn mt-4" href="#">
-									About Membership
-								</a>
+								<h3>Executive Development</h3>
+								<p>
+									Whether you are looking to transform your
+									presence in the boardroom or lead your
+									business and teams to success in our new
+									global context, we offer a range of
+									immersive experiences suited to your
+									professional development goals.
+								</p>
+								<ArrowLink href="#" title="Learn more" />
 							</div>
 						</div>
 						<CascadeImg
@@ -132,7 +137,7 @@ export default function Home() {
 								shared development objectives such as gender
 								inclusion and jobs created.
 							</p>
-							<a href="#">Partners</a>
+							<ArrowLink href="#" title="Partners" />
 						</div>
 						<TBRAKey />
 					</div>
