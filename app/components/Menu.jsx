@@ -6,9 +6,9 @@ const Menu = () => {
 			<Link className="menulink" href="/about-us">
 				About Us
 			</Link>
-			<a className="menulink" href="#">
+			<Link className="menulink" href="/board-roles">
 				Board Roles
-			</a>
+			</Link>
 			<a className="menulink" href="#">
 				Executive Development
 			</a>
