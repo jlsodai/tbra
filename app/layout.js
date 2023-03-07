@@ -1,5 +1,5 @@
 import "@/styles/globals.css";
-import Navigation from "./sections/Navigation";
+import Navigation from "@/app/sections/Navigation";
 
 export const metadata = {
 	title: "Create Next App",
