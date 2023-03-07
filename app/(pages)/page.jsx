@@ -1,11 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
 
-import CascadeImg from "./components/CascadeImg";
-import HeroSection from "./sections/HeroSection";
-import Navigation from "./sections/Navigation";
-import TBRAKey from "./components/TBRAKey";
+import CascadeImg from "@/app/components/CascadeImg";
+import HeroSection from "@/app/sections/HeroSection";
+import Navigation from "@/app/sections/Navigation";
+import TBRAKey from "@/app/components/TBRAKey";
 import Image from "next/image";
-import ArrowLink from "./components/ArrowLink";
+import ArrowLink from "@/app/components/ArrowLink";
 
 export default function Home() {
 	return (
@@ -143,19 +143,6 @@ export default function Home() {
 					</div>
 				</div>
 			</section>
-
-			{/* <section className="container">
-				<div className="grid grid-cols-2 justify-between relative gap-20">
-					<CascadeImg
-						position="left"
-						src="https://placeholder.com/400x500"
-					/>
-					<CascadeImg
-						position="right"
-						src="https://placeholder.com/400x500"
-					/>
-				</div>
-			</section> */}
 		</>
 	);
 }
