@@ -1,8 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 import Menu from "../components/Menu";
 import AppMenu from "../components/AppMenu";
+import MenuItems from "@/app/components/MenuItems";
 import Link from "next/link";
 import { CgMenu } from "react-icons/cg";
+import { menuLinks } from "@/app/utils/options";
 
 const Navigation = () => {
 	return (
@@ -18,7 +20,7 @@ const Navigation = () => {
 					</Link>
 
 					<div className="hidden lg:flex lg:items-center text-darkblue">
-						<Menu />
+						<MenuItems menuLinks={menuLinks} />
 					</div>
 
 					<div className="flex items-center">
