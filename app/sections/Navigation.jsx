@@ -4,6 +4,7 @@ import MenuItems from "@/app/components/MenuItems";
 import Link from "next/link";
 import { CgMenu } from "react-icons/cg";
 import { menuLinks } from "@/app/utils/options";
+import MenuToggle from "../components/MenuToggle";
 
 const Navigation = () => {
 	return (
@@ -25,12 +26,15 @@ const Navigation = () => {
 
 						<div className="flex items-center">
 							<AppMenu className="hidden sm:inline-block" />
-							<CgMenu className="text-4xl border rounded ml-6 p-1 lg:hidden" />
+							<MenuToggle />
 						</div>
 					</div>
 				</div>
 			</div>
-			<div className="block lg:hidden bg-gray-50 border-t-2 py-2 absolute w-full z-50 mobilemenu">
+			<div
+				id="mobileMenu"
+				className="hidden bg-gray-50 border-t-2 py-2 absolute w-full z-50 mobilemenu"
+			>
 				<div className="container">
 					<MenuItems menuLinks={menuLinks} mobile />
 					<AppMenu className="sm:hidden flex justify-between items-center border-t-2 pt-2 mb-2" />
