@@ -16,7 +16,7 @@ html { color: #4A4F54; font-size: 15px;}
 
 @layer components {
   .btn { @apply px-6 py-2 bg-gold hover:bg-gold-400 font-semibold inline-block; }
-  .menulink { @apply hover:text-gold mb-1 lg:mb-0; }
+  .menulink { @apply hover:text-gold mb-1 lg:mb-0 py-2; }
   .newmenulink { @apply hover:text-gold mb-1 lg:mb-0; }
   .imgCascade { @apply relative w-[48.3%] before:content-[''] before:absolute before:top-0 before:bottom-0 before:w-[1000%] before:bg-gold before:right-[50%]}
   .innerPadding { @apply py-20}
@@ -28,4 +28,5 @@ html { color: #4A4F54; font-size: 15px;}
   .submenu { @apply bg-white z-10 list-none divide-y divide-gray-100 rounded shadow w-44 absolute}
   .submenu a { @apply hover:bg-gray-100 text-gray-700 block px-4 py-2 }
   li:hover .submenu { @apply block }
+  .mobilemenu .navmenu { @apply divide-y }
 }

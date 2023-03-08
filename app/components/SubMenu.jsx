@@ -1,9 +1,20 @@
-const SubMenu = ({ sublinks }) => {
+const SubMenu = ({ sublinks, mobile = false }) => {
 	return (
-		<ul className="submenu hidden">
+		<ul
+			className={`${
+				mobile
+					? "mobile-sub divide-y border-t hidden"
+					: "submenu hidden"
+			}`}
+		>
 			{sublinks.map((sublink, i) => (
 				<li key={i}>
-					<a href={sublink.href}>{sublink.name}</a>
+					<a
+						href={sublink.href}
+						className={`${mobile ? "py-2 w-full pl-4" : ""}`}
+					>
+						{sublink.name}
+					</a>
 				</li>
 			))}
 		</ul>
