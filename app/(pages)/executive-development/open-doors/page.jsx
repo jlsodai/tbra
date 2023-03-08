@@ -13,7 +13,7 @@ const Page = () => {
 				<div className="grid grid-cols-2 gap-20">
 					<div className="grid grid-cols-5 innerPadding gap-10">
 						<TBRAKey />
-						<div className="col-span-3">
+						<div className="col-span-4">
 							<h3>Course introduction</h3>
 							<p>
 								Open Doors is the first globally accredited
