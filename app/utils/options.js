@@ -34,7 +34,7 @@ export const menuLinks = [
 		submenu: [
 			{
 				name: "Open Doors",
-				href: "#",
+				href: "/executive-development/open-doors",
 			},
 			{
 				name: "TLM",
