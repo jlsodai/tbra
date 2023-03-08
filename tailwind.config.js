@@ -1,7 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 
+const withMT = require("@material-tailwind/react/utils/withMT");
+
 const { fontFamily } = require("tailwindcss/defaultTheme");
-module.exports = {
+module.exports = withMT({
 	content: [
 		"./app/**/*.{html,js,jsx}",
 		"./components/**/*.{html,js,ts,jsx,tsx}",
@@ -10,13 +12,13 @@ module.exports = {
 		"./pages/**/*.{js,ts,jsx,tsx}",
 	],
 	theme: {
+		screens: {
+			sm: "640px",
+			md: "768px",
+			lg: "1024px",
+			xl: "1280px",
+		},
 		container: {
-			screens: {
-				sm: "600px",
-				md: "728px",
-				lg: "984px",
-				xl: "1240px",
-			},
 			center: true,
 			padding: "1rem",
 		},
@@ -45,4 +47,4 @@ module.exports = {
 		},
 	},
 	plugins: [],
-};
+});
