@@ -7,7 +7,7 @@
 html { color: #4A4F54; font-size: 15px;}
 
 @layer base {
-  h1, h2 { @apply font-serif text-6xl text-gold leading-[1.2]}
+  h1, h2 { @apply font-serif text-4xl md:text-6xl text-gold leading-[1.2]}
   strong { @apply font-bold }
   h2 { font-size: 26px; @apply text-gold }
   h3 { font-size: 36px; @apply text-gray-700 leading-none mb-4 }
@@ -29,4 +29,31 @@ html { color: #4A4F54; font-size: 15px;}
   .submenu a { @apply hover:bg-gray-100 text-gray-700 block px-4 py-2 }
   li:hover .submenu { @apply block }
   .mobilemenu .navmenu { @apply divide-y }
+
+  /*Height should be double border thickness*/
+  .chevron { position:relative; display:block; }
+  .chevron::before, .chevron::after { position:absolute; display:block; content:""; border:27px solid transparent; }
+  .chevron::before { left: -8.5px; border-left-color:#CDAD7D; }
+  .chevron::after { left:-10px; border-left-color:#fff;}
+
+
+  .gg-chevron-right {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    border: 1px solid transparent;
+    border-radius: 100px
+}
+.gg-chevron-right::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-bottom: 1px solid #CDAD7D;
+    border-right: 1px solid #CDAD7D;
+    transform: rotate(-45deg);
+    left: -20px;
+    top: -1px
+}
 }

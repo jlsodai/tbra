@@ -1,10 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
-const TBRAKey = ({ small, position = "left" }) => {
+const TBRAKey = ({ small, position = "left", size = "md", className }) => {
 	return (
 		<img
-			className="col-span-1 mx-auto inline-block"
+			className={`${
+				className ? className : "col-span-1 mx-auto my-0 inline-block"
+			}`}
 			src="/images/gray-key.png"
-			width={`${small ? "30px" : "50px"}`}
+			width={`${
+				size === "xs" ? "10px" : size === "sm" ? "30px" : "50px"
+			}`}
 			alt=""
 		/>
 	);

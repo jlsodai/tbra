@@ -21,7 +21,7 @@ const FooterSection = () => {
 						<h2 className="text-darkgray text-center inline-block mr-8 mt-4">
 							Join Us
 						</h2>
-						<TBRAKey small />
+						<TBRAKey size="sm" />
 						<p className="mt-4">
 							Become a member of the leading community for female
 							executives working in Africa. Build your network,

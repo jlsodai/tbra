@@ -3,6 +3,7 @@ import TBRAKey from "@/app/components/TBRAKey";
 import CascadeImg from "@/app/components/CascadeImg";
 import ArrowLink from "@/app/components/ArrowLink";
 import FooterSection from "@/app/sections/FooterSection";
+import KeySection from "@/app/sections/KeySection";
 
 const Page = () => {
 	return (
@@ -12,9 +13,10 @@ const Page = () => {
 			<section className="container">
 				<div className="grid grid-cols-2 gap-20">
 					<div className="grid grid-cols-5 innerPadding gap-10">
-						<TBRAKey />
-						<div className="col-span-3">
-							<h3>Advertise your role</h3>
+						<KeySection
+							heading="Advertise now"
+							linkTitle="Advertise now"
+						>
 							<p>
 								TheBoardroom Africa supports organisations
 								searching for diverse leaders to serve on board
@@ -22,8 +24,7 @@ const Page = () => {
 								options to help you share roles with our network
 								of senior executives.
 							</p>
-							<ArrowLink href="#" title="Advertise now" />
-						</div>
+						</KeySection>
 					</div>
 					<CascadeImg
 						position="right"
@@ -42,11 +43,12 @@ const Page = () => {
 						src="https://placeholder.com/400x500"
 					/>
 					<div className="grid grid-cols-5 innerPadding gap-10">
-						<div className="col-span-3">
-							<h3>
-								Talk to us about our tailored recruitment
-								service
-							</h3>
+						<KeySection
+							heading="Talk to us about our tailored recruitment
+								service"
+							linkTitle="Get in touch"
+							keyPosition="right"
+						>
 							<p>
 								We specialise in placing senior women on boards
 								for clients of all shapes and sizes around the
@@ -64,9 +66,7 @@ const Page = () => {
 								candidates to identify those with the deep
 								skills and sector knowledge you need.
 							</p>
-							<ArrowLink href="#" title="Get in touch" />
-						</div>
-						<TBRAKey />
+						</KeySection>
 					</div>
 				</div>
 			</section>

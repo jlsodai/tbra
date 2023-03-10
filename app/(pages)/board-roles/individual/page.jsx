@@ -3,6 +3,7 @@ import TBRAKey from "@/app/components/TBRAKey";
 import CascadeImg from "@/app/components/CascadeImg";
 import ArrowLink from "@/app/components/ArrowLink";
 import FooterSection from "@/app/sections/FooterSection";
+import KeySection from "@/app/sections/KeySection";
 
 const Page = () => {
 	return (
@@ -12,25 +13,22 @@ const Page = () => {
 			<section className="container">
 				<div className="grid grid-cols-2 gap-20">
 					<div className="grid grid-cols-5 innerPadding gap-10">
-						<TBRAKey />
-						<div className="col-span-3">
-							<h3>Access board opportunities</h3>
+						<KeySection
+							heading="Access board opportunities"
+							linkTitle="Learn about membership"
+						>
 							<p>
 								TBrA members are part of a network of trusted
 								female executives. We proactively promote
 								members to board opportunities and support their
 								leadership journeys.
 							</p>
-							<p className="mt-4">
+							<p>
 								Join our community to unlock new board roles and
 								access a network of other women leaders as well
 								as other resources to support your board career.
 							</p>
-							<ArrowLink
-								href="#"
-								title="Learn about membership"
-							/>
-						</div>
+						</KeySection>
 					</div>
 					<CascadeImg
 						position="right"
