@@ -1,4 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from "next/link";
+
 const HeroSection = () => {
 	return (
 		<div className="bg-darkblue border-b-8 border-dawn">
@@ -20,9 +22,9 @@ const HeroSection = () => {
 						stage.
 					</p>
 					<div>
-						<a href="#" className="btn bg-dawn font-normal">
+						<Link href="#" className="btn bg-dawn font-normal">
 							Join Now
-						</a>
+						</Link>
 					</div>
 				</div>
 			</div>
