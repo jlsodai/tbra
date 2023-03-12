@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 const HeaderTitle = ({ title }) => {
 	return (
-		<section className="bg-darkblue">
+		<section className="bg-darkblue bigborder">
 			<div className="flex container relative px-4 justify-center items-center">
 				<img
 					src="/images/white-key.png"

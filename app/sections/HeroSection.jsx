@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const HeroSection = () => {
 	return (
-		<div className="bg-darkblue border-b-8 border-dawn">
+		<div className="bg-darkblue bigborder">
 			<div className="flex container min-h-[600px] relative px-4 justify-center items-center ">
 				<img
 					src="/images/white-key.png"

@@ -30,13 +30,13 @@ html { color: #4A4F54; font-size: 15px;}
   li:hover .submenu { @apply block }
   .mobilemenu .navmenu { @apply divide-y }
 
+  .bigborder { @apply border-b-8 border-dawn }
+
   /*Height should be double border thickness*/
   .chevron { position:relative; display:block; }
   .chevron::before, .chevron::after { position:absolute; display:block; content:""; border:27px solid transparent; }
   .chevron::before { left: -8.5px; border-left-color:#CDAD7D; }
   .chevron::after { left:-10px; border-left-color:#fff;}
-
-
   .gg-chevron-right {
     box-sizing: border-box;
     position: relative;
@@ -44,8 +44,8 @@ html { color: #4A4F54; font-size: 15px;}
     transform: scale(var(--ggs,1));
     border: 1px solid transparent;
     border-radius: 100px
-}
-.gg-chevron-right::after {
+  }
+  .gg-chevron-right::after {
     content: "";
     display: block;
     box-sizing: border-box;
@@ -55,5 +55,5 @@ html { color: #4A4F54; font-size: 15px;}
     transform: rotate(-45deg);
     left: -20px;
     top: -1px
-}
+  }
 }
