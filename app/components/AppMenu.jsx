@@ -4,8 +4,8 @@ const AppMenu = ({ className }) => {
 			<a href="#" className="hover:text-mustard mr-4">
 				Login
 			</a>
-			<a href="#" className="btn">
-				Sign Up
+			<a href="#" className="btn uppercase text-white">
+				Apply
 			</a>
 		</div>
 	);

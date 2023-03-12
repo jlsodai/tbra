@@ -143,6 +143,10 @@ export default function Home() {
 					</div>
 				</div>
 			</section>
+
+			<section className="mt-16 bg-dawn">
+				<div className="h-16"></div>
+			</section>
 		</>
 	);
 }

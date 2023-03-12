@@ -8,7 +8,7 @@ const HeroSection = () => {
 					className="absolute left-0 h-[75%] -z-1 opacity-5"
 					alt=""
 				/>
-				<div className="z-10 text-xl flex flex-col gap-4">
+				<div className="z-10 text-xl flex flex-col gap-6">
 					<h1 className="text-mustard">
 						Society thrives when women are equal decision makers.
 					</h1>
@@ -20,7 +20,7 @@ const HeroSection = () => {
 						stage.
 					</p>
 					<div>
-						<a href="#" className="btn mt-4 bg-dawn font-normal">
+						<a href="#" className="btn bg-dawn font-normal">
 							Join Now
 						</a>
 					</div>
