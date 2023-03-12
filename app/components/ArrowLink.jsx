@@ -3,7 +3,7 @@ import { CgArrowLongRight } from "react-icons/cg";
 
 const ArrowLink = (props) => {
 	return (
-		<div className="mt-6 text-gold font-bold">
+		<div className="mt-6 text-mustard font-bold">
 			<Link {...props} className="inline-block mr-4">
 				{props.title}
 			</Link>

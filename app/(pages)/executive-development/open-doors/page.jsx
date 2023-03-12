@@ -81,7 +81,7 @@ const Page = () => {
 						<div>&nbsp;</div>
 						{[1, 2, 3, 4, 5].map((e, i) => (
 							<div key={i} className="flex flex-col items-center">
-								<RiCustomerService2Fill className="text-6xl text-gold" />
+								<RiCustomerService2Fill className="text-6xl text-mustard" />
 								<p className="mt-4">
 									Dedicated programme support team
 								</p>

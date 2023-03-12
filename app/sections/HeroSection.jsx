@@ -8,10 +8,10 @@ const HeroSection = () => {
 					alt=""
 				/>
 				<div className="z-10">
-					<h1 className="text-gold">
+					<h1 className="text-mustard">
 						Society thrives when women are equal decision makers.
 					</h1>
-					<p className="mt-4 text-gold-300 md:max-w-[65%]">
+					<p className="mt-4 text-mustard-300 md:max-w-[65%]">
 						TheBoardroom Africa is Africa's leading private
 						membership network that promotes exceptional female
 						talent to boards and executive teams while transforming
