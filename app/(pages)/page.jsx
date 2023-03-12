@@ -6,6 +6,7 @@ import Navigation from "@/app/sections/Navigation";
 import TBRAKey from "@/app/components/TBRAKey";
 import Image from "next/image";
 import ArrowLink from "@/app/components/ArrowLink";
+import Link from "next/link";
 
 export default function Home() {
 	return (
@@ -20,9 +21,9 @@ export default function Home() {
 							<h3>
 								The largest private network of women executives.
 							</h3>
-							<a className="text-white btn mt-4" href="#">
+							<Link className="text-white btn mt-4" href="#">
 								About Membership
-							</a>
+							</Link>
 						</div>
 					</div>
 					<CascadeImg
@@ -132,10 +133,10 @@ export default function Home() {
 								corporations, our partners know that investing
 								in TheBoardroom Africa is an investment in a
 								more inclusive society, a stronger business
-								community and Africa’s development objectives.
-								We work with our donors and partners to achieve
-								shared development objectives such as gender
-								inclusion and jobs created.
+								community and Africa&apos;s development
+								objectives. We work with our donors and partners
+								to achieve shared development objectives such as
+								gender inclusion and jobs created.
 							</p>
 							<ArrowLink href="#" title="Partners" />
 						</div>
