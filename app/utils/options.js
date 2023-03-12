@@ -12,7 +12,12 @@ export const products = [
 export const menuLinks = [
 	{
 		name: "About Us",
-		href: "/about-us",
+		href: "#",
+		submenu: [
+			{ name: "About TBrA", href: "/about-us" },
+			{ name: "Our Team", href: "/our-team" },
+			{ name: "Our Board", href: "/our-board" },
+		],
 	},
 	{
 		name: "Board Roles",
@@ -49,5 +54,94 @@ export const menuLinks = [
 	{
 		name: "Research",
 		href: "#",
+	},
+];
+
+export const teams = [
+	{
+		id: 1,
+		name: "Marcia Ashong",
+		title: "CEO",
+		href: "#",
+		twitter: "#",
+		linkedin: "#",
+		imageSrc:
+			"https://theboardroomafrica.com/wp-content/uploads/2022/06/IMG_5589_short2.jpg",
+	},
+	{
+		id: 2,
+		name: "Marcia Ashong",
+		title: "CEO",
+		href: "#",
+		twitter: "#",
+		imageSrc:
+			"https://theboardroomafrica.com/wp-content/uploads/2022/06/IMG_5589_short2.jpg",
+	},
+	{
+		id: 3,
+		name: "Marcia Ashong",
+		title: "CEO",
+		href: "#",
+		linkedin: "#",
+		imageSrc:
+			"https://theboardroomafrica.com/wp-content/uploads/2022/06/IMG_5589_short2.jpg",
+	},
+	{
+		id: 4,
+		name: "Marcia Ashong",
+		title: "CEO",
+		href: "#",
+		twitter: "#",
+		linkedin: "#",
+		imageSrc:
+			"https://theboardroomafrica.com/wp-content/uploads/2022/06/IMG_5589_short2.jpg",
+	},
+	{
+		id: 5,
+		name: "Marcia Ashong",
+		title: "CEO",
+		href: "#",
+		twitter: "#",
+		linkedin: "#",
+		imageSrc:
+			"https://theboardroomafrica.com/wp-content/uploads/2022/06/IMG_5589_short2.jpg",
+	},
+	{
+		id: 6,
+		name: "Marcia Ashong",
+		title: "CEO",
+		href: "#",
+		twitter: "#",
+		linkedin: "#",
+		imageSrc:
+			"https://theboardroomafrica.com/wp-content/uploads/2022/06/IMG_5589_short2.jpg",
+	},
+	{
+		id: 7,
+		name: "Marcia Ashong",
+		title: "CEO",
+		href: "#",
+		twitter: "#",
+		linkedin: "#",
+		imageSrc:
+			"https://theboardroomafrica.com/wp-content/uploads/2022/06/IMG_5589_short2.jpg",
+	},
+	{
+		id: 8,
+		name: "Marcia Ashong",
+		title: "CEO",
+		href: "#",
+		linkedin: "#",
+		imageSrc:
+			"https://theboardroomafrica.com/wp-content/uploads/2022/06/IMG_5589_short2.jpg",
+	},
+	{
+		id: 9,
+		name: "Marcia Ashong",
+		title: "CEO",
+		href: "#",
+		linkedin: "#",
+		imageSrc:
+			"https://theboardroomafrica.com/wp-content/uploads/2022/06/IMG_5589_short2.jpg",
 	},
 ];
