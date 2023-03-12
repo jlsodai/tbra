@@ -28,7 +28,7 @@ const AccordionSection = () => {
 				<Accordion key={i} open={open === i + 1}>
 					<button
 						onClick={() => handleOpen(i + 1)}
-						className="flex justify-between items-center border border-gold text-center p-4 w-full mt-4"
+						className="flex justify-between items-center border border-mustard text-center p-4 w-full mt-4"
 					>
 						<div>&nbsp;</div>
 						<div>{accordionTitle}</div>

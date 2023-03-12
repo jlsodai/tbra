@@ -4,7 +4,7 @@ const PointedArrow = ({ size, title }) => {
 	return (
 		<div className="flex items-center">
 			<div
-				className={`flex my-2 items-center border border-gold border-r-0 z-10 h-14 pl-6 ${
+				className={`flex my-2 items-center border border-mustard border-r-0 z-10 h-14 pl-6 ${
 					size === "sm"
 						? "w-[400px]"
 						: size === "md"
