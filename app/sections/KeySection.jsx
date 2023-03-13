@@ -1,5 +1,6 @@
 import TBRAKey from "@/app/components/TBRAKey";
-import ArrowLink from "@/app/components/ArrowLink";
+import Link from "next/link";
+import { CgArrowLongRight } from "react-icons/cg";
 
 const KeySection = ({
 	heading,
@@ -16,8 +17,20 @@ const KeySection = ({
 			<div className={`col-span-3 ${className}`}>
 				<h3>{heading}</h3>
 				{children && <div className="prose">{children}</div>}
-				{linkTitle && linkui === "arrow" && (
-					<ArrowLink href={url} title={linkTitle} />
+				{linkTitle && (
+					<div className="mt-6 text-tender font-bold">
+						<Link
+							href={url}
+							className={`${
+								linkui === "btn" && "text-white btn bg-tender"
+							} "inline-block"`}
+						>
+							{linkTitle}
+						</Link>
+						{linkui === "arrow" && (
+							<CgArrowLongRight className="inline-block ml-4" />
+						)}
+					</div>
 				)}
 			</div>
 			{keyPosition === "right" && <TBRAKey />}

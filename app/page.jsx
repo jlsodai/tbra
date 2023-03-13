@@ -2,9 +2,8 @@
 
 import CascadeImg from "@/app/components/CascadeImg";
 import HeroSection from "@/app/sections/HeroSection";
-import TBRAKey from "@/app/components/TBRAKey";
-import ArrowLink from "@/app/components/ArrowLink";
-import Link from "next/link";
+import KeySection from "@/app/sections/KeySection";
+import { RiDoubleQuotesL } from "react-icons/ri";
 
 export default function Home() {
 	return (
@@ -14,15 +13,11 @@ export default function Home() {
 			<section className="container">
 				<div className="grid grid-cols-2 gap-20">
 					<div className="grid grid-cols-5 innerPadding gap-10">
-						<TBRAKey />
-						<div className="col-span-3">
-							<h3>
-								The largest private network of women executives.
-							</h3>
-							<Link className="text-white btn mt-4" href="#">
-								About Membership
-							</Link>
-						</div>
+						<KeySection
+							heading="The largest private network of women executives."
+							linkTitle="About Membership"
+							linkui="btn"
+						/>
 					</div>
 					<CascadeImg
 						position="right"
@@ -38,8 +33,11 @@ export default function Home() {
 						src="https://placeholder.com/400x500"
 					/>
 					<div className="grid grid-cols-5 innerPadding gap-10">
-						<div className="col-span-3">
-							<h3>Board opportunities</h3>
+						<KeySection
+							heading="Board opportunities"
+							linkTitle="Learn more"
+							keyPosition="right"
+						>
 							<p>
 								We work with companies and organisations to help
 								bridge the diversity gap on their boards by
@@ -48,10 +46,7 @@ export default function Home() {
 								their criteria, or through our bespoke search
 								service.
 							</p>
-
-							<ArrowLink href="#" title="Learn more" />
-						</div>
-						<TBRAKey />
+						</KeySection>
 					</div>
 				</div>
 			</section>
@@ -71,9 +66,10 @@ export default function Home() {
 				<div className="container">
 					<div className="grid grid-cols-2 gap-20">
 						<div className="grid grid-cols-5 innerPadding gap-10">
-							<TBRAKey />
-							<div className="col-span-3">
-								<h3>Executive Development</h3>
+							<KeySection
+								heading="Executive Development"
+								linkTitle="Learn more"
+							>
 								<p>
 									Whether you are looking to transform your
 									presence in the boardroom or lead your
@@ -82,8 +78,7 @@ export default function Home() {
 									immersive experiences suited to your
 									professional development goals.
 								</p>
-								<ArrowLink href="#" title="Learn more" />
-							</div>
+							</KeySection>
 						</div>
 						<CascadeImg
 							position="right"
@@ -95,14 +90,9 @@ export default function Home() {
 
 			<section className="container">
 				<div className="grid grid-cols-2 gap-20">
-					<div className="QuoteCascade">
-						<img
-							src="/images/quote.svg"
-							height="150px"
-							alt="Quote"
-							className="mx-auto"
-						/>
-						<p className="mt-10">
+					<div className="QuoteCascade after:bigborder pt-10">
+						<RiDoubleQuotesL className="text-dawn mx-auto text-[130px]" />
+						<p className="mt-4">
 							Our partners and donors provide invaluable support
 							and share our vision for creating a gender-equal
 							world. From foundations to corporations, our
@@ -122,8 +112,11 @@ export default function Home() {
 						</p>
 					</div>
 					<div className="grid grid-cols-5 innerPadding gap-10">
-						<div className="col-span-3">
-							<h3>Our Partners</h3>
+						<KeySection
+							heading="Our Partners"
+							linkTitle="Partners"
+							keyPosition="right"
+						>
 							<p>
 								Our partners and donors provide invaluable
 								support and share our vision for creating a
@@ -136,9 +129,7 @@ export default function Home() {
 								to achieve shared development objectives such as
 								gender inclusion and jobs created.
 							</p>
-							<ArrowLink href="#" title="Partners" />
-						</div>
-						<TBRAKey />
+						</KeySection>
 					</div>
 				</div>
 			</section>
