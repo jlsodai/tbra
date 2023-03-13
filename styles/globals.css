@@ -29,6 +29,7 @@ html { color: #4A4F54; font-size: 15px;}
   .submenu a { @apply hover:bg-gray-100 text-gray-700 block px-4 py-2 }
   li:hover .submenu { @apply block }
   .mobilemenu .navmenu { @apply divide-y }
+  .impact { background: linear-gradient(90deg, #cdae7d 430px, #fafafa 0%) ;}
 
   .bigborder { @apply border-b-8 border-dawn }
 

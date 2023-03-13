@@ -3,7 +3,7 @@ import Stats from "../components/Stats";
 const FooterSection = () => {
 	return (
 		<>
-			<section className="mt-10 bg-gray-50 py-10">
+			<section className="mt-10 impact py-10">
 				<div className="container">
 					<h1 className="text-dusk text-center">Our Impact</h1>
 					<div className="grid grid-cols-4 gap-10 mx-20 mt-10">
