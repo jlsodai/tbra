@@ -91,8 +91,9 @@ module.exports = withMT({
 				},
 			},
 			fontFamily: {
-				serif: ["Libre Baskerville", ...fontFamily.serif],
-				sans: ["Inter", ...fontFamily.sans],
+				libreb: ["var(--font-libre-baskerville)"],
+				serif: ["var(--font-libre-baskerville)", ...fontFamily.serif],
+				sans: ["--font-inter", ...fontFamily.sans],
 			},
 		},
 	},
