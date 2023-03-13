@@ -18,12 +18,12 @@ const TeamCard = ({ teamInfo }) => {
 					<div className="flex flex-col absolute z-10 top-2 right-2 text-3xl">
 						{team.linkedin && (
 							<Link href="#">
-								<RiLinkedinFill className=" text-white bg-dusk hover:bg-blue-700 mb-2 p-1 opacity-70 hover:opacity-100" />
+								<RiLinkedinFill className=" text-white bg-dusk hover:dusk-700 mb-2 p-1 opacity-70 hover:opacity-100" />
 							</Link>
 						)}
 						{team.twitter && (
 							<Link href="#">
-								<RiTwitterFill className="bg-dusk hover:bg-blue-700 text-white p-1 opacity-70 hover:opacity-100" />
+								<RiTwitterFill className="bg-dusk hover:dusk-700 text-white p-1 opacity-70 hover:opacity-100" />
 							</Link>
 						)}
 					</div>

@@ -2,9 +2,7 @@
 
 import CascadeImg from "@/app/components/CascadeImg";
 import HeroSection from "@/app/sections/HeroSection";
-import Navigation from "@/app/sections/Navigation";
 import TBRAKey from "@/app/components/TBRAKey";
-import Image from "next/image";
 import ArrowLink from "@/app/components/ArrowLink";
 import Link from "next/link";
 

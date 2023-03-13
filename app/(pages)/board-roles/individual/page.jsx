@@ -1,8 +1,5 @@
 import HeaderTitle from "@/app/sections/HeaderTitle";
-import TBRAKey from "@/app/components/TBRAKey";
 import CascadeImg from "@/app/components/CascadeImg";
-import ArrowLink from "@/app/components/ArrowLink";
-import FooterSection from "@/app/sections/FooterSection";
 import KeySection from "@/app/sections/KeySection";
 
 const Page = () => {
@@ -38,8 +35,6 @@ const Page = () => {
 					/>
 				</div>
 			</section>
-
-			<FooterSection />
 		</>
 	);
 };

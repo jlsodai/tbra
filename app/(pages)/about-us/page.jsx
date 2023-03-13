@@ -1,7 +1,6 @@
 import HeaderTitle from "@/app/sections/HeaderTitle";
 import TBRAKey from "@/app/components/TBRAKey";
 import CascadeImg from "@/app/components/CascadeImg";
-import FooterSection from "@/app/sections/FooterSection";
 import KeySection from "@/app/sections/KeySection";
 
 const About = () => {
@@ -55,8 +54,6 @@ const About = () => {
 					/>
 				</div>
 			</section>
-
-			<FooterSection />
 		</>
 	);
 };

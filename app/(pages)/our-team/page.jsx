@@ -1,6 +1,5 @@
 import TeamCard from "@/app/components/TeamCard";
 import HeaderTitle from "@/app/sections/HeaderTitle";
-import FooterSection from "@/app/sections/FooterSection";
 import { teams } from "@/app/utils/options";
 import TBRAKey from "@/app/components/TBRAKey";
 
@@ -19,7 +18,6 @@ const page = () => {
 					</div>
 				</div>
 			</section>
-			<FooterSection />
 		</>
 	);
 };
