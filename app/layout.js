@@ -4,7 +4,8 @@ import { menuLinks } from "@/app/utils/options";
 
 export const metadata = {
 	title: "TheBoardroom Africa",
-	description: "Accelerating Boardroom Gender Diversity",
+	description:
+		"TheBoardroom Africa officially launched in 2016, our goal is to improve board diversity by accelerating the appointment of women onto boards and building a growing pipeline of board-ready women while inspiring and educating the business community on the power of diverse leadership",
 };
 
 export default function RootLayout({ children }) {

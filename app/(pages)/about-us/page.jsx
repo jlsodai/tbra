@@ -3,6 +3,10 @@ import TBRAKey from "@/app/components/TBRAKey";
 import CascadeImg from "@/app/components/CascadeImg";
 import KeySection from "@/app/sections/KeySection";
 
+export const metadata = {
+	title: "About Us - Improving Board Diversity",
+};
+
 const About = () => {
 	return (
 		<>
