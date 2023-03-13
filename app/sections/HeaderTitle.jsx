@@ -2,7 +2,7 @@
 const HeaderTitle = ({ title }) => {
 	return (
 		<section className="bg-darkblue bigborder">
-			<div className="flex container relative px-4 justify-center items-center">
+			<div className="flex container min-h-[280px] relative px-4 justify-center items-center">
 				<img
 					src="/images/white-key.png"
 					className="absolute left-0 h-[75%] -z-1 opacity-5"
