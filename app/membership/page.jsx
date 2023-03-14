@@ -70,7 +70,7 @@ const MembershipHome = () => {
 				<div className="flex container min-h-screen relative px-4 items-center">
 					<img
 						src="/images/white-key.png"
-						className="absolute left-0 h-[75%] -z-1 opacity-20"
+						className="absolute left-0 h-[75%] -z-1 opacity-5"
 						alt=""
 					/>
 					<div className="md:max-w-[60%] z-10 py-28 text-white">
