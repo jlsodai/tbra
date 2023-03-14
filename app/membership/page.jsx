@@ -14,7 +14,7 @@ const MembershipHome = () => {
 				<div className="flex container min-h-screen relative px-4 items-center">
 					<img
 						src="/images/white-key.png"
-						className="absolute left-0 h-[75%] -z-1 opacity-5"
+						className="absolute left-0 h-[75%] -z-1 opacity-3"
 						alt=""
 					/>
 					<div className="z-10 text-xl flex flex-col gap-6 my-28">
@@ -45,7 +45,7 @@ const MembershipHome = () => {
 				<div className="flex container min-h-screen relative px-4 items-center">
 					<img
 						src="/images/gray-key.png"
-						className="absolute left-0 h-[75%] -z-1 opacity-20"
+						className="absolute left-0 h-[75%] -z-1 opacity-10"
 						alt=""
 					/>
 					<div className="md:max-w-[60%] z-10 py-28">
@@ -70,7 +70,7 @@ const MembershipHome = () => {
 				<div className="flex container min-h-screen relative px-4 items-center">
 					<img
 						src="/images/white-key.png"
-						className="absolute left-0 h-[75%] -z-1 opacity-5"
+						className="absolute left-0 h-[75%] -z-1 opacity-3"
 						alt=""
 					/>
 					<div className="md:max-w-[60%] z-10 py-28 text-white">
@@ -95,7 +95,7 @@ const MembershipHome = () => {
 				<div className="flex flex-col container min-h-screen relative py-28 px-4 justify-center items-center gap-y-10">
 					<img
 						src="/images/white-key.png"
-						className="absolute left-0 h-[75%] -z-1 opacity-20"
+						className="absolute left-0 h-[75%] -z-1 opacity-3"
 						alt=""
 					/>
 					<div className="text-mustard md:max-w-[60%] z-10 text-center">

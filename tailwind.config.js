@@ -23,6 +23,11 @@ module.exports = withMT({
 			padding: "1rem",
 		},
 		extend: {
+			opacity: {
+				2: ".02",
+				3: ".03",
+				4: ".04",
+			},
 			colors: {
 				darkblue: {
 					DEFAULT: "#202945",
