@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
 	return (
 		<html
 			lang="en"
-			className={`${inter.variable} ${libreb.variable} ${noto.variable} text-dusk`}
+			className={`${inter.variable} ${libreb.variable} ${noto.variable} text-dusk text-[16px]`}
 		>
 			<body className="font-sans">{children}</body>
 		</html>
