@@ -18,6 +18,7 @@ const Page = () => {
 							className="col-span-4"
 							heading="Course introduction"
 							linkTitle="Learn about membership"
+							url="/membership"
 						>
 							<p>
 								Open Doors is the first globally accredited

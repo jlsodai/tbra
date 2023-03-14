@@ -18,6 +18,7 @@ export default function Home() {
 							heading="The largest private network of women executives."
 							linkTitle="About Membership"
 							linkui="btn"
+							url="/membership"
 						/>
 					</div>
 					<CascadeImg

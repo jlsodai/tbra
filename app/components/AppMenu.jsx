@@ -6,7 +6,7 @@ const AppMenu = ({ className }) => {
 			<Link href="#" className="hover:text-mustard mr-4">
 				Login
 			</Link>
-			<Link href="#" className="btn uppercase text-white">
+			<Link href="/membership" className="btn uppercase text-white">
 				Apply
 			</Link>
 		</div>

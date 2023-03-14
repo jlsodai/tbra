@@ -22,7 +22,10 @@ const HeroSection = () => {
 						stage.
 					</p>
 					<div>
-						<Link href="#" className="btn bg-dawn font-normal">
+						<Link
+							href="/membership"
+							className="btn bg-dawn font-normal"
+						>
 							Join Now
 						</Link>
 					</div>

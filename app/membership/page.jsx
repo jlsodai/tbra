@@ -30,7 +30,10 @@ const MembershipHome = () => {
 							women on a global stage.
 						</p>
 						<div className="text-center mt-10">
-							<Link href="#" className="btn bg-dawn font-normal">
+							<Link
+								href="/membership"
+								className="btn bg-dawn font-normal"
+							>
 								Learn more about membership
 							</Link>
 						</div>

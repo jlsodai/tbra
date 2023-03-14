@@ -19,6 +19,7 @@ const Page = () => {
 							className="col-span-4"
 							heading="Course introduction"
 							linkTitle="Learn about membership"
+							url="/membership"
 						>
 							<p>
 								As the impact of ESG becomes increasingly

@@ -13,6 +13,7 @@ const Page = () => {
 						<KeySection
 							heading="Access board opportunities"
 							linkTitle="Learn about membership"
+							url="/membership"
 						>
 							<p>
 								TBrA members are part of a network of trusted
