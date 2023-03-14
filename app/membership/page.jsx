@@ -22,20 +22,23 @@ const MembershipHome = () => {
 							Society thrives when women are equal decision
 							makers.
 						</h1>
-						<p className=" text-dawn md:max-w-[65%]">
-							TheBoardroom Africa is Africa&apos;s leading private
-							membership network that promotes exceptional female
-							talent to boards and executive teams while
-							transforming the presence and influence of African
-							women on a global stage.
-						</p>
-						<div className="text-center mt-10">
-							<Link
-								href="/membership"
-								className="btn bg-dawn font-normal"
-							>
-								Learn more about membership
-							</Link>
+						<div className=" md:max-w-[65%]">
+							<p className=" text-dawn">
+								TheBoardroom Africa is Africa&apos;s leading
+								private membership network that promotes
+								exceptional female talent to boards and
+								executive teams while transforming the presence
+								and influence of African women on a global
+								stage.
+							</p>
+							<div className="text-center mt-10">
+								<Link
+									href="/membership"
+									className="btn bg-dawn font-normal"
+								>
+									Learn more about membership
+								</Link>
+							</div>
 						</div>
 					</div>
 				</div>
