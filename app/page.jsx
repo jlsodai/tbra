@@ -3,7 +3,7 @@
 import CascadeImg from "@/app/components/CascadeImg";
 import HeroSection from "@/app/sections/HeroSection";
 import KeySection from "@/app/sections/KeySection";
-import { RiDoubleQuotesL } from "react-icons/ri";
+import Testimonial from "./components/Testimonial";
 
 export default function Home() {
 	return (
@@ -90,27 +90,11 @@ export default function Home() {
 
 			<section className="container">
 				<div className="grid grid-cols-2 gap-20">
-					<div className="QuoteCascade after:bigborder pt-10">
-						<RiDoubleQuotesL className="text-dawn mx-auto text-[130px]" />
-						<p className="mt-4">
-							Our partners and donors provide invaluable support
-							and share our vision for creating a gender-equal
-							world. From foundations to corporations, our
-							partners know that investing in TheBoardroom Africa
-							is an investment in a more inclusive society, a
-							stronger business community and Africa’s development
-							objectives. We work with our donors and partners to
-							achieve shared development objectives such as gender
-							inclusion and jobs created. We work with our donors
-							and partners to achieve shared development
-							objectives such as gender inclusion and jobs
-							created.
-						</p>
-						<p className="mt-4">
-							<strong>Liesel Pritzker Simmons</strong>, Co-founder
-							and Principle, Blue Haven Initiative
-						</p>
-					</div>
+					<Testimonial
+						quote="Our partners and donors provide invaluable support and share our vision for creating a gender-equal world. From foundations to corporations, our partners know that investing in TheBoardroom Africa is an investment in a more inclusive society, a stronger business community and Africa’s development objectives. We work with our donors and partners to achieve shared development objectives such as gender inclusion and jobs created. We work with our donors and partners to achieve shared development objectives such as gender inclusion and jobs created."
+						author="Liesel Pritzker Simmons"
+						authorTitle="Co-founder and Principle, Blue Haven Initiative"
+					/>
 					<div className="grid grid-cols-5 innerPadding gap-10">
 						<KeySection
 							heading="Our Partners"
