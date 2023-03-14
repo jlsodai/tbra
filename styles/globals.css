@@ -5,7 +5,7 @@
 html { font-size: 15px;}
 
 @layer base {
-  h1, h2 { @apply font-serif text-4xl md:text-6xl text-mustard leading-[1.2]}
+  h1, h2 { @apply font-serif text-4xl md:text-7xl text-mustard leading-[1.2]}
   strong { @apply font-bold }
   h2 { font-size: 26px; @apply text-mustard }
   h3 { font-size: 36px; @apply text-gray-700 leading-none mb-4 }
