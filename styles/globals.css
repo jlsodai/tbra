@@ -13,6 +13,8 @@ html { font-size: 15px;}
 }
 
 @layer components {
+  .membership-testimonial { background: linear-gradient(rgba(32,41,69, 0.90), rgba(32,41,69, 0.90)), url("https://tbratest.my.canva.site/membership-landing-page/images/67a8b5328c8f42e47d3f975761146603.jpg"); background-size: cover;}
+  .membership-hero { background: linear-gradient(rgba(34,35,68, 0.75), rgba(34,35,68, 0.75)), url("https://tbratest.my.canva.site/membership-landing-page/images/90710e7cced9762fbf374e15a4c488c0.jpg"); background-size: cover;}
   .btn { @apply px-6 py-2 bg-mustard hover:bg-mustard-400 font-semibold inline-block; }
   .menulink { @apply hover:text-mustard mb-1 lg:mb-0 py-2; }
   .newmenulink { @apply hover:text-mustard mb-1 lg:mb-0; }
