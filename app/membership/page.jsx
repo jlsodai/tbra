@@ -4,7 +4,7 @@ import FooterLine from "../sections/FooterLine";
 const MembershipHome = () => {
 	return (
 		<>
-			<section className="bigborder membership-hero">
+			<section className="membership-hero">
 				<div className="container flex justify-end gap-10 items-center pt-6 text-white relative">
 					<Link href="#">Login</Link>
 					<Link href="#" className="btn bigborder">
