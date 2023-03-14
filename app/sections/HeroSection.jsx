@@ -7,7 +7,7 @@ const HeroSection = () => {
 			<div className="flex container min-h-[calc(100dvh-75px)] relative px-4 justify-center items-center ">
 				<img
 					src="/images/white-key.png"
-					className="absolute left-0 h-[75%] -z-1 opacity-5"
+					className="absolute left-0 h-[75%] -z-1 opacity-4"
 					alt=""
 				/>
 				<div className="z-10 text-xl flex flex-col gap-6 my-28">
