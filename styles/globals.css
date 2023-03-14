@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-html { color: #4A4F54; font-size: 15px;}
+html { font-size: 15px;}
 
 @layer base {
   h1, h2 { @apply font-serif text-4xl md:text-6xl text-mustard leading-[1.2]}
@@ -27,7 +27,7 @@ html { color: #4A4F54; font-size: 15px;}
   .submenu a { @apply hover:bg-gray-100 text-gray-700 block px-4 py-2 }
   li:hover .submenu { @apply block }
   .mobilemenu .navmenu { @apply divide-y }
-  .impact { background: linear-gradient(90deg, #cdae7d 430px, #fafafa 0%) ;}
+  .impact { background: linear-gradient(90deg, #cdae7d 25%, #fafafa 0%) ;}
 
   .bigborder { @apply border-b-8 border-dawn }
 
