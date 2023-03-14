@@ -5,6 +5,7 @@ import AccordionSection from "@/app/sections/AccordionSection";
 import PointedArrow from "@/app/components/PointedArrow";
 import KeySection from "@/app/sections/KeySection";
 import { RiCustomerService2Fill } from "react-icons/ri";
+import Testimonial from "@/app/components/Testimonial";
 
 const Page = () => {
 	return (
@@ -45,6 +46,23 @@ const Page = () => {
 						top
 						src="https://placeholder.com/400x500"
 					/>
+				</div>
+			</section>
+
+			<section className="container">
+				<div className="grid grid-cols-2 gap-20">
+					<Testimonial
+						quote="Our partners and donors provide invaluable support and share our vision for creating a gender-equal world. From foundations to corporations, our partners know that investing in TheBoardroom Africa is an investment in a more inclusive society, a stronger business community and Africa’s development objectives. We work with our donors and partners to achieve shared development objectives such as gender inclusion and jobs created. We work with our donors and partners to achieve shared development objectives such as gender inclusion and jobs created."
+						author="Liesel Pritzker Simmons"
+						authorTitle="Co-founder and Principle, Blue Haven Initiative"
+					/>
+					<div className="grid grid-cols-5 gap-10 self-center">
+						<div>&nbsp;</div>
+						<KeySection
+							heading="What they say about us"
+							keyPosition="right"
+						/>
+					</div>
 				</div>
 			</section>
 
