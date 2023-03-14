@@ -23,8 +23,8 @@ html { font-size: 15px;}
   .QuoteCascade:before { @apply content-[''] absolute top-0 bottom-0 w-[1000%] bg-darkblue right-[50%] -z-10 }
   .QuoteCascade:after { @apply content-[''] absolute w-full top-[-100px] bottom-[70px] left-[113px] -z-10 bg-mustard}
   .has-submenu { @apply flex items-center justify-between}
-  .submenu { @apply bg-white z-10 list-none divide-y divide-gray-100 rounded shadow w-44 absolute}
-  .submenu a { @apply hover:bg-gray-100 text-gray-700 block px-4 py-2 }
+  .submenu { @apply bg-white z-10 list-none divide-y divide-gray-100 rounded shadow absolute}
+  .submenu a { @apply hover:bg-gray-100 text-gray-700 block pl-4 pr-10 min-w-[180px] py-2 }
   li:hover .submenu { @apply block }
   .mobilemenu .navmenu { @apply divide-y }
   .impact { background: linear-gradient(90deg, #cdae7d 25%, #fafafa 0%) ;}

@@ -42,6 +42,10 @@ export const menuLinks = [
 				href: "/executive-development/open-doors",
 			},
 			{
+				name: "Environmental, Social and Governance",
+				href: "/executive-development/environmental-social-and-governance",
+			},
+			{
 				name: "TLM",
 				href: "#",
 			},
