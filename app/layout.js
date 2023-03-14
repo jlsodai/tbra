@@ -1,6 +1,4 @@
 import "@/styles/globals.css";
-import Navigation from "@/app/sections/Navigation";
-import { menuLinks } from "@/app/utils/options";
 import { Inter, Libre_Baskerville, Noto_Serif_Display } from "next/font/google";
 
 const noto = Noto_Serif_Display({
@@ -33,10 +31,7 @@ export default function RootLayout({ children }) {
 			lang="en"
 			className={`${inter.variable} ${libreb.variable} ${noto.variable} text-dusk`}
 		>
-			<body className="font-sans">
-				<Navigation menuLinks={menuLinks} />
-				{children}
-			</body>
+			<body className="font-sans">{children}</body>
 		</html>
 	);
 }

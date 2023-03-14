@@ -1,8 +1,10 @@
 import FooterSection from "@/app/sections/FooterSection";
+import Navigation from "@/app/sections/Navigation";
 
-export default function RootLayout({ children }) {
+export default function PageLayout({ children }) {
 	return (
 		<>
+			<Navigation />
 			{children}
 			<FooterSection />
 		</>

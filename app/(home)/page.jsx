@@ -3,7 +3,7 @@
 import CascadeImg from "@/app/components/CascadeImg";
 import HeroSection from "@/app/sections/HeroSection";
 import KeySection from "@/app/sections/KeySection";
-import Testimonial from "./components/Testimonial";
+import Testimonial from "@/app/components/Testimonial";
 
 export default function Home() {
 	return (
