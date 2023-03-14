@@ -4,6 +4,7 @@ import CascadeImg from "@/app/components/CascadeImg";
 import HeroSection from "@/app/sections/HeroSection";
 import KeySection from "@/app/sections/KeySection";
 import Testimonial from "@/app/components/Testimonial";
+import FooterLine from "../sections/FooterLine";
 
 export default function Home() {
 	return (
@@ -118,9 +119,7 @@ export default function Home() {
 				</div>
 			</section>
 
-			<section className="mt-16 bg-dawn">
-				<div className="h-16"></div>
-			</section>
+			<FooterLine />
 		</>
 	);
 }
