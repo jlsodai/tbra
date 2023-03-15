@@ -6,6 +6,7 @@ import PointedArrow from "@/app/components/PointedArrow";
 import KeySection from "@/app/sections/KeySection";
 import { RiCustomerService2Fill } from "react-icons/ri";
 import Testimonial from "@/app/components/Testimonial";
+import SectionTitle from "@/app/components/SectionTitle";
 
 const Page = () => {
 	return (
@@ -107,12 +108,13 @@ const Page = () => {
 
 			<section className="mt-24">
 				<div className="container">
-					<div className="flex items-center ml-64">
-						<h3 className="inline-block w-64">
-							Why choose Open Doors?
-						</h3>
-						<TBRAKey className="ml-5" />
-					</div>
+					<SectionTitle
+						position="right"
+						className="items-center ml-64"
+					>
+						Why choose <br />
+						ESG?
+					</SectionTitle>
 					<div className="mt-8">
 						<PointedArrow title="Globally recognised" />
 						<PointedArrow

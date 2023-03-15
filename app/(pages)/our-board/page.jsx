@@ -2,6 +2,7 @@ import TeamCard from "@/app/components/TeamCard";
 import HeaderTitle from "@/app/sections/HeaderTitle";
 import { teams } from "@/app/utils/options";
 import TBRAKey from "@/app/components/TBRAKey";
+import SectionTitle from "@/app/components/SectionTitle";
 
 const page = () => {
 	return (
@@ -9,10 +10,7 @@ const page = () => {
 			<HeaderTitle title="Our Team" />
 			<section className="mt-16">
 				<div className="container md:px-44">
-					<div className="flex">
-						<TBRAKey size="sm" className="mr-5" />
-						<h3 className="inline-block">Our Board</h3>
-					</div>
+					<SectionTitle title="Our Board" />
 					<div className="grid grid-cols-3 gap-10 mt-10">
 						<TeamCard teamInfo={teams} />
 					</div>

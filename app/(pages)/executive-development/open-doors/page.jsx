@@ -3,6 +3,7 @@ import TBRAKey from "@/app/components/TBRAKey";
 import CascadeImg from "@/app/components/CascadeImg";
 import AccordionSection from "@/app/sections/AccordionSection";
 import PointedArrow from "@/app/components/PointedArrow";
+import SectionTitle from "@/app/components/SectionTitle";
 import KeySection from "@/app/sections/KeySection";
 import { RiCustomerService2Fill } from "react-icons/ri";
 
@@ -93,12 +94,13 @@ const Page = () => {
 
 			<section className="mt-24">
 				<div className="container">
-					<div className="flex items-center ml-64">
-						<h3 className="inline-block w-64">
-							Why choose Open Doors?
-						</h3>
-						<TBRAKey className="ml-5" />
-					</div>
+					<SectionTitle
+						position="right"
+						className="items-center ml-64"
+					>
+						Why choose <br />
+						Open Doors?
+					</SectionTitle>
 					<div className="mt-8">
 						<PointedArrow title="Globally recognised" />
 						<PointedArrow

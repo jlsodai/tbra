@@ -15,7 +15,9 @@ const KeySection = ({
 		<>
 			{keyPosition === "left" && <TBRAKey />}
 			<div className={`col-span-3 ${className}`}>
-				<h3>{heading}</h3>
+				<h3 className="font-halyard font-extralight text-5xl">
+					{heading}
+				</h3>
 				{children && <div className="prose">{children}</div>}
 				{linkTitle && (
 					<div className="mt-6 text-tender font-bold">
