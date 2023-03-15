@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
-import FooterLine from "../sections/FooterLine";
+import FooterLine from "@/app/sections/FooterLine";
 const MembershipHome = () => {
 	return (
 		<>
@@ -33,7 +33,7 @@ const MembershipHome = () => {
 							</p>
 							<div className="text-center mt-10">
 								<Link
-									href="/membership"
+									href="/membership/about-membership"
 									className="btn bg-dawn font-normal"
 								>
 									Learn more about membership
@@ -52,7 +52,7 @@ const MembershipHome = () => {
 						alt=""
 					/>
 					<div className="md:max-w-[60%] z-10 py-28">
-						<h4 className="text-mustard text-6xl">
+						<h4 className="text-mustard text-6xl font-halyard font-thin">
 							Influential network of women leaders
 						</h4>
 						<p className="mt-4">
@@ -77,7 +77,7 @@ const MembershipHome = () => {
 						alt=""
 					/>
 					<div className="md:max-w-[60%] z-10 py-28 text-white">
-						<h4 className="text-mustard text-6xl">
+						<h4 className="text-mustard text-6xl font-serif">
 							Transforming the face of leadership
 						</h4>
 						<p className="mt-4">
@@ -102,9 +102,11 @@ const MembershipHome = () => {
 						alt=""
 					/>
 					<div className="text-mustard md:max-w-[60%] z-10 text-center">
-						<h4 className="text-6xl">Join the movement</h4>
-						<p className="mt-4">
-							Discover the power of doing it together
+						<h4 className="text-6xl font-libreb">
+							Join the movement
+						</h4>
+						<p className="mt-4 font-halyard font-extralight text-3xl text-mustard">
+							Discover the power of doing it together.
 						</p>
 					</div>
 
