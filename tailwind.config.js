@@ -97,6 +97,7 @@ module.exports = withMT({
 			},
 			fontFamily: {
 				libreb: ["var(--font-libre-baskerville)"],
+				halyard: ["var(--font-halyard-display)"],
 				noto: ["var(--font-noto-serif-display)"],
 				serif: ["var(--font-libre-baskerville)", ...fontFamily.serif],
 				sans: ["--font-inter", ...fontFamily.sans],
