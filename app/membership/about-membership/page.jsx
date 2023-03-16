@@ -2,6 +2,14 @@
 import Link from "next/link";
 import FooterLine from "@/app/sections/FooterLine";
 import Image from "next/image";
+import {
+	IoLogoAngular,
+	IoLogoApple,
+	IoLogoBehance,
+	IoLogoPaypal,
+	IoLogoVimeo,
+} from "react-icons/io5";
+
 const MembershipHome = () => {
 	return (
 		<>
@@ -77,17 +85,36 @@ const MembershipHome = () => {
 							className="mx-auto"
 						/>
 					</div>
-					<div className="grid grid-cols-8 gap-10 mt-10">
-						{[...Array(16)].map((e, i) => (
-							<Image
-								key={i}
-								src="https://placeholder.com/200x80"
-								width="200"
-								height="80"
-								alt=""
-								className="col-span-1"
-							/>
-						))}
+					<div className="flex gap-10 mt-10 max-w-[80%] justify-center flex-wrap">
+						<IoLogoBehance className="text-[#BEBEBE] text-5xl" />
+						<IoLogoAngular className="text-[#BEBEBE] text-5xl" />
+						<IoLogoApple className="text-[#BEBEBE] text-5xl" />
+						<IoLogoPaypal className="text-[#BEBEBE] text-5xl" />
+						<IoLogoVimeo className="text-[#BEBEBE] text-5xl" />
+						<IoLogoBehance className="text-[#BEBEBE] text-5xl" />
+						<IoLogoAngular className="text-[#BEBEBE] text-5xl" />
+						<IoLogoApple className="text-[#BEBEBE] text-5xl" />
+						<IoLogoPaypal className="text-[#BEBEBE] text-5xl" />
+						<IoLogoVimeo className="text-[#BEBEBE] text-5xl" />
+						<IoLogoBehance className="text-[#BEBEBE] text-5xl" />
+						<IoLogoAngular className="text-[#BEBEBE] text-5xl" />
+						<IoLogoApple className="text-[#BEBEBE] text-5xl" />
+						<IoLogoPaypal className="text-[#BEBEBE] text-5xl" />
+						<IoLogoVimeo className="text-[#BEBEBE] text-5xl" />
+						<IoLogoBehance className="text-[#BEBEBE] text-5xl" />
+						<IoLogoAngular className="text-[#BEBEBE] text-5xl" />
+						<IoLogoApple className="text-[#BEBEBE] text-5xl" />
+						<IoLogoPaypal className="text-[#BEBEBE] text-5xl" />
+						{/*[...Array(16)].map((e, i) => (
+							// <Image
+							// 	key={i}
+							// 	src="https://placeholder.com/200x80"
+							// 	width="200"
+							// 	height="80"
+							// 	alt=""
+							// 	className="col-span-1"
+							// />
+						))*/}
 					</div>
 				</div>
 			</section>
