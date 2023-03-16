@@ -69,7 +69,7 @@ module.exports = withMT({
 					900: "#20272D",
 				},
 				dawn: {
-					DEFAULT: "#DADEDA",
+					DEFAULT: "#BAC2BA",
 					50: "#FFFFFF",
 					100: "#FAFAFA",
 					200: "#F4F5F4",
