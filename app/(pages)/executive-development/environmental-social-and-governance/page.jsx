@@ -105,33 +105,6 @@ const Page = () => {
 					</div>
 				</div>
 			</section>
-
-			<section className="mt-24">
-				<div className="container">
-					<SectionTitle
-						position="right"
-						className="items-center ml-64"
-					>
-						Why choose <br />
-						ESG?
-					</SectionTitle>
-					<div className="mt-8">
-						<PointedArrow title="Globally recognised" />
-						<PointedArrow
-							size="sm"
-							title="Accredited certificate"
-						/>
-						<PointedArrow
-							size="md"
-							title="Degree-level equivalent"
-						/>
-						<PointedArrow
-							size="lg"
-							title="Path to charthered director"
-						/>
-					</div>
-				</div>
-			</section>
 		</>
 	);
 };
