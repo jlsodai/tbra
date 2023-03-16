@@ -13,7 +13,7 @@ const KeySection = ({
 }) => {
 	return (
 		<>
-			{keyPosition === "left" && <TBRAKey />}
+			<TBRAKey />
 			<div className={`col-span-3 ${className}`}>
 				<h3 className="font-halyard font-extralight text-5xl">
 					{heading}
@@ -24,7 +24,7 @@ const KeySection = ({
 						<Link
 							href={url}
 							className={`${
-								linkui === "btn" && "text-white btn bg-tender"
+								linkui === "btn" && "text-white btn bg-mustard"
 							} "inline-block"`}
 						>
 							{linkTitle}
@@ -35,7 +35,6 @@ const KeySection = ({
 					</div>
 				)}
 			</div>
-			{keyPosition === "right" && <TBRAKey />}
 		</>
 	);
 };
