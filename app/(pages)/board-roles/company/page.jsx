@@ -27,7 +27,7 @@ const Page = () => {
 						position="right"
 						negative
 						top
-						src="https://placeholder.com/400x500"
+						src="https://tbratest.my.canva.site/board-roles/images/b932ee43c94889df3529241879a9120b.jpg"
 					/>
 				</div>
 			</section>
@@ -37,14 +37,14 @@ const Page = () => {
 					<CascadeImg
 						position="left"
 						negative
-						src="https://placeholder.com/400x500"
+						src="https://tbratest.my.canva.site/board-roles/images/0223b0a6949672c5d258491373d270ed.jpg"
 					/>
 					<div className="grid grid-cols-5 innerPadding gap-10">
 						<KeySection
 							heading="Talk to us about our tailored recruitment
 								service"
 							linkTitle="Get in touch"
-							keyPosition="right"
+							className="col-span-4"
 						>
 							<p>
 								We specialise in placing senior women on boards

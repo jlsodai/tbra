@@ -4,6 +4,7 @@ const CascadeImg = ({
 	top = false,
 	position = "left",
 	negative = false,
+	imgClass = "",
 }) => {
 	return (
 		<div
@@ -14,9 +15,11 @@ const CascadeImg = ({
 			<img
 				src={src}
 				alt="Mask Image"
-				className={`${top ? "" : "top-[70px]"} relative ${
+				className={`w-[400px] h-[500px] object-cover ${
+					top ? "" : "top-[70px]"
+				} relative ${
 					position === "left" ? "mr-[100px]" : "ml-[100px]"
-				}`}
+				} imgClass`}
 			/>
 		</div>
 	);

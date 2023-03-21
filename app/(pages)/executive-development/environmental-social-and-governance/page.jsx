@@ -46,7 +46,7 @@ const Page = () => {
 						position="right"
 						negative
 						top
-						src="https://placeholder.com/400x500"
+						src="https://tbratest.my.canva.site/esg-certificate-page/images/a93c22d45c08a6dd55c87e3a53cd14c4.png"
 					/>
 				</div>
 			</section>

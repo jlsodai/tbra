@@ -15,18 +15,7 @@ const TeamCard = ({ teamInfo }) => {
 							className="h-full w-full object-cover object-center lg:h-full lg:w-full"
 						/>
 					</div>
-					<div className="flex flex-col absolute z-10 top-2 right-2 text-3xl">
-						{team.linkedin && (
-							<Link href="#">
-								<RiLinkedinFill className=" text-white bg-dusk hover:dusk-700 mb-2 p-1 opacity-70 hover:opacity-100" />
-							</Link>
-						)}
-						{team.twitter && (
-							<Link href="#">
-								<RiTwitterFill className="bg-dusk hover:dusk-700 text-white p-1 opacity-70 hover:opacity-100" />
-							</Link>
-						)}
-					</div>
+
 					<div className="flex">
 						<div className="py-2 bg-dawn text-center flex-1">
 							{/* <Link className="block" href={team.href}> */}
@@ -34,6 +23,19 @@ const TeamCard = ({ teamInfo }) => {
 							<p>{team.title}</p>
 							{/* </Link> */}
 						</div>
+					</div>
+
+					<div className="flex text-3xl gap-2 justify-center mt-4">
+						{team.linkedin && (
+							<Link href="#">
+								<RiLinkedinFill className="rounded-full text-white bg-mustard hover:mustard-700 mb-2 p-1" />
+							</Link>
+						)}
+						{team.twitter && (
+							<Link href="#">
+								<RiTwitterFill className="rounded-full bg-mustard hover:mustard-700 text-white p-1" />
+							</Link>
+						)}
 					</div>
 				</div>
 			))}

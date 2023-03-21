@@ -9,7 +9,6 @@ const KeySection = ({
 	linkTitle,
 	linkui = "arrow",
 	children,
-	keyPosition = "left",
 }) => {
 	return (
 		<>

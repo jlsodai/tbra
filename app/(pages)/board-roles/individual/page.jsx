@@ -32,7 +32,8 @@ const Page = () => {
 						position="right"
 						negative
 						top
-						src="https://placeholder.com/400x500"
+						imgClass="object-right"
+						src="https://tbratest.my.canva.site/board-roles-individual-page/images/40a1c0cfce04c8c78e2edc7741812803.jpg"
 					/>
 				</div>
 			</section>

@@ -23,7 +23,7 @@ export default function Home() {
 					</div>
 					<CascadeImg
 						position="right"
-						src="https://placeholder.com/400x500"
+						src="https://tbratest.my.canva.site/marcia-s-colors-landing/images/29d039a30767dbcf5ee0736e92f32d98.jpg"
 					/>
 				</div>
 			</section>
@@ -32,7 +32,7 @@ export default function Home() {
 				<div className="container grid grid-cols-2 gap-20">
 					<CascadeImg
 						position="left"
-						src="https://placeholder.com/400x500"
+						src="https://tbratest.my.canva.site/marcia-s-colors-landing/images/ba7424f002729bc29109cb604fd1c70f.jpg"
 					/>
 					<div className="grid grid-cols-5 innerPadding gap-10">
 						<KeySection
@@ -55,7 +55,12 @@ export default function Home() {
 
 			<section className="bg-white">
 				<div className="container my-28">
-					<h2 className="text-center">trusted by.</h2>
+					<h2
+						className="text-center capitalize"
+						style={{ fontVariant: "small-caps" }}
+					>
+						trusted by.
+					</h2>
 					<img
 						src="https://placeholder.com/800x400"
 						className="mx-auto mt-10"
@@ -84,7 +89,7 @@ export default function Home() {
 						</div>
 						<CascadeImg
 							position="right"
-							src="https://placeholder.com/400x500"
+							src="https://tbratest.my.canva.site/marcia-s-colors-landing/images/2972e7d70b4352c286f0610b361b006a.jpg"
 						/>
 					</div>
 				</div>

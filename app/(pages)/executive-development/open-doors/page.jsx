@@ -49,7 +49,7 @@ const Page = () => {
 						position="right"
 						negative
 						top
-						src="https://placeholder.com/400x500"
+						src="https://tbratest.my.canva.site/open-doors-page/images/d14259c959fe4c98eacf9d8b308c88d9.jpg"
 					/>
 				</div>
 			</section>

@@ -54,7 +54,62 @@ const About = () => {
 						position="right"
 						negative
 						top
-						src="https://placeholder.com/400x500"
+						src="https://tbratest.my.canva.site/about-page/images/30fbf006b45f51d0fbe636d1793c460a.jpg"
+					/>
+				</div>
+			</section>
+
+			<section className="mt-10 py-24">
+				<div className="container grid grid-cols-2 items-center">
+					<div className="">
+						<h3>Mission</h3>
+						<p>
+							To accelerate the appointment of women on boards and
+							build a growing pipeline of board-ready women, while
+							inspiring and educating the business community on
+							the power of diverse leadership.
+						</p>
+					</div>
+					<img
+						src="https://theboardroomafrica.com/wp-content/uploads/2020/05/Group-76-1.jpg"
+						alt=""
+						className="justify-self-end"
+						width="330px"
+					/>
+				</div>
+				<div className="container grid grid-cols-2 items-center mt-10">
+					<img
+						src="https://theboardroomafrica.com/wp-content/uploads/2022/07/telescope.jpg"
+						alt=""
+						className="justify-self-start"
+						width="330px"
+					/>
+					<div className="">
+						<h3>Vision</h3>
+						<p>
+							To create a world where women and men have equal
+							access to opportunity at the decision-making table.
+						</p>
+					</div>
+				</div>
+
+				<div className="container grid grid-cols-2 items-center mt-10">
+					<div className="">
+						<h3>Values</h3>
+						<p>
+							We cultivate a Community where women feel they
+							belong by leading with Vision, Integrity and
+							Excellence to create an environment for others to
+							lead. We hold ourselves accountable for our
+							commitments and actions to deliver on our promise of
+							exceptional quality.
+						</p>
+					</div>
+					<img
+						src="https://theboardroomafrica.com/wp-content/uploads/2020/05/Group-1.jpg"
+						alt=""
+						className="justify-self-end"
+						width="330px"
 					/>
 				</div>
 			</section>
