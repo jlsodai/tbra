@@ -7,7 +7,11 @@ const TeamCard = ({ teamInfo }) => {
 	return (
 		<>
 			{teamInfo.map((team, i) => (
-				<div key={i} className="group relative rounded overflow-hidden">
+				<div
+					key={i}
+					className="group relative rounded overflow-hidden"
+					data-aos="fade-up"
+				>
 					<div className="min-h-60 aspect-w-1 aspect-h-1 w-full overflow-hidden bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-60">
 						<img
 							src={team.imageSrc}
