@@ -7,7 +7,7 @@ const Page = () => {
 		<>
 			<HeaderTitle title="Join us to build more inclusive leadership teams." />
 
-			<section className="container">
+			<section className="container" data-aos="fade-up">
 				<div className="grid grid-cols-2 gap-20">
 					<div className="grid grid-cols-5 innerPadding gap-10">
 						<KeySection
@@ -32,7 +32,7 @@ const Page = () => {
 				</div>
 			</section>
 
-			<section className="bg-gray-100">
+			<section className="bg-gray-100" data-aos="fade-up">
 				<div className="container grid grid-cols-2 gap-20">
 					<CascadeImg
 						position="left"
