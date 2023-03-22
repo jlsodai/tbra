@@ -6,6 +6,7 @@ const FooterSection = () => {
 			<section
 				className="mt-10 bg-gray-50 relative"
 				style={styles.sectionWrap}
+				data-aos="fade-up"
 			>
 				<div style={styles.bgWrap}>
 					<div

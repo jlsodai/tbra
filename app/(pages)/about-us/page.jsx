@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import HeaderTitle from "@/app/sections/HeaderTitle";
 import TBRAKey from "@/app/components/TBRAKey";
 import CascadeImg from "@/app/components/CascadeImg";
@@ -12,7 +13,7 @@ const About = () => {
 		<>
 			<HeaderTitle title="We've created a movement." />
 
-			<section className="container">
+			<section className="container" data-aos="fade-up">
 				<div className="grid grid-cols-2 gap-20">
 					<div className="grid grid-cols-5 innerPadding gap-10">
 						<KeySection heading="Our Story" className="col-span-4">
@@ -59,9 +60,12 @@ const About = () => {
 				</div>
 			</section>
 
-			<section className="mt-10 py-24">
-				<div className="container grid grid-cols-2 items-center">
-					<div className="">
+			<section className="mt-10 py-24" data-aos="fade-up">
+				<div
+					className="container grid grid-cols-2 items-center"
+					data-aos="fade-up"
+				>
+					<div>
 						<h3>Mission</h3>
 						<p>
 							To accelerate the appointment of women on boards and
@@ -77,14 +81,17 @@ const About = () => {
 						width="330px"
 					/>
 				</div>
-				<div className="container grid grid-cols-2 items-center mt-10">
+				<div
+					className="container grid grid-cols-2 items-center mt-10"
+					data-aos="fade-up"
+				>
 					<img
 						src="https://theboardroomafrica.com/wp-content/uploads/2022/07/telescope.jpg"
 						alt=""
 						className="justify-self-start"
 						width="330px"
 					/>
-					<div className="">
+					<div>
 						<h3>Vision</h3>
 						<p>
 							To create a world where women and men have equal
@@ -93,8 +100,11 @@ const About = () => {
 					</div>
 				</div>
 
-				<div className="container grid grid-cols-2 items-center mt-10">
-					<div className="">
+				<div
+					className="container grid grid-cols-2 items-center mt-10"
+					data-aos="fade-up"
+				>
+					<div>
 						<h3>Values</h3>
 						<p>
 							We cultivate a Community where women feel they
