@@ -7,7 +7,7 @@ const Page = () => {
 		<>
 			<HeaderTitle title="Join the movement and access board opportunities." />
 
-			<section className="container">
+			<section className="container" data-aos="fade-up">
 				<div className="grid grid-cols-2 gap-20">
 					<div className="grid grid-cols-5 innerPadding gap-10">
 						<KeySection
