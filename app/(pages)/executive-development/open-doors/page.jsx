@@ -12,7 +12,7 @@ const Page = () => {
 		<>
 			<HeaderTitle title="Certificate in Company Direction: Open Doors." />
 
-			<section className="container">
+			<section className="container" data-aos="fade-up">
 				<div className="grid grid-cols-2 gap-20">
 					<div className="grid grid-cols-5 innerPadding gap-10">
 						<KeySection
@@ -54,7 +54,7 @@ const Page = () => {
 				</div>
 			</section>
 
-			<section>
+			<section data-aos="fade-up">
 				<div className="container">
 					<div className="grid grid-cols-2 gap-10 innerPadding">
 						<CascadeImg
@@ -74,7 +74,7 @@ const Page = () => {
 				</div>
 			</section>
 
-			<section>
+			<section data-aos="fade-up">
 				<div className="container">
 					<h2 className="text-center text-gray-700">Key features</h2>
 					<div className="grid grid-cols-7 text-center gap-10 text-xs mt-16">

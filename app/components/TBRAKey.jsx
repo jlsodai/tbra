@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-const TBRAKey = ({ small, position = "left", size = "md", className }) => {
+const TBRAKey = ({ small, position = "left", size = "sm", className }) => {
 	return (
 		<img
 			className={`${

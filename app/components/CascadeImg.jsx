@@ -15,7 +15,7 @@ const CascadeImg = ({
 			<img
 				src={src}
 				alt="Mask Image"
-				className={`w-[400px] h-[500px] object-cover ${
+				className={`w-[450px] h-[533px] object-cover ${
 					top ? "" : "top-[70px]"
 				} relative ${
 					position === "left" ? "mr-[100px]" : "ml-[100px]"

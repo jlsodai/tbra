@@ -55,7 +55,7 @@ const About = () => {
 						position="right"
 						negative
 						top
-						src="https://tbratest.my.canva.site/about-page/images/30fbf006b45f51d0fbe636d1793c460a.jpg"
+						src="https://tbratest.my.canva.site/about-page/images/2a11927f52f4ccf222c8587590ab42c8.jpg"
 					/>
 				</div>
 			</section>
