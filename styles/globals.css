@@ -34,6 +34,8 @@ html { font-size: 15px;}
 
   .bigborder { @apply border-b-8 border-dawn }
 
+  .partnerLogos img { max-width: 144px; max-height: 66px; margin: 15px 25px;}
+
   /*Height should be double border thickness*/
   .chevron { position:relative; display:block; }
   .chevron::before, .chevron::after { position:absolute; display:block; content:""; border:27px solid transparent; }

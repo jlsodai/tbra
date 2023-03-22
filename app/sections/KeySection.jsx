@@ -19,7 +19,7 @@ const KeySection = ({
 				</h3>
 				{children && <div className="prose">{children}</div>}
 				{linkTitle && (
-					<div className="mt-6 text-tender font-bold">
+					<div className="mt-6 text-mustard font-bold">
 						<Link
 							href={url}
 							className={`${

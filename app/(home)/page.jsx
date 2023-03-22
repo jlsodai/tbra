@@ -4,7 +4,8 @@ import CascadeImg from "@/app/components/CascadeImg";
 import HeroSection from "@/app/sections/HeroSection";
 import KeySection from "@/app/sections/KeySection";
 import Testimonial from "@/app/components/Testimonial";
-import FooterLine from "../sections/FooterLine";
+import FooterLine from "@/app/sections/FooterLine";
+import TrustedBy from "@/app/components/TrustedBy";
 
 export default function Home() {
 	return (
@@ -61,11 +62,7 @@ export default function Home() {
 					>
 						trusted by.
 					</h2>
-					<img
-						src="https://placeholder.com/800x400"
-						className="mx-auto mt-10"
-						alt=""
-					/>
+					<TrustedBy />
 				</div>
 			</section>
 
