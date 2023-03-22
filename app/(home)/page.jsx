@@ -12,7 +12,7 @@ export default function Home() {
 		<>
 			<HeroSection />
 
-			<section className="container">
+			<section className="container" data-aos="fade-up">
 				<div className="grid grid-cols-2 gap-20">
 					<div className="grid grid-cols-5 innerPadding gap-10">
 						<KeySection
@@ -29,7 +29,7 @@ export default function Home() {
 				</div>
 			</section>
 
-			<section className="bg-gray-100">
+			<section className="bg-gray-100" data-aos="fade-up">
 				<div className="container grid grid-cols-2 gap-20">
 					<CascadeImg
 						position="left"
@@ -54,7 +54,7 @@ export default function Home() {
 				</div>
 			</section>
 
-			<section className="bg-white">
+			<section className="bg-white" data-aos="fade-up">
 				<div className="container my-28">
 					<h2
 						className="text-center capitalize"
@@ -66,7 +66,7 @@ export default function Home() {
 				</div>
 			</section>
 
-			<section className="bg-gray-100">
+			<section className="bg-gray-100" data-aos="fade-up">
 				<div className="container">
 					<div className="grid grid-cols-2 gap-20">
 						<div className="grid grid-cols-5 innerPadding gap-10">
@@ -92,7 +92,7 @@ export default function Home() {
 				</div>
 			</section>
 
-			<section className="container">
+			<section className="container" data-aos="fade-up">
 				<div className="grid grid-cols-2 gap-20">
 					<Testimonial
 						quote="Our partners and donors provide invaluable support and share our vision for creating a gender-equal world. From foundations to corporations, our partners know that investing in TheBoardroom Africa is an investment in a more inclusive society, a stronger business community and Africa’s development objectives. We work with our donors and partners to achieve shared development objectives such as gender inclusion and jobs created. We work with our donors and partners to achieve shared development objectives such as gender inclusion and jobs created."

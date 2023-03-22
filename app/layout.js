@@ -1,6 +1,7 @@
 import "@/styles/globals.css";
 import { Inter, Libre_Baskerville, Noto_Serif_Display } from "next/font/google";
 import localFont from "next/font/local";
+import AOSWrapper from "./wrappers/AOSWrapper";
 
 const noto = Noto_Serif_Display({
 	weight: ["400", "700", "900"],
@@ -54,7 +55,9 @@ export default function RootLayout({ children }) {
 			lang="en"
 			className={`${inter.variable} ${libreb.variable} ${noto.variable} ${halyard.variable} text-dusk text-[16px]`}
 		>
-			<body className="font-sans">{children}</body>
+			<body className="font-sans">
+				<AOSWrapper> {children} </AOSWrapper>
+			</body>
 		</html>
 	);
 }
