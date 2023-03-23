@@ -6,10 +6,12 @@ import PointedArrow from "@/app/components/PointedArrow";
 import SectionTitle from "@/app/components/SectionTitle";
 import KeySection from "@/app/sections/KeySection";
 import { RiCustomerService2Fill } from "react-icons/ri";
+import BrochureDrawer from "@/app/components/BrochureDrawer";
 
 const Page = () => {
 	return (
 		<>
+			<BrochureDrawer />
 			<HeaderTitle title="Certificate in Company Direction: Open Doors." />
 
 			<section className="container" data-aos="fade-up">

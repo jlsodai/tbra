@@ -36,6 +36,20 @@ html { font-size: 15px;}
 
   .partnerLogos img { max-width: 144px; max-height: 66px; margin: 15px 25px;}
 
+  .brochure-wrap h2 {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+  }
+  .brochure-wrap h2:after { position: absolute;
+    content: "";
+    width: 24px;
+    height: 3px;
+    background-color: #bac2ba;
+    left: 0;
+    right: 0;
+    bottom: 0;}
+
   /*Height should be double border thickness*/
   .chevron { position:relative; display:block; }
   .chevron::before, .chevron::after { position:absolute; display:block; content:""; border:27px solid transparent; }
