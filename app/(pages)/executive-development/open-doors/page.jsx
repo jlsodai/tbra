@@ -57,10 +57,7 @@ const Page = () => {
 			<section data-aos="fade-up">
 				<div className="container">
 					<div className="grid grid-cols-2 gap-10 innerPadding">
-						<CascadeImg
-							negative
-							src="https://placeholder.com/700x450"
-						/>
+						<CascadeImg src="https://placeholder.com/700x450" />
 						<div className="">
 							<div className="grid grid-cols-5 gap-10">
 								<KeySection
