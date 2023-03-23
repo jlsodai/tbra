@@ -32,14 +32,13 @@ const Page = () => {
 				</div>
 			</section>
 
-			<section className="bg-gray-100" data-aos="fade-up">
+			<section data-aos="fade-up" className="mb-6">
 				<div className="container grid grid-cols-2 gap-20">
 					<CascadeImg
 						position="left"
-						negative
 						src="https://tbratest.my.canva.site/board-roles/images/0223b0a6949672c5d258491373d270ed.jpg"
 					/>
-					<div className="grid grid-cols-5 innerPadding gap-10">
+					<div className="grid grid-cols-5 innerPadding gap-10 pb-0">
 						<KeySection
 							heading="Talk to us about our tailored recruitment
 								service"
