@@ -7,10 +7,12 @@ import KeySection from "@/app/sections/KeySection";
 import { RiCustomerService2Fill } from "react-icons/ri";
 import Testimonial from "@/app/components/Testimonial";
 import SectionTitle from "@/app/components/SectionTitle";
+import BrochureDrawer from "@/app/components/BrochureDrawer";
 
 const Page = () => {
 	return (
 		<>
+			<BrochureDrawer />
 			<HeaderTitle title="Environmental, social and governance certificate." />
 
 			<section className="container">
