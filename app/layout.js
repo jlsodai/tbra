@@ -56,7 +56,9 @@ export default function RootLayout({ children }) {
 			className={`${inter.variable} ${libreb.variable} ${noto.variable} ${halyard.variable} text-dusk text-[16px]`}
 		>
 			<body className="font-sans">
-				<AOSWrapper> {children} </AOSWrapper>
+				<main className="overflow-hidden">
+					<AOSWrapper> {children} </AOSWrapper>
+				</main>
 			</body>
 		</html>
 	);
