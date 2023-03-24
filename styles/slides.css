@@ -3,7 +3,7 @@
   height: 100%;
 }
 
-.swiper-pagination-bullet {
+.instructor-slides .swiper-pagination-bullet {
   width: 120px;
   height: 120px;
   opacity: 1;
@@ -14,4 +14,4 @@
 .swiper-button-next { right: 50px; }
 .swiper-button-prev { left: 50px; }
 .swiper-button-next,.swiper-button-prev { @apply text-dusk }
-.swiper-pagination-bullet.swiper-pagination-bullet-active { @apply border-2 border-dusk }
+.instructor-slides .swiper-pagination-bullet-active { @apply border-2 border-dusk }

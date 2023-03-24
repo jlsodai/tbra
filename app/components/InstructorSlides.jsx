@@ -26,7 +26,7 @@ const InstructorSlides = () => {
 
 	return (
 		<>
-			<section className="bg-dawn-200 py-8">
+			<section className="bg-dawn-200 py-8 instructor-slides">
 				<Swiper
 					pagination={pagination}
 					loop={true}
