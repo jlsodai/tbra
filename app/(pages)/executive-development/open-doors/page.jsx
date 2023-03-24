@@ -7,7 +7,6 @@ import SectionTitle from "@/app/components/SectionTitle";
 import KeySection from "@/app/sections/KeySection";
 import { RiCustomerService2Fill } from "react-icons/ri";
 import BrochureDrawer from "@/app/components/BrochureDrawer";
-import Slides from "@/app/components/Slides";
 
 const Page = () => {
 	return (
