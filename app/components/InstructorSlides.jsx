@@ -15,10 +15,11 @@ const InstructorSlides = () => {
 		clickable: true,
 		renderBullet: function (index, className) {
 			return (
-				'<div class="' +
+				'<div class="text-center ' +
 				className +
 				'">' +
-				'<img src="https://via.placeholder.com/200" />' +
+				'<img src="https://via.placeholder.com/200" className="rounded-full" />' +
+				"<p>Kofi Baboni</p>" +
 				"</div>"
 			);
 		},
