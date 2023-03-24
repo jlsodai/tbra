@@ -6,7 +6,6 @@ import KeySection from "@/app/sections/KeySection";
 import Testimonial from "@/app/components/Testimonial";
 import FooterLine from "@/app/sections/FooterLine";
 import TrustedBy from "@/app/components/TrustedBy";
-import Slides from "@/app/components/Slides";
 
 export default function Home() {
 	return (
@@ -28,8 +27,6 @@ export default function Home() {
 					/>
 				</div>
 			</section>
-
-			{/* <Slides /> */}
 
 			<section className="bg-gray-100" data-aos="fade-up">
 				<div className="container grid grid-cols-2 gap-20">
