@@ -6,15 +6,12 @@
 .swiper-pagination-bullet {
   width: 120px;
   height: 120px;
-  line-height: 20px;
-  font-size: 12px;
-  color: #000;
   opacity: 1;
-  background: rgba(0, 0, 0, 0.2);
   margin: 0 15px !important;
+  border-radius: unset;
 }
 
-.swiper-pagination-bullet-active {
-  color: #fff;
-  background: #007aff;
-}
+.swiper-button-next { right: 50px; }
+.swiper-button-prev { left: 50px; }
+.swiper-button-next,.swiper-button-prev { @apply text-dusk }
+.swiper-pagination-bullet.swiper-pagination-bullet-active { @apply border-2 border-dusk }

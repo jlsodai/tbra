@@ -8,7 +8,7 @@ import { RiCustomerService2Fill } from "react-icons/ri";
 import Testimonial from "@/app/components/Testimonial";
 import SectionTitle from "@/app/components/SectionTitle";
 import BrochureDrawer from "@/app/components/BrochureDrawer";
-import Slides from "@/app/components/Slides";
+import InstructorSlides from "@/app/components/InstructorSlides";
 
 const Page = () => {
 	return (
@@ -136,7 +136,7 @@ const Page = () => {
 				</div>
 			</section>
 
-			<Slides />
+			<InstructorSlides />
 
 			<section className="my-24">
 				<div className="container">

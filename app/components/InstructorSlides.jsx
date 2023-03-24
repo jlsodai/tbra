@@ -1,18 +1,16 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-
+import "swiper/css/navigation";
 import "@/styles/slides.css";
 
 // import required modules
-import { Pagination } from "swiper";
+import { Pagination, Navigation } from "swiper";
 
-export default function App() {
+const InstructorSlides = () => {
 	const pagination = {
 		clickable: true,
 		renderBullet: function (index, className) {
@@ -31,8 +29,11 @@ export default function App() {
 			<section className="bg-dawn-200 py-8">
 				<Swiper
 					pagination={pagination}
-					modules={[Pagination]}
+					loop={true}
+					modules={[Pagination, Navigation]}
 					cssMode="true"
+					navigation={true}
+					className="mySwiper"
 					// className="bg-transparent"
 				>
 					{[...Array(4)].map((e, i) => (
@@ -72,4 +73,5 @@ export default function App() {
 			</section>
 		</>
 	);
-}
+};
+export default InstructorSlides;
