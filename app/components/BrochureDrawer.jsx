@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { RxCaretDown, RxCaretUp } from "react-icons/rx";
+import Link from "next/link";
 
 const BrochureDrawer = () => {
 	const [brochure, setBrochure] = useState(false);
@@ -66,28 +67,38 @@ const BrochureDrawer = () => {
 						</svg>
 						<span className="sr-only">Close menu</span>
 					</button>
-					<div className="container grid grid-cols-6 text-white">
-						<div className="col-span-1">
+					<div className="container grid grid-cols-4 text-white gap-10 text-sm">
+						<div className="">
 							<h2 className="text-sm">Upcoming Cohorts</h2>
-							<p>March - June 2023</p>
+							<p>March - June 2023 (Virtual)</p>
+							<p>March - June 2023 (Virtual)</p>
+							<p>March - June 2023 (In-Person)</p>
 						</div>
-						<div className="col-span-2">
+						<div className="">
 							<h2 className="text-sm">Structure</h2>
 							<p>
 								4 intensive, interactive online modules, 3
 								immersive workshops and a board simulation
 							</p>
 						</div>
-						<div className="col-span-1">
+						{/* <div className="col-span-2">
 							<h2 className="text-sm">Delivery Method</h2>
 							<p>Virtual</p>
-						</div>
-						<div className="col-span-2">
-							<p>
+						</div> */}
+						<div className="col-span-2 ml-20">
+							<p className="text-sm">
 								Subsidies and flexible payment plans available
-								training@theboardroomafrica.com
+								<br />
+								<span className="underline">
+									opendoors@theboardroomafrica.com
+								</span>
 							</p>
-							<p>Button Here</p>
+							<Link
+								href="/membership"
+								className="btn uppercase text-white mt-4"
+							>
+								DOWNLOAD PROGRAMME BROCHURE
+							</Link>
 						</div>
 					</div>
 				</div>

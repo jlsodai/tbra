@@ -24,11 +24,11 @@ export const menuLinks = [
 		href: "#",
 		submenu: [
 			{
-				name: "Company",
+				name: "For Companies",
 				href: "/board-roles/company",
 			},
 			{
-				name: "Individual",
+				name: "For Individuals",
 				href: "/board-roles/individual",
 			},
 		],

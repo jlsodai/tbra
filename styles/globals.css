@@ -40,6 +40,8 @@ html { font-size: 15px;}
     padding-bottom: 1rem;
     margin-bottom: 1rem;
     position: relative;
+    text-transform: uppercase;
+    font-weight: 800;
   }
   .brochure-wrap h2:after { position: absolute;
     content: "";
@@ -74,4 +76,5 @@ html { font-size: 15px;}
     left: -20px;
     top: -1px
   }
+
 }
