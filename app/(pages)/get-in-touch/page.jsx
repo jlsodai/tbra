@@ -5,7 +5,7 @@ const page = () => {
 		<>
 			<HeaderTitle title="Get in touch." />
 			<section className="container my-10" data-aos="fade-up">
-				<GetInTouch formSlug="cjjm4cj7" showSpinner="1" />;
+				<GetInTouch formSlug="getintouchwithtbra" showSpinner="1" />;
 			</section>
 		</>
 	);

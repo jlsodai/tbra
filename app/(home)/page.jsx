@@ -91,6 +91,7 @@ export default function Home() {
 						heading="Our Partners"
 						linkTitle="Partners"
 						keyPosition="right"
+						url="/partners"
 					>
 						<p>
 							Our partners and donors provide invaluable support
