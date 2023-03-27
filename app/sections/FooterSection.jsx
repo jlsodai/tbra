@@ -1,5 +1,7 @@
 import TBRAKey from "../components/TBRAKey";
 import Stats from "../components/Stats";
+import Forminput from "@/app/ui/Forminput";
+import Link from "next/link";
 const FooterSection = () => {
 	return (
 		<>
@@ -39,7 +41,7 @@ const FooterSection = () => {
 			</section>
 
 			<section className="py-16">
-				<div className="container grid grid-cols-2">
+				<div className="container grid grid-cols-2 lg:px-60 gap-24">
 					<div className="max-w-md">
 						<div className="flex items-center">
 							<h2 className="text-dusk text-center inline-block mr-8 text-4xl">
@@ -53,6 +55,29 @@ const FooterSection = () => {
 							enhance your profile, and seize new opportunities.
 						</p>
 					</div>
+					<div>
+						<p className="mb-4">
+							Learn more about our community and activities by
+							signing up to receive updates
+						</p>
+						<Forminput label="Email Address" />
+						<div className="grid grid-cols-2 gap-4">
+							<Forminput label="First Name" />
+							<Forminput label="Last Name" />
+						</div>
+						<Link
+							href="#"
+							className="btn font-normal text-white mt-4"
+						>
+							Sign Up
+						</Link>
+					</div>
+				</div>
+			</section>
+
+			<section className="bg-darkblue">
+				<div className="container h-[350px] flex justify-center items-center text-center">
+					<h1>Footer Menu Here</h1>
 				</div>
 			</section>
 		</>
