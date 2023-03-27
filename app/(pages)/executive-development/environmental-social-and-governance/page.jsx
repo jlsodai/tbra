@@ -10,6 +10,7 @@ import SectionTitle from "@/app/components/SectionTitle";
 import BrochureDrawer from "@/app/components/BrochureDrawer";
 import InstructorSlides from "@/app/components/InstructorSlides";
 import TestimonialSlider from "@/app/components/TestimonialSlider";
+import TrustedBy from "@/app/components/TrustedBy";
 
 const Page = () => {
 	return (
@@ -110,7 +111,14 @@ const Page = () => {
 				</div>
 			</section>
 
-			<section className="text-center">Past delegates come from</section>
+			<section className="bg-white" data-aos="fade-up">
+				<div className="container my-28">
+					<h2 className="text-center text-dusk">
+						Past delegates come from
+					</h2>
+					<TrustedBy />
+				</div>
+			</section>
 		</>
 	);
 };
