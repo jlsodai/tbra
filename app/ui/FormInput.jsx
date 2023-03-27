@@ -1,4 +1,4 @@
-const Forminput = ({ label, required = false }) => {
+const FormInput = ({ label, required = false }) => {
 	return (
 		<div className="relative h-10 w-full mt-4">
 			<input
@@ -12,4 +12,4 @@ const Forminput = ({ label, required = false }) => {
 		</div>
 	);
 };
-export default Forminput;
+export default FormInput;

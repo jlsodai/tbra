@@ -1,6 +1,6 @@
 import TBRAKey from "../components/TBRAKey";
 import Stats from "../components/Stats";
-import Forminput from "@/app/ui/Forminput";
+import FormInput from "@/app/ui/FormInput";
 import Link from "next/link";
 const FooterSection = () => {
 	return (
@@ -60,10 +60,10 @@ const FooterSection = () => {
 							Learn more about our community and activities by
 							signing up to receive updates
 						</p>
-						<Forminput label="Email Address" />
+						<FormInput label="Email Address" />
 						<div className="grid grid-cols-2 gap-4">
-							<Forminput label="First Name" />
-							<Forminput label="Last Name" />
+							<FormInput label="First Name" />
+							<FormInput label="Last Name" />
 						</div>
 						<Link
 							href="#"
