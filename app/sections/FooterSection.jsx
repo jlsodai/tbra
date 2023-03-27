@@ -16,7 +16,7 @@ const FooterSection = () => {
 						<h1 className="text-tender ml-[172px]">
 							<span className="text-dawn-500">Our</span> Impact
 						</h1>
-						<div className="grid grid-cols-4 gap-10 mx-20 mt-10">
+						<div className="grid grid-cols-4 gap-10 mt-10">
 							<Stats
 								stat="14"
 								info="Important statistics displayed here"
@@ -38,13 +38,15 @@ const FooterSection = () => {
 				</div>
 			</section>
 
-			<section className="py-10">
-				<div className="container">
-					<div className="text-center mx-auto max-w-sm">
-						<h2 className="text-dusk text-center inline-block mr-8 mt-4">
-							Join Us
-						</h2>
-						<TBRAKey size="sm" />
+			<section className="py-16">
+				<div className="container grid grid-cols-2">
+					<div className="max-w-md">
+						<div className="flex items-center">
+							<h2 className="text-dusk text-center inline-block mr-8 text-4xl">
+								Join Us
+							</h2>
+							<TBRAKey size="sm" />
+						</div>
 						<p className="mt-4">
 							Become a member of the leading community for female
 							executives working in Africa. Build your network,
