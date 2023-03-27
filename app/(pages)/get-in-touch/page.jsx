@@ -4,7 +4,7 @@ const page = () => {
 	return (
 		<>
 			<HeaderTitle title="Get in touch." />
-			<section className="container" data-aos="fade-up">
+			<section className="container my-10" data-aos="fade-up">
 				<GetInTouch formSlug="cjjm4cj7" showSpinner="1" />;
 			</section>
 		</>
