@@ -52,8 +52,8 @@ export const menuLinks = [
 		],
 	},
 	{
-		name: "Events",
-		href: "#",
+		name: "Partners",
+		href: "/partners",
 	},
 	{
 		name: "Research",
