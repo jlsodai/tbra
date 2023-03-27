@@ -30,7 +30,7 @@ const page = () => {
 						position="right"
 						negative
 						top
-						imgClass="object-[87%]"
+						className="object-[87%]"
 						src="https://tbratest.my.canva.site/partners-page/images/38dd4290a2f5da368729d75f54525a17.jpg"
 					/>
 				</div>

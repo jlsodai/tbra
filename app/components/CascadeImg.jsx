@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 const CascadeImg = ({
 	src,
+	className,
 	top = false,
 	position = "left",
 	negative = false,
@@ -15,7 +16,7 @@ const CascadeImg = ({
 			<img
 				src={src}
 				alt="Mask Image"
-				className={`w-[450px] h-[533px] object-cover ${
+				className={`w-[450px] h-[533px] object-cover ${className} ${
 					top ? "" : "top-[70px]"
 				} relative ${
 					position === "left" ? "mr-[100px]" : "ml-[100px]"
