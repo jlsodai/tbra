@@ -11,6 +11,10 @@ export const products = [
 
 export const menuLinks = [
 	{
+		name: "Home",
+		href: "/",
+	},
+	{
 		name: "About Us",
 		href: "#",
 		submenu: [
