@@ -3,6 +3,8 @@ import { Inter, Libre_Baskerville, Noto_Serif_Display } from "next/font/google";
 import localFont from "next/font/local";
 import AOSWrapper from "./wrappers/AOSWrapper";
 
+import FooterMenu from "@/app/sections/FooterMenu";
+
 const noto = Noto_Serif_Display({
 	weight: ["400", "700", "900"],
 	subsets: ["latin"],
@@ -57,7 +59,10 @@ export default function RootLayout({ children }) {
 		>
 			<body className="font-sans">
 				<main className="overflow-hidden">
-					<AOSWrapper> {children} </AOSWrapper>
+					<AOSWrapper>
+						{children}
+						<FooterMenu />
+					</AOSWrapper>
 				</main>
 			</body>
 		</html>
