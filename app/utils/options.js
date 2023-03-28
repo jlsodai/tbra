@@ -39,7 +39,7 @@ export const menuLinks = [
 	},
 	{
 		name: "Executive Development",
-		href: "#",
+		href: "/executive-development",
 		submenu: [
 			{
 				name: "Open Doors",
@@ -476,4 +476,39 @@ export const bottomMenu = [
 			href: "/get-in-touch",
 		},
 	],
+];
+
+export const programmes = [
+	{
+		title: "Open Doors, Accredited Certificate in Company Direction",
+		date: "July 2023",
+		learnMoreUrl: "#",
+		registerUrl: "#",
+		imageUrl:
+			"https://tbratest.my.canva.site/executive-development-page/images/128b157c5a41f2c2b630bbb9d2543b69.jpg",
+	},
+	{
+		title: "Environmental Social and Governance (ESG) Certificate",
+		date: "July 2023",
+		learnMoreUrl: "#",
+		registerUrl: "#",
+		imageUrl:
+			"https://tbratest.my.canva.site/executive-development-page/images/88e7b20a6ba11f0b588dfb7139864e09.jpg",
+	},
+	{
+		title: "Open Doors, Accredited Certificate in Company Direction",
+		date: "July 2023",
+		learnMoreUrl: "#",
+		registerUrl: "#",
+		imageUrl:
+			"https://tbratest.my.canva.site/executive-development-page/images/128b157c5a41f2c2b630bbb9d2543b69.jpg",
+	},
+	{
+		title: "Open Doors, Accredited Certificate in Company Direction",
+		date: "July 2023",
+		learnMoreUrl: "#",
+		registerUrl: "#",
+		imageUrl:
+			"https://tbratest.my.canva.site/executive-development-page/images/128b157c5a41f2c2b630bbb9d2543b69.jpg",
+	},
 ];
