@@ -14,7 +14,7 @@ const page = () => {
 					<KeySection
 						heading="Partner with us to change the face of leadership"
 						linkTitle="Become a partner"
-						url="/membership"
+						url="/get-in-touch"
 					>
 						<p>
 							Our donors provide invaluable support and share our
