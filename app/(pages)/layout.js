@@ -6,7 +6,6 @@ export default function PageLayout({ children }) {
 		<>
 			<Navigation />
 			{children}
-			<FooterSection />
 		</>
 	);
 }

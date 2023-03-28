@@ -65,6 +65,24 @@ export const menuLinks = [
 	},
 ];
 
+export const partnerLogos = [
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2020/07/BHI.png",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/08/06-british_int_inv.jpg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/02/IoD_Black_transparent.png",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2020/06/alitheia.svg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/02/BE-logo.png",
+	},
+];
+
 export const clients = [
 	{
 		src: "https://theboardroomafrica.com/wp-content/uploads/2022/08/01-unilever.jpg",
@@ -405,4 +423,57 @@ export const posts = [
 				"https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
 		},
 	},
+];
+
+export const bottomMenu = [
+	[
+		{
+			name: "About Us",
+			href: "/about-us",
+		},
+		{
+			name: "Our Team",
+			href: "/our-team",
+		},
+		{
+			name: "Our Board",
+			href: "/our-board",
+		},
+		{
+			name: "Our Partners",
+			href: "/partners",
+		},
+	],
+	[
+		{
+			name: "Join TBrA",
+			href: "/membership",
+		},
+		{
+			name: "Advertise your Board Role",
+			href: "/board-roles/company",
+		},
+		{
+			name: "Executive Programmes",
+			href: "#!",
+		},
+	],
+	[
+		{
+			name: "Research",
+			href: "/research",
+		},
+		{
+			name: "FAQs",
+			href: "#!",
+		},
+		{
+			name: "Privacy Statement",
+			href: "#!",
+		},
+		{
+			name: "Contact Us",
+			href: "/get-in-touch",
+		},
+	],
 ];

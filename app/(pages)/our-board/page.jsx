@@ -8,7 +8,7 @@ const page = () => {
 	return (
 		<>
 			<HeaderTitle title="Our Board" />
-			<section className="mt-16" data-aos="fade-up">
+			<section className="my-16" data-aos="fade-up">
 				<div className="container md:px-44">
 					<SectionTitle title="Our Board" />
 					<div className="grid grid-cols-3 gap-10 mt-10">

@@ -1,4 +1,5 @@
 import HeaderTitle from "@/app/sections/HeaderTitle";
+import Venngage from "../../../components/Venngage";
 const page = () => {
 	return (
 		<>
@@ -11,6 +12,8 @@ const page = () => {
 						alt=""
 					/>
 				</div>
+
+				<Venngage />
 			</section>
 		</>
 	);

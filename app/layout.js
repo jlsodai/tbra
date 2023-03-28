@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 import AOSWrapper from "./wrappers/AOSWrapper";
 
 import FooterMenu from "@/app/sections/FooterMenu";
+import FooterSection from "./sections/FooterSection";
 
 const noto = Noto_Serif_Display({
 	weight: ["400", "700", "900"],
@@ -61,6 +62,7 @@ export default function RootLayout({ children }) {
 				<main className="overflow-hidden">
 					<AOSWrapper>
 						{children}
+						<FooterSection />
 						<FooterMenu />
 					</AOSWrapper>
 				</main>

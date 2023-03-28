@@ -1,6 +1,8 @@
 import KeySection from "@/app/sections/KeySection";
 import HeaderTitle from "@/app/sections/HeaderTitle";
 import CascadeImg from "@/app/components/CascadeImg";
+import TrustedBy from "@/app/components/TrustedBy";
+import { partnerLogos, clients } from "@/app/utils/options";
 
 const page = () => {
 	return (
@@ -33,6 +35,15 @@ const page = () => {
 						className="object-[87%]"
 						src="https://tbratest.my.canva.site/partners-page/images/38dd4290a2f5da368729d75f54525a17.jpg"
 					/>
+				</div>
+			</section>
+
+			<section>
+				<div className="container">
+					<h3 className="font-halyard font-extralight text-5xl text-center">
+						Our Partners
+					</h3>
+					<TrustedBy logos={partnerLogos} />
 				</div>
 			</section>
 		</>

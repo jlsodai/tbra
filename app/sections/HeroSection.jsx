@@ -12,7 +12,7 @@ const HeroSection = () => {
 				/>
 				<div className="z-10 text-xl flex flex-col gap-6 my-28">
 					<h1 className="text-mustard">
-						Connecting diverse talent with great boards
+						Society thrives when women are equal decision makers.
 					</h1>
 					<div className="md:max-w-[65%]">
 						<p className=" text-dawn">

@@ -2,10 +2,11 @@
 
 import { FaTwitterSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { bottomMenu } from "../utils/options";
 
 const FooterMenu = () => {
 	return (
-		<footer className="mt-16 px-4 bg-tender text-dawn-200 bigborder">
+		<footer className="px-4 bg-tender text-dawn-200 bigborder">
 			<div className="container flex flex-col justify-between py-32 mx-auto space-y-8 lg:flex-row lg:space-y-0">
 				<div className="lg:w-1/5">
 					<a
@@ -21,51 +22,18 @@ const FooterMenu = () => {
 					</a>
 				</div>
 				<div className="grid grid-cols-2 gap-x-3 gap-y-8 lg:w-4/5 sm:grid-cols-4">
-					<div className="space-y-3">
-						<ul className="space-y-3">
-							<li>
-								<a href="#">About TBrA</a>
-							</li>
-							<li>
-								<a href="#">Our Team</a>
-							</li>
-							<li>
-								<a href="#">Our Board</a>
-							</li>
-							<li>
-								<a href="#">Our Partners</a>
-							</li>
-						</ul>
-					</div>
-					<div className="space-y-3">
-						<ul className="space-y-3">
-							<li>
-								<a href="#">Join TBrA</a>
-							</li>
-							<li>
-								<a href="#">Advertise your Board Role</a>
-							</li>
-							<li>
-								<a href="#">Executive Programmes</a>
-							</li>
-						</ul>
-					</div>
-					<div className="space-y-3">
-						<ul className="space-y-3">
-							<li>
-								<a href="#">Research</a>
-							</li>
-							<li>
-								<a href="#">FAQs</a>
-							</li>
-							<li>
-								<a href="#">Privacy Statement</a>
-							</li>
-							<li>
-								<a href="#">Contact us</a>
-							</li>
-						</ul>
-					</div>
+					{bottomMenu.map((menus, i) => (
+						<div key={i} className="space-y-3">
+							<ul className="space-y-3">
+								{menus.map((menu, i) => (
+									<li key={i}>
+										<a href={menu.url}>{menu.name}</a>
+									</li>
+								))}
+							</ul>
+						</div>
+					))}
+
 					<div className="space-y-3 justify-self-center">
 						<div className="uppercase font-bold">Follow us</div>
 						<div className="flex justify-start space-x">

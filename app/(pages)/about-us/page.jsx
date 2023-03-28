@@ -3,6 +3,7 @@ import HeaderTitle from "@/app/sections/HeaderTitle";
 import TBRAKey from "@/app/components/TBRAKey";
 import CascadeImg from "@/app/components/CascadeImg";
 import KeySection from "@/app/sections/KeySection";
+import StatsSection from "@/app/sections/StatsSection";
 
 export const metadata = {
 	title: "About Us - Improving Board Diversity",
@@ -62,7 +63,7 @@ const About = () => {
 					data-aos="fade-up"
 				>
 					<div>
-						<h3>Mission</h3>
+						<h3 className="text-mustard">Mission</h3>
 						<p>
 							To accelerate the appointment of women on boards and
 							build a growing pipeline of board-ready women, while
@@ -88,7 +89,7 @@ const About = () => {
 						width="330px"
 					/>
 					<div>
-						<h3>Vision</h3>
+						<h3 className="text-mustard">Vision</h3>
 						<p>
 							To create a world where women and men have equal
 							access to opportunity at the decision-making table.
@@ -101,7 +102,7 @@ const About = () => {
 					data-aos="fade-up"
 				>
 					<div>
-						<h3>Values</h3>
+						<h3 className="text-mustard">Values</h3>
 						<p>
 							We cultivate a Community where women feel they
 							belong by leading with Vision, Integrity and
@@ -119,6 +120,7 @@ const About = () => {
 					/>
 				</div>
 			</section>
+			<StatsSection />
 		</>
 	);
 };

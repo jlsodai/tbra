@@ -6,6 +6,7 @@ import KeySection from "@/app/sections/KeySection";
 import Testimonial from "@/app/components/Testimonial";
 import TrustedBy from "@/app/components/TrustedBy";
 import { clients } from "@/app/utils/options";
+import StatsSection from "@/app/sections/StatsSection";
 
 export default function Home() {
 	return (
@@ -35,10 +36,10 @@ export default function Home() {
 						src="https://tbratest.my.canva.site/marcia-s-colors-landing/images/ba7424f002729bc29109cb604fd1c70f.jpg"
 					/>
 					<KeySection
-						heading="Board opportunities"
+						heading="Connecting diverse talent with great boards"
 						linkTitle="Learn more"
 						keyPosition="right"
-						url="/board-roles/individual"
+						url="/board-roles/company"
 					>
 						<p>
 							We work with companies and organisations to help
@@ -108,6 +109,7 @@ export default function Home() {
 					</KeySection>
 				</div>
 			</section>
+			<StatsSection />
 		</>
 	);
 }
