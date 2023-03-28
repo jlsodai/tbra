@@ -4,7 +4,6 @@ import CascadeImg from "@/app/components/CascadeImg";
 import HeroSection from "@/app/sections/HeroSection";
 import KeySection from "@/app/sections/KeySection";
 import Testimonial from "@/app/components/Testimonial";
-import FooterLine from "@/app/sections/FooterLine";
 import TrustedBy from "@/app/components/TrustedBy";
 
 export default function Home() {
@@ -107,8 +106,6 @@ export default function Home() {
 					</KeySection>
 				</div>
 			</section>
-
-			<FooterLine />
 		</>
 	);
 }
