@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
-import FooterLine from "@/app/sections/FooterLine";
+import FooterLine from "@/app/sections/FooterMenu";
 import Image from "next/image";
 import {
 	IoLogoAngular,
@@ -235,8 +235,6 @@ const MembershipHome = () => {
 					</div>
 				</div>
 			</section>
-
-			<FooterLine />
 		</>
 	);
 };
