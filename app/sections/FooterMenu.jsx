@@ -5,8 +5,8 @@ import { FaLinkedin } from "react-icons/fa";
 
 const FooterMenu = () => {
 	return (
-		<footer className="mt-16 px-4 divide-y bg-tender text-dawn-200 bigborder">
-			<div className="container flex flex-col justify-between py-20 mx-auto space-y-8 lg:flex-row lg:space-y-0">
+		<footer className="mt-16 px-4 bg-tender text-dawn-200 bigborder">
+			<div className="container flex flex-col justify-between py-32 mx-auto space-y-8 lg:flex-row lg:space-y-0">
 				<div className="lg:w-1/5">
 					<a
 						href="#"
@@ -30,42 +30,39 @@ const FooterMenu = () => {
 								<a href="#">Our Team</a>
 							</li>
 							<li>
-								<a href="#">Our Community</a>
+								<a href="#">Our Board</a>
 							</li>
 							<li>
-								<a href="#">Events</a>
+								<a href="#">Our Partners</a>
 							</li>
 						</ul>
 					</div>
 					<div className="space-y-3">
 						<ul className="space-y-3">
 							<li>
-								<a href="#">Contact us</a>
+								<a href="#">Join TBrA</a>
 							</li>
 							<li>
-								<a href="#">Board Roles</a>
+								<a href="#">Advertise your Board Role</a>
 							</li>
 							<li>
-								<a href="#">Advertise a Board Role</a>
-							</li>
-							<li>
-								<a href="#">Sponsors & Partners</a>
+								<a href="#">Executive Programmes</a>
 							</li>
 						</ul>
 					</div>
 					<div className="space-y-3">
 						<ul className="space-y-3">
-							<li>
-								<a href="#">Board Diversity Charter</a>
-							</li>
 							<li>
 								<a href="#">Research</a>
 							</li>
 							<li>
-								<a href="#">FAQ</a>
+								<a href="#">FAQs</a>
 							</li>
 							<li>
 								<a href="#">Privacy Statement</a>
+							</li>
+							<li>
+								<a href="#">Contact us</a>
 							</li>
 						</ul>
 					</div>
