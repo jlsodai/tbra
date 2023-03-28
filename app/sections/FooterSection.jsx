@@ -40,8 +40,8 @@ const FooterSection = () => {
 				</div>
 			</section>
 
-			<section className="py-16">
-				<div className="container grid grid-cols-2 lg:px-60 gap-24">
+			<section className="mt-16">
+				<div className="container grid grid-cols-2 gap-24">
 					<div className="max-w-md">
 						<div className="flex items-center">
 							<h2 className="text-dusk text-center inline-block mr-8 text-4xl">
@@ -55,29 +55,23 @@ const FooterSection = () => {
 							enhance your profile, and seize new opportunities.
 						</p>
 					</div>
-					<div>
-						<p className="mb-4">
+					<div className="max-w-md">
+						<p>
 							Learn more about our community and activities by
 							signing up to receive updates
 						</p>
-						<FormInput label="Email Address" />
 						<div className="grid grid-cols-2 gap-4">
 							<FormInput label="First Name" />
 							<FormInput label="Last Name" />
 						</div>
+						<FormInput type="email" label="Email Address" />
 						<Link
 							href="#"
-							className="btn font-normal text-white mt-4"
+							className="btn font-normal text-white mt-4 rounded"
 						>
 							Sign Up
 						</Link>
 					</div>
-				</div>
-			</section>
-
-			<section className="bg-darkblue">
-				<div className="container h-[350px] flex justify-center items-center text-center">
-					<h1>Footer Menu Here</h1>
 				</div>
 			</section>
 		</>
