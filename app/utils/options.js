@@ -61,7 +61,7 @@ export const menuLinks = [
 	},
 	{
 		name: "Research",
-		href: "#",
+		href: "/research",
 	},
 ];
 
@@ -239,5 +239,170 @@ export const teams = [
 		linkedin: "#",
 		imageSrc:
 			"https://theboardroomafrica.com/wp-content/uploads/2022/06/IMG_5589_short2.jpg",
+	},
+];
+
+export const posts = [
+	{
+		id: 1,
+		title: "Boost your conversion rate",
+		href: "/research/research-title-slug",
+		imageUrl: "https://via.placeholder.com/400x250",
+		description:
+			"Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+		date: "Mar 16, 2020",
+		datetime: "2020-03-16",
+		category: { title: "Infographic", href: "#" },
+		author: {
+			name: "Michael Foster",
+			role: "Co-Founder / CTO",
+			href: "#",
+			imageUrl:
+				"https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+		},
+	},
+	{
+		id: 2,
+		title: "Boost your conversion rate",
+		href: "/research/research-title-slug",
+		imageUrl: "https://via.placeholder.com/400x250",
+		description:
+			"Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+		date: "Mar 16, 2020",
+		datetime: "2020-03-16",
+		category: { title: "Infographic", href: "#" },
+		author: {
+			name: "Michael Foster",
+			role: "Co-Founder / CTO",
+			href: "#",
+			imageUrl:
+				"https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+		},
+	},
+	{
+		id: 3,
+		title: "Boost your conversion rate",
+		href: "/research/research-title-slug",
+		imageUrl: "https://via.placeholder.com/400x250",
+		description:
+			"Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+		date: "Mar 16, 2020",
+		datetime: "2020-03-16",
+		category: { title: "Infographic", href: "#" },
+		author: {
+			name: "Michael Foster",
+			role: "Co-Founder / CTO",
+			href: "#",
+			imageUrl:
+				"https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+		},
+	},
+	{
+		id: 4,
+		title: "Boost your conversion rate",
+		href: "/research/research-title-slug",
+		imageUrl: "https://via.placeholder.com/400x250",
+		description:
+			"Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+		date: "Mar 16, 2020",
+		datetime: "2020-03-16",
+		category: { title: "Infographic", href: "#" },
+		author: {
+			name: "Michael Foster",
+			role: "Co-Founder / CTO",
+			href: "#",
+			imageUrl:
+				"https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+		},
+	},
+	{
+		id: 5,
+		title: "Boost your conversion rate",
+		href: "/research/research-title-slug",
+		imageUrl: "https://via.placeholder.com/400x250",
+		description:
+			"Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+		date: "Mar 16, 2020",
+		datetime: "2020-03-16",
+		category: { title: "Infographic", href: "#" },
+		author: {
+			name: "Michael Foster",
+			role: "Co-Founder / CTO",
+			href: "#",
+			imageUrl:
+				"https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+		},
+	},
+	{
+		id: 6,
+		title: "Boost your conversion rate",
+		href: "/research/research-title-slug",
+		imageUrl: "https://via.placeholder.com/400x250",
+		description:
+			"Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+		date: "Mar 16, 2020",
+		datetime: "2020-03-16",
+		category: { title: "Infographic", href: "#" },
+		author: {
+			name: "Michael Foster",
+			role: "Co-Founder / CTO",
+			href: "#",
+			imageUrl:
+				"https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+		},
+	},
+	{
+		id: 7,
+		title: "Boost your conversion rate",
+		href: "/research/research-title-slug",
+		imageUrl: "https://via.placeholder.com/400x250",
+		description:
+			"Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+		date: "Mar 16, 2020",
+		datetime: "2020-03-16",
+		category: { title: "Infographic", href: "#" },
+		author: {
+			name: "Michael Foster",
+			role: "Co-Founder / CTO",
+			href: "#",
+			imageUrl:
+				"https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+		},
+	},
+	{
+		id: 8,
+		title: "Boost your conversion rate",
+		href: "/research/research-title-slug",
+		imageUrl: "https://via.placeholder.com/400x250",
+		description:
+			"Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+		date: "Mar 16, 2020",
+		datetime: "2020-03-16",
+		category: { title: "Infographic", href: "#" },
+		author: {
+			name: "Michael Foster",
+			role: "Co-Founder / CTO",
+			href: "#",
+			imageUrl:
+				"https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+		},
+	},
+	{
+		id: 9,
+		title: "Boost your conversion rate",
+		href: "/research/research-title-slug",
+		imageUrl: "https://via.placeholder.com/400x250",
+		description:
+			"Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+		date: "Mar 16, 2020",
+		datetime: "2020-03-16",
+		category: { title: "Infographic", href: "#" },
+		author: {
+			name: "Michael Foster",
+			role: "Co-Founder / CTO",
+			href: "#",
+			imageUrl:
+				"https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+		},
 	},
 ];
