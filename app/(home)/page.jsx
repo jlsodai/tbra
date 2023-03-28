@@ -5,6 +5,7 @@ import HeroSection from "@/app/sections/HeroSection";
 import KeySection from "@/app/sections/KeySection";
 import Testimonial from "@/app/components/Testimonial";
 import TrustedBy from "@/app/components/TrustedBy";
+import { clients } from "@/app/utils/options";
 
 export default function Home() {
 	return (
@@ -37,6 +38,7 @@ export default function Home() {
 						heading="Board opportunities"
 						linkTitle="Learn more"
 						keyPosition="right"
+						url="/board-roles/individual"
 					>
 						<p>
 							We work with companies and organisations to help
@@ -52,7 +54,7 @@ export default function Home() {
 			<section className="bg-white" data-aos="fade-up">
 				<div className="container my-28">
 					<h2 className="text-center">Trusted by.</h2>
-					<TrustedBy />
+					<TrustedBy logos={clients} />
 				</div>
 			</section>
 
@@ -82,7 +84,7 @@ export default function Home() {
 			<section className="container" data-aos="fade-up">
 				<div className="grid grid-cols-2 gap-20">
 					<Testimonial
-						quote="Our partners and donors provide invaluable support and share our vision for creating a gender-equal world. From foundations to corporations, our partners know that investing in TheBoardroom Africa is an investment in a more inclusive society, a stronger business community and Africa’s development objectives. We work with our donors and partners to achieve shared development objectives such as gender inclusion and jobs created. We work with our donors and partners to achieve shared development objectives such as gender inclusion and jobs created."
+						quote="As investors and grantmakers, we believe in the critical value of equipping leaders with skills to build and scale talented, diverse teams. We are thrilled to partner with TheBoardroom Africa on its journey to increase the gender diversity of company boards and investment committees across the continent. We are especially proud to support its team as they evolve and launch a suite of professional trainings and member services for the organization’s most valuable asset – its community of accomplished women leaders."
 						author="Liesel Pritzker Simmons"
 						authorTitle="Co-founder and Principle, Blue Haven Initiative"
 					/>
