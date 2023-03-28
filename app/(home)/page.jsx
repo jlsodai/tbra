@@ -43,10 +43,10 @@ export default function Home() {
 					>
 						<p>
 							We work with companies and organisations to help
-							bridge the diversity gap on their boards by sharing
-							vacant roles with our network, providing a shortlist
-							of qualified candidates that meet their criteria, or
-							through our bespoke search service.
+							bridge the diversity gap on their boards by
+							leveraging our robust network coupled with
+							headhunter interventions to deliver a diverse range
+							of top candidates across sectors.
 						</p>
 					</KeySection>
 				</div>

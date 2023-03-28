@@ -15,14 +15,11 @@ const Page = () => {
 						url="/membership"
 					>
 						<p>
-							TBrA members are part of a network of trusted female
-							executives. We proactively promote members to board
-							opportunities and support their leadership journeys.
-						</p>
-						<p>
-							Join our community to unlock new board roles and
-							access a network of other women leaders as well as
-							other resources to support your board career.
+							TBrA members form part of our trusted network. We
+							proactively promote our members to boards while
+							transforming their presence and influence in Africa
+							and across the globe. Join our community to unlock
+							new opportunities.
 						</p>
 					</KeySection>
 					<CascadeImg

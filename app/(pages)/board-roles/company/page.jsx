@@ -8,24 +8,40 @@ const Page = () => {
 			<HeaderTitle title="Join us to build more inclusive leadership teams." />
 
 			<section className="container" data-aos="fade-up">
-				<div className="grid grid-cols-2 gap-20">
+				<div className="grid grid-cols-2 gap-20 items-center">
 					<KeySection
-						heading="Advertise now"
+						heading="Let us take the complication out of sourcing exceptional talent"
 						linkTitle="Advertise now"
 					>
 						<p>
-							TheBoardroom Africa supports organisations searching
-							for diverse leaders to serve on board and investment
-							committees. We offer three main options to help you
-							share roles with our network of senior executives.
+							We support organisations hoping to unlock the power
+							of diversity as a catalyst for improved business
+							performance by connecting them with diverse and
+							talented industry leaders open to adding value and
+							expertise on boards.
+						</p>
+						<p>
+							Over the years, we&apos;ve successfully undertaken
+							governance reviews and the identification and
+							selection of chairpersons, non-executive directors
+							and even investment committee members for partners
+							covering a wide range of industries.
+						</p>
+						<p>
+							Our <strong>board recruitment</strong> and
+							<strong>advertisement</strong>erings ensure we meet
+							our clients where there are on their recruitment
+							journies.
+						</p>
+						<p>
+							Take a look at our recruitment offerings and get in
+							touch.
 						</p>
 					</KeySection>
 
-					<CascadeImg
-						position="right"
-						negative
-						top
-						src="https://tbratest.my.canva.site/board-roles/images/b932ee43c94889df3529241879a9120b.jpg"
+					<img
+						src="https://tbratest.my.canva.site/board-roles/images/648bcbfed88271511db9546a3fc39661.jpg"
+						alt=""
 					/>
 				</div>
 			</section>
@@ -37,28 +53,45 @@ const Page = () => {
 						src="https://tbratest.my.canva.site/board-roles/images/0223b0a6949672c5d258491373d270ed.jpg"
 					/>
 					<KeySection
-						heading="Talk to us about our tailored recruitment
-								service"
+						heading="Advertise Now"
+						linkTitle="Advertise Now"
+						url="/get-in-touch"
+					>
+						<p>
+							As well as our tailored recruitment service, we also
+							offer a range of advertisement options to enhance
+							your search efforts.
+						</p>
+					</KeySection>
+				</div>
+			</section>
+
+			<section className="container" data-aos="fade-up">
+				<div className="grid grid-cols-2 gap-20">
+					<KeySection
+						heading="Talk to us about our tailored recruitment service"
 						linkTitle="Get in touch"
 						url="/get-in-touch"
 					>
 						<p>
-							We specialise in placing senior women on boards for
-							clients of all shapes and sizes around the world. We
-							believe that diverse perspectives offer a
-							competitive edge, so we engage our network to
-							identify the unique talent who can offer their
-							skills and expertise to your organisation. Our
-							bespoke recruitment model ensures that you will
-							reach candidates that can perform, succeed and
-							deliver growth. Through our endorsement approach,
-							which taps the best and brightest regional leaders,
-							we reach beyond traditional and mainstream circles
-							and continuously refresh our pool of eligible
-							candidates to identify those with the deep skills
-							and sector knowledge you need.
+							We believe that diverse boards build the best
+							companies. We’ve successfully undertaken governance
+							reviews and the identification and selection of
+							non-executive directors, chairpersons, and even
+							investment committee members for a range of clients
+							across diverse industries. Our bespoke recruitment
+							model ensures that you will reach the best
+							candidates that can perform and help you deliver
+							growth.
 						</p>
 					</KeySection>
+
+					<CascadeImg
+						position="right"
+						negative
+						top
+						src="https://tbratest.my.canva.site/board-roles/images/b932ee43c94889df3529241879a9120b.jpg"
+					/>
 				</div>
 			</section>
 		</>

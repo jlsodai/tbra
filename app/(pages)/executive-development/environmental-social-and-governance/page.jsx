@@ -1,16 +1,13 @@
 import HeaderTitle from "@/app/sections/HeaderTitle";
-import TBRAKey from "@/app/components/TBRAKey";
 import CascadeImg from "@/app/components/CascadeImg";
 import AccordionSection from "@/app/sections/AccordionSection";
-import PointedArrow from "@/app/components/PointedArrow";
 import KeySection from "@/app/sections/KeySection";
 import { RiCustomerService2Fill } from "react-icons/ri";
-import Testimonial from "@/app/components/Testimonial";
-import SectionTitle from "@/app/components/SectionTitle";
 import BrochureDrawer from "@/app/components/BrochureDrawer";
 import InstructorSlides from "@/app/components/InstructorSlides";
 import TestimonialSlider from "@/app/components/TestimonialSlider";
 import TrustedBy from "@/app/components/TrustedBy";
+import StatsSection from "@/app/sections/StatsSection";
 
 const Page = () => {
 	return (
@@ -119,6 +116,8 @@ const Page = () => {
 					<TrustedBy />
 				</div>
 			</section>
+
+			<StatsSection />
 		</>
 	);
 };
