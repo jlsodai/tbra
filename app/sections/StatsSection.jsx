@@ -17,21 +17,15 @@ const StatsSection = () => {
 						</h1>
 						<div className="grid grid-cols-4 gap-10 mt-10">
 							<Stats
-								stat="14"
-								info="Important statistics displayed here"
+								stat="2500+"
+								info="community of women leaders"
 							/>
+							<Stats stat="100+" info="women placed on boards" />
 							<Stats
-								stat="14"
-								info="Important statistics displayed here"
+								stat="350+"
+								info=" executive leadership alumni"
 							/>
-							<Stats
-								stat="14"
-								info="Important statistics displayed here"
-							/>
-							<Stats
-								stat="14"
-								info="Important statistics displayed here"
-							/>
+							<Stats stat="65+" info="countries represented" />
 						</div>
 					</div>
 				</div>
