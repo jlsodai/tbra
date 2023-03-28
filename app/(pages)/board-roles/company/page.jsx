@@ -40,6 +40,7 @@ const Page = () => {
 						heading="Talk to us about our tailored recruitment
 								service"
 						linkTitle="Get in touch"
+						url="/get-in-touch"
 					>
 						<p>
 							We specialise in placing senior women on boards for
