@@ -83,6 +83,78 @@ export const partnerLogos = [
 	},
 ];
 
+export const advertisedClients = [
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/07/Unilever.png.crdownload.jpg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/07/BBOXX.jpg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/07/mfs-africa.jpg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/07/gif.jpg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/07/AIIM.jpg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/07/Norfund_logo_as_of_2022.jpg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/07/Norsad-.jpg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/07/MedAccess.jpg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/07/Next-Einstien-Forum.jpg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/07/CDC_logo_Black.jpg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/07/zebu.jpg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/07/globeleq.jpg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/07/aprica.jpg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/07/IFC-Transparent.jpg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/07/fsd-Africa.jpg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/07/Tugende.jpg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/07/International_Rescue_Committee_logo.jpg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/07/HBL-1.jpg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/07/dlight_logo.jpg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/07/Medaccess-1.jpg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/07/ahh.jpg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/08/water_trust.svg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/07/PAYGO-Energy.jpg",
+	},
+];
+
 export const clients = [
 	{
 		src: "https://theboardroomafrica.com/wp-content/uploads/2022/08/01-unilever.jpg",
