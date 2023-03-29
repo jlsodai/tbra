@@ -76,5 +76,7 @@ html { font-size: 15px;}
     left: -20px;
     top: -1px
   }
-
+  .community-logos img {
+    filter: brightness(0) saturate(100%) invert(78%) sepia(0%) saturate(18%) hue-rotate(137deg) brightness(98%) contrast(85%); max-width: 100px !important; max-height: 66px;
+  }
 }

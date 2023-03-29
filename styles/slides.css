@@ -15,3 +15,7 @@
 .swiper-button-prev { left: 50px; }
 .swiper-button-next,.swiper-button-prev { @apply text-dusk }
 .instructor-slides .swiper-pagination-bullet-active { @apply border-2 border-dusk }
+
+.membership-slides .swiper-pagination-bullets { bottom: 40px; }
+.membership-slides .swiper-pagination-bullet { width: 12px; height: 12px; }
+.membership-slides .swiper-pagination-bullet-active { @apply bg-dawn-400 }
