@@ -1,8 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
-const TrustedBy = ({ logos = [] }) => {
+const TrustedBy = ({ logos = [], className }) => {
 	return (
 		<>
-			<div className="partnerLogos flex flex-wrap items-center justify-center mt-10">
+			<div
+				className={`partnerLogos flex flex-wrap items-center justify-center mt-10 ${className}`}
+			>
 				{logos.map((img, i) => (
 					<img
 						key={i}
