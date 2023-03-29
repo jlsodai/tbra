@@ -65,6 +65,7 @@ export default function Home() {
 						<KeySection
 							heading="Executive Development"
 							linkTitle="Learn more"
+							url="/executive-development"
 						>
 							<p>
 								Whether you are looking to transform your
