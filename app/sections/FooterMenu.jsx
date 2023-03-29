@@ -7,7 +7,7 @@ import { bottomMenu } from "../utils/options";
 const FooterMenu = () => {
 	return (
 		<footer className="px-4 bg-tender text-dawn-200 bigborder">
-			<div className="container flex flex-col justify-between py-32 mx-auto space-y-8 lg:flex-row lg:space-y-0">
+			<div className="container flex flex-col justify-between py-28 mx-auto space-y-8 lg:flex-row lg:space-y-0">
 				<div className="lg:w-1/5">
 					<a
 						href="#"
@@ -23,18 +23,21 @@ const FooterMenu = () => {
 				</div>
 				<div className="grid grid-cols-2 gap-x-3 gap-y-8 lg:w-4/5 sm:grid-cols-4">
 					{bottomMenu.map((menus, i) => (
-						<div key={i} className="space-y-3">
+						<div
+							key={i}
+							className={`space-y-3 ${menus.neg && "-ml-10"}`}
+						>
 							<ul className="space-y-3">
-								{menus.map((menu, i) => (
+								{menus.list.map((menu, i) => (
 									<li key={i}>
-										<a href={menu.url}>{menu.name}</a>
+										<a href={menu.href}>{menu.name}</a>
 									</li>
 								))}
 							</ul>
 						</div>
 					))}
 
-					<div className="space-y-3 justify-self-center">
+					<div className="space-y-3">
 						<div className="uppercase font-bold">Follow us</div>
 						<div className="flex justify-start space-x">
 							<a
@@ -52,12 +55,13 @@ const FooterMenu = () => {
 								<FaLinkedin className="text-2xl" />
 							</a>
 						</div>
+
+						<div className="py-6 text-sm">
+							© {new Date().getFullYear()} TheBoardroom Africa.
+							All rights reserved.
+						</div>
 					</div>
 				</div>
-			</div>
-			<div className="py-6 text-center">
-				© {new Date().getFullYear()} TheBoardroom Africa. All rights
-				reserved.
 			</div>
 		</footer>
 	);

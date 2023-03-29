@@ -498,56 +498,63 @@ export const posts = [
 ];
 
 export const bottomMenu = [
-	[
-		{
-			name: "About Us",
-			href: "/about-us",
-		},
-		{
-			name: "Our Team",
-			href: "/our-team",
-		},
-		{
-			name: "Our Board",
-			href: "/our-board",
-		},
-		{
-			name: "Our Partners",
-			href: "/partners",
-		},
-	],
-	[
-		{
-			name: "Join TBrA",
-			href: "/membership",
-		},
-		{
-			name: "Advertise your Board Role",
-			href: "/board-roles/company",
-		},
-		{
-			name: "Executive Programmes",
-			href: "#!",
-		},
-	],
-	[
-		{
-			name: "Research",
-			href: "/research",
-		},
-		{
-			name: "FAQs",
-			href: "#!",
-		},
-		{
-			name: "Privacy Statement",
-			href: "#!",
-		},
-		{
-			name: "Contact Us",
-			href: "/get-in-touch",
-		},
-	],
+	{
+		list: [
+			{
+				name: "About Us",
+				href: "/about-us",
+			},
+			{
+				name: "Our Team",
+				href: "/our-team",
+			},
+			{
+				name: "Our Board",
+				href: "/our-board",
+			},
+			{
+				name: "Our Partners",
+				href: "/partners",
+			},
+		],
+	},
+	{
+		neg: true,
+		list: [
+			{
+				name: "Join TBrA",
+				href: "/membership",
+			},
+			{
+				name: "Advertise your Board Role",
+				href: "/board-roles/company",
+			},
+			{
+				name: "Executive Programmes",
+				href: "#!",
+			},
+		],
+	},
+	{
+		list: [
+			{
+				name: "Research",
+				href: "/research",
+			},
+			{
+				name: "FAQs",
+				href: "#!",
+			},
+			{
+				name: "Privacy Statement",
+				href: "#!",
+			},
+			{
+				name: "Contact Us",
+				href: "/get-in-touch",
+			},
+		],
+	},
 ];
 
 export const programmes = [
