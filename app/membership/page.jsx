@@ -1,97 +1,20 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
-import FooterLine from "@/app/sections/FooterMenu";
+import MembershipSlides from "@/app/sections/MembershipSlides";
+
 const MembershipHome = () => {
 	return (
 		<>
-			<section className="membership-hero bigborder">
-				<div className="container flex justify-end gap-10 items-center pt-6 text-white relative">
-					<Link href="#">Login</Link>
-					<Link href="#" className="btn">
-						Apply
-					</Link>
-				</div>
-				<div className="flex container min-h-screen relative px-4 items-center">
-					<img
-						src="/images/white-key.png"
-						className="absolute left-0 h-[75%] -z-1 opacity-3"
-						alt=""
-					/>
-					<div className="z-10 text-xl flex flex-col gap-6 my-28">
-						<h1 className="text-mustard">
-							Society thrives when women are equal decision
-							makers.
-						</h1>
-						<div className=" md:max-w-[65%]">
-							<p className=" text-dawn">
-								TheBoardroom Africa is Africa&apos;s leading
-								private membership network that promotes
-								exceptional female talent to boards and
-								executive teams while transforming the presence
-								and influence of African women on a global
-								stage.
-							</p>
-							<div className="text-center mt-10">
-								<Link
-									href="/membership/about-membership"
-									className="btn bg-dawn font-normal"
-								>
-									Learn more about membership
-								</Link>
-							</div>
-						</div>
+			<section className="">
+				<div className="container relative">
+					<div className="flex justify-end gap-10 items-center pt-6 text-white absolute z-50 right-0">
+						<Link href="#">Login</Link>
+						<Link href="#" className="btn">
+							Apply
+						</Link>
 					</div>
 				</div>
-			</section>
-
-			<section className="bg-mustard-100">
-				<div className="flex container min-h-screen relative px-4 items-center">
-					<img
-						src="/images/gray-key.png"
-						className="absolute left-0 h-[75%] -z-1 opacity-10"
-						alt=""
-					/>
-					<div className="md:max-w-[60%] z-10 py-28">
-						<h4 className="text-mustard text-6xl font-halyard font-thin">
-							Influential network of women leaders
-						</h4>
-						<p className="mt-4">
-							Being a woman at the top can be a lonely experience;
-							TheBoardroom Africa enables our members to realise
-							they don’t have to go at it alone.
-						</p>
-						<p className="mt-4">
-							Join the most influential private community of women
-							leaders on the continent and together transform your
-							leadership while staying at the top.
-						</p>
-					</div>
-				</div>
-			</section>
-
-			<section className="bg-dusk">
-				<div className="flex container min-h-screen relative px-4 items-center">
-					<img
-						src="/images/white-key.png"
-						className="absolute left-0 h-[75%] -z-1 opacity-3"
-						alt=""
-					/>
-					<div className="md:max-w-[60%] z-10 py-28 text-white">
-						<h4 className="text-mustard text-6xl font-serif">
-							Transforming the face of leadership
-						</h4>
-						<p className="mt-4">
-							To disrupt the status quo, we must intentionally
-							cultivate a pipeline of leaders.
-						</p>
-						<p className="mt-4">
-							Connect to a network of other leading women and
-							together, unlock access to opportunities, transform
-							your presence through executive development, peer
-							networking, in-person gatherings and more.
-						</p>
-					</div>
-				</div>
+				<MembershipSlides />
 			</section>
 
 			<section className="membership-testimonial">

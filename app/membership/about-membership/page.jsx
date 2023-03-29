@@ -1,14 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
-import FooterLine from "@/app/sections/FooterMenu";
 import Image from "next/image";
-import {
-	IoLogoAngular,
-	IoLogoApple,
-	IoLogoBehance,
-	IoLogoPaypal,
-	IoLogoVimeo,
-} from "react-icons/io5";
+import TrustedBy from "@/app/components/TrustedBy";
+import { communityLogos } from "@/app/utils/options";
 
 const MembershipHome = () => {
 	return (
@@ -54,7 +48,7 @@ const MembershipHome = () => {
 			</section>
 
 			<section className="bg-[#3C455F] text-white">
-				<div className="flex flex-col container min-h-screen relative px-4 py-28 items-center">
+				<div className="flex flex-col container min-h-screen relative px-4 py-16 items-center">
 					<img
 						src="/images/gray-key.png"
 						className="absolute left-0 h-[75%] -z-1 opacity-5"
@@ -85,37 +79,10 @@ const MembershipHome = () => {
 							className="mx-auto"
 						/>
 					</div>
-					<div className="flex gap-10 mt-10 max-w-[80%] justify-center flex-wrap">
-						<IoLogoBehance className="text-[#BEBEBE] text-5xl" />
-						<IoLogoAngular className="text-[#BEBEBE] text-5xl" />
-						<IoLogoApple className="text-[#BEBEBE] text-5xl" />
-						<IoLogoPaypal className="text-[#BEBEBE] text-5xl" />
-						<IoLogoVimeo className="text-[#BEBEBE] text-5xl" />
-						<IoLogoBehance className="text-[#BEBEBE] text-5xl" />
-						<IoLogoAngular className="text-[#BEBEBE] text-5xl" />
-						<IoLogoApple className="text-[#BEBEBE] text-5xl" />
-						<IoLogoPaypal className="text-[#BEBEBE] text-5xl" />
-						<IoLogoVimeo className="text-[#BEBEBE] text-5xl" />
-						<IoLogoBehance className="text-[#BEBEBE] text-5xl" />
-						<IoLogoAngular className="text-[#BEBEBE] text-5xl" />
-						<IoLogoApple className="text-[#BEBEBE] text-5xl" />
-						<IoLogoPaypal className="text-[#BEBEBE] text-5xl" />
-						<IoLogoVimeo className="text-[#BEBEBE] text-5xl" />
-						<IoLogoBehance className="text-[#BEBEBE] text-5xl" />
-						<IoLogoAngular className="text-[#BEBEBE] text-5xl" />
-						<IoLogoApple className="text-[#BEBEBE] text-5xl" />
-						<IoLogoPaypal className="text-[#BEBEBE] text-5xl" />
-						{/*[...Array(16)].map((e, i) => (
-							// <Image
-							// 	key={i}
-							// 	src="https://placeholder.com/200x80"
-							// 	width="200"
-							// 	height="80"
-							// 	alt=""
-							// 	className="col-span-1"
-							// />
-						))*/}
-					</div>
+					<TrustedBy
+						logos={communityLogos}
+						className="community-logos"
+					/>
 				</div>
 			</section>
 
