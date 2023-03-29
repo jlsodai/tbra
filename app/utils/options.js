@@ -667,3 +667,101 @@ export const pricingTable = [
 		],
 	},
 ];
+
+export const memberSlides = [
+	{
+		title: "Society thrives when women are equal decision makers.",
+		content:
+			"TheBoardroom Africa is Africa's leading private membership network that promotes exceptional female talent to boards and executive teams while transforming the presence and influence of African women on a global stage.",
+		style: {
+			background:
+				'linear-gradient(rgba(34,35,68, 0.75), rgba(34,35,68, 0.75)), url("https://tbratest.my.canva.site/membership-landing-page/images/90710e7cced9762fbf374e15a4c488c0.jpg")',
+			backgroundPosition: "cover",
+		},
+	},
+	{
+		title: "Influential network of women leaders",
+		content:
+			"Being a woman at the top can be a lonely experience; TheBoardroom Africa enables our members to realise they don’t have to go at it alone. Join the most influential private community of women leaders on the continent and together transform your leadership while staying at the top.",
+		style: {
+			background:
+				'linear-gradient(rgba(34,35,68, 0.75), rgba(34,35,68, 0.75)), url("https://tbratest.my.canva.site/membership-landing-page/images/90710e7cced9762fbf374e15a4c488c0.jpg")',
+			backgroundPosition: "cover",
+		},
+	},
+	{
+		title: "Transforming the face of leadership",
+		content:
+			"To disrupt the status quo, we must intentionally cultivate a pipeline of leaders. Connect to a network of other leading women and together, unlock access to opportunities, transform your presence through executive development, peer networking, in-person gatherings and more.",
+		style: {
+			background:
+				'linear-gradient(rgba(34,35,68, 0.75), rgba(34,35,68, 0.75)), url("https://tbratest.my.canva.site/membership-landing-page/images/90710e7cced9762fbf374e15a4c488c0.jpg")',
+			backgroundPosition: "cover",
+		},
+	},
+	{
+		title: "A membership that understands your journey.",
+		content:
+			"Whether you are looking to transform your presence in the boardroom, position yourself for global opportunities, or lead your business and teams to success given our new global context, our membership offerings are uniquely designed to open the doors to leadership spaces and keep you there.",
+		style: {
+			background:
+				'linear-gradient(rgba(32,41,69, 0.78), rgba(32,41,69, 0.78)), url("https://tbratest.my.canva.site/membership-learn-more-page/images/0f612383af2d574682a658377f9293e0.jpg")',
+			// backgroundPosition: "bottom",
+			backgroundSize: "cover",
+		},
+	},
+];
+
+export const communityLogos = [
+	{
+		src: "https://tbratest.my.canva.site/membership-learn-more-page/images/07ac9c648896884839a7828b8f0326f5.png",
+	},
+	{
+		src: "https://tbratest.my.canva.site/membership-learn-more-page/images/3416b56f2251d37b65709d0fa4552450.png",
+	},
+	{
+		src: "https://tbratest.my.canva.site/membership-learn-more-page/images/33aa494eabea26672bce3a46737b89ea.png",
+	},
+	{
+		src: "https://tbratest.my.canva.site/membership-learn-more-page/images/49c491728eed967fabd566e23dc16bbc.png",
+	},
+	{
+		src: "https://tbratest.my.canva.site/membership-learn-more-page/images/3a8073546891237ce1f0f4d74b3ccc33.png",
+	},
+	{
+		src: "https://tbratest.my.canva.site/membership-learn-more-page/images/a5ea6f38707f636764b785b115e2018e.png",
+	},
+	{
+		src: "https://tbratest.my.canva.site/membership-learn-more-page/images/20974cddd5cef1843f8f431e5aff3075.png",
+	},
+	{
+		src: "https://tbratest.my.canva.site/membership-learn-more-page/images/31551412761d41166018f7f6c8661ea3.png",
+	},
+	{
+		src: "https://tbratest.my.canva.site/membership-learn-more-page/images/56d48768bb3996b103b48ac10766815d.png",
+	},
+	{
+		src: "https://tbratest.my.canva.site/membership-learn-more-page/images/87a6bca3558e4960815db41f7045b91c.png",
+	},
+	{
+		src: "https://tbratest.my.canva.site/membership-learn-more-page/images/b00450952ccd477c23e6fda1edbfdc0c.png",
+	},
+	{
+		src: "https://tbratest.my.canva.site/membership-learn-more-page/images/ad8260d53e1edecb7da72e4842824f08.png",
+	},
+	{
+		src: "https://tbratest.my.canva.site/membership-learn-more-page/images/20f9eaa11cb9368aeec35536a4788c77.png",
+	},
+	{
+		src: "https://tbratest.my.canva.site/membership-learn-more-page/images/7b4e45cd5d9c2dfbfbac0cf3c363348b.png",
+	},
+	{
+		src: "https://tbratest.my.canva.site/membership-learn-more-page/images/948105581ea01ee3135d0e58315ba59a.png",
+	},
+	{
+		src: "https://tbratest.my.canva.site/membership-learn-more-page/images/2527cab2d888152fc858f4fd7682f6a0.png",
+	},
+	{
+		src: "https://tbratest.my.canva.site/membership-learn-more-page/images/922ad3d63afdd33b4601375975c33662.png",
+	},
+];
