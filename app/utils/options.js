@@ -554,3 +554,44 @@ export const esgIcons = [
 		src: "https://theboardroomafrica.com/wp-content/uploads/2022/10/cambridge_u.svg",
 	},
 ];
+
+export const pricingTable = [
+	{
+		title: "Standard Ad *",
+		amount: "500",
+		once: true,
+		recruiters: true,
+		list: [
+			"The role is advertised on the Members' Forum for a month to a membership pool of 2500+ senior executives.",
+			"One-month feature in the weekly newsletter. The newsletter reaches a broader audience which includes our members, clients, partners, subscribers and other stakeholders.",
+			"Applicant profiles are shared every two weeks.",
+			"The client manages the recruitment process and communicates directly with applicants regarding the status of their applications.",
+		],
+	},
+	{
+		title: "Standard Ad Plus *",
+		amount: "1000",
+		once: true,
+		recruiters: true,
+		colored: true,
+		list: [
+			"The role is advertised on the Members' Forum for a month to a membership pool of 2500+ senior executives.",
+			"One-month feature in the weekly newsletter. The newsletter reaches a broader audience which includes our members, clients, partners, subscribers and other stakeholders.",
+			"Applicant profiles are shared with clients every week.",
+			"Applicant profiles are shared on a weekly basis.",
+			"The client manages the recruitment process and communicates directly with applicants regarding the status of their applications.",
+			"Targeted outreach by our talent team to candidates within our network who fit the criteria for the role.",
+		],
+	},
+	{
+		title: "Premium – Custom Plan",
+		amount: "",
+		list: [
+			"Designed based on your needs and requirements.",
+			"End-to-end board recruitment search service.",
+			"Dedicated talent team.",
+			"Management of the entire recruitment process, including initial candidate screening and interviews, as well as application review and longlist development. ",
+			"Support from defining role requirements to a thorough search and headhunter intervention.",
+		],
+	},
+];
