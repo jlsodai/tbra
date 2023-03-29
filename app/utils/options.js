@@ -46,8 +46,8 @@ export const menuLinks = [
 				href: "/executive-development/open-doors",
 			},
 			{
-				name: "Environmental, Social and Governance",
-				href: "/executive-development/environmental-social-and-governance",
+				name: "ESG Certificate Programme",
+				href: "/executive-development/esg-certificate-programme",
 			},
 			{
 				name: "TLM",
@@ -510,5 +510,47 @@ export const programmes = [
 		registerUrl: "#",
 		imageUrl:
 			"https://tbratest.my.canva.site/executive-development-page/images/128b157c5a41f2c2b630bbb9d2543b69.jpg",
+	},
+];
+
+export const esgIcons = [
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/10/aif.jpeg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/10/africa_gifted_foundation.png",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/10/results4development.svg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/10/tullow.svg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/10/unep.svg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/10/natixis.png",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/10/discoverIE.svg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/10/giin.svg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/10/mjHudson-1.svg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/10/dutchfounders-1.svg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/10/ideo-1.svg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/10/calbank.svg",
+	},
+	{
+		src: "https://theboardroomafrica.com/wp-content/uploads/2022/10/cambridge_u.svg",
 	},
 ];

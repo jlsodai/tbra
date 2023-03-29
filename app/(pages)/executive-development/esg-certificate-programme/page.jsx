@@ -8,6 +8,7 @@ import InstructorSlides from "@/app/components/InstructorSlides";
 import TestimonialSlider from "@/app/components/TestimonialSlider";
 import TrustedBy from "@/app/components/TrustedBy";
 import StatsSection from "@/app/sections/StatsSection";
+import { esgIcons } from "@/app/utils/options";
 
 const Page = () => {
 	return (
@@ -111,9 +112,10 @@ const Page = () => {
 			<section className="bg-white" data-aos="fade-up">
 				<div className="container my-28">
 					<h2 className="text-center text-dusk">
-						Past delegates come from
+						Some of the companies that trust our instructor&apos;s
+						experience include:
 					</h2>
-					<TrustedBy />
+					<TrustedBy logos={esgIcons} />
 				</div>
 			</section>
 
