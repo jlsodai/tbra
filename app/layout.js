@@ -60,11 +60,7 @@ export default function RootLayout({ children }) {
 		>
 			<body className="font-sans">
 				<main className="overflow-hidden">
-					<AOSWrapper>
-						{children}
-						<FooterSection />
-						<FooterMenu />
-					</AOSWrapper>
+					<AOSWrapper>{children}</AOSWrapper>
 				</main>
 			</body>
 		</html>
