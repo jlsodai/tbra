@@ -9,10 +9,7 @@ const Page = () => {
 
 			<section className="container" data-aos="fade-up">
 				<div className="grid grid-cols-2 gap-20 items-center">
-					<KeySection
-						heading="Let us take the complication out of sourcing exceptional talent"
-						linkTitle="Advertise now"
-					>
+					<KeySection heading="Let us take the complication out of sourcing exceptional talent">
 						<p>
 							We support organisations hoping to unlock the power
 							of diversity as a catalyst for improved business
@@ -54,8 +51,8 @@ const Page = () => {
 					/>
 					<KeySection
 						heading="Advertise Now"
-						linkTitle="Advertise Now"
-						url="/get-in-touch"
+						linkTitle="Advertise now"
+						url="/advertise-now"
 					>
 						<p>
 							As well as our tailored recruitment service, we also
