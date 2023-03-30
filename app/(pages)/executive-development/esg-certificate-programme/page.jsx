@@ -8,7 +8,7 @@ import InstructorSlides from "@/app/components/InstructorSlides";
 import TestimonialSlider from "@/app/components/TestimonialSlider";
 import TrustedBy from "@/app/components/TrustedBy";
 import StatsSection from "@/app/sections/StatsSection";
-import { esgIcons } from "@/app/utils/options";
+import { esgIcons, instructorDetails } from "@/app/utils/options";
 
 const Page = () => {
 	return (
@@ -89,7 +89,7 @@ const Page = () => {
 				</div>
 			</section>
 
-			<InstructorSlides />
+			<InstructorSlides instructors={instructorDetails.esg} />
 
 			<section className="my-24">
 				<div className="container">
