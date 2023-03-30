@@ -16,7 +16,7 @@ export default function Example() {
 			<section className="my-16">
 				<div className="container">
 					<div className="mx-auto grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 lg:max-w-none lg:grid-cols-3">
-						{/* <Article posts={sortedPublications} /> */}
+						<Article posts={sortedPublications} />
 					</div>
 					<Pagination />
 				</div>
