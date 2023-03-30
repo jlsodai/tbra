@@ -18,7 +18,7 @@ const MembershipSlides = () => {
 	return (
 		<Swiper
 			autoplay={{
-				delay: 2500,
+				delay: 4500,
 				disableOnInteraction: false,
 			}}
 			loop={true}
@@ -44,10 +44,10 @@ const MembershipSlides = () => {
 								<p className=" text-dawn">{slide.content}</p>
 								<div className="text-center mt-10">
 									<Link
-										href="/membership/about-membership"
+										href="#!"
 										className="btn bg-dawn font-normal"
 									>
-										Learn more about membership
+										Apply Now
 									</Link>
 								</div>
 							</div>
