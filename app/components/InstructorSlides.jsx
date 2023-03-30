@@ -10,26 +10,31 @@ import "@/styles/slides.css";
 // import required modules
 import { Pagination, Navigation } from "swiper";
 
-const InstructorSlides = () => {
+const InstructorSlides = ({ instructors }) => {
 	const pagination = {
 		clickable: true,
-		renderBullet: function (index, className) {
-			return (
-				'<div class="text-center ' +
-				className +
-				'">' +
-				'<img src="https://via.placeholder.com/200" className="rounded-full" />' +
-				"<p>Kofi Baboni</p>" +
-				"</div>"
-			);
-		},
+		// renderBullet: function (index, className) {
+		// 	return (
+		// 		'<div class="text-center ' +
+		// 		className +
+		// 		'">' +
+		// 		'<img src="' +
+		// 		instructors[index].imageUrl +
+		// 		'" className="rounded-full" />' +
+		// 		"<p>Kofi Baboni</p>" +
+		// 		"</div>"
+		// 	);
+		// },
 	};
 
 	return (
 		<>
 			<section className="bg-dawn-200 py-8 instructor-slides">
+				<h3 className="font-halyard text-5xl mt-16 text-center">
+					Course Instructors
+				</h3>
 				<Swiper
-					pagination={pagination}
+					// pagination={pagination}
 					loop={true}
 					modules={[Pagination, Navigation]}
 					cssMode="true"
@@ -37,36 +42,21 @@ const InstructorSlides = () => {
 					className="mySwiper"
 					// className="bg-transparent"
 				>
-					{[...Array(4)].map((e, i) => (
+					{instructors.map((instructor, i) => (
 						<SwiperSlide
 							key={i}
-							className="flex justify-center items-center mt-16 mb-48"
+							className="flex justify-center items-center mt-16 mb-16"
 						>
 							<div className="container grid grid-cols-2 gap-24 items-center">
 								<div className="prose text-left">
-									<h2>Name of Facilitator</h2>
-									<p className="font-bold">Title Here</p>
-									<p>
-										Lorem ipsum, dolor sit amet consectetur
-										adipisicing elit. Eveniet maxime ullam
-										laborum quis accusantium provident,
-										fugiat, quae quisquam doloremque rem,
-										nihil recusandae perferendis nulla at
-										odit. Fugiat alias illo assumenda!
-									</p>
-									<p>
-										Lorem ipsum, dolor sit amet consectetur
-										adipisicing elit. Eveniet maxime ullam
-										laborum quis accusantium provident,
-										fugiat, quae quisquam doloremque rem,
-										nihil recusandae perferendis nulla at
-										odit. Fugiat alias illo assumenda!
-									</p>
+									<h2 className="mb-8 text-4xl">
+										{instructor.name}
+									</h2>
+									{instructor.profile.map((profile, i) => (
+										<p key={i}>{profile}</p>
+									))}
 								</div>
-								<img
-									src="https://via.placeholder.com/500"
-									alt=""
-								/>
+								<img src={instructor.imageUrl} alt="" />
 							</div>
 						</SwiperSlide>
 					))}
