@@ -772,3 +772,60 @@ export const communityLogos = [
 		src: "https://tbratest.my.canva.site/membership-learn-more-page/images/922ad3d63afdd33b4601375975c33662.png",
 	},
 ];
+
+export const instructorDetails = {
+	esg: [
+		{
+			name: "Rosalind Kainyah MBE",
+			imageUrl:
+				"https://theboardroomafrica.com/wp-content/uploads/2022/10/rosalind_pic2.jpg",
+			profile: [
+				" Rosalind Kainyah MBE is an authority on Sustainability and responsible business with over 30 years of combined legal, international, executive and board level experience. She is a trusted advisor to Boards and Senior Executives of companies on leveraging opportunities and managing Sustainability related risk. Rosalind has advised companies across various sectors, including the extractives industry, energy, private equity, financial services, healthcare, agriculture, consumer goods, logistics, manufacturing and technology.",
+				"Rosalind is also an experienced non-executive director.  She currently serves on the boards of discoverIE plc, Gem Diamonds Limited, CalBank Plc, Lekela Power and BTE Renewables. In the not-for-profit sector, she is a trustee and Vice Chairperson of the Africa Gifted Foundation and a Board member of Results for Development (R4D). She has previously served on the Boards of Aker Energy, the Ghana Food &Drugs Authority and The Africa-America Institute.",
+				"Rosalind holds a Bachelor’s degree in English from the University of Ghana, a Bachelor of Laws degree from the University of London and a Master of Laws degree from University College, London. She is a member of the Bar of England and Wales and the Chartered Institute of Arbitrators.",
+			],
+		},
+		{
+			name: "Jacqueline Musiitwa",
+			imageUrl:
+				"https://theboardroomafrica.com/wp-content/uploads/2022/10/jacqueline.jpg",
+			profile: [
+				"Ms Jacqueline Musiitwa is an international attorney specialising in business transformation, innovation and sustainability.  Jacqueline has over 17 years' experience in leading legal and corporate relations functions in financial services and the industrial sectors.  She is a member of faculty at Georgetown University.",
+				"Jacqueline sits on the boards of Bushveld Minerals (AIM: BMN), PPC Zimbabwe Limited  and is the Chair of the New York State Bar Association's Energy and Natural Resources Committee. She has experience as a board chair and chairing governance and risk committees.  She previously served in various leadership capacities at Rio Tinto, the Trade and Development Bank (TDB Group), World Trade Organization.",
+				"She holds a Juris Doctor from the University of Melbourne Law School and a Bachelor of Arts from Davidson College.  She holds a Certificate of Company Direction from the Institute of Directors UK.",
+			],
+		},
+		{
+			name: "Harald Walkate",
+			imageUrl:
+				"https://theboardroomafrica.com/wp-content/uploads/2022/10/harald.jpg",
+			profile: [
+				"Harald Walkate is the founder of Finding Ways Ahead, an independent ESG and impact investment advisory firm. From 2019 to 2021 he was the Head of Responsible Investment (ESG) and member of the Executive Committee at Natixis Investment Managers. Prior to that, he worked for Aegon for fifteen years in different capacities, lastly as Global Head of Responsible Investment at Aegon Asset Management.",
+				"His work in ESG has included working with portfolio managers and analysts to integrate ESG considerations into investments, active ownership, policy and organizational issues, and identifying positive impact investment opportunities within different asset classes, with a particular focus on blended finance.",
+				"Harald is a Senior Fellow with the University of Zurich Center for Sustainable Finance and Private Wealth (CSP) and a regular contributor to University of Cambridge Institute for Sustainability Leadership (CISL) programs. He was also an advisor to the Impact Management Project and on the board of the AIF Center for ESG and Sustainable Finance.",
+			],
+		},
+	],
+};
+
+export const programDetails = {
+	esg: {
+		outline: [
+			{
+				title: "Introduction to ESG: Past and Present",
+				content:
+					"This introductory session explores the historical role corporations have played in advancing social good, from corporate social responsibility to corporate philanthropy and impact. You will learn about the journey from Socially Responsible Investment (SRI) to environmental, social and governance (ESG) criteria. Participants will also be introduced to the roles and responsibilities of different actors in the system, from investors to governments and nonprofits.",
+			},
+			{
+				title: "Global Trends Driving the Sustainability Agenda",
+				content:
+					"ESG is not only in the mainstream, but it also shapes the market. The session probes the factors driving growing momentum around the ESG agenda. You will dive into the role of key stakeholders, including investors, consumers, the media, regulators and more, in accelerating pressure for disclosure and action.",
+			},
+			{
+				title: "The Role of Regulation in Advancing ESG",
+				content:
+					"Regulatory scrutiny of ESG is on the rise as a growing number of countries seem to encourage companies to report on their environmental and social risk. You will learn what’s driving new regulations and reporting standards. By the end of this session, you will understand the “alphabet soup” of regulation around ESG and how it impacts corporate strategy and compliance requirements.",
+			},
+		],
+	},
+};
