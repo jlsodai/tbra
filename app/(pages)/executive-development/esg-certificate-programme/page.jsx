@@ -22,7 +22,7 @@ const Page = () => {
 			<BrochureDrawer />
 			<HeaderTitle title="Environmental, social and governance certificate." />
 
-			<section className="container">
+			<section className="container" data-aos="fade-up">
 				<div className="grid grid-cols-2 gap-20">
 					<KeySection
 						heading="Course introduction"
@@ -58,7 +58,7 @@ const Page = () => {
 
 			<TestimonialSlider />
 
-			<section>
+			<section data-aos="fade-up">
 				<div className="container">
 					<div className="grid grid-cols-2 gap-10 innerPadding">
 						<CascadeImg
@@ -81,7 +81,7 @@ const Page = () => {
 
 			<InstructorSlides instructors={instructorDetails.esg} />
 
-			<section className="my-24">
+			<section className="my-24" data-aos="fade-up">
 				<div className="container">
 					<h2 className="text-center text-gray-700">Key features</h2>
 					<div className="grid grid-cols-6 text-center gap-10 text-xs mt-16">
