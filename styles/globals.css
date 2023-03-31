@@ -17,6 +17,7 @@ html { font-size: 15px;}
   .membership-hero { background: linear-gradient(rgba(34,35,68, 0.75), rgba(34,35,68, 0.75)), url("https://tbratest.my.canva.site/membership-landing-page/images/90710e7cced9762fbf374e15a4c488c0.jpg"); background-size: cover;}
   .membership-about-hero { background: linear-gradient(rgba(32, 41, 69, 0.75), rgba(32, 41, 69, 0.75)), url("https://tbratest.my.canva.site/membership-learn-more-page/images/0f612383af2d574682a658377f9293e0.jpg"); background-size: cover;}
   .btn { @apply px-6 py-2 bg-mustard hover:bg-mustard-400 font-semibold inline-block; }
+  .btn-disabled { @apply px-6 py-2 bg-gray-400 font-semibold inline-block opacity-50; }
   .menulink { @apply hover:text-mustard mb-1 lg:mb-0 py-2; }
   .newmenulink { @apply hover:text-mustard mb-1 lg:mb-0; }
   .imgCascade { @apply relative w-[48.3%] before:content-[''] before:absolute before:top-0 before:bottom-0 before:w-[1000%] before:bg-mustard before:right-[50%]}
@@ -79,4 +80,10 @@ html { font-size: 15px;}
   .community-logos img {
     filter: brightness(0) saturate(100%) invert(78%) sepia(0%) saturate(18%) hue-rotate(137deg) brightness(98%) contrast(85%); max-width: 100px !important; max-height: 66px;
   }
+
+  .v-scroll { overflow-y: auto; }
+  .v-scroll::-webkit-scrollbar { width: 10px; }
+  .v-scroll::-webkit-scrollbar-track { @apply bg-dawn-300 } /* Track */
+  .v-scroll::-webkit-scrollbar-thumb { @apply bg-dawn-500 } /* Handle */
+  .v-scroll::-webkit-scrollbar-thumb:hover { @apply bg-dawn } /* Handle on hover */
 }
