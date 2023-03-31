@@ -245,13 +245,6 @@ const MembershipHome = () => {
 					</div>
 
 					<div className="text-center text-white flex gap-10 uppercase">
-						<Link
-							href="#"
-							className="border-2 btn bg-transparent border-mustard"
-						>
-							Learn more
-						</Link>
-
 						<Link href="#" className="border-2 btn border-mustard">
 							Apply
 						</Link>
