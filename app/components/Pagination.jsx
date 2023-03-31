@@ -1,32 +1,50 @@
-const Pagination = ({ className }) => {
+"use client";
+
+import { useEffect } from "react";
+const Pagination = ({ className, pages, currentPage, setCurrentPage }) => {
+	const firstPage = currentPage == 1;
+	const lastPage = currentPage == pages.length;
+
+	useEffect(() => {
+		// window.scrollTo({ top: 0, left: 0 });
+		// window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+	}, [currentPage]);
+
 	return (
 		<div className={`mt-16 flex justify-center ${className}`}>
 			<nav aria-label="Page navigation example">
 				<ul className="list-style-none flex gap-2">
 					<li>
-						<a className="pointer-events-none rounded py-1.5 px-3">
+						<button
+							onClick={() => setCurrentPage(currentPage - 1)}
+							className={`rounded py-1.5 px-3 ${
+								firstPage && "pointer-events-none"
+							}`}
+						>
 							Previous
-						</a>
+						</button>
 					</li>
-					{[...Array(10)].map((e, i) => (
+					{pages.map((e, i) => (
 						<li key={i}>
-							<a
+							<button
 								className={`rounded py-1.5 px-3 hover:bg-dawn-500 ${
-									i === 2 && "bg-dawn-500"
+									e === currentPage && "bg-dawn-500"
 								}`}
-								href="#!"
+								onClick={() => setCurrentPage(e)}
 							>
-								{i + 1}
-							</a>
+								{e}
+							</button>
 						</li>
 					))}
 					<li>
-						<a
-							className="rounded py-1.5 px-3 hover:bg-dawn-500"
-							href="#!"
+						<button
+							className={`rounded py-1.5 px-3 hover:bg-dawn-500 ${
+								lastPage && "pointer-events-none"
+							}`}
+							onClick={() => setCurrentPage(currentPage + 1)}
 						>
 							Next
-						</a>
+						</button>
 					</li>
 				</ul>
 			</nav>
