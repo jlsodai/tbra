@@ -15,20 +15,18 @@ const Page = () => {
 							of diversity as a catalyst for improved business
 							performance by connecting them with diverse and
 							talented industry leaders open to adding value and
-							expertise on boards.
+							expertise on boards. Over the years, we&apos;ve
+							successfully undertaken governance reviews and the
+							identification and selection of chairpersons,
+							non-executive directors and even investment
+							committee members for partners covering a wide range
+							of industries.
 						</p>
 						<p>
-							Over the years, we&apos;ve successfully undertaken
-							governance reviews and the identification and
-							selection of chairpersons, non-executive directors
-							and even investment committee members for partners
-							covering a wide range of industries.
-						</p>
-						<p>
-							Our <strong>board recruitment</strong> and
-							<strong>advertisement</strong>erings ensure we meet
-							our clients where there are on their recruitment
-							journies.
+							Our <strong>board recruitment</strong> and{" "}
+							<strong>advertisement</strong> offerings ensure we
+							meet our clients where there are on their
+							recruitment journies.
 						</p>
 						<p>
 							Take a look at our recruitment offerings and get in
@@ -37,7 +35,8 @@ const Page = () => {
 					</KeySection>
 
 					<img
-						src="https://tbratest.my.canva.site/board-roles/images/648bcbfed88271511db9546a3fc39661.jpg"
+						src="https://res.cloudinary.com/tbra/image/upload/v1680234458/cvs_pvyxbj.jpg"
+						className="lg:max-w-[500px] lg:ml-auto grayscale"
 						alt=""
 					/>
 				</div>
