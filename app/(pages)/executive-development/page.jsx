@@ -4,7 +4,7 @@ import KeySection from "@/app/sections/KeySection";
 import { HiOutlineCalendar } from "react-icons/hi2";
 import { GoCalendar } from "react-icons/go";
 import ProgramCard from "@/app/components/ProgramCard";
-import { programmes } from "@/app/utils/options";
+import { certificates } from "@/app/lib/programmes";
 
 const Page = () => {
 	return (
@@ -36,7 +36,7 @@ const Page = () => {
 
 			<section>
 				<div className="container grid grid-cols-2 gap-20">
-					{programmes.map((programme, i) => (
+					{certificates.map((programme, i) => (
 						<ProgramCard key={i} programme={programme} />
 					))}
 				</div>
