@@ -1,5 +1,5 @@
 export const esgProgramme = {
-	outline: [
+	outlines: [
 		{
 			title: "Introduction to ESG: Past and Present",
 			content:
@@ -89,3 +89,47 @@ export const esgProgramme = {
 		},
 	],
 };
+
+export const certificates = [
+	{
+		title: "Open Doors, Accredited Certificate in Company Direction",
+		date: "March 2023",
+		imageUrl:
+			"https://tbratest.my.canva.site/executive-development-page/images/128b157c5a41f2c2b630bbb9d2543b69.jpg",
+		registerUrl: "#!",
+		learnMoreUrl: "#!",
+		sold: true,
+	},
+	{
+		title: "Ontological Growth Experience",
+		date: "June 2023",
+		imageUrl:
+			"https://tbratest.my.canva.site/executive-development-page/images/128b157c5a41f2c2b630bbb9d2543b69.jpg",
+		registerUrl: "#!",
+		learnMoreUrl: "#!",
+	},
+	{
+		title: "Open Doors, Accredited Certificate in Company Direction",
+		date: "July 2023",
+		imageUrl:
+			"https://tbratest.my.canva.site/executive-development-page/images/128b157c5a41f2c2b630bbb9d2543b69.jpg",
+		registerUrl: "#!",
+		learnMoreUrl: "#!",
+	},
+	{
+		title: "Environmental Social and Governance Certificate ",
+		date: "August 2023",
+		imageUrl:
+			"https://tbratest.my.canva.site/executive-development-page/images/128b157c5a41f2c2b630bbb9d2543b69.jpg",
+		registerUrl: "#!",
+		learnMoreUrl: "#!",
+	},
+	{
+		title: "Qualified Risk Director",
+		date: "Open enrollment",
+		imageUrl:
+			"https://tbratest.my.canva.site/executive-development-page/images/128b157c5a41f2c2b630bbb9d2543b69.jpg",
+		registerUrl: "#!",
+		learnMoreUrl: "#!",
+	},
+];
