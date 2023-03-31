@@ -2,13 +2,19 @@ import HeaderTitle from "@/app/sections/HeaderTitle";
 import CascadeImg from "@/app/components/CascadeImg";
 import AccordionSection from "@/app/sections/AccordionSection";
 import KeySection from "@/app/sections/KeySection";
-import { RiCustomerService2Fill } from "react-icons/ri";
+import {
+	RiTeamFill,
+	RiVideoFill,
+	RiSmartphoneLine,
+	RiArticleLine,
+} from "react-icons/ri";
 import BrochureDrawer from "@/app/components/BrochureDrawer";
 import InstructorSlides from "@/app/components/InstructorSlides";
 import TestimonialSlider from "@/app/components/TestimonialSlider";
 import TrustedBy from "@/app/components/TrustedBy";
 import StatsSection from "@/app/sections/StatsSection";
 import { esgIcons, instructorDetails } from "@/app/utils/options";
+import { esgProgramme } from "@/app/lib/programmes";
 
 const Page = () => {
 	return (
@@ -50,40 +56,24 @@ const Page = () => {
 				</div>
 			</section>
 
-			{/* <section className="container">
-				<div className="grid grid-cols-2 gap-20">
-					<Testimonial
-						quote="Our partners and donors provide invaluable support and share our vision for creating a gender-equal world. From foundations to corporations, our partners know that investing in TheBoardroom Africa is an investment in a more inclusive society, a stronger business community and Africa’s development objectives. We work with our donors and partners to achieve shared development objectives such as gender inclusion and jobs created. We work with our donors and partners to achieve shared development objectives such as gender inclusion and jobs created."
-						author="Liesel Pritzker Simmons"
-						authorTitle="Co-founder and Principle, Blue Haven Initiative"
-					/>
-					<div className="grid grid-cols-5 gap-10 self-center">
-						<div>&nbsp;</div>
-						<KeySection
-							heading="What they say about us"
-							keyPosition="right"
-						/>
-					</div>
-				</div>
-			</section> */}
-
-			{/* <section className="bg-white pt-16 lg:py-24">
-				<div className="pb-16 bg-darkblue lg:pb-0 lg:z-10 lg:relative"> */}
 			<TestimonialSlider />
-			{/* </div>
-			</section> */}
 
 			<section>
 				<div className="container">
 					<div className="grid grid-cols-2 gap-10 innerPadding">
-						<CascadeImg src="https://placeholder.com/700x450" />
+						<CascadeImg
+							src="https://theboardroomafrica.com/wp-content/uploads/2022/10/esg_introimg.jpg"
+							className="w-[800px] object-[-242px]"
+						/>
 						<div className="">
 							<KeySection
 								heading="Browse course outline"
 								keyPosition="right"
 								className="py-0"
 							/>
-							<AccordionSection />
+							<AccordionSection
+								outlines={esgProgramme.outlines}
+							/>
 						</div>
 					</div>
 				</div>
@@ -94,16 +84,20 @@ const Page = () => {
 			<section className="my-24">
 				<div className="container">
 					<h2 className="text-center text-gray-700">Key features</h2>
-					<div className="grid grid-cols-7 text-center gap-10 text-xs mt-16">
+					<div className="grid grid-cols-6 text-center gap-10 text-xs mt-16">
 						<div>&nbsp;</div>
-						{[1, 2, 3, 4, 5].map((e, i) => (
-							<div key={i} className="flex flex-col items-center">
-								<RiCustomerService2Fill className="text-6xl text-mustard" />
-								<p className="mt-4">
-									Dedicated programme support team
-								</p>
-							</div>
-						))}
+						<Expectation title="Dedicated programme support team">
+							<RiTeamFill className="text-6xl text-mustard" />
+						</Expectation>
+						<Expectation title="12 intensive and interactive sessions with world-class faculty">
+							<RiVideoFill className="text-6xl text-mustard" />
+						</Expectation>
+						<Expectation title="Real-life case studies and scenarios">
+							<RiArticleLine className="text-6xl text-mustard" />
+						</Expectation>
+						<Expectation title="Learning platform with mobile access">
+							<RiSmartphoneLine className="text-6xl text-mustard" />
+						</Expectation>
 						<div>&nbsp;</div>
 					</div>
 				</div>
@@ -124,3 +118,12 @@ const Page = () => {
 	);
 };
 export default Page;
+
+const Expectation = ({ title, children }) => {
+	return (
+		<div className="flex flex-col items-center">
+			{children}
+			<p className="mt-4">{title}</p>
+		</div>
+	);
+};
