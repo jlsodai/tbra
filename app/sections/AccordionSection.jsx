@@ -1,21 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import {
-	Accordion,
-	AccordionHeader,
-	AccordionBody,
-} from "@material-tailwind/react";
+import { Accordion, AccordionBody } from "@material-tailwind/react";
 import { CgChevronDown, CgChevronUp } from "react-icons/cg";
 
-const accordionTitles = [
-	"International role of the director",
-	"Finance for directors",
-	"Leadership for directors",
-	"Strategy for directors",
-];
-
-const AccordionSection = () => {
+const AccordionSection = ({ outlines = [] }) => {
 	const [open, setOpen] = useState(1);
 
 	const handleOpen = (value) => {
@@ -23,32 +12,21 @@ const AccordionSection = () => {
 	};
 
 	return (
-		<>
-			{accordionTitles.map((accordionTitle, i) => (
+		<div className="v-scroll max-h-[425px] flex flex-col space-y-3 pr-6 mt-4">
+			{outlines.map((outline, i) => (
 				<Accordion key={i} open={open === i + 1}>
 					<button
 						onClick={() => handleOpen(i + 1)}
-						className="flex justify-between items-center border border-mustard text-center p-4 w-full mt-4"
+						className="flex justify-between items-center border border-mustard text-center w-full p-4"
 					>
 						<div>&nbsp;</div>
-						<div>{accordionTitle}</div>
+						<div>{outline.title}</div>
 						{open === i + 1 ? <CgChevronDown /> : <CgChevronUp />}
 					</button>
-					<AccordionBody>
-						Delivering an essential understanding of the board’s
-						role in corporate governance and risk management, this
-						introduction to the duties and legal responsibilities of
-						a director will enable you to tackle the challenges of
-						the boardroom with fresh confidence. Whether you’re a
-						newly appointed director, aspiring to a position on the
-						board, or looking to improve your performance with fresh
-						insight, this practical two-day module will equip you
-						with the crucial knowledge and skill-set to fulfil your
-						role successfully.
-					</AccordionBody>
+					<AccordionBody>{outline.content}</AccordionBody>
 				</Accordion>
 			))}
-		</>
+		</div>
 	);
 };
 
