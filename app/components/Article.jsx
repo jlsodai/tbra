@@ -5,14 +5,11 @@ import _ from "lodash";
 import Pagination from "@/app/components/Pagination";
 import { useState } from "react";
 
-const Article = ({ posts }) => {
+const Article = ({ posts, pageSize = 9 }) => {
 	const [currentPage, setCurrentPage] = useState(1);
 	// const { itemsCount, pageSize, currentPage, onPageChange } = props;
-	const pageSize = 9;
 	const pageCount = Math.ceil(posts.length / pageSize);
-	// if (pageCount === 1) return null;
 	const pages = _.range(1, pageCount + 1);
-	// console.log(pages);
 	const startIndex = (currentPage - 1) * pageSize;
 
 	const data = _(posts).slice(startIndex).take(pageSize).value();

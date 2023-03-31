@@ -11,7 +11,23 @@ const page = ({ params }) => {
 		<>
 			<HeaderTitle title={post.title} />
 			<section>
-				<Venngage />
+				<div className="container mt-16">
+					{post.publicationTypes.nodes[0].name === "Infographic" ? (
+						<div
+							dangerouslySetInnerHTML={{
+								__html: post.infog.venngageCode,
+							}}
+						></div>
+					) : (
+						<div className="prose max-w-full mx-44">
+							<div
+								dangerouslySetInnerHTML={{
+									__html: post.content,
+								}}
+							></div>
+						</div>
+					)}
+				</div>
 			</section>
 		</>
 	);
