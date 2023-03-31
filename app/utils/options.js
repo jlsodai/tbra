@@ -683,7 +683,7 @@ export const memberSlides = [
 		style: {
 			background:
 				'linear-gradient(rgba(34,35,68, 0.75), rgba(34,35,68, 0.75)), url("https://tbratest.my.canva.site/membership-landing-page/images/90710e7cced9762fbf374e15a4c488c0.jpg")',
-			backgroundPosition: "cover",
+			backgroundSize: "cover",
 		},
 	},
 	{
@@ -692,8 +692,8 @@ export const memberSlides = [
 			"Being a woman at the top can be a lonely experience; TheBoardroom Africa enables our members to realise they don’t have to go at it alone. Join the most influential private community of women leaders on the continent and together transform your leadership while staying at the top.",
 		style: {
 			background:
-				'linear-gradient(rgba(34,35,68, 0.75), rgba(34,35,68, 0.75)), url("https://tbratest.my.canva.site/membership-landing-page/images/90710e7cced9762fbf374e15a4c488c0.jpg")',
-			backgroundPosition: "cover",
+				'linear-gradient(rgba(34,35,68, 0.75), rgba(34,35,68, 0.75)), url("https://res.cloudinary.com/tbra/image/upload/v1680257493/influential_axcerl.jpg")',
+			backgroundSize: "cover",
 		},
 	},
 	{
@@ -702,8 +702,9 @@ export const memberSlides = [
 			"To disrupt the status quo, we must intentionally cultivate a pipeline of leaders. Connect to a network of other leading women and together, unlock access to opportunities, transform your presence through executive development, peer networking, in-person gatherings and more.",
 		style: {
 			background:
-				'linear-gradient(rgba(34,35,68, 0.75), rgba(34,35,68, 0.75)), url("https://tbratest.my.canva.site/membership-landing-page/images/90710e7cced9762fbf374e15a4c488c0.jpg")',
-			backgroundPosition: "cover",
+				'linear-gradient(rgba(34,35,68, 0.75), rgba(34,35,68, 0.75)), url("https://res.cloudinary.com/tbra/image/upload/v1680257489/face_of_leadership_pwc0pk.jpg")',
+			backgroundSize: "cover",
+			backgroundPosition: "300px",
 		},
 	},
 	{
