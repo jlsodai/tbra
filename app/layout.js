@@ -12,17 +12,54 @@ const noto = Noto_Serif_Display({
 	variable: "--font-noto-serif-display",
 });
 
-const inter = Inter({
+// const inter = Inter({
+// 	variable: "--font-inter",
+// 	subsets: ["latin"],
+// 	display: "swap",
+// });
+
+// const libreb = Libre_Baskerville({
+// 	variable: "--font-libre-baskerville",
+// 	subsets: ["latin"],
+// 	weight: ["400", "700"],
+// 	display: "swap",
+// });
+
+const inter = localFont({
+	src: [
+		{
+			path: "../public/fonts/Inter-Regular.ttf",
+			weight: "400",
+			style: "normal",
+		},
+		{
+			path: "../public/fonts/Inter-Light.ttf",
+			weight: "200",
+			style: "light",
+		},
+		{
+			path: "../public/fonts/Inter-Bold.ttf",
+			weight: "700",
+			style: "bold",
+		},
+	],
 	variable: "--font-inter",
-	subsets: ["latin"],
-	display: "swap",
 });
 
-const libreb = Libre_Baskerville({
+const libreb = localFont({
+	src: [
+		{
+			path: "../public/fonts/LibreBaskerville-Regular.ttf",
+			weight: "400",
+			style: "normal",
+		},
+		{
+			path: "../public/fonts/LibreBaskerville-Bold.ttf",
+			weight: "700",
+			style: "bold",
+		},
+	],
 	variable: "--font-libre-baskerville",
-	subsets: ["latin"],
-	weight: ["400", "700"],
-	display: "swap",
 });
 
 const halyard = localFont({
