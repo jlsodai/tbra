@@ -14,7 +14,7 @@ export default function Example() {
 		<>
 			{/* <HeaderTitle title="Board Diversity Index" /> */}
 			<HeroAlt title="Board Diversity Index">
-				<p className="text-dawn font-light">
+				<p className="text-dawn">
 					Since 2017, TheBoardroom Africa has mapped the composition
 					of Africa&apos;s listed boards to assess progress on gender
 					diversity across the region. The index tracks the number of
