@@ -56,13 +56,14 @@ const Article = ({ posts, pageSize = 9 }) => {
 	const countries = _.uniq(_.map(posts, "pubCountries.nodes[0].name")).sort();
 
 	const data = _(articles).slice(startIndex).take(pageSize).value();
+	console.log(data.length);
 
 	return (
 		<>
 			<div className="flex justify-between items-center mb-8">
 				<p>
 					Showing: {startIndex + 1} to{" "}
-					{Math.min(startIndex + pageSize + 1, articles.length)} of{" "}
+					{Math.min(currentPage * pageSize, articles.length)} of{" "}
 					{articles.length} publications
 				</p>
 				<div className="flex gap-10">
