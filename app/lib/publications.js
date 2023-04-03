@@ -1,5 +1,6 @@
 export const publications = [
 	{
+		id: "cG9zdDo3Njk2",
 		databaseId: 7696,
 		slug: "2022-cote-divoire-edition",
 		content: null,
@@ -28,8 +29,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Côte D'Ivoire",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3Njk1",
 		databaseId: 7695,
 		slug: "2021-cote-divoire-edition",
 		content: null,
@@ -58,8 +67,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Côte D'Ivoire",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3Njk0",
 		databaseId: 7694,
 		slug: "2020-cote-divoire-edition",
 		content: null,
@@ -88,8 +105,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Côte D'Ivoire",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3Njkz",
 		databaseId: 7693,
 		slug: "2019-cote-divoire-edition",
 		content: null,
@@ -118,8 +143,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Côte D'Ivoire",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3Njky",
 		databaseId: 7692,
 		slug: "2022-morocco-edition",
 		content: null,
@@ -148,8 +181,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Morocco",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3Njkx",
 		databaseId: 7691,
 		slug: "2021-morocco-edition",
 		content: null,
@@ -178,8 +219,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Morocco",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3Njkw",
 		databaseId: 7690,
 		slug: "2020-morocco-edition",
 		content: null,
@@ -208,8 +257,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Morocco",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3Njg5",
 		databaseId: 7689,
 		slug: "2019-morocco-edition",
 		content: null,
@@ -238,8 +295,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Morocco",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3Njg4",
 		databaseId: 7688,
 		slug: "2022-uganda-edition",
 		content: null,
@@ -268,8 +333,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Uganda",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3Njg3",
 		databaseId: 7687,
 		slug: "2021-uganda-edition",
 		content: null,
@@ -298,8 +371,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Uganda",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3Njg2",
 		databaseId: 7686,
 		slug: "2020-uganda-edition",
 		content: null,
@@ -328,8 +409,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Uganda",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3Njgz",
 		databaseId: 7683,
 		slug: "2019-uganda-edition",
 		content: null,
@@ -358,8 +447,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Uganda",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3Njgy",
 		databaseId: 7682,
 		slug: "2022-tanzania-edition",
 		content: null,
@@ -388,8 +485,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Tanzania",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3Njgx",
 		databaseId: 7681,
 		slug: "2021-tanzania-edition",
 		content: null,
@@ -418,8 +523,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Tanzania",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3Njgw",
 		databaseId: 7680,
 		slug: "2020-tanzania-edition",
 		content: null,
@@ -448,8 +561,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Tanzania",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3Njc5",
 		databaseId: 7679,
 		slug: "2019-tanzania-edition",
 		content: null,
@@ -478,8 +599,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Tanzania",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3Njc3",
 		databaseId: 7677,
 		slug: "2022-rwanda-edition",
 		content: null,
@@ -508,8 +637,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Rwanda",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3Njc2",
 		databaseId: 7676,
 		slug: "2021-rwanda-edition",
 		content: null,
@@ -538,8 +675,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Rwanda",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3Njc1",
 		databaseId: 7675,
 		slug: "2020-rwanda-edition",
 		content: null,
@@ -568,8 +713,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Rwanda",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3Njc0",
 		databaseId: 7674,
 		slug: "2019-rwanda-edition",
 		content: null,
@@ -598,8 +751,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Rwanda",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3NjY4",
 		databaseId: 7668,
 		slug: "2019-zambia-edition",
 		content: null,
@@ -628,8 +789,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Zambia",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3NjY3",
 		databaseId: 7667,
 		slug: "2020-zambia-edition",
 		content: null,
@@ -658,8 +827,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Zambia",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3NjY2",
 		databaseId: 7666,
 		slug: "2021-zambia-edition",
 		content: null,
@@ -688,8 +865,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Zambia",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3NjY1",
 		databaseId: 7665,
 		slug: "2022-zambia-edition",
 		content: null,
@@ -718,8 +903,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Zambia",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3NjY0",
 		databaseId: 7664,
 		slug: "2019-nigeria-edition",
 		content: null,
@@ -748,8 +941,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Nigeria",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3NjYz",
 		databaseId: 7663,
 		slug: "2020-nigeria-edition",
 		content: null,
@@ -778,8 +979,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Nigeria",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3NjYy",
 		databaseId: 7662,
 		slug: "2021-nigeria-edition",
 		content: null,
@@ -808,8 +1017,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Nigeria",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3NjYx",
 		databaseId: 7661,
 		slug: "2022-nigeria-edition",
 		content: null,
@@ -838,8 +1055,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Nigeria",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3NjYw",
 		databaseId: 7660,
 		slug: "2022-south-africa-edition",
 		content: null,
@@ -868,8 +1093,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "South Africa",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3NjU5",
 		databaseId: 7659,
 		slug: "2021-south-africa-edition",
 		content: null,
@@ -898,8 +1131,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "South Africa",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3NjU4",
 		databaseId: 7658,
 		slug: "2020-south-africa-edition",
 		content: null,
@@ -928,8 +1169,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "South Africa",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3NjU3",
 		databaseId: 7657,
 		slug: "2019-south-africa-edition",
 		content: null,
@@ -958,8 +1207,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "South Africa",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3NjU2",
 		databaseId: 7656,
 		slug: "2022-kenya-edition",
 		content: null,
@@ -988,8 +1245,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Kenya",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3NjU1",
 		databaseId: 7655,
 		slug: "2021-kenya-edition",
 		content: null,
@@ -1018,8 +1283,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Kenya",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3NjU0",
 		databaseId: 7654,
 		slug: "2020-kenya-edition",
 		content: null,
@@ -1048,8 +1321,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Kenya",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3NjUz",
 		databaseId: 7653,
 		slug: "2019-kenya-edition",
 		content: null,
@@ -1078,8 +1359,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Kenya",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3NjQ0",
 		databaseId: 7644,
 		slug: "2022-egypt-edition",
 		content: null,
@@ -1108,8 +1397,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Egypt",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3NjQz",
 		databaseId: 7643,
 		slug: "2021-egypt-edition",
 		content: null,
@@ -1138,8 +1435,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Egypt",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3NjQy",
 		databaseId: 7642,
 		slug: "2020-egypt-edition",
 		content: null,
@@ -1168,8 +1473,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Egypt",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3NjQx",
 		databaseId: 7641,
 		slug: "2019-egypt-edition",
 		content: null,
@@ -1198,8 +1511,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Egypt",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3NjQw",
 		databaseId: 7640,
 		slug: "2022-ghana-edition",
 		content: null,
@@ -1228,8 +1549,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Ghana",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3NjM5",
 		databaseId: 7639,
 		slug: "2021-ghana-edition",
 		content: null,
@@ -1258,8 +1587,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Ghana",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3NjM2",
 		databaseId: 7636,
 		slug: "2020-ghana-edition",
 		content: null,
@@ -1288,8 +1625,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Ghana",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3MDkw",
 		databaseId: 7090,
 		slug: "board-diversity-index-ghana-2022-edition-5",
 		content:
@@ -1318,8 +1663,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Ghana",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3MDkx",
 		databaseId: 7091,
 		slug: "board-diversity-index-ghana-2022-edition-4",
 		content:
@@ -1348,8 +1701,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Egypt",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3MDky",
 		databaseId: 7092,
 		slug: "board-diversity-index-ghana-2022-edition-3",
 		content:
@@ -1378,8 +1739,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Ghana",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3MDg5",
 		databaseId: 7089,
 		slug: "board-diversity-index-ghana-2022-edition-2",
 		content:
@@ -1408,8 +1777,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Egypt",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo3MDg2",
 		databaseId: 7086,
 		slug: "board-diversity-index-ghana-2022-edition",
 		content:
@@ -1438,8 +1815,16 @@ export const publications = [
 				},
 			],
 		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Ghana",
+				},
+			],
+		},
 	},
 	{
+		id: "cG9zdDo1Mzcx",
 		databaseId: 5371,
 		slug: "2019-ghana-infographic",
 		content: null,
@@ -1465,6 +1850,13 @@ export const publications = [
 			nodes: [
 				{
 					name: "2019",
+				},
+			],
+		},
+		pubCountries: {
+			nodes: [
+				{
+					name: "Ghana",
 				},
 			],
 		},

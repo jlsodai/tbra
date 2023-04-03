@@ -6,6 +6,14 @@ const Pagination = ({ className, pages, currentPage, setCurrentPage }) => {
 	const lastPage = currentPage == pages.length;
 
 	useEffect(() => {
+		const scrollStep = -window.scrollY / (500 / 15);
+		const scrollInterval = setInterval(() => {
+			if (window.scrollY !== 0) {
+				window.scrollBy(0, scrollStep);
+			} else {
+				clearInterval(scrollInterval);
+			}
+		}, 15);
 		// window.scrollTo({ top: 0, left: 0 });
 		// window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
 	}, [currentPage]);
