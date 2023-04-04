@@ -5,6 +5,7 @@ import StatsSection from "@/app/sections/StatsSection";
 import { esgIcons, instructorDetails } from "@/app/utils/options";
 import { fetchData } from "@/app/lib/fetchData";
 import ProgramBlocks from "@/app/sections/ProgramBlocks";
+import ProgrammeLogos from "@/app/components/ProgrammeLogos";
 
 export default async function Page() {
 	const data = await fetchData("programmes/2?populate=*");
@@ -23,10 +24,9 @@ export default async function Page() {
 			<section className="bg-white" data-aos="fade-up">
 				<div className="container my-28">
 					<h2 className="text-center text-dusk">
-						Some of the companies that trust our instructor&apos;s
-						experience include:
+					Rachel&apos;s work is trusted by organisations like:
 					</h2>
-					<TrustedBy logos={esgIcons} />
+					<ProgrammeLogos logos={attributes.trustedBy} />
 				</div>
 			</section>
 

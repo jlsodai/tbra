@@ -6,6 +6,7 @@ import { esgIcons, instructorDetails } from "@/app/utils/options";
 import { esgProgramme } from "@/app/lib/programmes";
 import { fetchData } from "@/app/lib/fetchData";
 import ProgramBlocks from "@/app/sections/ProgramBlocks";
+import ProgrammeLogos from "@/app/components/ProgrammeLogos";
 
 export default async function Page() {
 	const data = await fetchData("programmes/1?populate=*");
@@ -26,10 +27,9 @@ export default async function Page() {
 			<section className="bg-white" data-aos="fade-up">
 				<div className="container my-28">
 					<h2 className="text-center text-dusk">
-						Some of the companies that trust our instructor&apos;s
-						experience include:
+						Past delegates have come from the following companies:
 					</h2>
-					<TrustedBy logos={esgIcons} />
+					<ProgrammeLogos logos={attributes.trustedBy} />
 				</div>
 			</section>
 

@@ -5,6 +5,7 @@ import StatsSection from "@/app/sections/StatsSection";
 import { esgIcons, instructorDetails } from "@/app/utils/options";
 import { fetchData } from "@/app/lib/fetchData";
 import ProgramBlocks from "@/app/sections/ProgramBlocks";
+import ProgrammeLogos from "@/app/components/ProgrammeLogos";
 
 export default async function Page() {
 	const data = await fetchData("programmes/3?populate=*");
@@ -26,7 +27,7 @@ export default async function Page() {
 						Some of the companies that trust our instructor&apos;s
 						experience include:
 					</h2>
-					<TrustedBy logos={esgIcons} />
+					<ProgrammeLogos logos={attributes.trustedBy} />
 				</div>
 			</section>
 
