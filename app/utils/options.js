@@ -50,8 +50,8 @@ export const menuLinks = [
 				href: "/executive-development/esg-certificate",
 			},
 			{
-				name: "TLM",
-				href: "#",
+				name: "Ontological Growth Experience",
+				href: "/executive-development/ontological-growth-experience",
 			},
 		],
 	},
