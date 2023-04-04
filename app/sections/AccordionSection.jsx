@@ -23,7 +23,7 @@ const AccordionSection = ({ outlines = [] }) => {
 						<div>{outline.title}</div>
 						{open === i + 1 ? <CgChevronDown /> : <CgChevronUp />}
 					</button>
-					<AccordionBody>{outline.content}</AccordionBody>
+					<AccordionBody>{outline.description}</AccordionBody>
 				</Accordion>
 			))}
 		</div>

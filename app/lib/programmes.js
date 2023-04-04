@@ -26,57 +26,57 @@ export const esgProgramme = {
 	outlines: [
 		{
 			title: "Introduction to ESG: Past and Present",
-			content:
+			description:
 				"This introductory session explores the historical role corporations have played in advancing social good, from corporate social responsibility to corporate philanthropy and impact. You will learn about the journey from Socially Responsible Investment (SRI) to environmental, social and governance (ESG) criteria. Participants will also be introduced to the roles and responsibilities of different actors in the system, from investors to governments and nonprofits.",
 		},
 		{
 			title: "Global Trends Driving the Sustainability Agenda",
-			content:
+			description:
 				"ESG is not only in the mainstream, but it also shapes the market. The session probes the factors driving growing momentum around the ESG agenda. You will dive into the role of key stakeholders, including investors, consumers, the media, regulators and more, in accelerating pressure for disclosure and action.",
 		},
 		{
 			title: "The Role of Regulation in Advancing ESG",
-			content:
+			description:
 				"Regulatory scrutiny of ESG is on the rise as a growing number of countries seem to encourage companies to report on their environmental and social risk. You will learn what's driving new regulations and reporting standards. By the end of this session, you will understand the “alphabet soup” of regulation around ESG and how it impacts corporate strategy and compliance requirements.",
 		},
 		{
 			title: "ESG and Value Creation",
-			content:
+			description:
 				"Research shows that thinking and acting proactively on ESG can generate commercial, reputation and societal returns. Your ESG journey should take a holistic approach that considers how to optimise value creation. You will delve into how a strong ESG proposition can accelerate top-line growth, reduce costs, garner government support, attract talent and enhance long-term returns.",
 		},
 		{
 			title: "Managing and Assessing ESG Risks and Opportunities",
-			content:
+			description:
 				"ESG variables can have a considerable impact on a company's long-term sustainability and profitability. Overlooking these risks can result in financial and reputation losses. This session breaks down key considerations when assessing and managing ESG risks to help you understand how to move from a compliance-driven approach to a proactive risk reduction strategy. You will also learn about best practices when designing an effective Environmental and Social Management System (ESMS).",
 		},
 		{
 			title: "The Business Implications of ESG Issues",
-			content:
+			description:
 				"Having understood key ESG considerations, companies need to take action. To be successful, you must adopt a practical approach. You will learn about how to design an ESG action plan built around key ESG themes that are material for most businesses across industries whilst taking into account the “5 signals”: regulation, litigation, clients, employees/investors and activism. The session will also explore practical approaches focused on materiality and competitive advantage, developed by leading academics from London Business School and New York University.",
 		},
 		{
 			title: "Leadership and Culture",
-			content:
+			description:
 				"This session focuses on leadership and culture in the context of agenda setting, challenging the status quo, and shaping mindsets and the organisation's culture.",
 		},
 		{
 			title: "Role of the Board in Setting and Overseeing the Implementation of the ESG agenda",
-			content:
+			description:
 				"There are extensive legal, academic and investor arguments for and against incorporating ESG into decision-making. This session will explore contemporary debates around the evidence and rationale around addressing the material impacts of ESG in corporate strategy.",
 		},
 		{
 			title: "Determining an Effective ESG Governance Model: Board Composition and Structure",
-			content:
+			description:
 				'There is no "one-size-fits-all" approach for determining how ESG will be overseen by the board and its committees. The session will cover the factors to be considered in determining an effective board governance model around ESG. Key topics addressed include business context, business strategy, resource availability and efficiency, risk profile and more. You will also learn about board diversity from an ESG perspective as well as how to optimise ESG oversight models in the boardroom and how to consider ESG data in board decision-making.',
 		},
 		{
 			title: "Deep Dive Sessions on Environmental and Social Issues",
-			content:
+			description:
 				"You will engage in two deep dive sessions focused on managing environmental and social challenges. Each session will introduce a case study of a company navigating a major environmental and social issue, respectively. Through a practical, discussion-based session, you will apply what you've learned about effective ESG strategy to develop approaches for crisis mitigation, risk management and future value creation.",
 		},
 		{
 			title: "ESG Reporting and How to Avoid/Spot Greenwashing",
-			content:
+			description:
 				"It can be tricky to parse out the “sense and nonsense” of ESG reporting frameworks, which are numerous and ever-evolving. You will be introduced to frameworks and best practices around developing an ESG narrative so that you are equipped to prioritise factors and metrics that matter. By the end of this session, you will be able to: <br/><ul><li>Determine - as a potential client - which ESG funds are 'genuinely' ESG</li><li>Better articulate - as an asset manager - why your ESG fund is 'genuinely' ESG</li><li>Better articulate - as a manager - how your company defines ESG / CSR</li></ul>",
 		},
 	],

@@ -25,11 +25,7 @@ const Page = () => {
 
 			<section className="container" data-aos="fade-up">
 				<div className="grid grid-cols-2 gap-20">
-					<KeySection
-						heading="Prepare for the future"
-						linkTitle="Learn about membership"
-						url="/membership"
-					>
+					<KeySection heading="Prepare for the future">
 						<p>
 							The Environmental, Social and Governance (ESG)
 							Certificate programme targets women directors and

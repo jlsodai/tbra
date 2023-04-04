@@ -50,7 +50,7 @@ const TestimonialSlider = ({ testimonials, imageUrl }) => {
 										<div>
 											<ImQuotesLeft className="h-12 w-12 text-white opacity-25" />
 											<p className="mt-6 text-xl text-white font-light">
-												{testimonial.message}
+												{testimonial.quote}
 											</p>
 										</div>
 										<footer className="mt-6">
