@@ -73,19 +73,19 @@ const Article = ({ posts, pageSize = 9 }) => {
 						options={years}
 						value={selectedYear}
 						setSelected={setSelectedYear}
-						name="years"
+						name="Year"
 					/>
 					<SelectFilter
 						options={countries}
 						value={selectedCountry}
 						setSelected={setSelectedCountry}
-						name="countries"
+						name="Country"
 					/>
 					<SelectFilter
 						options={pubtypes}
 						value={selectedType}
 						setSelected={setSelectedType}
-						name="publications"
+						name="Type"
 					/>
 				</div>
 			</div>
@@ -163,7 +163,7 @@ const SelectFilter = ({ options, value, setSelected, name }) => {
 			value={value}
 			onChange={(e) => setSelected(e.target.value)}
 		>
-			<option value="">All {name}</option>
+			<option value="">{name}</option>
 			{options.map((option) => (
 				<option key={option} value={option}>
 					{option}
