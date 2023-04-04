@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import KeySection from "@/app/sections/KeySection";
 import CascadeImg from "@/app/components/CascadeImg";
@@ -44,9 +45,10 @@ const ProgramBlocks = ({ attributes, introImg }) => {
 								allowfullscreen
 							></iframe>
 						) : (
-							<CascadeImg
+							<img
 								src={attributes.outlineImageUrl}
 								className="w-[100%] h-[505px]"
+								alt={attributes.Heading.title}
 							/>
 						)}
 						<div className="">
