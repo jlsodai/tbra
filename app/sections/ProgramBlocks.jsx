@@ -21,10 +21,7 @@ const ProgramBlocks = ({ attributes, introImg }) => {
 							{attributes.Intro.content}
 						</p>
 					</KeySection>
-					<CascadeImg
-						position="right"
-						src={introImg}
-					/>
+					<CascadeImg position="right" src={introImg} />
 				</div>
 			</section>
 
@@ -35,11 +32,23 @@ const ProgramBlocks = ({ attributes, introImg }) => {
 
 			<section data-aos="fade-up">
 				<div className="container">
-					<div className="grid grid-cols-2 gap-10 innerPadding">
-						<CascadeImg
-							src="https://theboardroomafrica.com/wp-content/uploads/2022/10/esg_introimg.jpg"
-							className="w-[800px] object-[-242px]"
-						/>
+					<div className="grid grid-cols-[3fr_2fr] gap-10 innerPadding">
+						{attributes.outlineVideoUrl ? (
+							<iframe
+								width="100%"
+								height="505"
+								src={attributes.outlineVideoUrl}
+								title={attributes.Heading.title}
+								frameborder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+								allowfullscreen
+							></iframe>
+						) : (
+							<CascadeImg
+								src={attributes.outlineImageUrl}
+								className="w-[100%] h-[505px]"
+							/>
+						)}
 						<div className="">
 							<KeySection
 								heading="Browse course outline"
