@@ -13,15 +13,15 @@ const Page = () => {
 
 			<section className="container" data-aos="fade-up">
 				<div className="grid grid-cols-2 gap-20">
-					<KeySection heading="Programmes Designed for today's leaders">
+					<KeySection heading="Programmes designed for today's leaders">
 						<p>
-							Whether you are looking to transform your presence
-							in the boardroom or lead your business and teams to
-							success in our new global context, we offer a range
-							of immersive experiences suited to your professional
+							Whether you want to transform your presence in the
+							boardroom or lead your business and teams to success
+							in our new global context, we offer a range of
+							immersive experiences suited to your professional
 							development goals. Navigate the complexities of
-							strategic leadership with our suite of Executive
-							Programmes.
+							strategic leadership with our suite of executive
+							programmes.
 						</p>
 					</KeySection>
 					{/* <CascadeImg

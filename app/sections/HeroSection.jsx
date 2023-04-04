@@ -16,9 +16,9 @@ const HeroSection = () => {
 					</h1>
 					<div className="md:max-w-[65%]">
 						<p className=" text-dawn">
-							TheBoardroom Africa is Africa&apos;s leading private
-							membership network that promotes exceptional female
-							talent to boards and executive teams while
+							TheBoardroom Africa is the continent&apos;s leading
+							private membership network that promotes exceptional
+							female talent to boards and executive teams while
 							transforming the presence and influence of African
 							women on a global stage.
 						</p>
