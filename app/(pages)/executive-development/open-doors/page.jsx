@@ -17,7 +17,7 @@ export default async function Page() {
 	return (
 		<>
 			<BrochureDrawer />
-			<HeaderTitle title="Certificate in Company Direction" />
+			<HeaderTitle title="Open Doors: Certificate in Company Direction" />
 
 			<ProgramBlocks
 				attributes={attributes}
