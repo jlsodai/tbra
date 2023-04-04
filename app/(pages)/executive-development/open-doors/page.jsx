@@ -162,7 +162,7 @@ export default async function Page() {
 				</div>
 			</section>
 
-			<InstructorSlides instructors={instructorDetails.esg} />
+			<InstructorSlides instructors={attributes.Instructors} />
 
 			<section className="my-24" data-aos="fade-up">
 				<div className="container">

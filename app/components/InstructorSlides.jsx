@@ -19,10 +19,10 @@ const InstructorSlides = ({ instructors }) => {
 				className +
 				'">' +
 				'<img src="' +
-				instructors[index].imageUrl +
+				instructors[index].instructorImage +
 				'" className="rounded-full" />' +
 				'<p class="text-sm mt-2">' +
-				instructors[index].name +
+				instructors[index].Name +
 				"</p>" +
 				"</div>"
 			);
@@ -52,13 +52,12 @@ const InstructorSlides = ({ instructors }) => {
 							<div className="container grid grid-cols-2 gap-24 items-center">
 								<div className="prose text-left">
 									<h2 className="mb-8 text-4xl">
-										{instructor.name}
+										{instructor.Name}
 									</h2>
-									{instructor.profile.map((profile, i) => (
-										<p key={i}>{profile}</p>
-									))}
+
+										<p className="whitespace-pre-wrap">{instructor.Profile}</p>
 								</div>
-								<img src={instructor.imageUrl} alt="" />
+								<img src={instructor.instructorImage} alt="" />
 							</div>
 						</SwiperSlide>
 					))}
