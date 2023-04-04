@@ -15,9 +15,12 @@ import TrustedBy from "@/app/components/TrustedBy";
 import StatsSection from "@/app/sections/StatsSection";
 import { esgIcons, instructorDetails } from "@/app/utils/options";
 import { esgProgramme } from "@/app/lib/programmes";
+import { fetchData } from "@/app/lib/fetchData";
 
-const Page = () => {
-	const { outlines, testimonials, testimonialImageUrl } = esgProgramme;
+export default async function Page() {
+	const data = await fetchData("programmes/2?populate=*");
+	const attributes = data?.data?.attributes;
+
 	return (
 		<>
 			<BrochureDrawer />
@@ -25,21 +28,9 @@ const Page = () => {
 
 			<section className="container" data-aos="fade-up">
 				<div className="grid grid-cols-2 gap-20">
-					<KeySection heading="Prepare for the future">
-						<p>
-							The Environmental, Social and Governance (ESG)
-							Certificate programme targets women directors and
-							executives looking to develop their understanding of
-							ESG issues and concepts, equipping them with the
-							tools required to drive ESG agendas in their
-							respective organisations.
-						</p>
-						<p>
-							This expert-led curriculum incorporates ESG
-							theoretical frameworks and trends, situating them
-							within a global context, with practical inputs
-							intended to support executives as they review their
-							roles in driving the ESG agenda
+					<KeySection heading={attributes.Intro.Title}>
+						<p className="whitespace-pre-wrap">
+							{attributes.Intro.content}
 						</p>
 					</KeySection>
 					<CascadeImg
@@ -52,8 +43,8 @@ const Page = () => {
 			</section>
 
 			<TestimonialSlider
-				testimonials={testimonials}
-				imageUrl={testimonialImageUrl}
+				testimonials={attributes.Testimonial}
+				imageUrl={attributes.testimonialImage}
 			/>
 
 			<section data-aos="fade-up">
@@ -69,13 +60,15 @@ const Page = () => {
 								keyPosition="right"
 								className="py-0"
 							/>
-							<AccordionSection outlines={outlines} />
+							<AccordionSection
+								outlines={attributes.CourseOutline}
+							/>
 						</div>
 					</div>
 				</div>
 			</section>
 
-			<InstructorSlides instructors={instructorDetails.esg} />
+			<InstructorSlides instructors={attributes.Instructors} />
 
 			<section className="my-24" data-aos="fade-up">
 				<div className="container">
@@ -112,8 +105,7 @@ const Page = () => {
 			{/* <StatsSection /> */}
 		</>
 	);
-};
-export default Page;
+}
 
 const Expectation = ({ title, children }) => {
 	return (
