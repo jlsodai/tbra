@@ -46,8 +46,8 @@ export const menuLinks = [
 				href: "/executive-development/open-doors",
 			},
 			{
-				name: "ESG Certificate Programme",
-				href: "/executive-development/esg-certificate-programme",
+				name: "ESG Certificate",
+				href: "/executive-development/esg-certificate",
 			},
 			{
 				name: "TLM",
