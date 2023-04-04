@@ -96,6 +96,8 @@ export const certificates = [
 		date: "March 2023",
 		imageUrl:
 			"https://tbratest.my.canva.site/executive-development-page/images/128b157c5a41f2c2b630bbb9d2543b69.jpg",
+		venue: "Virtual",
+		remaining: 0,
 		registerUrl: "#!",
 		learnMoreUrl: "#!",
 		sold: true,
@@ -105,6 +107,8 @@ export const certificates = [
 		date: "June 2023",
 		imageUrl:
 			"https://tbratest.my.canva.site/executive-development-page/images/128b157c5a41f2c2b630bbb9d2543b69.jpg",
+		venue: "Virtual",
+		remaining: 10,
 		registerUrl: "#!",
 		learnMoreUrl: "#!",
 	},
@@ -113,6 +117,8 @@ export const certificates = [
 		date: "July 2023",
 		imageUrl:
 			"https://tbratest.my.canva.site/executive-development-page/images/128b157c5a41f2c2b630bbb9d2543b69.jpg",
+		venue: "Virtual",
+		remaining: 20,
 		registerUrl: "#!",
 		learnMoreUrl: "#!",
 	},
@@ -121,6 +127,8 @@ export const certificates = [
 		date: "August 2023",
 		imageUrl:
 			"https://tbratest.my.canva.site/executive-development-page/images/128b157c5a41f2c2b630bbb9d2543b69.jpg",
+		venue: "Virtual",
+		remaining: 10,
 		registerUrl: "#!",
 		learnMoreUrl: "#!",
 	},
@@ -129,6 +137,8 @@ export const certificates = [
 		date: "Open enrollment",
 		imageUrl:
 			"https://tbratest.my.canva.site/executive-development-page/images/128b157c5a41f2c2b630bbb9d2543b69.jpg",
+		venue: "Virtual",
+		remaining: 12,
 		registerUrl: "#!",
 		learnMoreUrl: "#!",
 	},

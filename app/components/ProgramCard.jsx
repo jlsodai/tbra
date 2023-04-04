@@ -1,4 +1,5 @@
-import { GoCalendar } from "react-icons/go";
+import { GoCalendar, GoLocation } from "react-icons/go";
+import { IoPeopleOutline } from "react-icons/io5";
 const ProgramCard = ({ programme }) => {
 	return (
 		<div className="border border-dusk-200 hover:shadow-lg overflow-hidden md:flex">
@@ -7,20 +8,31 @@ const ProgramCard = ({ programme }) => {
 				style={{ backgroundImage: `url(${programme.imageUrl})` }}
 			></div>
 			<div className="py-4 px-6 flex flex-col justify-between">
-				<h3 className="font-halyard text-2xl mb-2">
-					{programme.title}
-				</h3>
+				<h3 className="font-libreb text-xl mb-2">{programme.title}</h3>
 				<div>
-					<div className="flex items-center gap-2">
-						<GoCalendar className="text-2xl" />
-						<p>{programme.date}</p>
+					<div className="flex gap-4 font-halyard font-light">
+						<div className="flex items-center gap-2">
+							<GoCalendar className="text-2xl" />
+							<p>{programme.date}</p>
+						</div>
+						<div className="flex items-center gap-2">
+							<GoLocation className="text-2xl" />
+							<p>{programme.venue}</p>
+						</div>
+						{/* <div className="flex items-center gap-2">
+							<IoPeopleOutline className="text-2xl" />
+							<p>10 remaining</p>
+						</div> */}
+						{/* <p className="text-xs rounded-full bg-dawn-300 py-1.5 px-3 font-medium">
+							10 remaining
+						</p> */}
 					</div>
 
-					<div className="flex gap-6 mt-4">
+					<div className="flex gap-3 mt-4 items-center">
 						{programme.learnMoreUrl && (
 							<a
 								href={programme.learnMoreUrl}
-								className="btn font-normal text-white"
+								className="btn font-normal text-white shrink-0"
 							>
 								Learn More
 							</a>
@@ -28,18 +40,23 @@ const ProgramCard = ({ programme }) => {
 						{programme.registerUrl && (
 							<>
 								{programme.sold ? (
-									<a className="btn-disabled font-normal cursor-not-allowed">
+									<a className="btn-disabled font-normal cursor-not-allowed shrink-0">
 										Sold Out
 									</a>
 								) : (
 									<a
 										href={programme.registerUrl}
-										className="btn font-normal bg-tender text-white"
+										className="btn font-normal bg-tender text-white shrink-0"
 									>
 										Apply Now
 									</a>
 								)}
 							</>
+						)}
+						{programme.remaining !== 0 && (
+							<p className="text-xs text-center rounded-full bg-dawn-300 py-1.5 px-3 font-medium">
+								{programme.remaining} seats remaining
+							</p>
 						)}
 					</div>
 				</div>
