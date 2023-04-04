@@ -61,16 +61,16 @@ const Article = ({ posts, pageSize = 9 }) => {
 	return (
 		<>
 			<div className="flex justify-between items-center mb-8">
-				<p>
+				{/* <p>
 					Showing: {startIndex + 1} to{" "}
 					{Math.min(currentPage * pageSize, articles.length)} of{" "}
 					{articles.length} publications
-				</p>
+				</p> */}
+				<SearchInput
+					searchTerm={searchTerm}
+					setSearchTerm={setSearchTerm}
+				/>
 				<div className="flex gap-10">
-					<SearchInput
-						searchTerm={searchTerm}
-						setSearchTerm={setSearchTerm}
-					/>
 					<SelectFilter
 						options={years}
 						value={selectedYear}
