@@ -13,18 +13,20 @@ import { Pagination, Navigation } from "swiper";
 const InstructorSlides = ({ instructors }) => {
 	const pagination = {
 		clickable: true,
-		// renderBullet: function (index, className) {
-		// 	return (
-		// 		'<div class="text-center ' +
-		// 		className +
-		// 		'">' +
-		// 		'<img src="' +
-		// 		instructors[index].imageUrl +
-		// 		'" className="rounded-full" />' +
-		// 		"<p>Kofi Baboni</p>" +
-		// 		"</div>"
-		// 	);
-		// },
+		renderBullet: function (index, className) {
+			return (
+				'<div class="text-center ' +
+				className +
+				'">' +
+				'<img src="' +
+				instructors[index].imageUrl +
+				'" className="rounded-full" />' +
+				'<p class="text-sm mt-2">' +
+				instructors[index].name +
+				"</p>" +
+				"</div>"
+			);
+		},
 	};
 
 	return (
@@ -34,7 +36,7 @@ const InstructorSlides = ({ instructors }) => {
 					Course Instructors
 				</h3>
 				<Swiper
-					// pagination={pagination}
+					pagination={pagination}
 					loop={true}
 					modules={[Pagination, Navigation]}
 					cssMode="true"

@@ -5,7 +5,7 @@
 
 .instructor-slides .swiper-pagination-bullet {
   width: 120px;
-  height: 120px;
+  height: 160px;
   opacity: 1;
   margin: 0 15px !important;
   border-radius: unset;
@@ -14,7 +14,20 @@
 .swiper-button-next { right: 50px; }
 .swiper-button-prev { left: 50px; }
 .swiper-button-next,.swiper-button-prev { @apply text-dusk }
-.instructor-slides .swiper-pagination-bullet-active { @apply border-2 border-dusk }
+.instructor-slides .swiper-pagination { @apply flex justify-center !bg-transparent }
+.instructor-slides .swiper-pagination-bullet-active { @apply !bg-transparent font-bold; }
+.instructor-slides .swiper-pagination-bullet { @apply !bg-transparent }
+.instructor-slides .swiper-pagination-bullet img { border: 5px solid #f4f5f4; }
+.instructor-slides .swiper-pagination-bullet-active img { @apply !border-0 }
+.instructor-slides .swiper-wrapper { margin-bottom: 130px; }
+
+.instructor-slides .swiper-pagination img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 100%;
+  @apply mx-auto
+}
 
 .membership-slides .swiper-pagination-bullets { bottom: 40px; }
 .membership-slides .swiper-pagination-bullet { width: 12px; height: 12px; }

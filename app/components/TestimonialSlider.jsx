@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "@/styles/slides.css";
 
-import { Pagination } from "swiper";
+import { Pagination, Autoplay } from "swiper";
 
 const TestimonialSlider = () => {
 	const pagination = {
@@ -16,7 +16,12 @@ const TestimonialSlider = () => {
 	return (
 		<Swiper
 			pagination={pagination}
-			modules={[Pagination]}
+			modules={[Pagination, Autoplay]}
+			autoplay={{
+				delay: 4500,
+				disableOnInteraction: false,
+			}}
+			loop={true}
 			className="bg-white pt-16 lg:py-24"
 		>
 			{[...Array(5)].map((e, i) => (
