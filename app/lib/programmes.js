@@ -1,4 +1,28 @@
 export const esgProgramme = {
+	testimonials: [
+		{
+			message:
+				"Through TBrA's ESG certification program, I was exposed to practical approaches that organisations like mine have taken to adopt and implement sustainability within their space. I better understand how to focus on what matters to my business while successfully pushing the ESG agenda and monitoring our progress as we grow. I especially loved the depth of the training content,  the supporting resources shared and the very experienced facilitators. I would recommend the programme to any female leader considering it",
+			author: "Vivian Akwuaka",
+			title: "Group Head, Quality and Sustainability, Iwosan Investments Limited",
+		},
+		{
+			message:
+				"The ESG Certificate Programme gave me a deeper insight into the ESG topic and how boards can introduce it to the agenda. I have learnt that boards should be concerned not only about having an ESG strategy but should measure the impact of their initiatives. I loved the depth of the programme content and the knowledge of the facilitators who not only taught theory but also shared live experiences and very practical examples",
+			author: "Maximilia N. Byenkya",
+			title: "Director Uganda Telecommunications Corporation Limited",
+		},
+		{
+			message:
+				"The programme provided me with the right frameworks to assess and try to measure our organisation's ESG obligations and risks to future business sustainability. The reading materials provided for this course were great. The facilitators provided me with enough information and supporting materials to help me prepare our organisation for ESG",
+			author: "Antoinette Tesha - Ntlemo",
+			title: "Programme Director - Textiles and Apparels Gatsby Africa",
+			imageUrl:
+				"https://res.cloudinary.com/tbra/image/upload/v1680600605/woman_folded_hands_d09lna.jpg",
+		},
+	],
+	testimonialImageUrl:
+		"https://res.cloudinary.com/tbra/image/upload/v1680600605/woman_folded_hands_d09lna.jpg",
 	outlines: [
 		{
 			title: "Introduction to ESG: Past and Present",

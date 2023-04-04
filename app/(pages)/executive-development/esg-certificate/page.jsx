@@ -17,34 +17,33 @@ import { esgIcons, instructorDetails } from "@/app/utils/options";
 import { esgProgramme } from "@/app/lib/programmes";
 
 const Page = () => {
+	const { outlines, testimonials, testimonialImageUrl } = esgProgramme;
 	return (
 		<>
 			<BrochureDrawer />
-			<HeaderTitle title="Environmental, social and governance certificate." />
+			<HeaderTitle title="ESG Certificate." />
 
 			<section className="container" data-aos="fade-up">
 				<div className="grid grid-cols-2 gap-20">
 					<KeySection
-						heading="Course introduction"
+						heading="Prepare for the future"
 						linkTitle="Learn about membership"
 						url="/membership"
 					>
 						<p>
-							As the impact of ESG becomes increasingly
-							significant, leaders must have the necessary
-							knowledge and tools to make informed decisions and
-							support the sustainability agenda in their
-							organisations.
+							The Environmental, Social and Governance (ESG)
+							Certificate programme targets women directors and
+							executives looking to develop their understanding of
+							ESG issues and concepts, equipping them with the
+							tools required to drive ESG agendas in their
+							respective organisations.
 						</p>
 						<p>
-							This expert-led certificate programme best suits
-							female leaders looking to build their knowledge and
-							competency in ESG-related matters. The intensive
-							programme runs over five weeks and consists of 12
-							sessions covering the principles of ESG, global
-							trends driving the agenda, and the practical
-							approaches to develop and champion ESG agendas on an
-							organisational and board level.
+							This expert-led curriculum incorporates ESG
+							theoretical frameworks and trends, situating them
+							within a global context, with practical inputs
+							intended to support executives as they review their
+							roles in driving the ESG agenda
 						</p>
 					</KeySection>
 					<CascadeImg
@@ -56,7 +55,10 @@ const Page = () => {
 				</div>
 			</section>
 
-			<TestimonialSlider />
+			<TestimonialSlider
+				testimonials={testimonials}
+				imageUrl={testimonialImageUrl}
+			/>
 
 			<section data-aos="fade-up">
 				<div className="container">
@@ -71,9 +73,7 @@ const Page = () => {
 								keyPosition="right"
 								className="py-0"
 							/>
-							<AccordionSection
-								outlines={esgProgramme.outlines}
-							/>
+							<AccordionSection outlines={outlines} />
 						</div>
 					</div>
 				</div>
@@ -113,7 +113,7 @@ const Page = () => {
 				</div>
 			</section>
 
-			<StatsSection />
+			{/* <StatsSection /> */}
 		</>
 	);
 };

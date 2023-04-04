@@ -21,6 +21,9 @@
 .instructor-slides .swiper-pagination-bullet-active img { @apply !border-0 }
 .instructor-slides .swiper-wrapper { margin-bottom: 130px; }
 
+.testimonial-slides .swiper-pagination-bullets { bottom: 30px; }
+.testimonial-slides .swiper-pagination-bullets .swiper-pagination-bullet { @apply bg-dawn-500 }
+
 .instructor-slides .swiper-pagination img {
   width: 100px;
   height: 100px;
