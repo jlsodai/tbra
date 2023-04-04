@@ -22,7 +22,10 @@ const ProgramBlocks = ({ attributes, introImg }) => {
 							{attributes.Intro.content}
 						</p>
 					</KeySection>
-					<CascadeImg position="right" src={introImg} />
+					<CascadeImg
+						position="right"
+						src={attributes.Intro.imageUrl}
+					/>
 				</div>
 			</section>
 

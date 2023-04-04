@@ -16,10 +16,7 @@ export default async function Page() {
 			<BrochureDrawer />
 			<HeaderTitle title="ESG Certificate." />
 
-			<ProgramBlocks
-				attributes={attributes}
-				introImg="https://tbratest.my.canva.site/esg-certificate-page/images/a93c22d45c08a6dd55c87e3a53cd14c4.png"
-			/>
+			<ProgramBlocks attributes={attributes} />
 
 			<section className="bg-white" data-aos="fade-up">
 				<div className="container my-28">

@@ -16,15 +16,12 @@ export default async function Page() {
 			<BrochureDrawer />
 			<HeaderTitle title="Ontological Growth Experience" />
 
-			<ProgramBlocks
-				attributes={attributes}
-				introImg="https://tbratest.my.canva.site/open-doors-page/images/d14259c959fe4c98eacf9d8b308c88d9.jpg"
-			/>
+			<ProgramBlocks attributes={attributes} />
 
 			<section className="bg-white" data-aos="fade-up">
 				<div className="container my-28">
 					<h2 className="text-center text-dusk">
-					Rachel&apos;s work is trusted by organisations like:
+						Rachel&apos;s work is trusted by organisations like:
 					</h2>
 					<ProgrammeLogos logos={attributes.trustedBy} />
 				</div>
