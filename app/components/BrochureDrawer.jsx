@@ -93,12 +93,20 @@ const BrochureDrawer = () => {
 									opendoors@theboardroomafrica.com
 								</span>
 							</p>
-							<Link
-								href="/membership"
-								className="btn uppercase text-white mt-4"
-							>
-								DOWNLOAD PROGRAMME BROCHURE
-							</Link>
+							<div className="flex gap-2">
+								<Link
+									href="#"
+									className="btn uppercase text-white mt-4"
+								>
+									Download Brochure
+								</Link>
+								<Link
+									href="/membership"
+									className="btn bg-tender uppercase text-white mt-4"
+								>
+									Apply Now
+								</Link>
+							</div>
 						</div>
 					</div>
 				</div>
