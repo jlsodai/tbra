@@ -36,7 +36,6 @@ const Article = ({ posts, pageSize = 9 }) => {
 		}
 
 		if (selectedType) {
-			console.log(selectedType);
 			myPosts = _.filter(myPosts, (item) =>
 				_.includes(item.publicationTypes.nodes[0].name, selectedType)
 			);
@@ -56,7 +55,6 @@ const Article = ({ posts, pageSize = 9 }) => {
 	const countries = _.uniq(_.map(posts, "pubCountries.nodes[0].name")).sort();
 
 	const data = _(articles).slice(startIndex).take(pageSize).value();
-	console.log(data.length);
 
 	return (
 		<>
