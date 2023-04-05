@@ -14,10 +14,7 @@ const TeamCard = ({ teamInfo }) => {
 				>
 					<div className="min-h-60 aspect-w-1 aspect-h-1 w-full overflow-hidden bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-60">
 						<img
-							src={
-								team.imageUrl ||
-								"https://theboardroomafrica.com/wp-content/uploads/2022/06/IMG_5589_short2.jpg"
-							}
+							src={team.imageUrl}
 							alt={team.name}
 							className="h-full w-full object-cover object-center lg:h-full lg:w-full"
 						/>
@@ -35,12 +32,12 @@ const TeamCard = ({ teamInfo }) => {
 
 					<div className="flex text-3xl gap-2 justify-center mt-4">
 						{team.linkedInUrl && (
-							<Link href="#">
+							<Link href={team.linkedInUrl}>
 								<RiLinkedinFill className="rounded-full text-white bg-mustard hover:mustard-700 mb-2 p-1" />
 							</Link>
 						)}
 						{team.twitterUrl && (
-							<Link href="#">
+							<Link href={team.twitterUrl}>
 								<RiTwitterFill className="rounded-full bg-mustard hover:mustard-700 text-white p-1" />
 							</Link>
 						)}
