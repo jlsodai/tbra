@@ -14,28 +14,32 @@ const TeamCard = ({ teamInfo }) => {
 				>
 					<div className="min-h-60 aspect-w-1 aspect-h-1 w-full overflow-hidden bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-60">
 						<img
-							src={team.imageSrc}
-							alt={team.imageAlt}
+							src={
+								team.imageUrl ||
+								"https://theboardroomafrica.com/wp-content/uploads/2022/06/IMG_5589_short2.jpg"
+							}
+							alt={team.name}
 							className="h-full w-full object-cover object-center lg:h-full lg:w-full"
 						/>
 					</div>
 
 					<div className="flex">
-						<div className="py-2 bg-dawn text-center flex-1">
-							{/* <Link className="block" href={team.href}> */}
-							<p className="font-serif">{team.name}</p>
-							<p>{team.title}</p>
-							{/* </Link> */}
+						<div className="py-4 bg-dawn text-center flex-1">
+							<p className="font-serif font-bold">{team.name}</p>
+							<p className="text-sm">{team.title}</p>
+							{team.companyName && (
+								<p className="text-sm">{team.companyName}</p>
+							)}
 						</div>
 					</div>
 
 					<div className="flex text-3xl gap-2 justify-center mt-4">
-						{team.linkedin && (
+						{team.linkedInUrl && (
 							<Link href="#">
 								<RiLinkedinFill className="rounded-full text-white bg-mustard hover:mustard-700 mb-2 p-1" />
 							</Link>
 						)}
-						{team.twitter && (
+						{team.twitterUrl && (
 							<Link href="#">
 								<RiTwitterFill className="rounded-full bg-mustard hover:mustard-700 text-white p-1" />
 							</Link>
