@@ -104,18 +104,22 @@ const BrochureDrawer = ({ brochureDetails }) => {
 								</a>
 							</p>
 							<div className="flex gap-2">
-								<Link
-									href="#"
-									className="btn uppercase text-white mt-4"
-								>
-									Download Brochure
-								</Link>
-								<Link
-									href="/membership"
-									className="btn bg-tender uppercase text-white mt-4"
-								>
-									Apply Now
-								</Link>
+								{brochureDetails.brochureFormUrl && (
+									<Link
+										href={brochureDetails.brochureFormUrl}
+										className="btn uppercase text-white mt-4"
+									>
+										Download Brochure
+									</Link>
+								)}
+								{brochureDetails.applyUrl && (
+									<Link
+										href={brochureDetails.applyUrl}
+										className="btn bg-tender uppercase text-white mt-4"
+									>
+										Apply Now
+									</Link>
+								)}
 							</div>
 						</div>
 					</div>
