@@ -76,10 +76,7 @@ const BrochureDrawer = ({ brochureDetails }) => {
 						</div>
 						<div className="">
 							<h2 className="text-sm">Structure</h2>
-							<p>
-								4 intensive, interactive online modules, 3
-								immersive workshops and a board simulation
-							</p>
+							<p>{brochureDetails.structure}</p>
 						</div>
 						{/* <div className="col-span-2">
 							<h2 className="text-sm">Delivery Method</h2>
