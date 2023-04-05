@@ -31,7 +31,7 @@ const MembershipHome = () => {
 			</section>
 
 			<section className="bg-[#3C455F] text-white">
-				<div className="flex flex-col container min-h-screen relative px-4 py-16 items-center">
+				<div className="flex flex-col container min-h-screen relative px-4 py-16 items-center justify-center">
 					<img
 						src="/images/gray-key.png"
 						className="absolute left-0 h-[75%] -z-1 opacity-5"
