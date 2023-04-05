@@ -700,7 +700,7 @@ export const memberSlides = [
 		},
 	},
 	{
-		title: "Transforming the face of leadership",
+		title: "Transforming the face \nof leadership",
 		content:
 			"To disrupt the status quo, we must intentionally cultivate a pipeline of leaders. Connect to a network of other leading women and together, unlock access to opportunities, transform your presence through executive development, peer networking, in-person gatherings and more.",
 		style: {
