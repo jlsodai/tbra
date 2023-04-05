@@ -662,7 +662,7 @@ export const pricingTable = [
 			"The client manages the recruitment process and communicates directly with applicants regarding the status of their applications.",
 			"Targeted outreach by our talent team to candidates within our network who fit the criteria for the role.",
 		],
-		formUrl: "https://stadardadvertisementplus.paperform.co/",
+		formUrl: "https://standardadvertisementplus.paperform.co/",
 	},
 	{
 		title: "Premium – Custom Plan",
