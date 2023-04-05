@@ -10,11 +10,21 @@ const MembershipHome = () => {
 		<>
 			<section className="">
 				<div className="container relative">
-					<div className="flex justify-end gap-10 items-center pt-6 text-white absolute z-50 right-0">
-						<Link href="#">Login</Link>
-						<Link href="#" className="btn">
-							Apply
+					<div className="flex justify-between items-center pt-6 text-white absolute z-50 w-full">
+						<Link href="/">
+							<img
+								src="https://theboardroomafrica.com/wp-content/themes/tbra/assets/images/logo-primary.svg"
+								className="img-white"
+								width="100px"
+								alt="Logo"
+							/>
 						</Link>
+						<div className="flex gap-10 items-center">
+							<Link href="#">Login</Link>
+							<Link href="#" className="btn">
+								Apply
+							</Link>
+						</div>
 					</div>
 				</div>
 				<MembershipSlides />
