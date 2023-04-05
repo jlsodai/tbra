@@ -1,8 +1,6 @@
 import HeaderTitle from "@/app/sections/HeaderTitle";
 import BrochureDrawer from "@/app/components/BrochureDrawer";
-import TrustedBy from "@/app/components/TrustedBy";
 import StatsSection from "@/app/sections/StatsSection";
-import { esgIcons, instructorDetails } from "@/app/utils/options";
 import { esgProgramme } from "@/app/lib/programmes";
 import { fetchData } from "@/app/lib/fetchData";
 import ProgramBlocks from "@/app/sections/ProgramBlocks";
@@ -12,11 +10,9 @@ export default async function Page() {
 	const data = await fetchData("programmes/1?populate=*");
 	const attributes = data?.data?.attributes;
 
-	const { testimonialImageUrl } = esgProgramme;
-
 	return (
 		<>
-			<BrochureDrawer />
+			<BrochureDrawer brochureDetails={attributes.brochureInfo} />
 			<HeaderTitle title="Open Doors: Certificate in Company Direction" />
 
 			<ProgramBlocks attributes={attributes} />

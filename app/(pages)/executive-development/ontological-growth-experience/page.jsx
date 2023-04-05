@@ -13,7 +13,7 @@ export default async function Page() {
 
 	return (
 		<>
-			<BrochureDrawer />
+			<BrochureDrawer brochureDetails={attributes.brochureInfo} />
 			<HeaderTitle title="Ontological Growth Experience" />
 
 			<ProgramBlocks attributes={attributes} />
