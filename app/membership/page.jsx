@@ -4,8 +4,11 @@ import MembershipSlides from "@/app/sections/MembershipSlides";
 import Image from "next/image";
 import TrustedBy from "@/app/components/TrustedBy";
 import { communityLogos } from "@/app/utils/options";
+import { fetchData } from "@/app/lib/fetchData";
 
-const MembershipHome = () => {
+const MembershipHome = async () => {
+	const data = await fetchData("membership?populate=*");
+	const attributes = data?.data?.attributes;
 	return (
 		<>
 			<section className="">
@@ -235,21 +238,11 @@ const MembershipHome = () => {
 					</div>
 
 					<div className="grid grid-cols-3 gap-10 text-white md:max-w-[80%]">
-						{[1, 2, 3].map((e, i) => (
+						{attributes.testimonials.map((testimonial, i) => (
 							<div key={i} className="border border-white p-6">
-								<p>
-									I joined TheBoardroom Africa because I saw
-									it as a platform to meet other amazing
-									women, but also to have a platform that has
-									eyes where I don&apos;t have eyes. It&apos;s
-									a lonely road for executive women, and being
-									part of a platform that provides this
-									echosystem of like-minded people that can
-									champion but also critique, and promote you,
-									is a win win for everyone.
-								</p>
-								<p className="mt-8">- Tokunboh Ishmael</p>
-								<p>Managing Director Alitheia Capital</p>
+								<p>{testimonial.quote}</p>
+								<p className="mt-8">- {testimonial.author}</p>
+								<p>{testimonial.title}</p>
 							</div>
 						))}
 					</div>
