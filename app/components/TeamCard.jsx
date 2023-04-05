@@ -16,7 +16,7 @@ const TeamCard = ({ teamInfo }) => {
 						<img
 							src={team.imageUrl}
 							alt={team.name}
-							className="h-full w-full object-cover object-center lg:h-full lg:w-full"
+							className="h-full w-full object-cover object-top lg:h-full lg:w-full"
 						/>
 					</div>
 
