@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { RxCaretDown, RxCaretUp } from "react-icons/rx";
 import Link from "next/link";
 
-const BrochureDrawer = () => {
+const BrochureDrawer = ({ brochureDetails }) => {
 	const [brochure, setBrochure] = useState(false);
 	const [deactivate, setDeactivate] = useState(false);
 
@@ -70,9 +70,9 @@ const BrochureDrawer = () => {
 					<div className="container grid grid-cols-4 text-white gap-10 text-sm">
 						<div className="">
 							<h2 className="text-sm">Upcoming Cohorts</h2>
-							<p>March - June 2023 (Virtual)</p>
-							<p>March - June 2023 (Virtual)</p>
-							<p>March - June 2023 (In-Person)</p>
+							<p className="whitespace-pre-wrap">
+								{brochureDetails.upcoming}
+							</p>
 						</div>
 						<div className="">
 							<h2 className="text-sm">Structure</h2>
@@ -86,12 +86,22 @@ const BrochureDrawer = () => {
 							<p>Virtual</p>
 						</div> */}
 						<div className="col-span-2 ml-20">
-							<p className="text-sm">
+							{/* <p className="text-sm">
 								Subsidies and flexible payment plans available
 								<br />
 								<span className="underline">
 									opendoors@theboardroomafrica.com
 								</span>
+							</p> */}
+							<p className="text-sm">
+								{brochureDetails.subsidyText}
+								<br />
+								<a
+									className="underline"
+									href={`mailto:${brochureDetails.subsidyEmail}`}
+								>
+									{brochureDetails.subsidyEmail}
+								</a>
 							</p>
 							<div className="flex gap-2">
 								<Link
