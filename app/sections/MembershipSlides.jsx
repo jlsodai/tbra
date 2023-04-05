@@ -39,7 +39,9 @@ const MembershipSlides = () => {
 							alt=""
 						/>
 						<div className="z-10 text-xl flex flex-col gap-6 my-28">
-							<h1 className="text-mustard">{slide.title}</h1>
+							<h1 className="text-mustard mt-16">
+								{slide.title}
+							</h1>
 							<div className=" md:max-w-[65%]">
 								<p className=" text-dawn">{slide.content}</p>
 								<div className="text-center mt-10">
