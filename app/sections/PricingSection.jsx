@@ -1,6 +1,7 @@
 import React from "react";
 import { FaCheckCircle } from "react-icons/fa";
 import { pricingTable } from "@/app/utils/options";
+import Link from "next/link";
 
 const PricingSection = () => {
 	return (
@@ -57,8 +58,8 @@ const PricingSection = () => {
 										</li>
 									))}
 								</ul>
-								<button
-									type="button"
+								<Link
+									href={pricing.formUrl}
 									className={`inline-block px-5 py-3 font-semibold tracking-wider text-center rounded ${
 										pricing.colored
 											? "bg-white text-tender"
@@ -66,7 +67,7 @@ const PricingSection = () => {
 									}`}
 								>
 									Get Started
-								</button>
+								</Link>
 							</div>
 						</div>
 					))}

@@ -646,6 +646,7 @@ export const pricingTable = [
 			"Applicant profiles are shared every two weeks.",
 			"The client manages the recruitment process and communicates directly with applicants regarding the status of their applications.",
 		],
+		formUrl: "https://standardadvertisement.paperform.co/",
 	},
 	{
 		title: "Standard Ad Plus *",
@@ -661,6 +662,7 @@ export const pricingTable = [
 			"The client manages the recruitment process and communicates directly with applicants regarding the status of their applications.",
 			"Targeted outreach by our talent team to candidates within our network who fit the criteria for the role.",
 		],
+		formUrl: "https://stadardadvertisementplus.paperform.co/",
 	},
 	{
 		title: "Premium – Custom Plan",
@@ -672,6 +674,7 @@ export const pricingTable = [
 			"Management of the entire recruitment process, including initial candidate screening and interviews, as well as application review and longlist development. ",
 			"Support from defining role requirements to a thorough search and headhunter intervention.",
 		],
+		formUrl: "/get-in-touch",
 	},
 ];
 
