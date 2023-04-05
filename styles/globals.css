@@ -86,4 +86,6 @@ html { font-size: 15px;}
   .v-scroll::-webkit-scrollbar-track { @apply bg-dawn-300 } /* Track */
   .v-scroll::-webkit-scrollbar-thumb { @apply bg-dawn-500 } /* Handle */
   .v-scroll::-webkit-scrollbar-thumb:hover { @apply bg-dawn } /* Handle on hover */
+
+  .img-white { filter: brightness(0) saturate(100%) invert(99%) sepia(87%) saturate(0%) hue-rotate(247deg) brightness(118%) contrast(100%); }
 }
