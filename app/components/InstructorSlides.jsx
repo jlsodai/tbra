@@ -41,7 +41,7 @@ const InstructorSlides = ({ instructors }) => {
 					modules={[Pagination, Navigation]}
 					cssMode="true"
 					navigation={true}
-					className="mySwiper"
+					className={`${instructors.length === 1 && "single-slide"}`}
 					// className="bg-transparent"
 				>
 					{instructors.map((instructor, i) => (
@@ -55,9 +55,15 @@ const InstructorSlides = ({ instructors }) => {
 										{instructor.Name}
 									</h2>
 
-										<p className="whitespace-pre-wrap">{instructor.Profile}</p>
+									<p className="whitespace-pre-wrap">
+										{instructor.Profile}
+									</p>
 								</div>
-								<img src={instructor.instructorImage} alt="" />
+								<img
+									src={instructor.instructorImage}
+									className="max-h-[450px] w-full object-cover"
+									alt=""
+								/>
 							</div>
 						</SwiperSlide>
 					))}

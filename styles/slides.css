@@ -11,16 +11,16 @@
   border-radius: unset;
 }
 
-.swiper-button-next { right: 50px; }
-.swiper-button-prev { left: 50px; }
-.swiper-button-next,.swiper-button-prev { @apply text-dusk }
+.instructor-slides .swiper-button-next { right: 50px; }
+.instructor-slides .swiper-button-prev { left: 50px; }
+.instructor-slides .swiper-button-next, .instructor-slides .swiper-button-prev { @apply text-dusk }
 .instructor-slides .swiper-pagination { @apply flex justify-center !bg-transparent }
 .instructor-slides .swiper-pagination-bullet-active { @apply !bg-transparent font-bold; }
 .instructor-slides .swiper-pagination-bullet { @apply !bg-transparent }
 .instructor-slides .swiper-pagination-bullet img { border: 5px solid #f4f5f4; }
 .instructor-slides .swiper-pagination-bullet-active img { @apply !border-0 }
 .instructor-slides .swiper-wrapper { margin-bottom: 130px; }
-
+.instructor-slides .single-slide .swiper-wrapper { margin-bottom: 0; }
 .testimonial-slides .swiper-pagination-bullets { bottom: 30px; }
 .testimonial-slides .swiper-pagination-bullets .swiper-pagination-bullet { @apply bg-dawn-500 }
 
