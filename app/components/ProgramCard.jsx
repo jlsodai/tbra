@@ -29,23 +29,23 @@ const ProgramCard = ({ programme }) => {
 					</div>
 
 					<div className="flex gap-3 mt-4 items-center">
-						{programme.learnMoreUrl && (
+						{programme.learnmoreBtnUrl && (
 							<a
-								href={programme.learnMoreUrl}
+								href={programme.learnmoreBtnUrl}
 								className="btn font-normal text-white shrink-0"
 							>
 								Learn More
 							</a>
 						)}
-						{programme.registerUrl && (
+						{programme.applyBtnUrl && (
 							<>
-								{programme.sold ? (
+								{!programme.seatsRemaining ? (
 									<a className="btn-disabled font-normal cursor-not-allowed shrink-0">
 										Sold Out
 									</a>
 								) : (
 									<a
-										href={programme.registerUrl}
+										href={programme.applyBtnUrl}
 										className="btn font-normal bg-tender text-white shrink-0"
 									>
 										Apply Now
@@ -53,9 +53,9 @@ const ProgramCard = ({ programme }) => {
 								)}
 							</>
 						)}
-						{programme.remaining !== 0 && (
+						{programme.seatsRemaining > 0 && (
 							<p className="text-xs text-center rounded-full bg-dawn-300 py-1.5 px-3 font-medium">
-								{programme.remaining} seats remaining
+								{programme.seatsRemaining} seats remaining
 							</p>
 						)}
 					</div>

@@ -5,8 +5,11 @@ import { HiOutlineCalendar } from "react-icons/hi2";
 import { GoCalendar } from "react-icons/go";
 import ProgramCard from "@/app/components/ProgramCard";
 import { certificates } from "@/app/lib/programmes";
+import { fetchData } from "@/app/lib/fetchData";
 
-const Page = () => {
+const Page = async () => {
+	const data = await fetchData("executive-dev?populate=*");
+	const attributes = data?.data?.attributes;
 	return (
 		<>
 			<HeaderTitle title="Explore powerful executive programmes as you expand your influence at the table." />
@@ -36,7 +39,7 @@ const Page = () => {
 
 			<section>
 				<div className="container grid grid-cols-2 gap-20">
-					{certificates.map((programme, i) => (
+					{attributes.Programmes.map((programme, i) => (
 						<ProgramCard key={i} programme={programme} />
 					))}
 				</div>
