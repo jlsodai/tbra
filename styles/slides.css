@@ -11,8 +11,8 @@
   border-radius: unset;
 }
 
-.instructor-slides .swiper-button-next { right: 50px; }
-.instructor-slides .swiper-button-prev { left: 50px; }
+.instructor-slides .swiper-button-next { right: 60px; }
+.instructor-slides .swiper-button-prev { left: 60px; }
 .instructor-slides .swiper-button-next, .instructor-slides .swiper-button-prev { @apply text-dusk }
 .instructor-slides .swiper-pagination { @apply flex justify-center !bg-transparent }
 .instructor-slides .swiper-pagination-bullet-active { @apply !bg-transparent font-bold; }
