@@ -26,7 +26,7 @@ export default async function Page() {
 				</div>
 			</section>
 
-			{/* <StatsSection /> */}
+			<StatsSection />
 		</>
 	);
 }
