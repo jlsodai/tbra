@@ -1,10 +1,10 @@
 "use client";
 /* eslint-disable @next/next/no-img-element */
-import TbraLink from "@/app/components/TbraLink";
 import _ from "lodash";
 import Pagination from "@/app/components/Pagination";
 import { useState, useEffect } from "react";
 import { HiOutlineSearch } from "react-icons/hi";
+import { CgArrowLongRight } from "react-icons/cg";
 
 const Article = ({ posts, pageSize = 9 }) => {
 	const [searchTerm, setSearchTerm] = useState("");
@@ -119,10 +119,13 @@ const Article = ({ posts, pageSize = 9 }) => {
 								{post.content}
 							</p>
 						)} */}
-							<TbraLink
-								linkTitle="Read More"
-								url={`/research/${post.slug}`}
-							/>
+							<a
+								href={`/research/${post.slug}`}
+								className="inline-block mt-4 text-mustard font-bold"
+							>
+								Read More{" "}
+								<CgArrowLongRight className="inline-block ml-4" />
+							</a>
 						</div>
 					</article>
 				))}
