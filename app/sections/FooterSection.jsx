@@ -15,8 +15,8 @@ const FooterSection = () => {
 							<TBRAKey size="sm" />
 						</div>
 						<p className="mt-4">
-							Become a member of the leading community for female
-							executives working in Africa. Build your network,
+							Become a member of the leading community for women
+							executives on the continent. Build your network,
 							enhance your profile, and seize new opportunities.
 						</p>
 					</div>
