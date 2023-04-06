@@ -71,14 +71,14 @@ const Page = () => {
 					>
 						<p>
 							We believe that diverse boards build the best
-							companies. We’ve successfully undertaken governance
-							reviews and the identification and selection of
-							non-executive directors, chairpersons, and even
-							investment committee members for a range of clients
-							across diverse industries. Our bespoke recruitment
-							model ensures that you will reach the best
-							candidates that can perform and help you deliver
-							growth.
+							companies. We&apos;ve successfully undertaken
+							governance reviews and the identification and
+							selection of non-executive directors, chairpersons,
+							and even investment committee members for a range of
+							clients across diverse industries. Our bespoke
+							recruitment model ensures that you will reach the
+							best candidates that can perform and help you
+							deliver the growth you seek.
 						</p>
 					</KeySection>
 

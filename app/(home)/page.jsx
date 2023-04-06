@@ -97,15 +97,14 @@ export default function Home() {
 						url="/partners"
 					>
 						<p>
-							Our partners and donors provide invaluable support
-							and share our vision for creating a gender-equal
-							world. From foundations to corporations, our
-							partners know that investing in TheBoardroom Africa
-							is an investment in a more inclusive society, a
-							stronger business community and Africa&apos;s
-							development objectives. We work with our donors and
-							partners to achieve shared development objectives
-							such as gender inclusion and jobs created.
+							Our donors provide invaluable support and share our
+							vision for creating a gender-equal world. From
+							foundations to corporations, our partners know that
+							investing in women leaders is an investment in a
+							more inclusive society, a stronger business
+							community. We work with our donors and partners to
+							achieve shared development objectives such as gender
+							inclusion and jobs created.
 						</p>
 					</KeySection>
 				</div>

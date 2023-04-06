@@ -22,10 +22,9 @@ const page = () => {
 							foundations to corporations, our partners know that
 							investing in women leaders is an investment in a
 							more inclusive society, a stronger business
-							community and Africa’s development objectives. We
-							work with our donors and partners to achieve shared
-							development objectives such as gender inclusion and
-							jobs created.
+							community. We work with our donors and partners to
+							achieve shared development objectives such as gender
+							inclusion and jobs created.
 						</p>
 					</KeySection>
 					<CascadeImg
