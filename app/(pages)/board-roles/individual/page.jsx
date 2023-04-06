@@ -15,8 +15,8 @@ const Page = () => {
 						url="/membership"
 					>
 						<p>
-							TBrA members form part of our trusted network. We
-							proactively promote our members to boards while
+							Our members form part of our trusted network. We
+							proactively promote them to boards while
 							transforming their presence and influence in Africa
 							and across the globe. Join our community to unlock
 							new opportunities.

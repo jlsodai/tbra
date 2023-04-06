@@ -38,7 +38,7 @@ export const menuLinks = [
 		],
 	},
 	{
-		name: "Executive Development",
+		name: "Executive Programmes",
 		href: "/executive-development",
 		submenu: [
 			{
