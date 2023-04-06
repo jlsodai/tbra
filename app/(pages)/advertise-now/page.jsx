@@ -14,13 +14,15 @@ const page = () => {
 				<div className="grid grid-cols-2 gap-20">
 					<KeySection heading="Let us help you find exceptional leaders">
 						<p>
-							We also work alongside other professional networks
-							to ensure that we deliver high-calibre candidates
-							across every industry. With each opportunity, we set
-							out to disprove the myth that female talent is
-							scarce. From our regional and global networks to our
-							vibrant and diverse community, we know where to find
-							the right candidates to bring to the table.
+							We work to deliver high-calibre candidates across
+							every industry. With each opportunity, we set out to
+							disprove the myth that female talent is scarce. From
+							our regional and global networks to our vibrant and
+							diverse community, we know where to find and attract
+							the right candidates to bring to the table. Explore
+							our range of advertisement options, or get in touch
+							to learn more about our tailored recruitment
+							service.
 						</p>
 					</KeySection>
 					<CascadeImg
