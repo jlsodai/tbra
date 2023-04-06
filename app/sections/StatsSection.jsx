@@ -25,7 +25,10 @@ const StatsSection = () => {
 								stat="350+"
 								info=" executive leadership alumni"
 							/>
-							<Stats stat="65+" info="countries represented" />
+							<Stats
+								stat="65+"
+								info="sectors and countries represented"
+							/>
 						</div>
 					</div>
 				</div>
