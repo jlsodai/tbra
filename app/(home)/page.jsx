@@ -63,7 +63,7 @@ export default function Home() {
 				<div className="container">
 					<div className="grid grid-cols-2 gap-20">
 						<KeySection
-							heading="Executive Development"
+							heading="Executive Programmes"
 							linkTitle="Learn more"
 							url="/executive-development"
 						>
