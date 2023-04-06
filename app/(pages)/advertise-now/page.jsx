@@ -25,8 +25,6 @@ const page = () => {
 					</KeySection>
 					<CascadeImg
 						position="right"
-						negative
-						top
 						className="object-[87%]"
 						src="https://tbratest.my.canva.site/advertise-page/images/7d53a878ab0bb24ad5af998d901976c4.jpg"
 					/>
