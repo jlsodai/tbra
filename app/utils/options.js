@@ -646,7 +646,7 @@ export const pricingTable = [
 			"Applicant profiles are shared every two weeks.",
 			"The client manages the recruitment process and communicates directly with applicants regarding the status of their applications.",
 		],
-		formUrl: "https://standardadvertisement.paperform.co/",
+		formUrl: "/advertisement-form",
 	},
 	{
 		title: "Standard Ad Plus *",
@@ -662,7 +662,7 @@ export const pricingTable = [
 			"The client manages the recruitment process and communicates directly with applicants regarding the status of their applications.",
 			"Targeted outreach by our talent team to candidates within our network who fit the criteria for the role.",
 		],
-		formUrl: "https://standardadvertisementplus.paperform.co/",
+		formUrl: "/advertisement-form",
 	},
 	{
 		title: "Premium – Custom Plan",
