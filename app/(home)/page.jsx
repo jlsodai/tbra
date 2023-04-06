@@ -17,7 +17,7 @@ export default function Home() {
 				<div className="grid grid-cols-2 gap-20">
 					<KeySection
 						className="w-[80%]"
-						heading="The largest private network of women executives in Africa"
+						heading="The largest private network of women executives in Africa and the diaspora"
 						linkTitle="About Membership"
 						linkui="btn"
 						url="/membership"
