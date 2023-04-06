@@ -42,7 +42,7 @@ export const menuLinks = [
 		href: "/executive-development",
 		submenu: [
 			{
-				name: "Open Doors",
+				name: "Open Door: Certificate in Company Direction",
 				href: "/executive-development/open-doors",
 			},
 			{
