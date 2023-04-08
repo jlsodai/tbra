@@ -13,7 +13,7 @@ const Navigation = () => {
 	return (
 		<section className="relative bg-white">
 			<div className="shadow">
-				<div className="container py-4">
+				<div className="container md:py-4">
 					<div className="flex items-center justify-between py-4">
 						<Link href="/">
 							<img
