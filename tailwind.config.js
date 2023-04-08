@@ -20,7 +20,11 @@ module.exports = withMT({
 		},
 		container: {
 			center: true,
-			padding: "1rem",
+			padding: {
+				DEFAULT: "2rem",
+				sm: "1rem",
+				md: "1rem",
+			},
 		},
 		extend: {
 			opacity: {
