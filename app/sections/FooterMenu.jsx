@@ -21,11 +21,11 @@ const FooterMenu = () => {
 						</div>
 					</a>
 				</div>
-				<div className="grid grid-cols-2 gap-x-3 gap-y-8 lg:w-4/5 sm:grid-cols-4">
+				<div className="grid grid-cols-2 gap-x-4 gap-y-8 lg:w-4/5 sm:grid-cols-4">
 					{bottomMenu.map((menus, i) => (
 						<div
 							key={i}
-							className={`space-y-3 ${menus.neg && "-ml-10"}`}
+							className={`space-y-3 ${menus.neg && "md:-ml-10"}`}
 						>
 							<ul className="space-y-3">
 								{menus.list.map((menu, i) => (

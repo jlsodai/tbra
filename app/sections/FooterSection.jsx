@@ -6,7 +6,7 @@ const FooterSection = () => {
 	return (
 		<>
 			<section className="bg-gray-100 mt-24">
-				<div className="container grid grid-cols-2 gap-24 py-16">
+				<div className="container grid md:grid-cols-2 gap-8 md:gap-24 py-16">
 					<div className="max-w-md">
 						<div className="flex items-center">
 							<h2 className="text-dusk text-center inline-block mr-8 text-4xl">

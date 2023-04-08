@@ -4,7 +4,7 @@ import Link from "next/link";
 const HeroSection = () => {
 	return (
 		<div className="bg-darkblue bigborder" data-aos="fade-up">
-			<div className="flex container min-h-[calc(100dvh-75px)] relative px-4 justify-center items-center ">
+			<div className="flex container min-h-[calc(100dvh-75px)] relative justify-center items-center ">
 				<img
 					src="/images/white-key.png"
 					className="absolute left-0 h-[75%] -z-1 opacity-4"
