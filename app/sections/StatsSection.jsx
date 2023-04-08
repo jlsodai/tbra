@@ -15,7 +15,7 @@ const StatsSection = () => {
 						<h1 className="text-tender ml-[172px]">
 							<span className="text-dawn-500">Our</span> impact
 						</h1>
-						<div className="grid grid-cols-4 gap-10 mt-10">
+						<div className="grid grid-cols-2 md:grid-cols-4 gap-10 mt-10">
 							<Stats
 								stat="2500+"
 								info="community of women leaders"
