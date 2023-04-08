@@ -22,7 +22,7 @@ module.exports = withMT({
 			center: true,
 			padding: {
 				DEFAULT: "2rem",
-				sm: "1rem",
+				sm: "2.5rem",
 				md: "1rem",
 			},
 		},
