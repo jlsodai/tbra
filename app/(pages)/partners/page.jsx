@@ -10,7 +10,7 @@ const page = () => {
 			<HeaderTitle title="Support our efforts to create a world where we all thrive." />
 
 			<section className="container" data-aos="fade-up">
-				<div className="grid grid-cols-2 gap-20">
+				<div className="keySectionWrap">
 					<KeySection
 						heading="Partner with us to change the face of leadership"
 						linkTitle="Become a partner"

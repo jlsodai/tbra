@@ -8,7 +8,7 @@ const Page = () => {
 			<HeaderTitle title="Join us to build more inclusive leadership teams." />
 
 			<section className="container" data-aos="fade-up">
-				<div className="grid grid-cols-2 gap-20 items-center">
+				<div className="keySectionWrap items-center">
 					<KeySection heading="Let us take the complication out of sourcing exceptional talent">
 						<p>
 							We support organisations hoping to unlock the power
@@ -43,7 +43,7 @@ const Page = () => {
 			</section>
 
 			<section data-aos="fade-up" className="mb-6">
-				<div className="container grid grid-cols-2 gap-20">
+				<div className="container keySectionWrap">
 					<CascadeImg
 						position="left"
 						src="https://tbratest.my.canva.site/board-roles/images/0223b0a6949672c5d258491373d270ed.jpg"
@@ -63,7 +63,7 @@ const Page = () => {
 			</section>
 
 			<section className="container" data-aos="fade-up">
-				<div className="grid grid-cols-2 gap-20">
+				<div className="keySectionWrap">
 					<KeySection
 						heading="Talk to us about our tailored recruitment service"
 						linkTitle="Get in touch"
