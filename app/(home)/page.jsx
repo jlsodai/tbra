@@ -14,9 +14,9 @@ export default function Home() {
 			<HeroSection />
 
 			<section className="container" data-aos="fade-up">
-				<div className="grid grid-cols-2 gap-20">
+				<div className="md:grid md:grid-cols-2 md:gap-20">
 					<KeySection
-						className="w-[80%]"
+						className="md:w-[80%]"
 						heading="The largest private network of women executives in Africa and the diaspora"
 						linkTitle="About Membership"
 						linkui="btn"
@@ -30,7 +30,7 @@ export default function Home() {
 			</section>
 
 			<section className="bg-gray-100" data-aos="fade-up">
-				<div className="container grid grid-cols-2 gap-20">
+				<div className="container grid md:grid-cols-2 md:gap-20">
 					<CascadeImg
 						position="left"
 						src="https://tbratest.my.canva.site/marcia-s-colors-landing/images/ba7424f002729bc29109cb604fd1c70f.jpg"
@@ -53,7 +53,7 @@ export default function Home() {
 			</section>
 
 			<section className="bg-white" data-aos="fade-up">
-				<div className="container my-28">
+				<div className="container my-12 md:my-28">
 					<h2 className="text-center">Trusted by.</h2>
 					<TrustedBy logos={clients} />
 				</div>
@@ -61,7 +61,7 @@ export default function Home() {
 
 			<section className="bg-gray-100" data-aos="fade-up">
 				<div className="container">
-					<div className="grid grid-cols-2 gap-20">
+					<div className="grid md:grid-cols-2 md:gap-20">
 						<KeySection
 							heading="Executive Programmes"
 							linkTitle="Learn more"
@@ -84,7 +84,7 @@ export default function Home() {
 			</section>
 
 			<section className="container" data-aos="fade-up">
-				<div className="grid grid-cols-2 gap-20">
+				<div className="grid md:grid-cols-2 md:gap-20">
 					<Testimonial
 						quote="As investors and grantmakers, we believe in the critical value of equipping leaders with skills to build and scale talented, diverse teams. We are thrilled to partner with TheBoardroom Africa on its journey to increase the gender diversity of company boards and investment committees across the continent. We are especially proud to support its team as they evolve and launch a suite of professional trainings and member services for the organization’s most valuable asset – its community of accomplished women leaders."
 						author="Liesel Pritzker Simmons"
