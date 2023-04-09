@@ -19,13 +19,23 @@ const page = ({ params }) => {
 							}}
 						></div>
 					) : (
-						<div className="prose max-w-full mx-44">
-							<div
-								dangerouslySetInnerHTML={{
-									__html: post.content,
-								}}
-							></div>
-						</div>
+						<>
+							<div className="prose max-w-full md:mx-44">
+								<div
+									dangerouslySetInnerHTML={{
+										__html: post.content,
+									}}
+								></div>
+							</div>
+							{post.downloadLink && (
+								<a
+									class="btn font-normal text-white mt-4 rounded"
+									href={post.downloadLink}
+								>
+									Download report
+								</a>
+							)}
+						</>
 					)}
 				</div>
 			</section>

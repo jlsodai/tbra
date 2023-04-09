@@ -19,13 +19,13 @@ const Pagination = ({ className, pages, currentPage, setCurrentPage }) => {
 	}, [currentPage]);
 
 	return (
-		<div className={`mt-16 flex justify-center ${className}`}>
+		<div className={`mt-8 md:mt-16 flex justify-center ${className}`}>
 			<nav aria-label="Page navigation example">
 				<ul className="list-style-none flex gap-2">
 					<li>
 						<button
 							onClick={() => setCurrentPage(currentPage - 1)}
-							className={`rounded py-1.5 px-3 ${
+							className={`hidden md:inline-block rounded py-1.5 px-3 ${
 								firstPage && "pointer-events-none"
 							}`}
 						>
@@ -46,7 +46,7 @@ const Pagination = ({ className, pages, currentPage, setCurrentPage }) => {
 					))}
 					<li>
 						<button
-							className={`rounded py-1.5 px-3 hover:bg-dawn-500 ${
+							className={`hidden md:inline-block rounded py-1.5 px-3 hover:bg-dawn-500 ${
 								lastPage && "pointer-events-none"
 							}`}
 							onClick={() => setCurrentPage(currentPage + 1)}

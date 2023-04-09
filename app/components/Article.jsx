@@ -58,7 +58,7 @@ const Article = ({ posts, pageSize = 9 }) => {
 
 	return (
 		<>
-			<div className="flex justify-between items-center mb-8">
+			<div className="block md:flex justify-between items-center mb-8">
 				{/* <p>
 					Showing: {startIndex + 1} to{" "}
 					{Math.min(currentPage * pageSize, articles.length)} of{" "}
@@ -68,7 +68,7 @@ const Article = ({ posts, pageSize = 9 }) => {
 					searchTerm={searchTerm}
 					setSearchTerm={setSearchTerm}
 				/>
-				<div className="flex gap-10">
+				<div className="grid grid-cols-2 gap-4 mt-4 md:mt-0 md:flex md:gap-10">
 					<SelectFilter
 						options={years}
 						value={selectedYear}
@@ -89,7 +89,7 @@ const Article = ({ posts, pageSize = 9 }) => {
 					/>
 				</div>
 			</div>
-			<div className="mx-auto grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 lg:max-w-none lg:grid-cols-3">
+			<div className="mx-auto grid max-w-2xl grid-cols-1 gap-y-8 md:gap-y-16 gap-x-8 lg:max-w-none lg:grid-cols-3">
 				{data.map((post, i) => (
 					<article
 						key={i}
@@ -151,7 +151,7 @@ const SearchInput = ({ searchTerm, setSearchTerm }) => {
 			</div>
 			<input
 				type="text"
-				className="bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:ring-dawn-500 focus:border-dawn-500 block pl-10 p-2.5 w-80"
+				className="bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:ring-dawn-500 focus:border-dawn-500 block pl-10 p-2.5 w-full md:w-80"
 				placeholder="Search Title"
 				onChange={(e) => setSearchTerm(e.target.value)}
 			/>
