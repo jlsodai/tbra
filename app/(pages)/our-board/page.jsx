@@ -13,7 +13,7 @@ const page = async () => {
 			<section className="my-16" data-aos="fade-up">
 				<div className="container md:px-44">
 					<SectionTitle title={attributes.Heading.title} />
-					<div className="grid grid-cols-3 gap-10 mt-10">
+					<div className="grid md:grid-cols-3 md:gap-10 mt-10">
 						<TeamCard teamInfo={attributes.TeamMember} />
 					</div>
 				</div>
