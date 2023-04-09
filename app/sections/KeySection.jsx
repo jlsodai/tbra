@@ -11,10 +11,10 @@ const KeySection = ({
 	children,
 }) => {
 	return (
-		<div className={`flex items-start innerPadding gap-6 ${className}`}>
+		<div className={`flex items-start py-8 md:py-20 gap-6 ${className}`}>
 			<TBRAKey />
 			<div>
-				<h3 className="font-halyard font-extralight text-5xl">
+				<h3 className="font-halyard font-extralight text-3xl md:text-5xl">
 					{heading}
 				</h3>
 				{children && <div className="prose">{children}</div>}
