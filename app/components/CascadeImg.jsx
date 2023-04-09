@@ -9,17 +9,17 @@ const CascadeImg = ({
 }) => {
 	return (
 		<div
-			className={`imgbg relative w-full before:content-[''] before:absolute before:top-0 before:bottom-0 before:w-[1000%] before:bg-mustard mb-[70px] before:bigborder ${
+			className={`imgbg relative w-full before:content-[''] before:absolute before:top-0 before:bottom-0 before:w-[1000%] md:before:bg-mustard md:mb-[70px] md:before:bigborder ${
 				position === "left" ? "before:right-[50%]" : "before:left-[50%]"
 			} ${negative ? "before:h-[calc(100%-70px)]" : ""}`}
 		>
 			<img
 				src={src}
 				alt="Mask Image"
-				className={`w-[450px] h-[533px] object-cover ${className} ${
-					top ? "" : "top-[70px]"
+				className={`w-full md:w-[450px] md:h-[533px] object-cover ${className} ${
+					top ? "" : "md:top-[70px]"
 				} relative ${
-					position === "left" ? "mr-[100px]" : "ml-[100px]"
+					position === "left" ? "md:mr-[100px]" : "md:ml-[100px]"
 				} imgClass`}
 			/>
 		</div>
