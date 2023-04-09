@@ -40,7 +40,7 @@ html { font-size: 15px;}
 
   .bigborder { @apply border-b-8 border-dawn }
 
-  .partnerLogos img { max-width: 144px; max-height: 66px; margin: 15px 25px;}
+  .partnerLogos img { max-width: 144px; max-height: 66px;}
 
   .brochure-wrap h2 {
     padding-bottom: 1rem;
