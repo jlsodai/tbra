@@ -15,7 +15,7 @@ const About = () => {
 			<HeaderTitle title="We've created a movement." />
 
 			<section className="container" data-aos="fade-up">
-				<div className="grid grid-cols-2 gap-20">
+				<div className="grid md:grid-cols-2 md:gap-20">
 					<KeySection heading="Our Story">
 						<p>
 							TheBoardroom Africa officially launched in 2016, but
@@ -57,9 +57,9 @@ const About = () => {
 				</div>
 			</section>
 
-			<section className="mt-10 py-24" data-aos="fade-up">
+			<section className="mt-10 md:py-24" data-aos="fade-up">
 				<div
-					className="container grid grid-cols-2 items-center"
+					className="container keySectionWrap items-center"
 					data-aos="fade-up"
 				>
 					<div>
@@ -74,18 +74,18 @@ const About = () => {
 					<img
 						src="https://theboardroomafrica.com/wp-content/uploads/2020/05/Group-76-1.jpg"
 						alt=""
-						className="justify-self-end"
+						className="justify-self-end -sm:mt-8"
 						width="330px"
 					/>
 				</div>
 				<div
-					className="container grid grid-cols-2 items-center mt-10"
+					className="container keySectionWrap items-center mt-10"
 					data-aos="fade-up"
 				>
 					<img
 						src="https://theboardroomafrica.com/wp-content/uploads/2022/07/telescope.jpg"
 						alt=""
-						className="justify-self-start"
+						className="justify-self-start -sm:order-last -sm:mt-4"
 						width="330px"
 					/>
 					<div>
@@ -98,7 +98,7 @@ const About = () => {
 				</div>
 
 				<div
-					className="container grid grid-cols-2 items-center mt-10"
+					className="container keySectionWrap items-center mt-10"
 					data-aos="fade-up"
 				>
 					<div>
@@ -115,7 +115,7 @@ const About = () => {
 					<img
 						src="https://theboardroomafrica.com/wp-content/uploads/2020/05/Group-1.jpg"
 						alt=""
-						className="justify-self-end"
+						className="justify-self-end -sm:mt-4"
 						width="330px"
 					/>
 				</div>

@@ -89,7 +89,7 @@ const Article = ({ posts, pageSize = 9 }) => {
 					/>
 				</div>
 			</div>
-			<div className="mx-auto grid max-w-2xl grid-cols-1 gap-y-8 md:gap-y-16 gap-x-8 lg:max-w-none lg:grid-cols-3">
+			<div className="mx-auto grid max-w-2xl grid-cols-1 gap-y-8 md:gap-y-16 gap-x-8 lg:max-w-none lg:grid-cols-3 justify-items-center">
 				{data.map((post, i) => (
 					<article
 						key={i}
