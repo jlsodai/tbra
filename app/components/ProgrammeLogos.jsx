@@ -3,7 +3,7 @@ const ProgrammeLogos = ({ logos = [], className }) => {
 	return (
 		<>
 			<div
-				className={`partnerLogos flex flex-wrap items-center justify-center mt-10 ${className}`}
+				className={`partnerLogos flex flex-wrap items-center justify-center mt-10 gap-10 ${className}`}
 			>
 				{logos.map((img, i) => (
 					<img
