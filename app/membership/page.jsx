@@ -58,7 +58,7 @@ const MembershipHome = async () => {
 							</p>
 						</div>
 						<img
-							src="https://res.cloudinary.com/tbra/image/upload/v1680184362/community_tnruqd.png"
+							src="https://res.cloudinary.com/tbra/image/upload/v1681228153/MembershipCollage_ldvgd0.png"
 							alt=""
 							className="mx-auto"
 						/>
