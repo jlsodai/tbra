@@ -19,8 +19,6 @@ const BrochureDrawer = ({ brochureDetails }) => {
 				if (!deactivate) {
 					setBrochure(true);
 				}
-			} else {
-				setBrochure(false);
 			}
 		};
 
