@@ -144,6 +144,7 @@ const MembershipHome = async () => {
 					<img
 						src="https://res.cloudinary.com/tbra/image/upload/v1680188246/gc_words_z1ycum.png"
 						alt=""
+						data-aos="fade-up"
 					/>
 				</div>
 			</section>
