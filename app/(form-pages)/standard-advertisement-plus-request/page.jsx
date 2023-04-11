@@ -5,9 +5,9 @@ import HeaderTitle from "@/app/sections/HeaderTitle";
 const page = () => {
 	return (
 		<>
-			<HeaderTitle title="Standard Advertisement Request" />
+			<HeaderTitle title="Standard Advertisement Plus Request" />
 			<section className="container my-10" data-aos="fade-up">
-				<PaperForm formSlug="standardadvertisement" />;
+				<PaperForm formSlug="standardadvertisementplus" />;
 			</section>
 		</>
 	);

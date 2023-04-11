@@ -42,7 +42,7 @@ export const menuLinks = [
 		href: "/executive-development",
 		submenu: [
 			{
-				name: "Open Door: Certificate in Company Direction",
+				name: "Open Doors: Certificate in Company Direction",
 				href: "/executive-development/open-doors",
 			},
 			{
@@ -662,7 +662,7 @@ export const pricingTable = [
 			"The client manages the recruitment process and communicates directly with applicants regarding the status of their applications.",
 			"Targeted outreach by our talent team to candidates within our network who fit the criteria for the role.",
 		],
-		formUrl: "/advertisement-form",
+		formUrl: "standard-advertisement-plus-request",
 	},
 	{
 		title: "Premium – Custom Plan",
