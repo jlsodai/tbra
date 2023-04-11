@@ -58,7 +58,7 @@ const ProgramBlocks = ({ attributes, introImg }) => {
 							<KeySection
 								heading="Browse course outline"
 								keyPosition="right"
-								className="py-0"
+								className="!py-0"
 							/>
 							<AccordionSection
 								outlines={attributes.CourseOutline}
