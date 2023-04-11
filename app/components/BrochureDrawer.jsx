@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import { RxCaretDown, RxCaretUp } from "react-icons/rx";
 import Link from "next/link";
+import PaperFormModal from "@/app/components/PaperFormModal";
 
 const BrochureDrawer = ({ brochureDetails }) => {
 	const [brochure, setBrochure] = useState(false);
@@ -102,12 +103,12 @@ const BrochureDrawer = ({ brochureDetails }) => {
 							</p>
 							<div className="flex gap-2">
 								{brochureDetails.brochureFormUrl && (
-									<Link
-										href={brochureDetails.brochureFormUrl}
-										className="btn uppercase text-white mt-4"
-									>
-										Download Brochure
-									</Link>
+									<PaperFormModal
+										btnText="Download Brochure"
+										paperform={
+											brochureDetails.brochureFormUrl
+										}
+									/>
 								)}
 								{brochureDetails.applyUrl && (
 									<Link
