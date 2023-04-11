@@ -4,7 +4,7 @@ import HeaderTitle from "@/app/sections/HeaderTitle";
 const page = () => {
 	return (
 		<>
-			<HeaderTitle title="ESG Certification Application." />
+			<HeaderTitle title="Ontological Growth Experience Application Form." />
 			<section className="container my-10" data-aos="fade-up">
 				<PaperForm formSlug="iblcarxk" />;
 			</section>
