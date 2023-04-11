@@ -37,7 +37,7 @@ const TestimonialSlider = ({ testimonials, imageUrl }) => {
 						pagination={pagination}
 						modules={[Pagination, Autoplay]}
 						autoplay={{
-							delay: 4500,
+							delay: 10000,
 							disableOnInteraction: false,
 						}}
 						loop={true}
