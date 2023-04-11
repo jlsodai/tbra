@@ -1,6 +1,8 @@
 import HeaderTitle from "@/app/sections/HeaderTitle";
 import CascadeImg from "@/app/components/CascadeImg";
 import KeySection from "@/app/sections/KeySection";
+import TrustedBy from "@/app/components/TrustedBy";
+import { clients } from "@/app/utils/options";
 
 const Page = () => {
 	return (
@@ -88,6 +90,15 @@ const Page = () => {
 						top
 						src="https://tbratest.my.canva.site/board-roles/images/b932ee43c94889df3529241879a9120b.jpg"
 					/>
+				</div>
+			</section>
+
+			<section className="bg-white" data-aos="fade-up">
+				<div className="container my-28">
+					<h2 className="text-center text-dusk">
+						We&apos;ve worked with
+					</h2>
+					<TrustedBy logos={clients} />
 				</div>
 			</section>
 		</>
