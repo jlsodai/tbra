@@ -24,7 +24,7 @@ const MembershipHome = async () => {
 						</Link>
 						<div className="flex gap-10 items-center">
 							<Link href="#">Login</Link>
-							<Link href="#" className="btn">
+							<Link href="/membership/application" className="btn">
 								Apply
 							</Link>
 						</div>
@@ -249,7 +249,7 @@ const MembershipHome = async () => {
 					</div>
 
 					<div className="text-center text-white flex gap-10 uppercase">
-						<Link href="#" className="border-2 btn border-mustard">
+						<Link href="/membership/application" className="border-2 btn border-mustard">
 							Apply
 						</Link>
 					</div>
