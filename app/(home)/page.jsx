@@ -7,47 +7,40 @@ import Testimonial from "@/app/components/Testimonial";
 import TrustedBy from "@/app/components/TrustedBy";
 import { clients } from "@/app/utils/options";
 import StatsSection from "@/app/sections/StatsSection";
+import { fetchData } from "@/app/lib/fetchData";
 
-export default function Home() {
+export default async function Home() {
+	const data = await fetchData("home-page?populate=*");
+	const { intro, connecting, programmes, partners, hero, testimonial } =
+		data?.data?.attributes;
 	return (
 		<>
-			<HeroSection />
+			<HeroSection hero={hero} />
 
 			<section className="container" data-aos="fade-up">
 				<div className="md:grid md:grid-cols-2 md:gap-20">
 					<KeySection
 						className="md:w-[80%]"
-						heading="The largest private network of women executives in Africa and the diaspora"
-						linkTitle="About Membership"
-						linkui="btn"
-						url="/membership"
+						heading={intro.Title}
+						linkTitle={intro.linkTitle}
+						linkui={intro.btn && "btn"}
+						url={intro.link}
 					/>
-					<CascadeImg
-						position="right"
-						src="https://tbratest.my.canva.site/marcia-s-colors-landing/images/29d039a30767dbcf5ee0736e92f32d98.jpg"
-					/>
+					<CascadeImg position="right" src={intro.imageUrl} />
 				</div>
 			</section>
 
 			<section className="bg-gray-100" data-aos="fade-up">
 				<div className="container grid md:grid-cols-2 md:gap-20">
-					<CascadeImg
-						position="left"
-						src="https://tbratest.my.canva.site/marcia-s-colors-landing/images/ba7424f002729bc29109cb604fd1c70f.jpg"
-					/>
+					<CascadeImg position="left" src={connecting.imageUrl} />
 					<KeySection
-						heading="Connecting diverse talent with great boards"
-						linkTitle="Learn more"
 						keyPosition="right"
-						url="/board-roles/company"
+						heading={connecting.Title}
+						linkTitle={connecting.linkTitle}
+						linkui={connecting.btn && "btn"}
+						url={connecting.link}
 					>
-						<p>
-							We work with companies and organisations to help
-							bridge the diversity gap on their boards by
-							leveraging our robust network coupled with
-							headhunter interventions to deliver a diverse range
-							of top candidates across sectors.
-						</p>
+						{connecting.content && <p>{connecting.content}</p>}
 					</KeySection>
 				</div>
 			</section>
@@ -63,21 +56,15 @@ export default function Home() {
 				<div className="container">
 					<div className="grid md:grid-cols-2 md:gap-20">
 						<KeySection
-							heading="Executive Programmes"
-							linkTitle="Learn more"
-							url="/executive-development"
+							heading={programmes.Title}
+							linkTitle={programmes.linkTitle}
+							url={programmes.link}
 						>
-							<p>
-								Whether you are looking to transform your
-								presence in the boardroom or lead your business
-								and teams to success in our new global context,
-								we offer a range of immersive experiences suited
-								to your professional development goals.
-							</p>
+							{programmes.content && <p>{programmes.content}</p>}
 						</KeySection>
 						<CascadeImg
 							position="right"
-							src="https://tbratest.my.canva.site/marcia-s-colors-landing/images/2972e7d70b4352c286f0610b361b006a.jpg"
+							src={programmes.imageUrl}
 						/>
 					</div>
 				</div>
@@ -86,26 +73,17 @@ export default function Home() {
 			<section className="container" data-aos="fade-up">
 				<div className="grid md:grid-cols-2 md:gap-20">
 					<Testimonial
-						quote="As investors and grantmakers, we believe in the critical value of equipping leaders with skills to build and scale talented, diverse teams. We are thrilled to partner with TheBoardroom Africa on its journey to increase the gender diversity of company boards and investment committees across the continent. We are especially proud to support its team as they evolve and launch a suite of professional trainings and member services for the organization’s most valuable asset – its community of accomplished women leaders."
-						author="Liesel Pritzker Simmons"
-						authorTitle="Co-founder and Principle, Blue Haven Initiative"
+						quote={testimonial.quote}
+						author={testimonial.author}
+						authorTitle={testimonial.title}
 					/>
 					<KeySection
-						heading="Our Partners"
-						linkTitle="Partners"
+						heading={partners.Title}
+						linkTitle={partners.linkTitle}
+						url={partners.link}
 						keyPosition="right"
-						url="/partners"
 					>
-						<p>
-							Our donors provide invaluable support and share our
-							vision for creating a gender-equal world. From
-							foundations to corporations, our partners know that
-							investing in women leaders is an investment in a
-							more inclusive society, a stronger business
-							community. We work with our donors and partners to
-							achieve shared development objectives such as gender
-							inclusion and jobs created.
-						</p>
+						{partners.content && <p>{partners.content}</p>}
 					</KeySection>
 				</div>
 			</section>
