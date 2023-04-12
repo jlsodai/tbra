@@ -8,7 +8,14 @@ import { fetchData } from "@/app/lib/fetchData";
 
 const MembershipHome = async () => {
 	const data = await fetchData("membership?populate=*");
-	const attributes = data?.data?.attributes;
+	const {
+		testimonials,
+		community,
+		curated,
+		groupCoaching,
+		inspireBusiness,
+		tools,
+	} = data?.data?.attributes;
 	return (
 		<>
 			<section className="">
@@ -24,7 +31,10 @@ const MembershipHome = async () => {
 						</Link>
 						<div className="flex gap-10 items-center">
 							<Link href="#">Login</Link>
-							<Link href="/membership/application" className="btn">
+							<Link
+								href="/membership/application"
+								className="btn"
+							>
 								Apply
 							</Link>
 						</div>
@@ -43,22 +53,12 @@ const MembershipHome = async () => {
 					<div className="grid grid-cols-2 gap-20 items-center">
 						<div>
 							<h4 className="text-mustard text-6xl font-serif">
-								Powerful community
+								{community.Title}
 							</h4>
-							<p className="mt-4">
-								Our highly-selective network is a
-								rapidly-growing community of talented women
-								executives representing more than 65 countries
-								across Africa and the diaspora. Our network’s
-								executives come from leading African and
-								multinational companies, including Actis,
-								General Electric, African Finance Corporation,
-								Google, GlaxoSmithKline, Standard Chartered,
-								Uber and more.
-							</p>
+							<p className="mt-4">{community.content}</p>
 						</div>
 						<img
-							src="https://res.cloudinary.com/tbra/image/upload/v1681228153/MembershipCollage_ldvgd0.png"
+							src={community.imageUrl}
 							alt=""
 							className="mx-auto"
 						/>
@@ -93,20 +93,13 @@ const MembershipHome = async () => {
 					<div className="grid grid-cols-2 z-10 py-28 text-white">
 						<div className="">
 							<h4 className="text-mustard text-6xl font-serif">
-								Curated peer conversations
+								{curated.Title}
 							</h4>
 							<p className="mt-4 font-halyard font-extralight text-3xl text-mustard">
-								Discover the power of doing it together.
+								{curated.subTitle}
 							</p>
-							<p className="mt-4">
-								Enabled by a community activation platform that{" "}
-								<br />
-								facilitates curated connections at scale.
-							</p>
-							<p className="mt-4">
-								Get matched every month with a peer for a 1-1{" "}
-								<br />
-								conversation on a topic of you choice.
+							<p className="mt-4 whitespace-pre-wrap">
+								{curated.content}
 							</p>
 						</div>
 						<div>&nbsp;</div>
@@ -128,16 +121,12 @@ const MembershipHome = async () => {
 					<div className="grid grid-cols-2 z-10 mb-28 text-white">
 						<div className="">
 							<h4 className="text-mustard text-6xl font-serif">
-								Group coaching
+								{groupCoaching.Title}
 							</h4>
 							<p className="mt-4 font-halyard font-extralight text-3xl text-mustard">
-								Discover the power of doing it together.
+								{groupCoaching.subTitle}
 							</p>
-							<p className="mt-4">
-								Deconstruct your limiting beliefs, and explore
-								the moods that shape our leadership journey in
-								intimate monthly virtual coaching sessions.
-							</p>
+							<p className="mt-4">{groupCoaching.content}</p>
 						</div>
 						<div>&nbsp;</div>
 					</div>
@@ -167,17 +156,12 @@ const MembershipHome = async () => {
 					<div className="grid grid-cols-2 z-10 py-28 text-white">
 						<div className="">
 							<h4 className="text-mustard text-6xl font-serif">
-								Inspire business excellence
+								{inspireBusiness.Title}
 							</h4>
 							<p className="mt-4 font-halyard font-extralight text-3xl text-mustard">
-								Adapt and authentically lead in our new global
-								context.
+								{inspireBusiness.subTitle}
 							</p>
-							<p className="mt-4">
-								Navigate the complexities of strategic
-								leadership with exclusive access to our suite of
-								Executive Programmes
-							</p>
+							<p className="mt-4">{inspireBusiness.content}</p>
 						</div>
 						<div>&nbsp;</div>
 					</div>
@@ -194,22 +178,13 @@ const MembershipHome = async () => {
 					<div className="grid grid-cols-2 z-10 py-28 text-white items-center">
 						<div className="">
 							<h4 className="text-mustard text-6xl font-serif">
-								The tools you need to stay on top
+								{tools.Title}
 							</h4>
 							<p className="mt-4 font-halyard font-extralight text-3xl text-mustard">
-								Position yourself to stay on top.
+								{tools.subTitle}
 							</p>
-							<p className="mt-4">
-								Whether it&apos;s discovering how to position
-								yourself for the next major move, avoiding
-								getting stuck, or preparing yourself for
-								regional and global opportunities, there are
-								clear steps you can take to advance those
-								ambitions.
-							</p>
-							<p>
-								Your membership provides access to our range of
-								professional advancement tools.
+							<p className="mt-4 whitespace-pre-wrap">
+								{tools.content}
 							</p>
 						</div>
 						<img
@@ -239,7 +214,7 @@ const MembershipHome = async () => {
 					</div>
 
 					<div className="grid grid-cols-3 gap-10 text-white md:max-w-[80%]">
-						{attributes.testimonials.map((testimonial, i) => (
+						{testimonials.map((testimonial, i) => (
 							<div key={i} className="border border-white p-6">
 								<p>{testimonial.quote}</p>
 								<p className="mt-8">- {testimonial.author}</p>
@@ -249,7 +224,10 @@ const MembershipHome = async () => {
 					</div>
 
 					<div className="text-center text-white flex gap-10 uppercase">
-						<Link href="/membership/application" className="border-2 btn border-mustard">
+						<Link
+							href="/membership/application"
+							className="border-2 btn border-mustard"
+						>
 							Apply
 						</Link>
 					</div>
