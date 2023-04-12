@@ -15,6 +15,7 @@ const MembershipHome = async () => {
 		groupCoaching,
 		inspireBusiness,
 		tools,
+		heroSlides,
 	} = data?.data?.attributes;
 	return (
 		<>
@@ -40,7 +41,7 @@ const MembershipHome = async () => {
 						</div>
 					</div>
 				</div>
-				<MembershipSlides />
+				<MembershipSlides details={heroSlides} />
 			</section>
 
 			<section className="bg-[#3C455F] text-white">

@@ -8,9 +8,8 @@ import "@/styles/slides.css";
 
 import { Pagination, Autoplay } from "swiper";
 import Link from "next/link";
-import { memberSlides } from "@/app/utils/options";
 
-const MembershipSlides = () => {
+const MembershipSlides = ({ details }) => {
 	const pagination = {
 		clickable: true,
 	};
@@ -26,7 +25,7 @@ const MembershipSlides = () => {
 			modules={[Pagination, Autoplay]}
 			className="membership-slides"
 		>
-			{memberSlides.map((slide, i) => (
+			{details.map((slide, i) => (
 				<SwiperSlide
 					key={i}
 					className="bigborder"
@@ -43,7 +42,7 @@ const MembershipSlides = () => {
 								{slide.title}
 							</h1>
 							<div className=" md:max-w-[65%]">
-								<p className=" text-dawn">{slide.content}</p>
+								<p className=" text-dawn">{slide.details}</p>
 								<div className="text-center mt-10">
 									<Link
 										href="/membership/application"
