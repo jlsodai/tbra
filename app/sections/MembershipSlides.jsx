@@ -46,7 +46,7 @@ const MembershipSlides = () => {
 								<p className=" text-dawn">{slide.content}</p>
 								<div className="text-center mt-10">
 									<Link
-										href="#!"
+										href="/membership/application"
 										className="btn bg-dawn font-normal"
 									>
 										Apply Now
