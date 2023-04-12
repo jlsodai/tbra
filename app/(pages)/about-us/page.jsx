@@ -4,55 +4,45 @@ import TBRAKey from "@/app/components/TBRAKey";
 import CascadeImg from "@/app/components/CascadeImg";
 import KeySection from "@/app/sections/KeySection";
 import StatsSection from "@/app/sections/StatsSection";
+import { fetchData } from "@/app/lib/fetchData";
 
 export const metadata = {
 	title: "About Us - Improving Board Diversity",
 };
 
-const About = () => {
+const About = async () => {
+	const data = await fetchData("about-page?populate=*");
+	const { intro } = data?.data?.attributes;
 	return (
 		<>
 			<HeaderTitle title="We've created a movement." />
 
 			<section className="container" data-aos="fade-up">
 				<div className="grid md:grid-cols-2 md:gap-20">
-					<KeySection heading="Our Story">
-						<p>
-							TheBoardroom Africa officially launched in 2016, but
-							in many ways, this community has been years in the
-							making. My own journey navigating corporate ranks as
-							a young executive inspired the desire to build what
-							has now become Africa&apos;s most vibrant private
-							community of women executives.
-						</p>
-						<p>
-							What started with a handful of women across a few
-							countries has now developed into a continent-wide
-							movement for change.
-						</p>
-						<p>
-							Today, TBrA is enhancing and amplifying the
-							potential of Africa&apos;s exceptional women
-							leaders. We also support companies hoping to unlock
-							the power of diversity and improve business
-							performance by connecting them with talent. And we
-							work with women to equip them with the resources
-							they need as they navigate their journeys in and
-							outside the boardroom. We invite you to join us to
-							build better boardrooms and more inclusive
-							leadership spaces.
-						</p>
-						<p>
-							Marcia Ashong <br />
-							Founder <TBRAKey size="xs" /> CEO, TheBoardroom
-							Africa
-						</p>
+					<KeySection
+						heading={intro.Title}
+						linkTitle={intro.linkTitle}
+						linkui={intro.btn && "btn"}
+						url={intro.link}
+					>
+						{intro.content && (
+							<>
+								<p className="whitespace-pre-wrap">
+									{intro.content}
+								</p>{" "}
+								<p>
+									Marcia Ashong <br />
+									Founder <TBRAKey size="xs" /> CEO,
+									TheBoardroom Africa
+								</p>
+							</>
+						)}
 					</KeySection>
 					<CascadeImg
 						position="right"
 						negative
 						top
-						src="https://tbratest.my.canva.site/about-page/images/2a11927f52f4ccf222c8587590ab42c8.jpg"
+						src={intro.imageUrl}
 					/>
 				</div>
 			</section>
