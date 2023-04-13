@@ -21,7 +21,7 @@ html { font-size: 15px;}
   .statsWrap { background: linear-gradient(270deg, #fafafa 350px, transparent 0%); }
   .statsSectionWrap { background: linear-gradient(0deg, #bac2ba 8px, #cdae7d 0%);}
 
-  .btn { @apply px-6 py-2 bg-mustard hover:bg-mustard-400 font-semibold inline-block; }
+  .btn { @apply px-6 py-2 bg-mustard hover:bg-mustard-400 font-semibold inline-block text-center; }
   .btn-disabled { @apply px-6 py-2 bg-gray-400 font-semibold inline-block opacity-50; }
   .menulink { @apply hover:text-mustard mb-1 lg:mb-0 py-2; }
   .newmenulink { @apply hover:text-mustard mb-1 lg:mb-0; }
