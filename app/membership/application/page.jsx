@@ -4,7 +4,7 @@ const page = () => {
 	return (
 		<iframe
 			src="https://theboardroomafrica.com/application-form"
-			frameborder="0"
+			frameBorder="0"
 			width="100%"
 			style={{
 				height: "100dvh",
