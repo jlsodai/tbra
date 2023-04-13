@@ -145,7 +145,6 @@ const MembershipHome = async () => {
 						"https://tbratest.my.canva.site/membership-learn-more-page/images/66a99990b0237ba0bb45488d7fc4a6d8.jpg"
 					),
 					backgroundSize: "100%",
-					// backgroundPosition: "0 -200px",
 				}}
 				className="py-28"
 			>
