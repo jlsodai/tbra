@@ -45,7 +45,7 @@ const MembershipHome = async () => {
 			</section>
 
 			<section className="bg-[#3C455F] text-white">
-				<div className="flex flex-col container min-h-screen relative py-16 items-center justify-center">
+				<div className="flex flex-col container md:min-h-screen relative py-16 items-center justify-center">
 					<img
 						src="/images/gray-key.png"
 						className="absolute left-0 h-[75%] -z-1 opacity-5"
@@ -85,7 +85,7 @@ const MembershipHome = async () => {
 					"https://tbratest.my.canva.site/membership-learn-more-page/images/b8f20935578f5ba1b8b182cd33fff00a.jpg"
 				)}
 			>
-				<div className="flex container min-h-screen relative items-center">
+				<div className="flex container md:min-h-screen relative items-center">
 					<img
 						src="/images/white-key.png"
 						className="absolute left-0 h-[75%] -z-1 opacity-3"
@@ -99,7 +99,7 @@ const MembershipHome = async () => {
 							<p className="mt-4 font-halyard font-extralight text-3xl text-mustard">
 								{curated.subTitle}
 							</p>
-							<p className="mt-4 whitespace-pre-wrap">
+							<p className="mt-4 md:whitespace-pre-wrap">
 								{curated.content}
 							</p>
 						</div>
@@ -113,13 +113,13 @@ const MembershipHome = async () => {
 					"https://tbratest.my.canva.site/membership-learn-more-page/images/a00b60f40dce31fa319e4dcd91c0d494.jpg"
 				)}
 			>
-				<div className="flex flex-col container min-h-screen relative justify-center">
+				<div className="flex flex-col container md:min-h-screen -sm:py-28 relative justify-center">
 					<img
 						src="/images/white-key.png"
 						className="absolute left-0 h-[75%] -z-1 opacity-3"
 						alt=""
 					/>
-					<div className="grid md:grid-cols-2 z-10 mb-28 text-white">
+					<div className="grid md:grid-cols-2 z-10 md:mb-28 text-white">
 						<div className="">
 							<h4 className="text-mustard text-3xl md:text-6xl font-serif">
 								{groupCoaching.Title}
@@ -145,16 +145,17 @@ const MembershipHome = async () => {
 						"https://tbratest.my.canva.site/membership-learn-more-page/images/66a99990b0237ba0bb45488d7fc4a6d8.jpg"
 					),
 					backgroundSize: "100%",
-					backgroundPosition: "0 -200px",
+					// backgroundPosition: "0 -200px",
 				}}
+				className="py-28"
 			>
-				<div className="flex container min-h-screen relative items-center">
+				<div className="flex container md:min-h-screen relative items-center">
 					<img
 						src="/images/white-key.png"
 						className="absolute left-0 h-[75%] -z-1 opacity-3"
 						alt=""
 					/>
-					<div className="grid md:grid-cols-2 z-10 py-28 text-white">
+					<div className="grid md:grid-cols-2 z-10 text-white">
 						<div className="">
 							<h4 className="text-mustard text-3xl md:text-6xl font-serif">
 								{inspireBusiness.Title}
@@ -170,7 +171,7 @@ const MembershipHome = async () => {
 			</section>
 
 			<section className="bg-darkblue">
-				<div className="flex container min-h-screen relative items-center">
+				<div className="flex container md:min-h-screen relative items-center">
 					<img
 						src="/images/white-key.png"
 						className="absolute left-0 h-[75%] -z-1 opacity-3"
@@ -184,7 +185,7 @@ const MembershipHome = async () => {
 							<p className="mt-4 font-halyard font-extralight text-3xl text-mustard">
 								{tools.subTitle}
 							</p>
-							<p className="mt-4 whitespace-pre-wrap">
+							<p className="mt-4 md:whitespace-pre-wrap">
 								{tools.content}
 							</p>
 						</div>
@@ -199,7 +200,7 @@ const MembershipHome = async () => {
 			</section>
 
 			<section className="membership-testimonial">
-				<div className="flex flex-col container min-h-screen relative py-28 justify-center items-center gap-y-10">
+				<div className="flex flex-col container md:min-h-screen relative py-28 justify-center items-center gap-y-10">
 					<img
 						src="/images/white-key.png"
 						className="absolute left-0 h-[75%] -z-1 opacity-3"
