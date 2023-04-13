@@ -12,7 +12,7 @@ const CascadeImg = ({
 			className={`imgbg relative w-full before:content-[''] before:absolute before:top-0 before:bottom-0 before:w-[1000%] md:before:bg-mustard md:mb-[70px] md:before:bigborder ${
 				position === "left"
 					? "mt-10 md:mt-0 before:right-[50%]"
-					: "mb-10 md:mb-0 before:left-[50%]"
+					: "mb-10 md:mb-0 before:left-[50%] -sm:order-first -sm:mt-8 -sm:mb-0"
 			} ${negative ? "before:h-[calc(100%-70px)]" : ""}`}
 		>
 			<img

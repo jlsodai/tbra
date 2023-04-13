@@ -18,7 +18,7 @@ export default async function Home() {
 			<HeroSection hero={hero} />
 
 			<section className="container" data-aos="fade-up">
-				<div className="md:grid md:grid-cols-2 md:gap-20">
+				<div className="grid md:grid-cols-2 md:gap-20">
 					<KeySection
 						className="md:w-[80%]"
 						heading={intro.Title}
@@ -82,6 +82,7 @@ export default async function Home() {
 						linkTitle={partners.linkTitle}
 						url={partners.link}
 						keyPosition="right"
+						className="-sm:order-first"
 					>
 						{partners.content && <p>{partners.content}</p>}
 					</KeySection>

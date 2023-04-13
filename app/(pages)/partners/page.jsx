@@ -34,7 +34,7 @@ const page = async () => {
 
 			<section>
 				<div className="container">
-					<h3 className="font-halyard font-extralight text-5xl text-center">
+					<h3 className="font-halyard font-extralight text-5xl text-center -sm:mt-16 -sm:mb-8">
 						Our Partners
 					</h3>
 					<TrustedBy logos={partnerLogos} />

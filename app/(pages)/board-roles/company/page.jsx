@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import HeaderTitle from "@/app/sections/HeaderTitle";
 import CascadeImg from "@/app/components/CascadeImg";
 import KeySection from "@/app/sections/KeySection";
@@ -38,7 +39,7 @@ const Page = () => {
 
 					<img
 						src="https://res.cloudinary.com/tbra/image/upload/v1680234458/cvs_pvyxbj.jpg"
-						className="lg:max-w-[500px] lg:ml-auto grayscale"
+						className="lg:max-w-[500px] lg:ml-auto grayscale -sm:order-first -sm:mt-16"
 						alt=""
 					/>
 				</div>
