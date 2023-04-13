@@ -16,7 +16,7 @@ const ProgramBlocks = ({ attributes, introImg }) => {
 	return (
 		<>
 			<section className="container" data-aos="fade-up">
-				<div className="grid grid-cols-2 gap-20">
+				<div className="keySectionWrap">
 					<KeySection heading={attributes.Intro.Title}>
 						<p className="whitespace-pre-wrap">
 							{attributes.Intro.content}
@@ -36,7 +36,7 @@ const ProgramBlocks = ({ attributes, introImg }) => {
 
 			<section data-aos="fade-up">
 				<div className="container">
-					<div className="grid grid-cols-[3fr_2fr] gap-10 innerPadding">
+					<div className="grid md:grid-cols-[3fr_2fr] md:gap-10 innerPadding">
 						{attributes.outlineVideoUrl ? (
 							<iframe
 								width="100%"
@@ -54,7 +54,7 @@ const ProgramBlocks = ({ attributes, introImg }) => {
 								alt={attributes.Heading.title}
 							/>
 						)}
-						<div className="">
+						<div className="-sm:mt-8">
 							<KeySection
 								heading="Browse course outline"
 								keyPosition="right"
@@ -73,8 +73,7 @@ const ProgramBlocks = ({ attributes, introImg }) => {
 			<section className="my-24" data-aos="fade-up">
 				<div className="container">
 					<h2 className="text-center text-gray-700">Key features</h2>
-					<div className="grid grid-cols-6 text-center gap-10 text-xs mt-16">
-						<div>&nbsp;</div>
+					<div className="grid grid-cols-2 md:grid-cols-4 text-center gap-10 text-xs mt-16 md:mx-48">
 						<Expectation title="Dedicated programme support team">
 							<RiTeamFill className="text-6xl text-mustard" />
 						</Expectation>
@@ -87,7 +86,6 @@ const ProgramBlocks = ({ attributes, introImg }) => {
 						<Expectation title="Learning platform with mobile access">
 							<RiSmartphoneLine className="text-6xl text-mustard" />
 						</Expectation>
-						<div>&nbsp;</div>
 					</div>
 				</div>
 			</section>

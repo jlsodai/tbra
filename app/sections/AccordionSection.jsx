@@ -19,11 +19,13 @@ const AccordionSection = ({ outlines = [] }) => {
 						onClick={() => handleOpen(i + 1)}
 						className="flex justify-between items-center border border-mustard text-center w-full p-4"
 					>
-						<div>&nbsp;</div>
-						<div>{outline.title}</div>
+						{/* <div>&nbsp;</div> */}
+						<div className="text-left">{outline.title}</div>
 						{open === i + 1 ? <CgChevronDown /> : <CgChevronUp />}
 					</button>
-					<AccordionBody className="whitespace-pre-wrap">{outline.description}</AccordionBody>
+					<AccordionBody className="whitespace-pre-wrap">
+						{outline.description}
+					</AccordionBody>
 				</Accordion>
 			))}
 		</div>

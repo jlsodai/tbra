@@ -15,18 +15,18 @@ const TestimonialSlider = ({ testimonials, imageUrl }) => {
 	};
 
 	return (
-		<div className="bg-white pt-16 lg:py-24 testimonial-slides">
-			<div className="pb-16 bg-darkblue lg:pb-0 lg:z-10 lg:relative">
-				<div className="container lg:grid lg:grid-cols-3 lg:gap-8">
-					<div className="relative lg:-my-8">
-						<div
+		<div className="bg-white pt-16 md:py-24 testimonial-slides">
+			<div className="-sm:pb-8 bg-darkblue md:pb-0 md:z-10 md:relative">
+				<div className="container md:grid md:grid-cols-3 md:gap-8">
+					<div className="relative md:-my-8">
+						{/* <div
 							aria-hidden="true"
-							className="absolute inset-x-0 top-0 h-1/2 bg-white lg:hidden"
-						></div>
-						<div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:p-0 lg:h-full">
-							<div className="aspect-w-10 aspect-h-6 overflow-hidden sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
+							className="absolute inset-x-0 top-0 h-1/2 bg-white md:hidden"
+						></div> */}
+						<div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 md:p-0 md:h-full">
+							<div className="aspect-w-10 aspect-h-6 overflow-hidden sm:aspect-w-16 sm:aspect-h-7 md:aspect-none md:h-full">
 								<img
-									className="object-cover lg:h-full lg:w-full"
+									className="object-cover md:h-full md:w-full"
 									src={imageUrl}
 									alt=""
 								/>
@@ -41,11 +41,11 @@ const TestimonialSlider = ({ testimonials, imageUrl }) => {
 							disableOnInteraction: false,
 						}}
 						loop={true}
-						className="mt-12 lg:m-0 lg:col-span-2 pb-10"
+						className="mt-12 md:m-0 md:col-span-2 pb-16 md:pb-10"
 					>
 						{testimonials.map((testimonial, i) => (
 							<SwiperSlide key={i}>
-								<div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:px-0 lg:p-10 lg:max-w-none lg:pl-8">
+								<div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 md:px-0 md:p-10 md:max-w-none md:pl-8">
 									<blockquote>
 										<div>
 											<ImQuotesLeft className="h-12 w-12 text-white opacity-25" />

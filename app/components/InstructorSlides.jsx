@@ -15,7 +15,8 @@ const InstructorSlides = ({ instructors }) => {
 		clickable: true,
 		renderBullet: function (index, className) {
 			return (
-				'<div class="text-center ' +
+				`<div class="slidesMobile md:hidden text-[45px] !w-[15px] !h-[45px] ${className}">&#x2219</div>` +
+				'<div class="-sm:hidden text-center ' +
 				className +
 				'">' +
 				'<img src="' +
@@ -32,7 +33,7 @@ const InstructorSlides = ({ instructors }) => {
 	return (
 		<>
 			<section className="bg-dawn-200 py-8 instructor-slides">
-				<h3 className="font-halyard text-5xl mt-16 text-center">
+				<h3 className="font-halyard text-3xl md:text-5xl md:mt-16 text-center">
 					Course Instructors
 				</h3>
 				<Swiper
@@ -47,13 +48,19 @@ const InstructorSlides = ({ instructors }) => {
 					{instructors.map((instructor, i) => (
 						<SwiperSlide
 							key={i}
-							className="flex justify-center items-center mt-16 mb-16"
+							className="flex justify-center items-center my-8 md:my-16"
 						>
-							<div className="container grid grid-cols-2 gap-24 items-center">
+							<div className="container grid md:grid-cols-2 md:gap-24 items-center">
 								<div className="prose text-left">
-									<h2 className="mb-8 text-4xl">
+									<h2 className="mb-4 md:mb-8 text-2xl md:text-4xl">
 										{instructor.Name}
 									</h2>
+
+									<img
+										src={instructor.instructorImage}
+										className="max-h-[450px] w-full object-cover -sm:mt-8 md:hidden"
+										alt=""
+									/>
 
 									<p className="whitespace-pre-wrap">
 										{instructor.Profile}
@@ -61,7 +68,7 @@ const InstructorSlides = ({ instructors }) => {
 								</div>
 								<img
 									src={instructor.instructorImage}
-									className="max-h-[450px] w-full object-cover"
+									className="max-h-[450px] w-full object-cover -sm:hidden"
 									alt=""
 								/>
 							</div>
