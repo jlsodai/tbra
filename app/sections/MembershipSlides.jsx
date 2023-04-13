@@ -31,7 +31,7 @@ const MembershipSlides = ({ details }) => {
 					className="bigborder"
 					style={slide.style || {}}
 				>
-					<div className="flex container min-h-screen relative px-4 items-center">
+					<div className="flex container min-h-screen relative items-center">
 						<img
 							src="/images/white-key.png"
 							className="absolute left-0 h-[75%] -z-1 opacity-3"

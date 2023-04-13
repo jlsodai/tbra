@@ -20,8 +20,8 @@ const MembershipHome = async () => {
 	return (
 		<>
 			<section className="">
-				<div className="container relative">
-					<div className="flex justify-between items-center pt-6 text-white absolute z-50 w-full">
+				<div className="relative flex justify-center text-white w-full">
+					<div className="container flex mt-6 justify-between items-center absolute z-50">
 						<Link href="/">
 							<img
 								src="https://theboardroomafrica.com/wp-content/themes/tbra/assets/images/logo-primary.svg"
@@ -30,7 +30,7 @@ const MembershipHome = async () => {
 								alt="Logo"
 							/>
 						</Link>
-						<div className="flex gap-10 items-center">
+						<div className="flex gap-4 md:gap-10 items-center">
 							<Link href="#">Login</Link>
 							<Link
 								href="/membership/application"
@@ -45,15 +45,15 @@ const MembershipHome = async () => {
 			</section>
 
 			<section className="bg-[#3C455F] text-white">
-				<div className="flex flex-col container min-h-screen relative px-4 py-16 items-center justify-center">
+				<div className="flex flex-col container min-h-screen relative py-16 items-center justify-center">
 					<img
 						src="/images/gray-key.png"
 						className="absolute left-0 h-[75%] -z-1 opacity-5"
 						alt=""
 					/>
-					<div className="grid grid-cols-2 gap-20 items-center">
+					<div className="grid md:grid-cols-2 gap-20 items-center">
 						<div>
-							<h4 className="text-mustard text-6xl font-serif">
+							<h4 className="text-mustard text-3xl md:text-6xl font-serif">
 								{community.Title}
 							</h4>
 							<p className="mt-4">{community.content}</p>
@@ -69,7 +69,7 @@ const MembershipHome = async () => {
 
 			<section className="bg-[#384159] py-16">
 				<div className="container flex flex-col">
-					<h3 className="text-center text-dawn font-libreb text-4xl md:mx-32">
+					<h3 className="text-center text-dawn font-libreb -sm:mb-4 text-xl md:text-4xl md:mx-32">
 						Our members come from some of Africa&apos;s leading
 						companies and organisations
 					</h3>
@@ -85,15 +85,15 @@ const MembershipHome = async () => {
 					"https://tbratest.my.canva.site/membership-learn-more-page/images/b8f20935578f5ba1b8b182cd33fff00a.jpg"
 				)}
 			>
-				<div className="flex container min-h-screen relative px-4 items-center">
+				<div className="flex container min-h-screen relative items-center">
 					<img
 						src="/images/white-key.png"
 						className="absolute left-0 h-[75%] -z-1 opacity-3"
 						alt=""
 					/>
-					<div className="grid grid-cols-2 z-10 py-28 text-white">
+					<div className="grid md:grid-cols-2 z-10 py-28 text-white">
 						<div className="">
-							<h4 className="text-mustard text-6xl font-serif">
+							<h4 className="text-mustard text-3xl md:text-6xl font-serif">
 								{curated.Title}
 							</h4>
 							<p className="mt-4 font-halyard font-extralight text-3xl text-mustard">
@@ -113,15 +113,15 @@ const MembershipHome = async () => {
 					"https://tbratest.my.canva.site/membership-learn-more-page/images/a00b60f40dce31fa319e4dcd91c0d494.jpg"
 				)}
 			>
-				<div className="flex flex-col container min-h-screen relative px-4 justify-center">
+				<div className="flex flex-col container min-h-screen relative justify-center">
 					<img
 						src="/images/white-key.png"
 						className="absolute left-0 h-[75%] -z-1 opacity-3"
 						alt=""
 					/>
-					<div className="grid grid-cols-2 z-10 mb-28 text-white">
+					<div className="grid md:grid-cols-2 z-10 mb-28 text-white">
 						<div className="">
-							<h4 className="text-mustard text-6xl font-serif">
+							<h4 className="text-mustard text-3xl md:text-6xl font-serif">
 								{groupCoaching.Title}
 							</h4>
 							<p className="mt-4 font-halyard font-extralight text-3xl text-mustard">
@@ -148,15 +148,15 @@ const MembershipHome = async () => {
 					backgroundPosition: "0 -200px",
 				}}
 			>
-				<div className="flex container min-h-screen relative px-4 items-center">
+				<div className="flex container min-h-screen relative items-center">
 					<img
 						src="/images/white-key.png"
 						className="absolute left-0 h-[75%] -z-1 opacity-3"
 						alt=""
 					/>
-					<div className="grid grid-cols-2 z-10 py-28 text-white">
+					<div className="grid md:grid-cols-2 z-10 py-28 text-white">
 						<div className="">
-							<h4 className="text-mustard text-6xl font-serif">
+							<h4 className="text-mustard text-3xl md:text-6xl font-serif">
 								{inspireBusiness.Title}
 							</h4>
 							<p className="mt-4 font-halyard font-extralight text-3xl text-mustard">
@@ -170,15 +170,15 @@ const MembershipHome = async () => {
 			</section>
 
 			<section className="bg-darkblue">
-				<div className="flex container min-h-screen relative px-4 items-center">
+				<div className="flex container min-h-screen relative items-center">
 					<img
 						src="/images/white-key.png"
 						className="absolute left-0 h-[75%] -z-1 opacity-3"
 						alt=""
 					/>
-					<div className="grid grid-cols-2 z-10 py-28 text-white items-center">
+					<div className="grid md:grid-cols-2 z-10 py-28 text-white items-center">
 						<div className="">
-							<h4 className="text-mustard text-6xl font-serif">
+							<h4 className="text-mustard text-3xl md:text-6xl font-serif">
 								{tools.Title}
 							</h4>
 							<p className="mt-4 font-halyard font-extralight text-3xl text-mustard">
@@ -192,29 +192,29 @@ const MembershipHome = async () => {
 							src="https://res.cloudinary.com/tbra/image/upload/v1680189640/mockup_fp3gab.png"
 							width="300px"
 							alt="membership mockup"
-							className="mx-auto"
+							className="mx-auto -sm:mt-8"
 						/>
 					</div>
 				</div>
 			</section>
 
 			<section className="membership-testimonial">
-				<div className="flex flex-col container min-h-screen relative py-28 px-4 justify-center items-center gap-y-10">
+				<div className="flex flex-col container min-h-screen relative py-28 justify-center items-center gap-y-10">
 					<img
 						src="/images/white-key.png"
 						className="absolute left-0 h-[75%] -z-1 opacity-3"
 						alt=""
 					/>
 					<div className="text-mustard md:max-w-[60%] z-10 text-center">
-						<h4 className="text-6xl font-libreb">
+						<h4 className="text-3xl md:text-6xl font-libreb">
 							Join the movement
 						</h4>
-						<p className="mt-4 font-halyard font-extralight text-3xl text-mustard">
+						<p className="mt-4 font-halyard font-extralight text-2xl md:text-3xl text-mustard">
 							Discover the power of doing it together.
 						</p>
 					</div>
 
-					<div className="grid grid-cols-3 gap-10 text-white md:max-w-[80%]">
+					<div className="grid md:grid-cols-3 gap-10 text-white md:max-w-[80%]">
 						{testimonials.map((testimonial, i) => (
 							<div key={i} className="border border-white p-6">
 								<p>{testimonial.quote}</p>
