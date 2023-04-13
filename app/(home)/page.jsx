@@ -47,7 +47,7 @@ export default async function Home() {
 
 			<section className="bg-white" data-aos="fade-up">
 				<div className="container my-12 md:my-28">
-					<h2 className="text-center">Trusted by.</h2>
+					<h2 className="text-center -sm:mb-10">Trusted by.</h2>
 					<TrustedBy logos={clients} />
 				</div>
 			</section>

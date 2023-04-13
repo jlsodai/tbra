@@ -50,7 +50,7 @@ const ProgramBlocks = ({ attributes, introImg }) => {
 						) : (
 							<img
 								src={attributes.outlineImageUrl}
-								className="w-[100%] h-[505px] object-cover"
+								className="w-[100%] md:h-[505px] object-cover"
 								alt={attributes.Heading.title}
 							/>
 						)}
