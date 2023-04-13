@@ -80,11 +80,7 @@ const MembershipHome = async () => {
 				</div>
 			</section>
 
-			<section
-				style={bgStyle(
-					"https://tbratest.my.canva.site/membership-learn-more-page/images/b8f20935578f5ba1b8b182cd33fff00a.jpg"
-				)}
-			>
+			<section className="bg-[linear-gradient(rgba(32,41,69,0.9),rgba(32,41,69,0.9)),url('https://tbratest.my.canva.site/membership-learn-more-page/images/b8f20935578f5ba1b8b182cd33fff00a.jpg')] bg-cover bg-center">
 				<div className="flex container md:min-h-screen relative items-center">
 					<img
 						src="/images/white-key.png"
@@ -108,11 +104,7 @@ const MembershipHome = async () => {
 				</div>
 			</section>
 
-			<section
-				style={bgStyle(
-					"https://tbratest.my.canva.site/membership-learn-more-page/images/a00b60f40dce31fa319e4dcd91c0d494.jpg"
-				)}
-			>
+			<section className="bg-[linear-gradient(rgba(32,41,69,0.9),rgba(32,41,69,0.9)),url('https://tbratest.my.canva.site/membership-learn-more-page/images/a00b60f40dce31fa319e4dcd91c0d494.jpg')] bg-cover bg-center">
 				<div className="flex flex-col container md:min-h-screen -sm:py-28 relative justify-center">
 					<img
 						src="/images/white-key.png"
@@ -139,15 +131,7 @@ const MembershipHome = async () => {
 				</div>
 			</section>
 
-			<section
-				style={{
-					...bgStyle(
-						"https://tbratest.my.canva.site/membership-learn-more-page/images/66a99990b0237ba0bb45488d7fc4a6d8.jpg"
-					),
-					backgroundSize: "100%",
-				}}
-				className="py-28"
-			>
+			<section className="-sm:py-28 bg-[linear-gradient(rgba(32,41,69,0.9),rgba(32,41,69,0.9)),url('https://tbratest.my.canva.site/membership-learn-more-page/images/66a99990b0237ba0bb45488d7fc4a6d8.jpg')] md:bg-[center_-120px] bg-cover">
 				<div className="flex container md:min-h-screen relative items-center">
 					<img
 						src="/images/white-key.png"
@@ -238,8 +222,3 @@ const MembershipHome = async () => {
 	);
 };
 export default MembershipHome;
-
-const bgStyle = (bgImg, opacity = 90) => ({
-	background: `linear-gradient(rgba(32,41,69, 0.${opacity}), rgba(32,41,69, 0.${opacity})), url('${bgImg}')`,
-	backgroundSize: "cover",
-});
