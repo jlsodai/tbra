@@ -31,7 +31,12 @@ const MembershipHome = async () => {
 							/>
 						</Link>
 						<div className="flex gap-4 md:gap-10 items-center">
-							<Link href="#">Login</Link>
+							<Link
+								href="https://membersforum.theboardroomafrica.com/login"
+								target="_blank"
+							>
+								Login
+							</Link>
 							<Link
 								href="/membership/application"
 								className="btn"
