@@ -9,10 +9,10 @@ const CascadeImg = ({
 }) => {
 	return (
 		<div
-			className={`imgbg relative w-full before:content-[''] before:absolute before:top-0 before:bottom-0 before:w-[1000%] md:before:bg-mustard md:mb-[70px] md:before:bigborder ${
+			className={`imgbg relative w-full before:content-[''] before:absolute before:top-0 before:bottom-0 -sm:before:bottom-[calc(50%-32px)] before:w-[1000%] before:bg-mustard md:mb-[70px] md:before:bigborder -sm:pt-8 ${
 				position === "left"
-					? "mt-10 md:mt-0 before:right-[50%]"
-					: "mb-10 md:mb-0 before:left-[50%] -sm:order-first -sm:mt-8 -sm:mb-0"
+					? "md:mt-0 before:right-[50%] -sm:before:right-[-50%]"
+					: "mb-10 md:mb-0 -sm:before:left-[-50%] before:left-[50%] -sm:order-first -sm:mb-0"
 			} ${negative ? "before:h-[calc(100%-70px)]" : ""}`}
 		>
 			<img
