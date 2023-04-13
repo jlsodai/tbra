@@ -4,7 +4,7 @@ const ProgramCard = ({ programme }) => {
 	return (
 		<div className="border border-dusk-200 hover:shadow-lg overflow-hidden md:flex">
 			<div
-				className={`bg-cover w-44 min-h-[185px] bg-top shrink-0`}
+				className={`bg-cover w-full md:w-44 min-h-[185px] bg-top shrink-0`}
 				style={{ backgroundImage: `url(${programme.imageUrl})` }}
 			></div>
 			<div className="py-4 px-6 flex flex-col justify-between">
@@ -28,7 +28,7 @@ const ProgramCard = ({ programme }) => {
 						</p> */}
 					</div>
 
-					<div className="flex gap-3 mt-4 items-center">
+					<div className="flex gap-1 gap-y-3 mt-4 items-center -sm:flex-wrap">
 						{programme.learnmoreBtnUrl && (
 							<a
 								href={programme.learnmoreBtnUrl}
