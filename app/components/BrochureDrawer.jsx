@@ -66,7 +66,7 @@ const BrochureDrawer = ({ brochureDetails }) => {
 						</svg>
 						<span className="sr-only">Close menu</span>
 					</button>
-					<div className="container grid grid-cols-4 text-white gap-10 text-sm">
+					<div className="container grid md:grid-cols-4 text-white gap-10 text-sm">
 						<div className="">
 							<h2 className="text-sm">Upcoming Cohorts</h2>
 							<p className="whitespace-pre-wrap">
@@ -81,7 +81,7 @@ const BrochureDrawer = ({ brochureDetails }) => {
 							<h2 className="text-sm">Delivery Method</h2>
 							<p>Virtual</p>
 						</div> */}
-						<div className="col-span-2 ml-20">
+						<div className="md:col-span-2 md:ml-20">
 							{/* <p className="text-sm">
 								Subsidies and flexible payment plans available
 								<br />
