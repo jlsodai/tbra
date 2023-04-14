@@ -3,7 +3,7 @@ const TrustedBy = ({ logos = [], className }) => {
 	return (
 		<>
 			<div
-				className={`partnerLogos flex flex-wrap gap-x-4 md:gap-x-12 gap-y-4 items-center justify-center md:mt-10 ${className}`}
+				className={`partnerLogos flex flex-wrap gap-x-4 md:gap-x-12 gap-y-4 items-center justify-center mt-10 ${className}`}
 			>
 				{logos.map((img, i) => (
 					<img
