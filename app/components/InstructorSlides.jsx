@@ -30,7 +30,9 @@ const InstructorSlides = ({ instructors }) => {
 		<>
 			<section className="bg-dawn-200 py-8 instructor-slides">
 				<h3 className="font-halyard text-3xl md:text-5xl md:mt-16 text-center">
-					Course Instructors
+					{instructors?.length > 1
+						? "Course Instructors"
+						: "Course Instructor"}
 				</h3>
 				<Swiper
 					pagination={pagination}
