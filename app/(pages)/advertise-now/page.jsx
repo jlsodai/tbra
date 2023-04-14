@@ -11,7 +11,7 @@ const page = () => {
 			<HeaderTitle title="Let us help you find great leaders." />
 
 			<section className="container" data-aos="fade-up">
-				<div className="grid grid-cols-2 gap-20">
+				<div className="keySectionWrap">
 					<KeySection heading="Let us help you find exceptional leaders">
 						<p>
 							We work to deliver high-calibre candidates across
