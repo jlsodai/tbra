@@ -17,7 +17,7 @@ const MembershipSlides = ({ details }) => {
 	return (
 		<Swiper
 			autoplay={{
-				delay: 4500,
+				delay: 12000,
 				disableOnInteraction: false,
 			}}
 			loop={true}
