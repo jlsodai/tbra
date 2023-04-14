@@ -7,7 +7,7 @@ const page = () => {
 		<>
 			<HeaderTitle title="Standard Advertisement Plus Request" />
 			<section className="container my-10" data-aos="fade-up">
-				<PaperForm formSlug="standardadvertisementplus" />;
+				<PaperForm formSlug="standardadvertisementplus" />
 			</section>
 		</>
 	);
