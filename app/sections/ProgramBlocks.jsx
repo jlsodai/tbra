@@ -40,7 +40,7 @@ const ProgramBlocks = ({ attributes, introImg }) => {
 						{attributes.outlineVideoUrl ? (
 							<iframe
 								width="100%"
-								height="505"
+								className="-sm:h-[250px] md:h-[505px]"
 								src={attributes.outlineVideoUrl}
 								title={attributes.Heading.title}
 								frameBorder="0"
