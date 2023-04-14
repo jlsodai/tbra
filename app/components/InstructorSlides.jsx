@@ -14,19 +14,15 @@ const InstructorSlides = ({ instructors }) => {
 	const pagination = {
 		clickable: true,
 		renderBullet: function (index, className) {
-			return (
-				`<div class="slidesMobile md:hidden text-[45px] !w-[15px] !h-[45px] ${className}">&#x2219</div>` +
-				'<div class="-sm:hidden text-center ' +
-				className +
-				'">' +
-				'<img src="' +
-				instructors[index].instructorImage +
-				'" className="rounded-full" />' +
-				'<p class="text-sm mt-2">' +
-				instructors[index].Name +
-				"</p>" +
-				"</div>"
-			);
+			return `
+				<div class="text-center ${className}  -sm:!w-[15px] -sm:!h-[45px]">
+					<div class="slidesMobile md:hidden text-[45px]">&#x2219</div>
+					<div class="hidden md:block">
+						<img src="${instructors[index].instructorImage}" className="rounded-full" />
+						<p class="text-sm mt-2">${instructors[index].Name}</p>
+					</div>
+				</div>
+			`;
 		},
 	};
 
