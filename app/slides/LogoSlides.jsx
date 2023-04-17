@@ -58,7 +58,7 @@ const LogoSlides = ({ logos, className }) => {
 							src={logo.src}
 							style={logo.style || {}}
 							alt=""
-							className={`max-h-[70px] max-w-[120px] mx-auto ${className}`}
+							className={`!max-h-[70px] max-w-[120px] mx-auto ${className}`}
 						/>
 					</SwiperSlide>
 				))}
