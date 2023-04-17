@@ -77,7 +77,9 @@ const ProgramBlocks = ({ attributes, introImg }) => {
 						<Expectation title="Dedicated programme support team">
 							<RiTeamFill className="text-6xl text-mustard" />
 						</Expectation>
-						<Expectation title="12 intensive and interactive sessions with world-class faculty">
+						<Expectation
+							title={attributes?.brochureInfo?.structure}
+						>
 							<RiVideoFill className="text-6xl text-mustard" />
 						</Expectation>
 						<Expectation title="Real-life case studies and scenarios">
