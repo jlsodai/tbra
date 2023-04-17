@@ -14,7 +14,7 @@ const HeroSection = ({ hero }) => {
 					<h1 className="text-mustard">{hero.title}</h1>
 					<div className="md:max-w-[65%]">
 						<p className=" text-dawn">{hero.details}</p>
-						<div className="text-center mt-10">
+						<div className="mt-10">
 							<Link
 								href="/membership"
 								className="btn bg-dawn font-normal"

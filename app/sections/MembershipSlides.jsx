@@ -43,7 +43,7 @@ const MembershipSlides = ({ details }) => {
 							</h1>
 							<div className=" md:max-w-[65%]">
 								<p className=" text-dawn">{slide.details}</p>
-								<div className="text-center mt-10">
+								<div className="mt-10">
 									<Link
 										href="/membership/application"
 										className="btn bg-dawn font-normal"
