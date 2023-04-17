@@ -4,10 +4,11 @@ import CascadeImg from "@/app/components/CascadeImg";
 import HeroSection from "@/app/sections/HeroSection";
 import KeySection from "@/app/sections/KeySection";
 import Testimonial from "@/app/components/Testimonial";
-import TrustedBy from "@/app/components/TrustedBy";
+// import TrustedBy from "@/app/components/TrustedBy";
 import { clients } from "@/app/utils/options";
 import StatsSection from "@/app/sections/StatsSection";
 import { fetchData } from "@/app/lib/fetchData";
+import LogoSlides from "@/app/slides/LogoSlides";
 
 export default async function Home() {
 	const data = await fetchData("home-page?populate=*");
@@ -47,8 +48,9 @@ export default async function Home() {
 
 			<section className="bg-white" data-aos="fade-up">
 				<div className="container my-12 md:my-28">
-					<h2 className="text-center -sm:mb-10">Trusted by.</h2>
-					<TrustedBy logos={clients} />
+					<h2 className="text-center -sm:mb-10">Trusted by:</h2>
+					<LogoSlides logos={clients} />
+					{/* <TrustedBy logos={clients} /> */}
 				</div>
 			</section>
 

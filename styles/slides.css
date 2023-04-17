@@ -11,8 +11,14 @@
   border-radius: unset;
 }
 
-.instructor-slides .swiper-button-next { right: 60px; @apply -sm:hidden }
-.instructor-slides .swiper-button-prev { left: 60px; @apply -sm:hidden }
+.instructor-slides .swiper-button-next { @apply -lg:hidden }
+.instructor-slides .swiper-button-prev { @apply -lg:hidden }
+
+@media only screen and (min-width: 1536px) {
+  .instructor-slides .swiper-button-prev { right: 60px; }
+  .instructor-slides .swiper-button-prev { left: 60px; }
+}
+
 .instructor-slides .swiper-button-next, .instructor-slides .swiper-button-prev { @apply text-dusk }
 .instructor-slides .swiper-pagination { @apply flex justify-center !bg-transparent }
 .instructor-slides .swiper-pagination-bullet-active { @apply !bg-transparent font-bold; }
@@ -37,3 +43,6 @@
 .membership-slides .swiper-pagination-bullets { bottom: 40px; }
 .membership-slides .swiper-pagination-bullet { width: 12px; height: 12px; }
 .membership-slides .swiper-pagination-bullet-active { @apply bg-dawn-400 }
+
+/* .logoSlides .swiper-slide { width: unset !important; } */
+.logoSlides .swiper-wrapper { @apply items-center }

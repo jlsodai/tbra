@@ -176,7 +176,7 @@ export const clients = [
 	},
 	{
 		src: "https://theboardroomafrica.com/wp-content/uploads/2022/08/17-shell.png",
-		style: { maxWidth: "250px" },
+		style: { maxWidth: "100%" },
 	},
 	{
 		src: "https://theboardroomafrica.com/wp-content/uploads/2022/08/08-fsd.jpg",
@@ -201,7 +201,7 @@ export const clients = [
 	},
 	{
 		src: "https://theboardroomafrica.com/wp-content/uploads/2022/08/lions_head.jpg",
-		style: { maxWidth: "230px" },
+		style: { maxWidth: "100%" },
 	},
 	{
 		src: "https://theboardroomafrica.com/wp-content/uploads/2022/08/15-helios.png",
@@ -211,7 +211,7 @@ export const clients = [
 	},
 	{
 		src: "https://theboardroomafrica.com/wp-content/uploads/2022/08/07-2collaborative.jpg",
-		style: { maxWidth: "270px" },
+		style: { maxWidth: "100%" },
 	},
 	{
 		src: "https://theboardroomafrica.com/wp-content/uploads/2022/08/22-international_rescue.png",
