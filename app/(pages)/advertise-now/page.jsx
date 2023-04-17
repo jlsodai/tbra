@@ -2,8 +2,8 @@ import KeySection from "@/app/sections/KeySection";
 import HeaderTitle from "@/app/sections/HeaderTitle";
 import CascadeImg from "@/app/components/CascadeImg";
 import PricingSection from "@/app/sections/PricingSection";
-import TrustedBy from "@/app/components/TrustedBy";
 import { clients } from "@/app/utils/options";
+import LogoSlides from "@/app/slides/LogoSlides";
 
 const page = () => {
 	return (
@@ -40,7 +40,7 @@ const page = () => {
 					<h2 className="text-center text-dusk">
 						We&apos;ve worked with
 					</h2>
-					<TrustedBy logos={clients} />
+					<LogoSlides logos={clients} />
 				</div>
 			</section>
 		</>

@@ -9,7 +9,7 @@ import "@/styles/slides.css";
 // import required modules
 import { Pagination, Autoplay } from "swiper";
 
-const LogoSlides = ({ logos }) => {
+const LogoSlides = ({ logos, className }) => {
 	return (
 		<>
 			<Swiper
@@ -50,7 +50,7 @@ const LogoSlides = ({ logos }) => {
 					},
 				}}
 				modules={[Pagination, Autoplay]}
-				className="logoSlides pb-8 mt-8"
+				className="logoSlides !pb-8 mt-8"
 			>
 				{logos.map((logo, i) => (
 					<SwiperSlide key={i}>
@@ -58,7 +58,7 @@ const LogoSlides = ({ logos }) => {
 							src={logo.src}
 							style={logo.style || {}}
 							alt=""
-							className="max-h-[70px] max-w-[120px] mx-auto"
+							className={`max-h-[70px] max-w-[120px] mx-auto ${className}`}
 						/>
 					</SwiperSlide>
 				))}

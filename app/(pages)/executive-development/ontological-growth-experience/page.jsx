@@ -1,11 +1,8 @@
 import HeaderTitle from "@/app/sections/HeaderTitle";
 import BrochureDrawer from "@/app/components/BrochureDrawer";
-import TrustedBy from "@/app/components/TrustedBy";
-import StatsSection from "@/app/sections/StatsSection";
-import { esgIcons, instructorDetails } from "@/app/utils/options";
 import { fetchData } from "@/app/lib/fetchData";
 import ProgramBlocks from "@/app/sections/ProgramBlocks";
-import ProgrammeLogos from "@/app/components/ProgrammeLogos";
+import LogoSlides from "@/app/slides/LogoSlides";
 
 export default async function Page() {
 	const data = await fetchData("programmes/2?populate=*");
@@ -23,7 +20,7 @@ export default async function Page() {
 					<h2 className="text-center text-dusk">
 						Rachel&apos;s work is trusted by organisations like:
 					</h2>
-					<ProgrammeLogos logos={attributes.trustedBy} />
+					<LogoSlides logos={attributes.trustedBy} />
 				</div>
 			</section>
 

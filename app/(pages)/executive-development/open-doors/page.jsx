@@ -1,10 +1,9 @@
 import HeaderTitle from "@/app/sections/HeaderTitle";
 import BrochureDrawer from "@/app/components/BrochureDrawer";
 import StatsSection from "@/app/sections/StatsSection";
-import { esgProgramme } from "@/app/lib/programmes";
 import { fetchData } from "@/app/lib/fetchData";
 import ProgramBlocks from "@/app/sections/ProgramBlocks";
-import ProgrammeLogos from "@/app/components/ProgrammeLogos";
+import LogoSlides from "@/app/slides/LogoSlides";
 
 export default async function Page() {
 	const data = await fetchData("programmes/1?populate=*");
@@ -22,7 +21,7 @@ export default async function Page() {
 					<h2 className="text-center text-dusk">
 						Past delegates have come from the following companies:
 					</h2>
-					<ProgrammeLogos logos={attributes.trustedBy} />
+					<LogoSlides logos={attributes.trustedBy} />
 				</div>
 			</section>
 
