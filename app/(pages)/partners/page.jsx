@@ -1,7 +1,7 @@
 import KeySection from "@/app/sections/KeySection";
 import HeaderTitle from "@/app/sections/HeaderTitle";
 import CascadeImg from "@/app/components/CascadeImg";
-import LogoSlides from "@/app/slides/LogoSlides";
+import TrustedBy from "@/app/components/TrustedBy";
 import { partnerLogos, clients } from "@/app/utils/options";
 import { fetchData } from "@/app/lib/fetchData";
 
@@ -37,7 +37,7 @@ const page = async () => {
 					<h3 className="font-halyard font-extralight text-5xl text-center -sm:mt-16 -sm:mb-8">
 						Our Partners
 					</h3>
-					<LogoSlides logos={partnerLogos} />
+					<TrustedBy logos={partnerLogos} />
 				</div>
 			</section>
 		</>
