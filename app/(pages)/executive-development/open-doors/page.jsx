@@ -3,7 +3,7 @@ import BrochureDrawer from "@/app/components/BrochureDrawer";
 import StatsSection from "@/app/sections/StatsSection";
 import { fetchData } from "@/app/lib/fetchData";
 import ProgramBlocks from "@/app/sections/ProgramBlocks";
-import LogoSlides from "@/app/slides/LogoSlides";
+import ProgrammeLogos from "@/app/components/ProgrammeLogos";
 
 export default async function Page() {
 	const data = await fetchData("programmes/1?populate=*");
@@ -21,7 +21,7 @@ export default async function Page() {
 					<h2 className="text-center text-dusk">
 						Past delegates have come from the following companies:
 					</h2>
-					<LogoSlides logos={attributes.trustedBy} />
+					<ProgrammeLogos logos={attributes.trustedBy} />
 				</div>
 			</section>
 

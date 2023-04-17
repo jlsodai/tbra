@@ -2,7 +2,7 @@ import HeaderTitle from "@/app/sections/HeaderTitle";
 import BrochureDrawer from "@/app/components/BrochureDrawer";
 import { fetchData } from "@/app/lib/fetchData";
 import ProgramBlocks from "@/app/sections/ProgramBlocks";
-import LogoSlides from "@/app/slides/LogoSlides";
+import ProgrammeLogos from "@/app/components/ProgrammeLogos";
 
 export default async function Page() {
 	const data = await fetchData("programmes/2?populate=*");
@@ -20,7 +20,7 @@ export default async function Page() {
 					<h2 className="text-center text-dusk">
 						Rachel&apos;s work is trusted by organisations like:
 					</h2>
-					<LogoSlides logos={attributes.trustedBy} />
+					<ProgrammeLogos logos={attributes.trustedBy} />
 				</div>
 			</section>
 
