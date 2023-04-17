@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import HeaderTitle from "@/app/sections/HeaderTitle";
 import BrochureDrawer from "@/app/components/BrochureDrawer";
 import StatsSection from "@/app/sections/StatsSection";
@@ -12,7 +13,19 @@ export default async function Page() {
 	return (
 		<>
 			<BrochureDrawer brochureDetails={attributes.brochureInfo} />
-			<HeaderTitle title="Open Doors: Certificate in Company Direction" />
+
+			<section className="bg-darkblue bigborder" data-aos="fade-up">
+				<div className="flex container min-h-[280px] md:min-h-[380px] relative justify-center items-center">
+					<img
+						src="/images/white-key.png"
+						className="absolute left-0 h-[75%] -z-1 opacity-5"
+						alt=""
+					/>
+					<h1 className="md:max-w-[80%] py-16">
+						Open Doors: Certificate <br/>in Company Direction
+					</h1>
+				</div>
+			</section>
 
 			<ProgramBlocks attributes={attributes} />
 
