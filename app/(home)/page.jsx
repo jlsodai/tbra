@@ -4,7 +4,6 @@ import CascadeImg from "@/app/components/CascadeImg";
 import HeroSection from "@/app/sections/HeroSection";
 import KeySection from "@/app/sections/KeySection";
 import Testimonial from "@/app/components/Testimonial";
-// import TrustedBy from "@/app/components/TrustedBy";
 import { clients } from "@/app/utils/options";
 import StatsSection from "@/app/sections/StatsSection";
 import { fetchData } from "@/app/lib/fetchData";
@@ -38,7 +37,6 @@ export default async function Home() {
 						keyPosition="right"
 						heading={connecting.Title}
 						linkTitle={connecting.linkTitle}
-						linkui={connecting.btn && "btn"}
 						url={connecting.link}
 					>
 						{connecting.content && <p>{connecting.content}</p>}
@@ -50,7 +48,6 @@ export default async function Home() {
 				<div className="container my-12 md:my-28">
 					<h2 className="text-center -sm:mb-10">Trusted by:</h2>
 					<LogoSlides logos={clients} />
-					{/* <TrustedBy logos={clients} /> */}
 				</div>
 			</section>
 
