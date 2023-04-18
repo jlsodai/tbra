@@ -79,7 +79,7 @@ export const partnerLogos = [
 		src: "https://theboardroomafrica.com/wp-content/uploads/2020/06/alitheia.svg",
 	},
 	{
-		src: "https://theboardroomafrica.com/wp-content/uploads/2022/02/BE-logo.png",
+		src: "https://res.cloudinary.com/tbra/image/upload/v1681809918/board-excellence_pjq2h8.jpg",
 	},
 ];
 

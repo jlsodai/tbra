@@ -24,7 +24,7 @@ const MembershipHome = async () => {
 					<div className="container flex mt-6 justify-between items-center absolute z-50">
 						<Link href="/">
 							<img
-								src="https://theboardroomafrica.com/wp-content/themes/tbra/assets/images/logo-primary.svg"
+								src="/logo-primary.svg"
 								className="img-white"
 								width="100px"
 								alt="Logo"

@@ -17,7 +17,7 @@ const Navigation = () => {
 					<div className="flex items-center justify-between py-4">
 						<Link href="/">
 							<img
-								src="https://theboardroomafrica.com/wp-content/themes/tbra/assets/images/logo-primary.svg"
+								src="/logo-primary.svg"
 								width="100px"
 								alt="Logo"
 							/>
