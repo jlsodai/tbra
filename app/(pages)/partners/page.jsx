@@ -11,7 +11,7 @@ const page = async () => {
 
 	return (
 		<>
-			<HeaderTitle title="Support our efforts to create a world where we all thrive." />
+			<HeaderTitle title="Support our efforts to create a world where we all thrive" />
 
 			<section className="container" data-aos="fade-up">
 				<div className="keySectionWrap">

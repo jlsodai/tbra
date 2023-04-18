@@ -14,7 +14,7 @@ export default async function Page() {
 	return (
 		<>
 			<BrochureDrawer brochureDetails={attributes.brochureInfo} />
-			<HeaderTitle title="ESG Certificate." />
+			<HeaderTitle title="ESG Certificate" />
 
 			<ProgramBlocks attributes={attributes} />
 
