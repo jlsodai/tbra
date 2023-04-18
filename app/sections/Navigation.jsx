@@ -17,7 +17,7 @@ const Navigation = () => {
 					<div className="flex items-center justify-between py-4">
 						<Link href="/">
 							<img
-								src="/logo-primary.svg"
+								src="/images/logo-primary.svg"
 								width="100px"
 								alt="Logo"
 							/>
