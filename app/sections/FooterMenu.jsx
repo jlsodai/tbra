@@ -41,15 +41,15 @@ const FooterMenu = () => {
 						<div className="uppercase font-bold">Follow us</div>
 						<div className="flex justify-start space-x">
 							<a
-								href="#"
+								href="https://twitter.com/TBRAfrica"
 								title="Twitter"
 								className="flex items-center p-1"
 							>
 								<FaTwitterSquare className="text-2xl" />
 							</a>
 							<a
-								href="#"
-								title="Instagram"
+								href="https://www.linkedin.com/company/theboardroom-africa/"
+								title="LinkedIn"
 								className="flex items-center p-1"
 							>
 								<FaLinkedin className="text-2xl" />
