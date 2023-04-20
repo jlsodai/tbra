@@ -2,30 +2,28 @@ import TBRAKey from "../components/TBRAKey";
 import Stats from "../components/Stats";
 import FormInput from "@/app/ui/FormInput";
 import Link from "next/link";
+import ConstantContact from "@/app/components/ConstantContact";
+import Modal from "../components/Modal";
 const FooterSection = () => {
 	return (
 		<>
 			<section className="bg-gray-100 mt-24">
-				<div className="container grid md:grid-cols-2 gap-8 md:gap-24 py-16">
-					<div className="max-w-md">
-						<div className="flex items-center">
-							<h2 className="text-dusk text-center inline-block mr-8 text-4xl">
+				<div className="container py-16 items-center">
+					<div className="max-w-md mx-auto justify-center">
+						<div className="flex items-center justify-center">
+							<h2 className="text-dusk text-center inline-block mr-4 text-3xl">
 								Join Us
 							</h2>
-							<TBRAKey size="sm" />
+							<TBRAKey className="!w-[25px]" />
 						</div>
-						<p className="mt-4">
-							Become a member of the leading community for women
-							executives on the continent. Build your network,
-							enhance your profile, and seize new opportunities.
-						</p>
-					</div>
-					<div className="max-w-md">
-						<p>
+						<p className="mt-6 text-center">
 							Learn more about our community and activities by
 							signing up to receive updates
 						</p>
-						<div className="grid grid-cols-2 gap-4">
+						<Modal btnText="Subscribe" center={true}>
+							<ConstantContact />
+						</Modal>
+						{/* <div className="grid grid-cols-2 gap-4">
 							<FormInput label="First Name" />
 							<FormInput label="Last Name" />
 						</div>
@@ -35,7 +33,7 @@ const FooterSection = () => {
 							className="btn font-normal text-white mt-4 rounded"
 						>
 							Sign Up
-						</Link>
+						</Link> */}
 					</div>
 				</div>
 			</section>
