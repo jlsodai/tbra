@@ -12,10 +12,10 @@ export const metadata = {
 
 const About = async () => {
 	const data = await fetchData("about-page?populate=*");
-	const { intro } = data?.data?.attributes;
+	const { intro, heading } = data?.data?.attributes;
 	return (
 		<>
-			<HeaderTitle title="We've created a movement." />
+			<HeaderTitle title={heading.title} />
 
 			<section className="container" data-aos="fade-up">
 				<div className="grid md:grid-cols-2 md:gap-20">

@@ -8,7 +8,7 @@ import { clients } from "@/app/utils/options";
 const Page = () => {
 	return (
 		<>
-			<HeaderTitle title="Join us as we build more inclusive leadership teams." />
+			<HeaderTitle title="Join us as we build more inclusive leadership teams" />
 
 			<section className="container" data-aos="fade-up">
 				<div className="keySectionWrap items-center">

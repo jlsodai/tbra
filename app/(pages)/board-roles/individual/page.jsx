@@ -5,7 +5,7 @@ import KeySection from "@/app/sections/KeySection";
 const Page = () => {
 	return (
 		<>
-			<HeaderTitle title="Join the movement and access board opportunities." />
+			<HeaderTitle title="Join the movement and access board opportunities" />
 
 			<section className="container" data-aos="fade-up">
 				<div className="keySectionWrap">
