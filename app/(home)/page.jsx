@@ -9,8 +9,21 @@ import StatsSection from "@/app/sections/StatsSection";
 import { fetchData } from "@/app/lib/fetchData";
 import LogoSlides from "@/app/slides/LogoSlides";
 
+const pageData = async () => {
+	return await fetchData("home-page?populate=*");
+};
+
+export async function generateMetadata() {
+	const data = await pageData();
+	const { seo } = data?.data?.attributes;
+	return {
+		title: seo.metaTitle,
+		description: seo.metaDescription,
+	};
+}
+
 export default async function Home() {
-	const data = await fetchData("home-page?populate=*");
+	const data = await pageData();
 	const { intro, connecting, programmes, partners, hero, testimonial } =
 		data?.data?.attributes;
 	return (
