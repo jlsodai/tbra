@@ -2,8 +2,18 @@ import KeySection from "@/app/sections/KeySection";
 import HeaderTitle from "@/app/sections/HeaderTitle";
 import CascadeImg from "@/app/components/CascadeImg";
 import TrustedBy from "@/app/components/TrustedBy";
-import { partnerLogos, clients } from "@/app/utils/options";
+import { partnerLogos, filteredMeta } from "@/app/utils/options";
 import { fetchData } from "@/app/lib/fetchData";
+
+const pageData = async () => {
+	return await fetchData("partner?populate=*");
+};
+
+export async function generateMetadata() {
+	const data = await pageData();
+	const { seo } = data?.data?.attributes;
+	return filteredMeta(seo);
+}
 
 const page = async () => {
 	const data = await fetchData("partner?populate=*");

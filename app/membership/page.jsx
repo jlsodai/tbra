@@ -3,11 +3,21 @@ import Link from "next/link";
 import MembershipSlides from "@/app/sections/MembershipSlides";
 import Image from "next/image";
 import TrustedBy from "@/app/components/TrustedBy";
-import { communityLogos } from "@/app/utils/options";
+import { communityLogos, filteredMeta } from "@/app/utils/options";
 import { fetchData } from "@/app/lib/fetchData";
 
+const pageData = async () => {
+	return await fetchData("membership?populate=*");
+};
+
+export async function generateMetadata() {
+	const data = await pageData();
+	const { seo } = data?.data?.attributes;
+	return filteredMeta(seo);
+}
+
 const MembershipHome = async () => {
-	const data = await fetchData("membership?populate=*");
+	const data = await pageData();
 	const {
 		testimonials,
 		community,

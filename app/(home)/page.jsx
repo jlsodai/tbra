@@ -4,7 +4,7 @@ import CascadeImg from "@/app/components/CascadeImg";
 import HeroSection from "@/app/sections/HeroSection";
 import KeySection from "@/app/sections/KeySection";
 import Testimonial from "@/app/components/Testimonial";
-import { clients } from "@/app/utils/options";
+import { clients, filteredMeta } from "@/app/utils/options";
 import StatsSection from "@/app/sections/StatsSection";
 import { fetchData } from "@/app/lib/fetchData";
 import LogoSlides from "@/app/slides/LogoSlides";
@@ -16,10 +16,7 @@ const pageData = async () => {
 export async function generateMetadata() {
 	const data = await pageData();
 	const { seo } = data?.data?.attributes;
-	return {
-		title: seo.metaTitle,
-		description: seo.metaDescription,
-	};
+	return filteredMeta(seo);
 }
 
 export default async function Home() {

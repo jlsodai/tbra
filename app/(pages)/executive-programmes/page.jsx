@@ -6,9 +6,20 @@ import { GoCalendar } from "react-icons/go";
 import ProgramCard from "@/app/components/ProgramCard";
 import { certificates } from "@/app/lib/programmes";
 import { fetchData } from "@/app/lib/fetchData";
+import { filteredMeta } from "@/app/utils/options";
+
+const pageData = async () => {
+	return await fetchData("executive-dev?populate=*");
+};
+
+export async function generateMetadata() {
+	const data = await pageData();
+	const { seo } = data?.data?.attributes;
+	return filteredMeta(seo);
+}
 
 const Page = async () => {
-	const data = await fetchData("executive-dev?populate=*");
+	const data = await pageData();
 	const { intro, Programmes } = data?.data?.attributes;
 	return (
 		<>

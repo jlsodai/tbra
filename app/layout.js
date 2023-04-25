@@ -86,7 +86,8 @@ const halyard = localFont({
 export const metadata = {
 	title: "TheBoardroom Africa",
 	description:
-		"TheBoardroom Africa officially launched in 2016, our goal is to improve board diversity by accelerating the appointment of women onto boards and building a growing pipeline of board-ready women while inspiring and educating the business community on the power of diverse leadership",
+		"Promoting exceptional female talent to boards in Africa and the globe, and breaking down barriers to help companies realise the benefits of increased diversity.",
+	keywords: "Female executives in Africa, Board Recruitment",
 };
 
 export default function RootLayout({ children }) {

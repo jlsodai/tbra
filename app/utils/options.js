@@ -1,3 +1,5 @@
+import _ from "lodash";
+
 export const products = [
 	{
 		name: "Company",
@@ -39,19 +41,19 @@ export const menuLinks = [
 	},
 	{
 		name: "Executive Programmes",
-		href: "/executive-development",
+		href: "/executive-programmes",
 		submenu: [
 			{
 				name: "Open Doors: Certificate in Company Direction",
-				href: "/executive-development/open-doors",
+				href: "/executive-programmes/open-doors",
 			},
 			{
 				name: "ESG Certificate",
-				href: "/executive-development/esg-certificate",
+				href: "/executive-programmes/esg-certificate",
 			},
 			{
 				name: "Ontological Growth Experience",
-				href: "/executive-development/ontological-growth-experience",
+				href: "/executive-programmes/ontological-growth-experience",
 			},
 		],
 	},
@@ -831,4 +833,13 @@ export const programDetails = {
 			},
 		],
 	},
+};
+
+export const filteredMeta = (meta) => {
+	const seo = {
+		title: meta?.metaTitle,
+		description: meta?.metaDescription,
+		keywords: null,
+	};
+	return _.omitBy(seo, _.isNil);
 };

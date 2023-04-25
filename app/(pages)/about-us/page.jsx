@@ -5,13 +5,20 @@ import CascadeImg from "@/app/components/CascadeImg";
 import KeySection from "@/app/sections/KeySection";
 import StatsSection from "@/app/sections/StatsSection";
 import { fetchData } from "@/app/lib/fetchData";
+import { filteredMeta } from "@/app/utils/options";
 
-export const metadata = {
-	title: "About Us - Improving Board Diversity",
+const pageData = async () => {
+	return await fetchData("about-page?populate=*");
 };
 
+export async function generateMetadata() {
+	const data = await pageData();
+	const { seo } = data?.data?.attributes;
+	return filteredMeta(seo);
+}
+
 const About = async () => {
-	const data = await fetchData("about-page?populate=*");
+	const data = await pageData();
 	const { intro, heading } = data?.data?.attributes;
 	return (
 		<>
