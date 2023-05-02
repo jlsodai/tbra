@@ -533,7 +533,7 @@ export const bottomMenu = [
 			},
 			{
 				name: "Executive Programmes",
-				href: "#!",
+				href: "/executive-programmes",
 			},
 		],
 	},
