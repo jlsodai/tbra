@@ -3,7 +3,7 @@ import React from "react";
 const page = () => {
 	return (
 		<iframe
-			src="https://apply.theboardroomafrica.com/application-form/"
+			src="https://web.theboardroomafrica.com/application-form/"
 			width="100%"
 			style={{
 				height: "100dvh",
