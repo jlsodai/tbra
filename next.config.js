@@ -22,6 +22,11 @@ const nextConfig = {
 					"https://web.theboardroomafrica.com/wp-content/:path*",
 				permanent: false,
 			},
+			{
+				source: "/open-doors",
+				destination: "/executive-programmes/open-doors",
+				permanent: false,
+			},
 		];
 	},
 };
