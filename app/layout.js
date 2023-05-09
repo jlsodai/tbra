@@ -87,7 +87,8 @@ export const metadata = {
 	title: "TheBoardroom Africa",
 	description:
 		"Promoting exceptional female talent to boards in Africa and the globe, and breaking down barriers to help companies realise the benefits of increased diversity.",
-	keywords: "Female executives in Africa, Board Recruitment",
+	keywords:
+		"Female executives in Africa, Board Recruitment, Boardroom recruitment, Executive search, Board of directors recruitment, Top-level talent acquisition, CEO recruitment, C-suite recruitment, Headhunting for senior executives, Talent management for board positions, Recruitment services for board members, Senior level executive search",
 };
 
 export default function RootLayout({ children }) {
