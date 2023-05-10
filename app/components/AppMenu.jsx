@@ -11,7 +11,7 @@ const AppMenu = ({ className }) => {
 				Login
 			</Link>
 			<Link href="/membership" className="btn uppercase text-white">
-				Apply
+				Membership
 			</Link>
 		</div>
 	);
