@@ -1,16 +1,16 @@
 import Article from "@/app/components/Article";
 import HeaderTitle from "@/app/sections/HeaderTitle";
 import Pagination from "@/app/components/Pagination";
-
-import {
-	publications,
-	sortedPublications,
-	filterPublicationYear,
-} from "@/app/lib/publications";
+import { fetchData } from "@/app/lib/fetchData";
 import HeroAlt from "@/app/sections/HeroAlt";
 
-export default function Example() {
-	// console.log(filterPublicationYear(2022));
+const pageData = async () => {
+	return await fetchData("publications?populate=*&pagination[pageSize]=100");
+};
+
+export default async function Example() {
+	const data = await pageData();
+	const posts = data?.data;
 	return (
 		<>
 			{/* <HeaderTitle title="Board Diversity Index" /> */}
@@ -28,7 +28,7 @@ export default function Example() {
 			<section className="my-16">
 				<div className="container">
 					{/* <div className="mx-auto grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 lg:max-w-none lg:grid-cols-3"> */}
-					<Article posts={sortedPublications} />
+					<Article posts={posts} />
 					{/* </div> */}
 				</div>
 			</section>

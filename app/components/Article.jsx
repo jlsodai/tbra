@@ -19,25 +19,28 @@ const Article = ({ posts, pageSize = 9 }) => {
 
 		if (searchTerm.length >= 3) {
 			myPosts = _.filter(myPosts, (item) =>
-				_.includes(_.toLower(item.title), _.toLower(searchTerm))
+				_.includes(
+					_.toLower(item.attributes.title),
+					_.toLower(searchTerm)
+				)
 			);
 		}
 
 		if (selectedYear) {
 			myPosts = _.filter(myPosts, (item) =>
-				_.includes(item.publicationYears.nodes[0].name, selectedYear)
+				_.includes(item.attributes.publication.year, selectedYear)
 			);
 		}
 
 		if (selectedCountry) {
 			myPosts = _.filter(myPosts, (item) =>
-				_.includes(item.pubCountries.nodes[0].name, selectedCountry)
+				_.includes(item.attributes.publication.country, selectedCountry)
 			);
 		}
 
 		if (selectedType) {
 			myPosts = _.filter(myPosts, (item) =>
-				_.includes(item.publicationTypes.nodes[0].name, selectedType)
+				_.includes(item.attributes.publication.type, selectedType)
 			);
 		}
 
@@ -48,11 +51,11 @@ const Article = ({ posts, pageSize = 9 }) => {
 	const pages = _.range(1, pageCount + 1);
 	const startIndex = (currentPage - 1) * pageSize;
 
-	const years = _.uniq(_.map(posts, "publicationYears.nodes[0].name")).sort();
-	const pubtypes = _.uniq(
-		_.map(posts, "publicationTypes.nodes[0].name")
+	const years = _.uniq(_.map(posts, "attributes.publication.year")).sort();
+	const pubtypes = _.uniq(_.map(posts, "attributes.publication.type")).sort();
+	const countries = _.uniq(
+		_.map(posts, "attributes.publication.country")
 	).sort();
-	const countries = _.uniq(_.map(posts, "pubCountries.nodes[0].name")).sort();
 
 	const data = _(articles).slice(startIndex).take(pageSize).value();
 
@@ -96,31 +99,31 @@ const Article = ({ posts, pageSize = 9 }) => {
 						className="flex max-w-xl flex-col items-start justify-between rounded border p-4 hover:shadow-lg"
 					>
 						<img
-							src={post.featuredImage?.node?.sourceUrl}
+							src={post.attributes.publication?.imageUrl}
 							className="mb-4"
 							alt=""
 						/>
 						<div className="flex items-center gap-x-2 text-xs">
 							<p className="rounded-full bg-dawn py-1.5 px-3 font-medium text-white capitalize">
-								{post.publicationTypes?.nodes[0]?.name}
+								{post.attributes.publication?.type}
 							</p>
 							<p className="rounded-full bg-tender py-1.5 px-3 font-medium text-white capitalize">
-								{post.publicationYears?.nodes[0]?.name}
+								{post.attributes.publication?.year}
 							</p>
 						</div>
 						<div>
 							<h3 className="mt-4 text-2xl font-semibold leading-6 group-hover:text-gray-600 mb-0">
-								<a href={`/research/${post.slug}`}>
-									{post.title}
+								<a href={`/research/${post.attributes.slug}`}>
+									{post.attributes.title}
 								</a>
 							</h3>
-							{/* {post.content && (
+							{/* {post.attributes.content && (
 							<p className="mt-2 leading-6 text-gray-600 line-clamp-3">
-								{post.content}
+								{post.attributes.content}
 							</p>
 						)} */}
 							<a
-								href={`/research/${post.slug}`}
+								href={`/research/${post.attributes.slug}`}
 								className="inline-block mt-4 text-mustard font-bold"
 							>
 								Read More{" "}
