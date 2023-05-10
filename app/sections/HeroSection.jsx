@@ -19,7 +19,7 @@ const HeroSection = ({ hero }) => {
 								href="/membership"
 								className="btn bg-dawn font-normal"
 							>
-								Join Now
+								Membership
 							</Link>
 						</div>
 					</div>
