@@ -15,14 +15,14 @@ const Page = () => {
 						<div className="lg:w-6/12 order-2 mb-10 lg:mb-0">
 							<div className="flex items-end justify-center gap-4 mb-4">
 								<img
-									className="object-cover w-[20%] h-40"
+									className="object-cover w-[20%]"
 									src="https://res.cloudinary.com/tbra/image/upload/v1683809545/img5_aesxw5.jpg"
 									alt="freetailwindui.co"
 									data-aos="fade-in"
 									data-aos-delay="300"
 								/>
 								<img
-									className="object-cover w-[40%] h-86"
+									className="object-cover w-[40%]"
 									src="https://res.cloudinary.com/tbra/image/upload/v1683809206/img2_jus6me.jpg"
 									alt="freetailwindui.co"
 									data-aos="fade-in"
@@ -31,7 +31,7 @@ const Page = () => {
 							</div>
 							<div className="flex items-start justify-center gap-4">
 								<img
-									className="object-cover w-[25%] h-40"
+									className="object-cover w-[25%]"
 									src="https://res.cloudinary.com/tbra/image/upload/v1683809206/img3_ppimgg.jpg"
 									alt="freetailwindui.co"
 									data-aos="fade-in"
@@ -45,7 +45,7 @@ const Page = () => {
 									data-aos-delay="100"
 								/>
 								<img
-									className="object-cover w-[26%] h-52"
+									className="object-cover w-[26%]"
 									src="https://res.cloudinary.com/tbra/image/upload/v1683809545/img4_smhigy.jpg"
 									alt="freetailwindui.co"
 									data-aos="fade-in"
