@@ -843,3 +843,92 @@ export const filteredMeta = (meta) => {
 	};
 	return _.omitBy(seo, _.isNil);
 };
+
+export const primePricing = {
+	access: [
+		{
+			title: "Unlimited Access to Members Forum",
+			standard: "yes",
+			prime: "yes",
+		},
+		{
+			title: "Access to Board Roles",
+			standard: "yes",
+			prime: "yes",
+		},
+		{
+			title: "Access to Member-Curated Webinars",
+			standard: "yes",
+			prime: "yes",
+		},
+		{
+			title: "Get matched - Unlimited Monthly Virtual Matchings",
+			standard: "yes",
+			prime: "yes",
+		},
+		{
+			title: "Board & Leadership Resource Library",
+			standard: "yes",
+			prime: "yes",
+		},
+		{
+			title: "TBrA Spotlight",
+			standard: "yes",
+			prime: "Priority",
+		},
+	],
+	ondemand: [
+		{
+			title: "Monthly Group Coaching",
+			standard: "Full Fee",
+			prime: "1 FREE & discounted",
+		},
+		{
+			title: "LinkedIn Profile Audit",
+			standard: "Full Fee",
+			prime: "30% discount",
+		},
+		{
+			title: "LinkedIn Makeover",
+			standard: "Full Fee",
+			prime: "15% discount",
+		},
+		{
+			title: "Executive CV Consultation",
+			standard: "Full Fee",
+			prime: "22% discount",
+		},
+		{
+			title: "Executive CV Makeover",
+			standard: "Full Fee",
+			prime: "15% discount",
+		},
+		{
+			title: "Thought Leadership Positioning",
+			standard: "Full Fee",
+			prime: "15% discount",
+		},
+	],
+	exec: [
+		{
+			title: "Open Doors: Certificate in Company Direction",
+			standard: "Member Fee",
+			prime: "Discounted Member Fee",
+		},
+		{
+			title: "ESG Certificate",
+			standard: "Member Fee",
+			prime: "Discounted Member Fee",
+		},
+		{
+			title: "Ontological Growth Experience",
+			standard: "Member Fee",
+			prime: "Discounted Member Fee",
+		},
+		{
+			title: "Workshops",
+			standard: "Full Fee",
+			prime: "Discounted Fee",
+		},
+	],
+};

@@ -95,12 +95,5 @@ html { font-size: 15px;}
   .img-white { filter: brightness(0) saturate(100%) invert(99%) sepia(87%) saturate(0%) hue-rotate(247deg) brightness(118%) contrast(100%); }
 
   .keySectionWrap { @apply grid md:grid-cols-2 md:gap-20 }
-  /* .primeTable { border-spacing: 10px 0; } */
-  .primeTable td { @apply text-white py-4 px-8 border-b border-tender}
-  .primeTable tbody tr:first-child td:not(:first-child) { @apply rounded-t-md }
-
-  .primeTable td:first-child { @apply bg-[#F2F3F2]; color: unset }
-  .primeTable td:nth-child(2) { @apply text-center; background:linear-gradient(to right, #BFBFBF 0, #BFBFBF 15%, #A6A6A6 15%, #A6A6A6 85%, #BFBFBF 85%, #BFBFBF 100%); }
-  .primeTable td:nth-child(3) { @apply text-center; background:linear-gradient(to right, #EADDCA 0, #EADDCA 15%, #CDAD7D 15%, #CDAD7D 85%, #EADDCA 85%, #EADDCA 100%); }
-  .primeTable td:nth-child(3) *, .primeTable td:nth-child(2) * { @apply mx-auto }
+  .primeTable p { height: 60px; line-height: 1.2;}
 }

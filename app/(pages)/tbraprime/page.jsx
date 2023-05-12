@@ -5,7 +5,9 @@ import KeySection from "@/app/sections/KeySection";
 import LogoSlides from "@/app/slides/LogoSlides";
 import { clients } from "@/app/utils/options";
 import Link from "next/link";
-import { HiCheck } from "react-icons/hi2";
+import { primePricing } from "@/app/utils/options";
+import { FaCheckCircle } from "react-icons/fa";
+import PrimePricing from "@/app/components/PrimePricing";
 
 const Page = () => {
 	return (
@@ -104,47 +106,7 @@ const Page = () => {
 				</div>
 			</section>
 
-			<section className="mt-10">
-				<div className="container">
-					<table
-						width="100%"
-						className="primeTable border-spacing-x-2 border-separate text-base"
-					>
-						<thead>
-							<tr>
-								<th>&nbsp;</th>
-								<th className="p-0">
-									<p className="mx-[15%] py-2 rounded-t-md text-white bg-[#A6A6A6]">
-										Standard
-									</p>
-								</th>
-								<th className="p-0">
-									<p className="mx-[15%] py-2 rounded-t-md text-white bg-[#CDAD7D]">
-										Prime
-									</p>
-								</th>
-							</tr>
-						</thead>
-						<tbody>
-							{[...Array(20)].map((e, i) => (
-								<tr key={i}>
-									<td width="70%">
-										<p>Unlimited Access to Members Forum</p>
-									</td>
-									<td width="15%">
-										<span>
-											<HiCheck />{" "}
-										</span>
-									</td>
-									<td width="15%">
-										<HiCheck />{" "}
-									</td>
-								</tr>
-							))}
-						</tbody>
-					</table>
-				</div>
-			</section>
+			<PrimePricing />
 		</>
 	);
 };
