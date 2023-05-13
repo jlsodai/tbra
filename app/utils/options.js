@@ -880,55 +880,55 @@ export const primePricing = {
 	ondemand: [
 		{
 			title: "Monthly Group Coaching",
-			standard: "Full Fee",
+			standard: "Full fee",
 			prime: "1 FREE & discounted",
 		},
 		{
 			title: "LinkedIn Profile Audit",
-			standard: "Full Fee",
+			standard: "Full fee",
 			prime: "30% discount",
 		},
 		{
 			title: "LinkedIn Makeover",
-			standard: "Full Fee",
+			standard: "Full fee",
 			prime: "15% discount",
 		},
 		{
 			title: "Executive CV Consultation",
-			standard: "Full Fee",
+			standard: "Full fee",
 			prime: "22% discount",
 		},
 		{
 			title: "Executive CV Makeover",
-			standard: "Full Fee",
+			standard: "Full fee",
 			prime: "15% discount",
 		},
 		{
 			title: "Thought Leadership Positioning",
-			standard: "Full Fee",
+			standard: "Full fee",
 			prime: "15% discount",
 		},
 	],
 	exec: [
 		{
 			title: "Open Doors: Certificate in Company Direction",
-			standard: "Member Fee",
-			prime: "Discounted Member Fee",
+			standard: "Member fee",
+			prime: "Discounted member fee",
 		},
 		{
 			title: "ESG Certificate",
-			standard: "Member Fee",
-			prime: "Discounted Member Fee",
+			standard: "Member fee",
+			prime: "Discounted member fee",
 		},
 		{
 			title: "Ontological Growth Experience",
-			standard: "Member Fee",
-			prime: "Discounted Member Fee",
+			standard: "Member fee",
+			prime: "Discounted member fee",
 		},
 		{
 			title: "Workshops",
-			standard: "Full Fee",
-			prime: "Discounted Fee",
+			standard: "Full fee",
+			prime: "Discounted fee",
 		},
 	],
 };

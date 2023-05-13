@@ -9,7 +9,7 @@ const PrimePricing = () => {
 				<div className="w-1/2 block">
 					<div className="h-16 flex items-end">
 						<h5 className="bg-dawn inline-block px-8 py-2 font-bold">
-							Access
+							All Access
 						</h5>
 					</div>
 					<div className="mt-px border-t border-gray-300 border-b border-l rounded-bl-lg overflow-hidden">
