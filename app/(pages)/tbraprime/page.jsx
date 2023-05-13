@@ -1,13 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
-import HeaderTitle from "@/app/sections/HeaderTitle";
-import CascadeImg from "@/app/components/CascadeImg";
-import KeySection from "@/app/sections/KeySection";
-import LogoSlides from "@/app/slides/LogoSlides";
-import { clients } from "@/app/utils/options";
 import Link from "next/link";
-import { primePricing } from "@/app/utils/options";
-import { FaCheckCircle } from "react-icons/fa";
 import PrimePricing from "@/app/components/PrimePricing";
+import PaperFormModal from "@/app/components/PaperFormModal";
 
 const Page = () => {
 	return (
@@ -19,15 +13,15 @@ const Page = () => {
 							<div className="flex items-end justify-center gap-4 mb-4">
 								<img
 									className="object-cover w-[20%]"
-									src="https://res.cloudinary.com/tbra/image/upload/v1683809545/img5_aesxw5.jpg"
-									alt="freetailwindui.co"
+									src="https://res.cloudinary.com/tbra/image/upload/v1683941319/maryanne_qrubww.jpg"
+									alt="TBrA Prime Images"
 									data-aos="fade-in"
 									data-aos-delay="300"
 								/>
 								<img
 									className="object-cover w-[40%]"
-									src="https://res.cloudinary.com/tbra/image/upload/v1683809206/img2_jus6me.jpg"
-									alt="freetailwindui.co"
+									src="https://res.cloudinary.com/tbra/image/upload/v1683941318/Annabelle_ozusnw.jpg"
+									alt="TBrA Prime Images"
 									data-aos="fade-in"
 									data-aos-delay="0"
 								/>
@@ -36,21 +30,21 @@ const Page = () => {
 								<img
 									className="object-cover w-[25%]"
 									src="https://res.cloudinary.com/tbra/image/upload/v1683809206/img3_ppimgg.jpg"
-									alt="freetailwindui.co"
+									alt="TBrA Prime Images"
 									data-aos="fade-in"
 									data-aos-delay="500"
 								/>
 								<img
 									className="object-cover w-[40%]"
-									src="https://res.cloudinary.com/tbra/image/upload/v1683809206/img1_xukr7d.jpg"
-									alt="freetailwindui.co"
+									src="https://res.cloudinary.com/tbra/image/upload/v1683941138/rachel_eknkqi.jpg"
+									alt="TBrA Prime Images"
 									data-aos="fade-in"
 									data-aos-delay="100"
 								/>
 								<img
 									className="object-cover w-[26%]"
 									src="https://res.cloudinary.com/tbra/image/upload/v1683809545/img4_smhigy.jpg"
-									alt="freetailwindui.co"
+									alt="TBrA Prime Images"
 									data-aos="fade-in"
 									data-aos-delay="400"
 								/>
@@ -62,7 +56,7 @@ const Page = () => {
 								data-aos="fade-up"
 								data-aos-delay="50"
 							>
-								Something Here
+								A new experience
 							</p>
 							<h2
 								className="text-4xl text-mustard mb-6"
@@ -95,8 +89,9 @@ const Page = () => {
 								data-aos-delay="200"
 							>
 								<Link
-									className="btn transition-all ease-in-out duration-300 font-normal text-black rounded"
-									href="#!"
+									className="btn transition-all ease-in-out duration-300 font-normal text-black rounded text-center"
+									href="/tbraprime-upgrade"
+									target="_blank"
 								>
 									Upgrade Now
 								</Link>
@@ -107,6 +102,14 @@ const Page = () => {
 			</section>
 
 			<PrimePricing />
+
+			<section className="container text-center">
+				<PaperFormModal
+					btnText="Upgrade Now"
+					paperform="tbraprime"
+					className="btn transition-all ease-in-out duration-300 font-normal text-black rounded text-center text-xl"
+				/>
+			</section>
 		</>
 	);
 };

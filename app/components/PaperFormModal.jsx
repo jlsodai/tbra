@@ -2,12 +2,12 @@
 import React from "react";
 import PaperForm from "@/app/components/PaperForm";
 
-export default function PaperFormModal({ btnText, paperform }) {
+export default function PaperFormModal({ btnText, paperform, className }) {
 	const [showModal, setShowModal] = React.useState(false);
 	return (
 		<>
 			<button
-				className="btn font-semibold mt-4 uppercase"
+				className={`${className || "btn font-semibold mt-4 uppercase"}`}
 				type="button"
 				onClick={() => setShowModal(true)}
 			>
