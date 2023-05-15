@@ -1,5 +1,5 @@
 import React from "react";
-import { FaCheckCircle } from "react-icons/fa";
+import { FaCheckCircle, FaTimesCircle } from "react-icons/fa";
 import { primePricing } from "@/app/utils/options";
 
 const PrimePricing = () => {
@@ -79,6 +79,8 @@ const PrimePricing = () => {
 							>
 								{price.standard === "yes" ? (
 									<FaCheckCircle />
+								) : price.standard === "no" ? (
+									<FaTimesCircle />
 								) : (
 									price.standard
 								)}

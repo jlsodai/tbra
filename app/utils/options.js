@@ -877,6 +877,11 @@ export const primePricing = {
 			prime: "yes",
 		},
 		{
+			title: "Personal Talent Consultation",
+			standard: "no",
+			prime: "yes",
+		},
+		{
 			title: "TBrA Spotlight",
 			standard: "yes",
 			prime: "Priority",
