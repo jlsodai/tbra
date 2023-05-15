@@ -877,6 +877,11 @@ export const primePricing = {
 			prime: "yes",
 		},
 		{
+			title: "47% Discount on IoD Membership",
+			standard: "yes",
+			prime: "yes",
+		},
+		{
 			title: "Personal Talent Consultation",
 			standard: "no",
 			prime: "yes",
