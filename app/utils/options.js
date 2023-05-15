@@ -872,6 +872,11 @@ export const primePricing = {
 			prime: "yes",
 		},
 		{
+			title: "Harvard Business Review Concept Submission",
+			standard: "yes",
+			prime: "yes",
+		},
+		{
 			title: "TBrA Spotlight",
 			standard: "yes",
 			prime: "Priority",
