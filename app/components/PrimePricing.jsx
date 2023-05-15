@@ -7,7 +7,7 @@ const PrimePricing = () => {
 		<section className="primeTable -sm:text-[12.5px] text-gray-700 body-font overflow-hidden border-t border-gray-200">
 			<div className="container -sm:px-4 md:px-32 py-24 mx-auto flex flex-wrap">
 				<div className="w-1/2 block">
-					<div className="h-40 flex items-end">
+					<div className="h-36 flex items-end">
 						<h5 className="bg-dawn inline-block px-8 py-2 font-bold">
 							All Access
 						</h5>
@@ -63,7 +63,7 @@ const PrimePricing = () => {
 				</div>
 				<div className="flex w-1/2 flex-wrap lg:border border-gray-300 rounded-lg">
 					<div className="w-1/2 lg:mt-px border-2 border-gray-300 lg:border-none rounded-lg lg:rounded-none">
-						<div className="px-2 text-center h-40 flex flex-col items-center justify-center">
+						<div className="px-2 text-center h-36 flex flex-col items-center justify-center">
 							<h2 className="text-base text-dusk md:text-2xl font-medium flex items-center justify-center leading-none">
 								Standard
 							</h2>
@@ -120,7 +120,7 @@ const PrimePricing = () => {
 						))}
 					</div>
 					<div className="w-1/2 lg:-mt-px lg:mb-0 border-2 rounded-lg border-mustard relative">
-						<div className="px-2 text-center h-40 flex flex-col items-center justify-center">
+						<div className="px-2 text-center h-36 flex flex-col items-center justify-center">
 							<h2 className="text-base md:text-2xl font-medium flex items-center justify-center leading-none">
 								Prime
 							</h2>
@@ -130,7 +130,7 @@ const PrimePricing = () => {
 									/year
 								</span>
 							</h2>
-							<span className="text-sm text-gray-600">
+							<span className="text-sm -sm:text-[10px] leading-none text-gray-600">
 								For a $2,500 value
 							</span>
 						</div>
