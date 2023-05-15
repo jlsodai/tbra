@@ -901,17 +901,17 @@ export const primePricing = {
 		{
 			title: "LinkedIn Profile Audit",
 			standard: "Full fee",
-			prime: "30% discount",
+			prime: "14% discount",
 		},
 		{
 			title: "LinkedIn Makeover",
 			standard: "Full fee",
-			prime: "15% discount",
+			prime: "16% discount",
 		},
 		{
 			title: "Executive CV Consultation",
 			standard: "Full fee",
-			prime: "22% discount",
+			prime: "17% discount",
 		},
 		{
 			title: "Executive CV Makeover",
