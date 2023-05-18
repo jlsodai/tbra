@@ -877,7 +877,7 @@ export const primePricing = {
 			prime: "yes",
 		},
 		{
-			title: "47% Discount on IoD Membership",
+			title: "25% Discount on IoD Membership",
 			standard: "yes",
 			prime: "yes",
 		},
