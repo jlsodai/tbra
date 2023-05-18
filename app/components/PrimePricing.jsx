@@ -133,7 +133,7 @@ const PrimePricing = () => {
 								</span>
 							</h2>
 							<span className="text-sm -sm:text-[10px] leading-none text-gray-600">
-								For a $2,500 value
+								For a $3,000 value
 							</span>
 						</div>
 						{primePricing.access.map((price, i) => (
