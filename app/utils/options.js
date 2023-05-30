@@ -549,7 +549,7 @@ export const bottomMenu = [
 			},
 			{
 				name: "Privacy Statement",
-				href: "#!",
+				href: "/privacy-policy",
 			},
 			{
 				name: "Contact Us",
