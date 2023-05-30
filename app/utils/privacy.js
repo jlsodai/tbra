@@ -43,7 +43,7 @@ Most browser software can be set up to deal with cookies. You may modify your br
 
 **1. For TBrA Services**
 
--   -   to respond to any query that you may submit to us;
+-   to respond to any query that you may submit to us;
 
 -   to perform our business services within our capacity as a network that connects Senior Executive women with Board opportunities, through training and development programs and our general Board Advisory services
 -   to contact you to advise of relevant Board positions
