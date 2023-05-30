@@ -1,17 +1,15 @@
-import React from "react";
+import PaperForm from "@/app/components/PaperForm";
+
+import HeaderTitle from "@/app/sections/HeaderTitle";
 
 const page = () => {
 	return (
-		<iframe
-			src="https://web.theboardroomafrica.com/application-form/"
-			width="100%"
-			style={{
-				height: "100dvh",
-				width: "100%",
-				border: "none",
-				overflow: "hidden",
-			}}
-		></iframe>
+		<>
+			{/* <HeaderTitle title="Upgrade to TBrA Prime" /> */}
+			<section className="container my-10" data-aos="fade-up">
+				<PaperForm formSlug="tbra-membership-application" />
+			</section>
+		</>
 	);
 };
 
