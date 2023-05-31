@@ -65,9 +65,9 @@ module.exports = withMT({
 				},
 				tender: {
 					DEFAULT: "#6E8498",
-					50: "#D9DFE4",
+					50: "#F4F5F7",
 					100: "#CDD5DC",
-					200: "#B6C1CB",
+					200: "#D7DCE0",
 					300: "#9EACBA",
 					400: "#8698A9",
 					500: "#6E8498",
@@ -91,7 +91,7 @@ module.exports = withMT({
 				},
 				mustard: {
 					DEFAULT: "#CDAD7D",
-					50: "#FFFFFF",
+					50: "#FBF9F5",
 					100: "#FAF7F3",
 					200: "#EFE5D5",
 					300: "#E4D2B8",
