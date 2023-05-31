@@ -947,3 +947,56 @@ export const primePricing = {
 		},
 	],
 };
+
+export const offers = {
+	executive: {
+		heading: "Executive Development Offerings",
+		offering: [
+			{
+				title: "Open Doors: Certificate in Company Direction",
+				text: "Designed and delivered in partnership with the Institute of Directors UK (IoD), Open Doors is a globally recognised and accredited director certificate programme suited to existing and aspiring directors. The programme provides a comprehensive curriculum covering the essential components of leadership, strategy, finance and governance and offers additional insights into board dynamics and ontological leadership through curated workshops.",
+			},
+			{
+				title: "Environmental, Social and Governance (ESG) Certificate",
+				text: "TheBoardroom Africa’s ESG Certificate programme targets women directors and executives looking to develop their understanding of ESG issues and concepts, equipping them with the tools required to drive ESG agendas in their respective organisations. This expert-led curriculum incorporates ESG theoretical frameworks and trends, situating them within a global context, with practical inputs intended to support executives as they review their roles in driving the ESG agenda. ",
+			},
+			{
+				title: "Ontological Growth Experience",
+				text: "Designed with the belief that organisational transformation must be anchored in authentic power, values-based, strengths-based and courageous leadership. This experience merges research and practice from neuroscience, psychology, biomimicry and ontology, offering delegates a unique opportunity to deeply transform themselves first and in turn to transform the teams and systems they lead.",
+			},
+			{
+				title: "Workshops",
+				text: "This series of workshops cover a range of topics from board dynamics, committees and strategic decision-making. Each workshop offers a quick immersion into select learning areas and provides practical tools and techniques that can immediately be applied.",
+			},
+		],
+	},
+	ondemand: {
+		heading: "On-Demand Offerings",
+		offering: [
+			{
+				title: "Monthly Group Coaching",
+				text: "We provide members with the chance to connect with our expert executive coach partners and other TBR Africa members in small group coaching sessions to improve their leadership skills. The monthly group coaching sessions are designed for our members to focus on life-changing topics to help them identify their true potential and leadership styles. ",
+			},
+			{
+				title: "LinkedIn Profile Audit",
+				text: "TBrA career coaches evaluate members’ professional LinkedIn profiles based on their experiences and then provide feedback on strengths, weaknesses and areas of improvement. Our team of experts will assess your profile and offer a thorough report to enhance your chances of being noticed.",
+			},
+			{
+				title: "LinkedIn Makeover",
+				text: "Represent yourself in the best way by optimising your LinkedIn presence to make it more polished and attractive. Get comprehensive assistance to utilise your LinkedIn profile to build relationships, expand your network, and showcase your expertise to be seen and gain opportunities. ",
+			},
+			{
+				title: "Executive CV Consultation",
+				text: "Get matched with a resume expert who will meet with you for an hour to discuss your aspirations for your resume and give you the tools to overhaul it, focusing on formatting, keyword optimisation, and writing style to help you put your best foot forward to board recruiters.",
+			},
+			{
+				title: "Executive CV Makeover",
+				text: "Craft a well-tailored resume for your need as a woman executive. Our expert CV coach provides a comprehensive and personalised in-depth analysis of your CV over a series of calls emphasising your most significant accomplishments which creates impact  ",
+			},
+			{
+				title: "Thought Leadership Positioning",
+				text: "Being a leader is also about the influence you make in your field often through the creation and sharing of insightful ideas. To become a successful thought leader, it is crucial to enhance your authority and influence through content marketing, social media, and other relevant mediums. These tools can help you establish yourself as an expert in your field, build credibility, and increase your visibility among the audience. Work with our experts to play a vital role in achieving thought leadership.",
+			},
+		],
+	},
+};
