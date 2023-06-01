@@ -28,9 +28,7 @@ const HeroSection = ({ hero }) => {
 					alt=""
 				/>
 				<div className="z-10 text-xl flex flex-col gap-6 my-16 md:my-28">
-					<h1 className="text-mustard" ref={el}>
-						{hero.title}
-					</h1>
+					<h1 className="text-mustard" ref={el}></h1>
 					<div className="md:max-w-[65%]">
 						<p className=" text-dawn">{hero.details}</p>
 						<div className="mt-10">
