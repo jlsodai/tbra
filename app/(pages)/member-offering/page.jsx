@@ -1,17 +1,16 @@
 import HeaderTitle from "@/app/sections/HeaderTitle";
 import OfferSection from "@/app/sections/OfferSection";
-import { newoffers } from "@/app/utils/options";
-import NewOffer from "@/app/components/NewOffer";
+import { offers, newoffers } from "@/app/utils/options";
 
 const page = () => {
 	return (
 		<>
 			<HeaderTitle title="Membership Offerings" />
-			<NewOffer offerItem={newoffers.access} />
-			<NewOffer offerItem={newoffers.network} />
-			<NewOffer offerItem={newoffers.partner} />
-			<NewOffer offerItem={newoffers.presence} />
-			<NewOffer offerItem={newoffers.thoughtLeadership} />
+			<OfferSection bg="tender" offers={newoffers.access} />
+			<OfferSection bg="mustard" offers={newoffers.network} />
+			<OfferSection bg="tender" offers={newoffers.partner} />
+			<OfferSection offers={newoffers.presence} />
+			<OfferSection bg="mustard" offers={newoffers.thoughtLeadership} />
 		</>
 	);
 };
