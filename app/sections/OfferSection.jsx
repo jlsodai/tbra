@@ -79,11 +79,11 @@ const OfferSection = ({ bg, offers }) => {
 						key={i}
 					>
 						<h3>{offer.title}</h3>
-						<img
+						{/* <img
 							src="https://via.placeholder.com/130x140"
 							alt=""
 							className="float-left mr-4 my-2"
-						/>
+						/> */}
 						<p className="mt-0">{offer.text}</p>
 					</div>
 				))}

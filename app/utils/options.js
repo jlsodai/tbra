@@ -1000,3 +1000,87 @@ export const offers = {
 		],
 	},
 };
+
+export const newoffers = {
+	access: {
+		heading: "All Access",
+		offering: [
+			{
+				title: "Unlimited Access to Members Forum",
+				text: "Get unlimited access to TBrA’s private online community through the Members Forum. Engage with over 2,500 other women leaders, collaborate around shared interests, apply for board roles, register for events, and access resources to support your board and leadership journey.",
+			},
+			{
+				title: "Access Board Roles",
+				text: "We partner with companies and organisations to bridge the diversity gap on their boards by leveraging our robust network to deliver a diverse range of board opportunities to you. Upgrade to Prime and get the additional positioning you need to gain board roles.",
+			},
+			{
+				title: "Access Member-Curated Webinars",
+				text: "Exclusive-content webinars designed for members featuring global experts from diverse sectors, featuring topics from preparing for commercial board opportunities to building an effective board.",
+			},
+			{
+				title: "Board & Leadership Resource Library",
+				text: "Browse our rich library of resources tailored to boards and leadership. In addition, you can access our collection of pre-recorded webinars on trending topics.",
+			},
+		],
+	},
+	network: {
+		heading: "Network",
+		offering: [
+			{
+				title: "Get matched",
+				text: "Opt in every month to be matched for a 45-minute curated virtual conversation with another member. You are matched based on compatible goals and experiences. Keep an eye out for the monthly email notification to opt-in.",
+			},
+			{
+				title: "Connect with other members along areas of shared interest through Groups",
+				text: "Expand your network today. Members can stay connected with other industry professionals through prepopulated virtual industry groups on the Members Forum. You may also join any group of interest.",
+			},
+			{
+				title: "TBrA Spotlight",
+				text: "Join a pipeline of members featured in our monthly spotlight newsletter, designed to position you for board opportunities. Prime members get priority spotlight features.",
+			},
+		],
+	},
+	partner: {
+		heading: "Partner Offers",
+		offering: [
+			{
+				title: "Harvard Business Review Concept Submission",
+				text: "In collaboration with Harvard Business Review, members are periodically invited to share article concepts to be considered for Ascend, HBR’s publication targeting the next generation of business leaders. Keep an eye out for email announcements notifications.",
+			},
+			{
+				title: "25% Off IoD Membership",
+				text: "Exclusive to TBrA members, the Institute of Directors in London offers a 25% discount on its full membership. The membership is designed for practising executives and non-executive directors. Benefits range from but are not limited to calls to IoD’s tax and legal specialist and director advice, and access to the exclusive 116 Pall Mall in London and our hubs across the UK.",
+			},
+		],
+	},
+	presence: {
+		heading: "Personal Branding & Presence",
+		offering: [
+			{
+				title: "Monthly Group Coaching",
+				text: "Connect with our executive coaches in small group sessions to explore intimate topics from deconstructing limiting beliefs, dealing with microaggressions and more.",
+			},
+			{
+				title: "LinkedIn Profile Audit",
+				text: "Connect with our executive coaches in small group sessions to explore intimate topics from deconstructing limiting beliefs, dealing with microaggressions and more.",
+			},
+			{
+				title: "LinkedIn Makeover",
+				text: "Connect with our executive coaches in small group sessions to explore intimate topics from deconstructing limiting beliefs, dealing with microaggressions and more.",
+			},
+			{
+				title: "Executive CV Consultation",
+				text: "Connect with our executive coaches in small group sessions to explore intimate topics from deconstructing limiting beliefs, dealing with microaggressions and more.",
+			},
+		],
+	},
+	thoughtLeadership: {
+		heading: "Thought Leadership Positioning",
+		offering: [
+			{
+				title: "Thought Leadership Positioning",
+				text: "How do you get yourself heard and become a person of influence – not just in your own sector but across wider industries? A thought leadership presence has become important for today's leaders. We pair you with experts to help you brainstorm and share your ideas with the world. Sign up today and take advantage of our bundled thought leadership offers.",
+			},
+		],
+	},
+};
