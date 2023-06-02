@@ -52,25 +52,25 @@ const OfferSection = ({ bg, offers }) => {
 		<section className={`${OfferVariants({ bg })} container mt-16 p-8`}>
 			<h3 className="font-libreb text-2xl">{offers.heading}</h3>
 			<div className="grid lg:grid-cols-[1fr_3fr] gap-8">
-				<ul className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-1 gap-4">
+				<div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-1 gap-4">
 					{offers?.offering.map((offer, i) => (
-						<li
+						<button
 							className={`${
 								activeTab === i
 									? `${BorderVariants({
 											border: bg,
 									  })} rounded-r`
 									: "border-l-white rounded bg-white"
-							} flex items-center border-l-[6px] py-6 lg:h-[75px] px-6 cursor-pointer drop-shadow-sm  hover:rounded-l-none ${HoverVariants(
+							} flex items-center border-l-[6px] py-6 lg:h-[75px] px-6 cursor-pointer drop-shadow-sm  hover:rounded-l-none text-left ${HoverVariants(
 								{ hover: bg }
 							)}`}
 							key={i}
 							onClick={() => setActiveTab(i)}
 						>
 							{offer.title}
-						</li>
+						</button>
 					))}
-				</ul>
+				</div>
 				{offers?.offering.map((offer, i) => (
 					<div
 						className={`bg-white rounded p-6 prose max-w-full ${
