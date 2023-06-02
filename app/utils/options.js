@@ -1007,7 +1007,7 @@ export const newoffers = {
 		offering: [
 			{
 				title: "Unlimited Access to Members Forum",
-				text: "Get unlimited access to TBrA’s private online community through the Members Forum. Engage with over 2,500 other women leaders, collaborate around shared interests, apply for board roles, register for events, and access resources to support your board and leadership journey.",
+				text: "Get unlimited access to TBrA's private online community through the Members Forum. Engage with over 2,500 other women leaders, collaborate around shared interests, apply for board roles, register for events, and access resources to support your board and leadership journey.",
 			},
 			{
 				title: "Access Board Roles",
@@ -1062,15 +1062,19 @@ export const newoffers = {
 			},
 			{
 				title: "LinkedIn Profile Audit",
-				text: "Connect with our executive coaches in small group sessions to explore intimate topics from deconstructing limiting beliefs, dealing with microaggressions and more.",
+				text: "We work with expert coaches to review your LinkedIn presence with the goal of positioning you for visibility. This service includes:\n- A review of your LinkedIn profile\n- A detailed report with recommendations for changes to your profile.",
 			},
 			{
 				title: "LinkedIn Makeover",
-				text: "Connect with our executive coaches in small group sessions to explore intimate topics from deconstructing limiting beliefs, dealing with microaggressions and more.",
+				text: "Work with a visibility expert for a complete LinkedIn makeover with the goal of optimising your LinkedIn presence. This service includes:\n- An exploratory call on personal branding\n- Assessment of your CV\n- Maximum two drafts for your LinkedIn profile\n- Uploading changes to your LinkedIn on your behalf (optional)",
 			},
 			{
 				title: "Executive CV Consultation",
-				text: "Connect with our executive coaches in small group sessions to explore intimate topics from deconstructing limiting beliefs, dealing with microaggressions and more.",
+				text: "Get matched with a resume expert for an hour’s consultation. Gain first-hand insight into what’s working and what isn’t. Learn ways to stand out through your CV and ways to position yourself for board or other executive roles.",
+			},
+			{
+				title: "Executive CV Makeover",
+				text: "Take the complication out of it and work with a CV writing expert and former Executive Search leader to craft a professional CV designed to position you for the opportunities you seek. This service includes:\n- An in-depth consultation to identify your career aspirations\n- 3-hour session with the expert to review your CV\n- Maximum two new CV drafts",
 			},
 		],
 	},

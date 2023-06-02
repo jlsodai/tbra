@@ -2,6 +2,7 @@
 "use client";
 import { cva } from "class-variance-authority";
 import { useState } from "react";
+import Markdown from "markdown-to-jsx";
 
 const OfferVariants = cva("", {
 	variants: {
@@ -79,12 +80,9 @@ const OfferSection = ({ bg, offers }) => {
 						key={i}
 					>
 						<h3>{offer.title}</h3>
-						{/* <img
-							src="https://via.placeholder.com/130x140"
-							alt=""
-							className="float-left mr-4 my-2"
-						/> */}
-						<p className="mt-0">{offer.text}</p>
+						<div className="prose max-w-full">
+							<Markdown>{offer.text}</Markdown>
+						</div>
 					</div>
 				))}
 			</div>
