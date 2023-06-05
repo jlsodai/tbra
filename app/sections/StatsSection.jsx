@@ -22,7 +22,7 @@ const StatsSection = () => {
 								info=" executive leadership alumni"
 							/>
 							<Stats
-								stat="65+"
+								stat="70+"
 								info="sectors and countries represented"
 							/>
 						</div>
