@@ -7,7 +7,7 @@ const page = () => {
 	return (
 		<>
 			<HeaderTitle
-				title="Membership Offerings"
+				title="Member Offers"
 				paperForm={
 					<PaperFormModal
 						btnText="Get Started"
