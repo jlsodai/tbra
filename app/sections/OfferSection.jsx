@@ -3,6 +3,7 @@
 import { cva } from "class-variance-authority";
 import { useState } from "react";
 import Markdown from "markdown-to-jsx";
+import { BiMinus, BiPlus } from "react-icons/bi";
 
 const OfferVariants = cva("", {
 	variants: {
@@ -46,12 +47,28 @@ const HoverVariants = cva("", {
 	},
 });
 
-const OfferSection = ({ bg, offers }) => {
+const OfferSection = ({ bg, offers, accordionOpen = false }) => {
 	const [activeTab, setActiveTab] = useState(0);
+	const [open, setOpen] = useState(accordionOpen);
 	return (
-		<section className={`${OfferVariants({ bg })} container mt-16 p-8`}>
-			<h3 className="font-libreb text-2xl">{offers.heading}</h3>
-			<div className="grid lg:grid-cols-[1fr_3fr] gap-8">
+		<section className={`${OfferVariants({ bg })} container mt-10 px-8`}>
+			<button
+				onClick={() => setOpen(!open)}
+				className="flex font-libreb text-2xl mb-0 w-full text-left pt-8 pb-6"
+			>
+				{open ? (
+					<BiMinus className="mr-4" />
+				) : (
+					<BiPlus className="mr-4" />
+				)}
+
+				{offers.heading}
+			</button>
+			<div
+				className={`${
+					open ? "grid" : "hidden"
+				} lg:grid-cols-[4fr_7fr] gap-8 pb-8`}
+			>
 				<div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-1 gap-4">
 					{offers?.offering.map((offer, i) => (
 						<button
