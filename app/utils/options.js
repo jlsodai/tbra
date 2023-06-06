@@ -1024,7 +1024,7 @@ export const newoffers = {
 		],
 	},
 	network: {
-		heading: "Network",
+		heading: "Thought Leadership Positioning",
 		offering: [
 			{
 				title: "Get matched",
