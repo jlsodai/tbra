@@ -1079,11 +1079,11 @@ export const newoffers = {
 		],
 	},
 	thoughtLeadership: {
-		heading: "Thought Leadership Positioning",
+		heading: "Connect with Others",
 		offering: [
 			{
-				title: "Thought Leadership Positioning",
-				text: "How do you get yourself heard and become a person of influence – not just in your own sector but across wider industries? A thought leadership presence has become important for today's leaders. We pair you with experts to help you brainstorm and share your ideas with the world. Sign up today and take advantage of our bundled thought leadership offers.",
+				title: "Build Influence",
+				text: "- Position Yourself as a Global Thought Leader\n- How do you get yourself heard and become a person of influence – not just in your own sector but across wider industries? A thought leadership presence has become important for today's leaders. We pair you with experts to help you brainstorm and share your ideas with the world. Sign up today and take advantage of our bundled thought leadership offers.",
 			},
 		],
 	},
