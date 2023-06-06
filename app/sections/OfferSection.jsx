@@ -95,7 +95,7 @@ const OfferSection = ({ bg, offers, accordionOpen = false }) => {
 						}`}
 						key={i}
 					>
-						<h3>{offer.title}</h3>
+						<h3>{offer?.subTitle ?? offer.title}</h3>
 						<div className="prose max-w-full">
 							<Markdown>{offer.text}</Markdown>
 						</div>

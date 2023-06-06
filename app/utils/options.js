@@ -1024,15 +1024,18 @@ export const newoffers = {
 		],
 	},
 	network: {
-		heading: "Thought Leadership Positioning",
+		heading: "Connect with Others",
 		offering: [
 			{
 				title: "Get matched",
-				text: "- Orbiit Monthly Matching\n- Opt in every month to be matched for a 45-minute curated virtual conversation with another member. You are matched based on compatible goals and experiences. Keep an eye out for the monthly email notification to opt-in.",
+				subTitle: "Orbiit Monthly Matching",
+				text: "- Opt in every month to be matched for a 45-minute curated virtual conversation with another member. You are matched based on compatible goals and experiences. Keep an eye out for the monthly email notification to opt-in.",
 			},
 			{
 				title: "Join Industry Groups",
-				text: "- Connect with other members along areas of shared interest through Groups\n- Expand your network today. Members can stay connected with other industry professionals through prepopulated virtual industry groups on the Members Forum. You may also join any group of interest.",
+				subTitle:
+					"Connect with other members along areas of shared interest through Groups",
+				text: "- Expand your network today. Members can stay connected with other industry professionals through prepopulated virtual industry groups on the Members Forum. You may also join any group of interest.",
 			},
 		],
 	},
@@ -1079,7 +1082,7 @@ export const newoffers = {
 		],
 	},
 	thoughtLeadership: {
-		heading: "Connect with Others",
+		heading: "Thought Leadership Positioning",
 		offering: [
 			{
 				title: "Build Influence",
