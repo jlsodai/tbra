@@ -54,7 +54,7 @@ const OfferSection = ({ bg, offers, accordionOpen = false }) => {
 		<section className={`${OfferVariants({ bg })} container mt-10 px-8`}>
 			<button
 				onClick={() => setOpen(!open)}
-				className="flex font-libreb text-2xl mb-0 w-full text-left pt-8 pb-6"
+				className="flex font-libreb text-2xl mb-0 w-full text-left py-6"
 			>
 				{open ? (
 					<BiMinus className="mr-4" />
