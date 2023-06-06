@@ -1028,15 +1028,11 @@ export const newoffers = {
 		offering: [
 			{
 				title: "Get matched",
-				text: "Opt in every month to be matched for a 45-minute curated virtual conversation with another member. You are matched based on compatible goals and experiences. Keep an eye out for the monthly email notification to opt-in.",
+				text: "- Orbiit Monthly Matching\n- Opt in every month to be matched for a 45-minute curated virtual conversation with another member. You are matched based on compatible goals and experiences. Keep an eye out for the monthly email notification to opt-in.",
 			},
 			{
-				title: "Connect with other members along areas of shared interest through Groups",
-				text: "Expand your network today. Members can stay connected with other industry professionals through prepopulated virtual industry groups on the Members Forum. You may also join any group of interest.",
-			},
-			{
-				title: "TBrA Spotlight",
-				text: "Join a pipeline of members featured in our monthly spotlight newsletter, designed to position you for board opportunities. Prime members get priority spotlight features.",
+				title: "Join Industry Groups",
+				text: "- Connect with other members along areas of shared interest through Groups\n- Expand your network today. Members can stay connected with other industry professionals through prepopulated virtual industry groups on the Members Forum. You may also join any group of interest.",
 			},
 		],
 	},
@@ -1075,6 +1071,10 @@ export const newoffers = {
 			{
 				title: "Executive CV Makeover",
 				text: "Take the complication out of it and work with a CV writing expert and former Executive Search leader to craft a professional CV designed to position you for the opportunities you seek. This service includes:\n- An in-depth consultation to identify your career aspirations\n- 3-hour session with the expert to review your CV\n- Maximum two new CV drafts",
+			},
+			{
+				title: "TBrA Spotlight",
+				text: "Join a pipeline of members featured in our monthly spotlight newsletter, designed to position you for board opportunities. Prime members get priority spotlight features.",
 			},
 		],
 	},

@@ -23,12 +23,12 @@ const page = () => {
 					accordionOpen={true}
 				/>
 				<OfferSection bg="mustard" offers={newoffers.network} />
-				<OfferSection bg="tender" offers={newoffers.partner} />
 				<OfferSection offers={newoffers.presence} />
 				<OfferSection
 					bg="mustard"
 					offers={newoffers.thoughtLeadership}
 				/>
+				<OfferSection bg="tender" offers={newoffers.partner} />
 			</div>
 			<section className="container mt-8 text-center">
 				<PaperFormModal
