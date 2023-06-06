@@ -51,7 +51,7 @@ const OfferSection = ({ bg, offers, accordionOpen = false }) => {
 	const [activeTab, setActiveTab] = useState(0);
 	const [open, setOpen] = useState(accordionOpen);
 	return (
-		<section className={`${OfferVariants({ bg })} container mt-10 px-8`}>
+		<section className={`${OfferVariants({ bg })} container mt-6 px-8`}>
 			<button
 				onClick={() => setOpen(!open)}
 				className="flex font-libreb text-2xl mb-0 w-full text-left py-6"
