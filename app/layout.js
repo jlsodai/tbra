@@ -2,9 +2,7 @@ import "@/styles/globals.css";
 import { Inter, Libre_Baskerville, Noto_Serif_Display } from "next/font/google";
 import localFont from "next/font/local";
 import AOSWrapper from "./wrappers/AOSWrapper";
-
-import FooterMenu from "@/app/sections/FooterMenu";
-import FooterSection from "./sections/FooterSection";
+import GoogleAnalytics from "./components/GoogleAnalytics";
 
 const noto = Noto_Serif_Display({
 	weight: ["400", "700", "900"],
@@ -97,6 +95,9 @@ export default function RootLayout({ children }) {
 			lang="en"
 			className={`${inter.variable} ${libreb.variable} ${noto.variable} ${halyard.variable} text-dusk text-[16px]`}
 		>
+			<GoogleAnalytics
+				GA_MEASUREMENT_ID={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}
+			/>
 			<body className="font-sans">
 				<main className="overflow-hidden">
 					<AOSWrapper>{children}</AOSWrapper>
