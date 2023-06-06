@@ -67,7 +67,7 @@ const OfferSection = ({ bg, offers, accordionOpen = false }) => {
 			<div
 				className={`${
 					open ? "grid" : "hidden"
-				} lg:grid-cols-[4fr_7fr] gap-8 pb-8`}
+				} lg:grid-cols-[1fr_2.5fr] gap-8 pb-8`}
 			>
 				<div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-1 gap-4">
 					{offers?.offering.map((offer, i) => (
