@@ -1073,7 +1073,7 @@ export const newoffers = {
 				text: "Take the complication out of it and work with a CV writing expert and former Executive Search leader to craft a professional CV designed to position you for the opportunities you seek. This service includes:\n- An in-depth consultation to identify your career aspirations\n- 3-hour session with the expert to review your CV\n- Maximum two new CV drafts",
 			},
 			{
-				title: "TBrA Spotlight",
+				title: "Member Spotlight",
 				text: "Join a pipeline of members featured in our monthly spotlight newsletter, designed to position you for board opportunities. Prime members get priority spotlight features.",
 			},
 		],
