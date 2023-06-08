@@ -693,7 +693,7 @@ export const memberSlides = [
 	{
 		title: "Influential network of women leaders",
 		content:
-			"Being a woman at the top can be a lonely experience; TheBoardroom Africa enables our members to realise they don’t have to go at it alone. Join the most influential private community of women leaders on the continent and together transform your leadership while staying at the top.",
+			"Being a woman at the top can be a lonely experience; TheBoardroom Africa enables our members to realise they don't have to go at it alone. Join the most influential private community of women leaders on the continent and together transform your leadership while staying at the top.",
 		style: {
 			background:
 				'linear-gradient(rgba(34,35,68, 0.75), rgba(34,35,68, 0.75)), url("https://res.cloudinary.com/tbra/image/upload/v1680257493/influential_axcerl.jpg")',
@@ -787,7 +787,7 @@ export const instructorDetails = {
 			profile: [
 				" Rosalind Kainyah MBE is an authority on Sustainability and responsible business with over 30 years of combined legal, international, executive and board level experience. She is a trusted advisor to Boards and Senior Executives of companies on leveraging opportunities and managing Sustainability related risk. Rosalind has advised companies across various sectors, including the extractives industry, energy, private equity, financial services, healthcare, agriculture, consumer goods, logistics, manufacturing and technology.",
 				"Rosalind is also an experienced non-executive director.  She currently serves on the boards of discoverIE plc, Gem Diamonds Limited, CalBank Plc, Lekela Power and BTE Renewables. In the not-for-profit sector, she is a trustee and Vice Chairperson of the Africa Gifted Foundation and a Board member of Results for Development (R4D). She has previously served on the Boards of Aker Energy, the Ghana Food &Drugs Authority and The Africa-America Institute.",
-				"Rosalind holds a Bachelor’s degree in English from the University of Ghana, a Bachelor of Laws degree from the University of London and a Master of Laws degree from University College, London. She is a member of the Bar of England and Wales and the Chartered Institute of Arbitrators.",
+				"Rosalind holds a Bachelor's degree in English from the University of Ghana, a Bachelor of Laws degree from the University of London and a Master of Laws degree from University College, London. She is a member of the Bar of England and Wales and the Chartered Institute of Arbitrators.",
 			],
 		},
 		{
@@ -829,7 +829,7 @@ export const programDetails = {
 			{
 				title: "The Role of Regulation in Advancing ESG",
 				content:
-					"Regulatory scrutiny of ESG is on the rise as a growing number of countries seem to encourage companies to report on their environmental and social risk. You will learn what’s driving new regulations and reporting standards. By the end of this session, you will understand the “alphabet soup” of regulation around ESG and how it impacts corporate strategy and compliance requirements.",
+					"Regulatory scrutiny of ESG is on the rise as a growing number of countries seem to encourage companies to report on their environmental and social risk. You will learn what's driving new regulations and reporting standards. By the end of this session, you will understand the “alphabet soup” of regulation around ESG and how it impacts corporate strategy and compliance requirements.",
 			},
 		],
 	},
@@ -958,7 +958,7 @@ export const offers = {
 			},
 			{
 				title: "Environmental, Social and Governance (ESG) Certificate",
-				text: "TheBoardroom Africa’s ESG Certificate programme targets women directors and executives looking to develop their understanding of ESG issues and concepts, equipping them with the tools required to drive ESG agendas in their respective organisations. This expert-led curriculum incorporates ESG theoretical frameworks and trends, situating them within a global context, with practical inputs intended to support executives as they review their roles in driving the ESG agenda. ",
+				text: "TheBoardroom Africa's ESG Certificate programme targets women directors and executives looking to develop their understanding of ESG issues and concepts, equipping them with the tools required to drive ESG agendas in their respective organisations. This expert-led curriculum incorporates ESG theoretical frameworks and trends, situating them within a global context, with practical inputs intended to support executives as they review their roles in driving the ESG agenda. ",
 			},
 			{
 				title: "Ontological Growth Experience",
@@ -979,7 +979,7 @@ export const offers = {
 			},
 			{
 				title: "LinkedIn Profile Audit",
-				text: "TBrA career coaches evaluate members’ professional LinkedIn profiles based on their experiences and then provide feedback on strengths, weaknesses and areas of improvement. Our team of experts will assess your profile and offer a thorough report to enhance your chances of being noticed.",
+				text: "TBrA career coaches evaluate members' professional LinkedIn profiles based on their experiences and then provide feedback on strengths, weaknesses and areas of improvement. Our team of experts will assess your profile and offer a thorough report to enhance your chances of being noticed.",
 			},
 			{
 				title: "LinkedIn Makeover",
@@ -1044,11 +1044,11 @@ export const newoffers = {
 		offering: [
 			{
 				title: "Harvard Business Review Concept Submission",
-				text: "In collaboration with Harvard Business Review, members are periodically invited to share article concepts to be considered for Ascend, HBR’s publication targeting the next generation of business leaders. Keep an eye out for email announcements notifications.",
+				text: "In collaboration with Harvard Business Review, members are periodically invited to share article concepts to be considered for Ascend, HBR's publication targeting the next generation of business leaders. Keep an eye out for email announcements notifications.",
 			},
 			{
 				title: "25% Off IoD Membership",
-				text: "Exclusive to TBrA members, the Institute of Directors in London offers a 25% discount on its full membership. The membership is designed for practising executives and non-executive directors. Benefits range from but are not limited to calls to IoD’s tax and legal specialist and director advice, and access to the exclusive 116 Pall Mall in London and our hubs across the UK.",
+				text: "Exclusive to TBrA members, the Institute of Directors in London offers a 25% discount on its full membership. The membership is designed for practising executives and non-executive directors. Benefits range from but are not limited to calls to IoD's tax and legal specialist and director advice, and access to the exclusive 116 Pall Mall in London and our hubs across the UK.",
 			},
 		],
 	},
@@ -1069,7 +1069,7 @@ export const newoffers = {
 			},
 			{
 				title: "Executive CV Consultation",
-				text: "Get matched with a resume expert for an hour’s consultation. Gain first-hand insight into what’s working and what isn’t. Learn ways to stand out through your CV and ways to position yourself for board or other executive roles.",
+				text: "Get matched with a resume expert for an hour's consultation. Gain first-hand insight into what's working and what isn't. Learn ways to stand out through your CV and ways to position yourself for board or other executive roles.",
 			},
 			{
 				title: "Executive CV Makeover",
@@ -1092,3 +1092,62 @@ export const newoffers = {
 		],
 	},
 };
+
+export const faqs = [
+	{
+		title: "What is TheBoardroom Africa?",
+		text: "[TheBoardroom Africa (TBrA)](http://theboardroomafrica.com/) is the largest regional network of female executives in Africa. Our goal is to improve access to board opportunities for women thereby accelerating the presence of women on boards. We bring together businesswomen of diverse occupations and provide opportunities for them to grow personally and professionally through a host of initiatives, including but not limited to board training, personal development programmes and connections to board opportunities.\n\nThrough events, research and publications, TBrA inspires and educates the business community on the power of diverse leadership—and raises the bar for board service and diversity in Africa. We're driving the movement to recognise that when women and men lead side by side, business succeeds and society thrives. Our members include C-Suite, VP and director-level executives from every major industry spanning more than 65 countries across Africa.",
+	},
+	{
+		title: "Why do women on boards help improve business competitiveness?",
+		text: "Research shows that metrics such as Return on Invested (ROI) capital and Return on Equity (ROE) are correlated with having more women on your board. By increasing your board gender diversity, you are enabling your business to perform better in a number of metrics, including financial.\n-   Improvement in female employees' performance (they see role models in female board directors)\n-   The presence of at least 3 women on a board is required to change boardroom dynamics\n-   Diverse boards are more likely to mirror customer and client bases, making them more effective in making decisions in developing products\n-   When you lack diversity on your board, you run the risk of not hearing potentially useful ideas for your organisation, as well as not examining potential downsides of ideas. Harvard Business Review, for example, [cites](https://hbr.org/2012/06/why-boards-need-more-women) research that shows companies with women directors deal more effectively with risk and focus more strongly on long-term priorities.\n\n_What research supports this claim?_\n\n[Catalyst](https://www.catalyst.org/knowledge/women-corporate-boards-globally)\n\n-   [MSCI](https://www.msci.com/documents/10199/04b6f646-d638-4878-9c61-4eb91748a82b) found that companies with “strong female leadership” (primarily measured by women on boards) were correlated with higher Return on Equity (ROE) than companies without (10.1% vs. 7.4%), as well as a superior price-to-book ratio (1.76 vs. 1.56).\n-   [MSCI](https://www.msci.com/documents/10199/04b6f646-d638-4878-9c61-4eb91748a82b) also found that companies with fewer women on boards had more governance-related controversies than average.\n\n[Catalyst – Why Diversity Matters](http://www.catalyst.org/knowledge/why-diversity-matters)\n\n-   In a study of more than 150 German firms over five years, researchers confirmed that boards need a critical mass of about 30 percent women to outperform (as measured by return on equity) all-male boards. This translates into a “magic number” of about three women, based on average board size.\n-   Catalyst's 2004 research found that companies with the highest representation of women in senior leadership had better financial performance than companies with the lowest representation of women; the companies with the highest representation of women had 35 percent higher return on equity and 34 percent higher total return to shareholders.\n\n[Mckinsey – Women Matter Africa (2016)](https://www.mckinsey.com/featured-insights/gender-equality/women-matter-africa)\n\n-   In Africa, companies in the top quartile with regards to women's representation on executive committees outperformed industry EBIT margins by 14 percent on average.\n-   Women on boards bring openness to new perspectives, collaboration and inclusiveness, and strength in ethics and fairness.\n-   The results of our African research published in this report show that the earnings before interest and tax (EBIT) margin of companies in the top quartile in terms of the share of women on their boards was on average a fifth higher than the industry average.\n\n[McKinsey – Why Diversity Matters](https://www.mckinsey.com/business-functions/organization/our-insights/why-diversity-matters) (2015)\n\n-   Companies in the top quartile for gender diversity are 15 percent more likely to have financial returns above their respective national industry medians.\n-   In the United Kingdom, greater gender diversity on the senior-executive team corresponded to the highest performance uplift in our data set: for every 10 percent increase in gender diversity, EBIT rose by 3.5 percent.\n\n[AfDB – Where are the Women](https://www.afdb.org/fileadmin/uploads/afdb/Documents/Publications/Where_are_the_Women_Inclusive_Boardrooms_in_Africa%E2%80%99s_top-listed_companies.pdf) (2015)\n\n-   Women hold 12.7% of board directorships (364 out of 2,865) in 307 listed companies based in 12 African countries. This is 4.6% lower than the 17.3% women's representation on the boards of the 200 largest companies globally.\n-   The majority of African companies have at least 1 woman board director. However, about one-third (32.9%) have 0 women on board, and another one-third only have one female director (33.6%), so the majority of African companies have minimal women's presence on boards.\n\n[Why Boards Need More Women – Harvard Business Review](https://hbr.org/2012/06/why-boards-need-more-women) (2012)\n\n-   Women directors are likely to be more in tune with women's needs than men, which helps develop successful products and services. After all, women drive 70% of purchase decisions by consumers in the European Union and 80% of them in the United States.\n-   Studies show that the presence of at least three women is necessary to change boardroom dynamics. In fact, an analysis of FTSE-listed boards found that operational performance and share prices were both higher in the case of companies where women made up over 20% of board members than those with lower female representation.\n\n([Grant Thornton](https://www.consultancy.uk/news/2702/lack-of-female-leaders-costs-us-uk-and-india-655-billion)) [Women in Business: The Value of Diversity](https://www.grantthornton.global/globalassets/wib_value_of_diversity.pdf)\n\n-   $USD655 billion global opportunity cost of not having diverse boards\n\n[Credit Suisse – the CS Gender 3000: The Reward for Change](http://publications.credit-suisse.com/tasks/render/file/index.cfm?fileid=5A7755E1-EFDD-1973-A0B5C54AFF3FB0AE)\n\n-   Found that companies with at least one female director had generated a compound excess return per annum of 3.3% for investors over the previous decade.\n-   Companies where women made up at least 15% of senior managers had more than 50% higher profitability than those where female representation was less than 10%.",
+	},
+	{
+		title: "How are you placing more women in the boardroom?",
+		text: "Africa doesn't have a shortage of talented women, but investors and companies still have challenges finding existing talent. That's where we come in. To solve the pipeline problem that is preventing more women from reaching the boardroom, we've created a trusted community of leading executive women from every sector across the continent. We pledge to promote our members for all available board positions continent-wide, and we hope to double the representation of women in Africa's boardrooms over the next 10 years.",
+	},
+	{
+		title: "How are you improving business performance in Africa?",
+		text: "Diverse boards mean embracing diversity of thought of experience. Research has shown that diverse companies outperform non-diverse companies. By changing the dynamics at the top of business, the impact of diversity radiates to across all levels of the company from employees to users and consumers. In a world in which women make up 50% of the workplace and 70 – 80% of global consumer decision-making, improving gender parity means improved work environments for employees, and helps companies develop products tailored to broader segments of the population.",
+	},
+	{
+		title: "How you bridge the challenge of women who have no board experience, but want to get on boards as most board roles require previous board experience?",
+		text: "We work with business networks, companies, investors, and TBrA  members to identify rising stars, and provide them with the additional training or certification to help get them “board ready”. We always assess the boards of our clients to understand the skills currently on the board and the essential skills required – prior board experience not always a requirement.",
+	},
+	{
+		title: "Are you a for-profit business?",
+		text: "TheBoardroom Africa is a nonprofit foundation.",
+	},
+	{
+		title: "How do I become a member of TheBoardroom Africa?",
+		text: "To become a member of TheBoardroom Africa, send your resume/CV to candidates@theboardroomafrica.com and we will respond within 10 working days to let you know the status of your membership. For information on our Membership Criteria please [click here.](https://theboardroomafrica.com/contact-us-theboardroom-africa/)",
+	},
+	{
+		title: "How do I apply to board opportunities through TheBoardroom Africa?",
+		text: "In order to apply to board opportunities through TheBoardroom Africa, you must be a member. Our membership application process is simple: send your resume/CV and or resume to candidates@theboardroomafrica.com. We will get back to you within 10 working days to let you know the status of your membership. For information on our Membership Criteria [click here.](https://theboardroomafrica.com/contact-us-theboardroom-africa/)",
+	},
+	{
+		title: "How do I endorse qualified women for TheBoardroom Africa membership?",
+		text: "Please get in touch with us via [info@theboardroomafrica.com](info@theboardroomafrica.com)",
+	},
+	{
+		title: "How do I engage TheBoardroom Africa to find candidates for an open board seat at my company?",
+		text: "We have an efficient and streamlined search process to support your board search needs that takes the complication out of matching great female candidates with board opportunities. We define, promote, and sustain the presence of women on boards through our online community of 2500+ women across 65 countries who are senior professionals seeking private and public company board service. Feel free to get in touch via info@theboardroomafrica.com",
+	},
+	{
+		title: "Is there a cost to search TheBoardroom Africa for Candidates?",
+		text: "We source and match candidates from our membership and extensive networks to find you exceptional female candidates. Our members are not charged a fee to be part of our network. If you are a company in search of placement support, contact info@theboardroomafrica.com for more details regarding rates for services.",
+	},
+	{
+		title: "I applied as a Endorser/Member and haven't heard back yet, how do I get in touch?",
+		text: "We pride ourselves on efficient responses to membership and endorsement requests. If you have not heard back from us within 10 working days of submitting your request, please get in contact with us via info@theboardoomafrica.com",
+	},
+	{
+		title: "I'm a TBrA Member, how do I make my profile more appealing for board searches?",
+		text: "Our Member Profile Form teases out and captures a wealth of information on all our members, from their current and previous board and investment committee positions to their preferences on board type and industry. The more information you provide us with, the better we can advocate for you during the board search process.\n\nWe additionally request that all candidates applying for a role complete a Role Application Form, which provides an opportunity to delve into greater detail on your suitability and fit with role requirements.",
+	},
+	{
+		title: "I'm a TBrA Member— how do I know if someone is interested in me for a board opportunity?",
+		text: "We actively communicate detailed feedback to our members regarding their applications for open roles.",
+	},
+];
