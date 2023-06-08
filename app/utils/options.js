@@ -545,7 +545,7 @@ export const bottomMenu = [
 			},
 			{
 				name: "FAQs",
-				href: "#!",
+				href: "/faqs",
 			},
 			{
 				name: "Privacy Statement",
