@@ -4,7 +4,7 @@ import DonationForm from "@/app/components/DonationForm";
 const page = async () => {
   return (
     <section className="flex flex-col md:flex-row h-screen items-center">
-      <div className="bg-darkblue hidden lg:block w-full md:w-1/2 xl:w-2/3 h-screen">
+      <div className="bg-darkblue lg:block w-full md:w-1/2 xl:w-2/3 h-[300px] md:h-screen">
         <img
           src="https://images.unsplash.com/photo-1595062584313-47018e0ee5cb"
           alt=""
