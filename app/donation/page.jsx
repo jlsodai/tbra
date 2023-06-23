@@ -17,7 +17,9 @@ const page = async () => {
         flex items-center justify-center"
       >
         <div className="w-full h-100 text-center">
-          <h1 className="text-4xl mb-8 text-dusk">Funeral Donation</h1>
+          <h1 className="text-4xl mb-8 text-dusk">
+            Donation in Memory of Cynthia Quarcoo
+          </h1>
           <p className="block text-gray-700 text-center">
             Enter Amount you would like to donate
           </p>

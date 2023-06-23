@@ -5,7 +5,10 @@ import { redirect } from "next/navigation";
 const DonationForm = () => {
   async function makeDonation(formData) {
     "use server";
-    const url = await dpoRequest(formData.get("amount"), "Funeral Donation");
+    const url = await dpoRequest(
+      formData.get("amount"),
+      "Donation in Memory of Cynthia Quarcoo"
+    );
     redirect(`https://secure.3gdirectpay.com/pay.asp?ID=${url}`);
   }
 
