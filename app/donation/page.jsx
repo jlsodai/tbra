@@ -1,9 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import DonationForm from "@/app/components/DonationForm";
-import XMLParse from "@/app/components/XMLParse";
 
 const page = async () => {
-  //   return <XMLParse />;
   return (
     <section className="flex flex-col md:flex-row h-screen items-center">
       <div className="bg-darkblue hidden lg:block w-full md:w-1/2 xl:w-2/3 h-screen">
