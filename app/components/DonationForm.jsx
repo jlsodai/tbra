@@ -22,8 +22,7 @@ const DonationForm = () => {
 
       <button
         type="submit"
-        className="w-full block bg-indigo-500 hover:bg-indigo-400 focus:bg-indigo-400 text-white font-semibold rounded-lg
-              px-4 py-3 mt-6"
+        className="w-full block bg-mustard hover:bg-mustard-400 focus:bg-mustard-400 text-white rounded-lg px-4 py-3 mt-6"
       >
         Donate
       </button>
