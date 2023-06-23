@@ -1,12 +1,12 @@
 import { dpoRequest } from "@/app/lib/dpoRequest";
-// import { redirect } from "next/navigation";
+import { redirect } from "next/navigation";
 
 /* eslint-disable @next/next/no-img-element */
 const DonationForm = () => {
   async function makeDonation(formData) {
     "use server";
-    // const url = await dpoRequest(formData.get("amount"), "Funeral Donation");
-    // redirect(`https://secure.3gdirectpay.com/pay.asp?ID=${url}`);
+    const url = await dpoRequest(formData.get("amount"), "Funeral Donation");
+    redirect(`https://secure.3gdirectpay.com/pay.asp?ID=${url}`);
   }
 
   return (

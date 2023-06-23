@@ -16,14 +16,14 @@ export async function dpoRequest(amount, title) {
     body: `
     <?xml version="1.0" encoding="utf-8"?>
     <API3G>
-      <CompanyToken>${process.env.DPO_TOKEN}</CompanyToken>
+      <CompanyToken>${process.env.NEXT_PUBLIC_DPO_TOKEN}</CompanyToken>
       <Request>createToken</Request>
       <Transaction>
       <PaymentAmount>${amount}</PaymentAmount>
       <PaymentCurrency>USD</PaymentCurrency>
-      <CompanyRef>${process.env.DPO_REF}</CompanyRef>
-      <RedirectURL>${process.env.DPO_SUCCESS}</RedirectURL>
-      <BackURL>${process.env.DPO_FAILURE}</BackURL>
+      <CompanyRef>${process.env.NEXT_PUBLIC_DPO_REF}</CompanyRef>
+      <RedirectURL>${process.env.NEXT_PUBLIC_DPO_SUCCESS}</RedirectURL>
+      <BackURL>${process.env.NEXT_PUBLIC_DPO_FAILURE}</BackURL>
       <CompanyRefUnique>0</CompanyRefUnique>
       <PTL>56</PTL>
       </Transaction>
