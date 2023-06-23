@@ -9,7 +9,7 @@ export async function dpoRequest(amount, title) {
   const invoiceDate = [date.getFullYear(), date.getMonth(), date.getDate()].join('-')
 
 	const res = await fetch("https://secure.3gdirectpay.com/API/v6/", {
-    // cache: "no-store",
+    cache: "no-store",
     method: "post",
     headers: myHeaders,
     mode: "no-cors",
