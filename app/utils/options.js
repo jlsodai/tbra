@@ -1047,6 +1047,10 @@ export const newoffers = {
 				text: "In collaboration with Harvard Business Review, members are periodically invited to share article concepts to be considered for Ascend, HBR's publication targeting the next generation of business leaders. Keep an eye out for email announcements notifications.",
 			},
 			{
+				title: "25% Off HBR Subscription",
+				text: "Exclusive to TBrA members, Harvard Business Review offers a 25% discount on its online publication"
+			},
+			{
 				title: "25% Off IoD Membership",
 				text: "Exclusive to TBrA members, the Institute of Directors in London offers a 25% discount on its full membership. The membership is designed for practising executives and non-executive directors. Benefits range from but are not limited to calls to IoD's tax and legal specialist and director advice, and access to the exclusive 116 Pall Mall in London and our hubs across the UK.",
 			},
