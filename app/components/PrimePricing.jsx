@@ -102,7 +102,7 @@ const SwitchBtn = ({ title, active = false, onClick }) => {
       } rounded-md shadow-sm py-2 text-sm font-medium whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-transparent focus:z-10 sm:w-auto sm:px-8`}
       onClick={onClick}
     >
-      {title} Here
+      {title}
     </button>
   );
 };
