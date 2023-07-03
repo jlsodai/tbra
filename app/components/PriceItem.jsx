@@ -5,13 +5,18 @@ const PriceItem = ({
   pricing,
   amount,
   gold,
+
   priceValue,
   qry,
 }) => {
   return (
     <div
       className={`${priceSwitch && "-lg:hidden"} ${
-        gold && "border-mustard"
+        qry === "prime"
+          ? "border-mustard"
+          : qry === "corporate"
+          ? "border-tender"
+          : ""
       } w-full lg:w-1/3 lg:-mt-px lg:mb-0 border-2 relative`}
     >
       <div
