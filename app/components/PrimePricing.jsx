@@ -10,7 +10,7 @@ const PrimePricing = () => {
     <section className="primeTable -sm:text-[12.5px] text-gray-700 body-font overflow-hidden border-t border-gray-200">
       <div className="container -sm:px-4 py-24 mx-auto">
         <div className="flex lg:hidden justify-center">
-          <div className="bg-gray-300 rounded-lg p-1 mb-8 min-w-[200px]">
+          <div className="bg-gray-300 rounded-lg p-1 mb-8 -sm:w-full">
             <SwitchBtn
               title="Standard"
               active={priceSwtch === 0}
@@ -97,9 +97,9 @@ const SwitchBtn = ({ title, active = false, onClick }) => {
   return (
     <button
       type="button"
-      className={`relative w-1/2 ${
+      className={`w-1/3 ${
         active ? "bg-white border-gray-200 text-gray-900" : "text-gray-700"
-      } rounded-md shadow-sm py-2 text-sm font-medium whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-transparent focus:z-10 sm:w-auto sm:px-8`}
+      } rounded-md shadow-sm py-2 text-sm font-medium whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-transparent focus:z-10 sm:w-auto px-4 sm:px-8`}
       onClick={onClick}
     >
       {title}
