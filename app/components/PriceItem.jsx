@@ -26,7 +26,7 @@ const PriceItem = ({
           {title}
         </h2>
         {amount && (
-          <h2 className="text-4xl -sm:text-base text-gray-900 font-medium flex -sm:flex-col items-center justify-center leading-none mb-2 mt-2">
+          <h2 className="text-4xl -sm:text-base text-gray-900 font-medium flex -sm:flex-col items-center justify-center leading-none mb-2">
             {amount}
             <span className="text-gray-600 text-base ml-1">/year</span>
           </h2>
