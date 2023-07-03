@@ -32,7 +32,7 @@ const PriceItem = ({
           </h2>
         )}
         {subtitle && (
-          <span className="text-sm -sm:text-[10px] leading-none text-gray-600">
+          <span className="text-sm -sm:text-[10px] leading-none text-gray-600 mt-2">
             {subtitle}
           </span>
         )}
