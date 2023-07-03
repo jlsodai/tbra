@@ -911,20 +911,20 @@ export const primePricing = {
 		{
 			title: "Monthly Group Coaching",
 			standard: "Full fee",
-			prime: "1 FREE & discounted",
-			corporate: "1 FREE & discounted",
+			prime: "1 complimentary",
+			corporate: "3 complimentary",
 		},
 		{
 			title: "LinkedIn Profile Audit",
 			standard: "Full fee",
 			prime: "14% discount",
-			corporate: "14% discount",
+			corporate: "29% discount",
 		},
 		{
 			title: "LinkedIn Makeover",
 			standard: "Full fee",
 			prime: "16% discount",
-			corporate: "16% discount",
+			corporate: "20% discount",
 		},
 		{
 			title: "Corporate Linkedin Session",
@@ -935,20 +935,20 @@ export const primePricing = {
 		{
 			title: "Executive CV Consultation",
 			standard: "Full fee",
-			prime: "17% discount",
-			corporate: "17% discount",
+			prime: "15% discount",
+			corporate: "33% discount",
 		},
 		{
 			title: "Executive CV Makeover",
 			standard: "Full fee",
 			prime: "15% discount",
-			corporate: "15% discount",
+			corporate: "20% discount",
 		},
 		{
 			title: "Thought Leadership Positioning",
 			standard: "Full fee",
-			prime: "15% discount",
-			corporate: "15% discount",
+			prime: "discounted",
+			corporate: "discounted",
 		},
 		{
 			title: "Complimentary MBTI Assessments and follow-on executive coaching session",
@@ -959,28 +959,28 @@ export const primePricing = {
 	],
 	exec: [
 		{
-			title: "Open Doors: Certificate in Company Direction",
+			title: "Open Doors: Certificate in Company Direction Virtual",
 			standard: "Member fee",
-			prime: "Discounted member fee",
-			corporate: "Discounted member fee",
+			prime: "5% discount",
+			corporate: "10% discount",
 		},
 		{
 			title: "ESG Certificate",
 			standard: "Member fee",
-			prime: "Discounted member fee",
-			corporate: "Discounted member fee",
+			prime: "5% discount",
+			corporate: "12% discount",
 		},
 		{
 			title: "Ontological Growth Experience",
 			standard: "Member fee",
-			prime: "Discounted member fee",
-			corporate: "Discounted member fee",
+			prime: "7% discount",
+			corporate: "14% discount",
 		},
 		{
 			title: "Workshops",
 			standard: "Full fee",
-			prime: "Discounted fee",
-			corporate: "Discounted fee",
+			prime: "17% discount",
+			corporate: "53% discount",
 		},
 	],
 };
