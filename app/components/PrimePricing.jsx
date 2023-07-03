@@ -5,7 +5,7 @@ import { primePricing } from "@/app/utils/options";
 import PriceItem from "@/app/components/PriceItem";
 
 const PrimePricing = () => {
-  const [priceSwtch, setPriceSwitch] = useState(0);
+  const [priceSwtch, setPriceSwitch] = useState(1);
   return (
     <section className="primeTable -sm:text-[12.5px] text-gray-700 body-font overflow-hidden border-t border-gray-200">
       <div className="container -sm:px-4 py-24 mx-auto">
