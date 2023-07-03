@@ -21,7 +21,7 @@ const PriceItem = ({
         <h2
           className={`${
             !gold && "text-dusk"
-          } text-base lg:text-2xl font-medium flex items-center justify-center leading-none`}
+          } text-base lg:text-2xl font-medium flex items-center justify-center leading-none mb-2`}
         >
           {title}
         </h2>
@@ -32,7 +32,7 @@ const PriceItem = ({
           </h2>
         )}
         {subtitle && (
-          <span className="text-sm -sm:text-[10px] leading-none text-gray-600 mt-2">
+          <span className="text-sm -sm:text-[10px] leading-none text-gray-600">
             {subtitle}
           </span>
         )}
