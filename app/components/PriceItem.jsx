@@ -1,4 +1,4 @@
-import { FaCheckCircle } from "react-icons/fa";
+import { FaCheckCircle, FaTimesCircle } from "react-icons/fa";
 const PriceItem = ({
   priceSwitch,
   title,
@@ -14,7 +14,11 @@ const PriceItem = ({
         gold && "border-mustard"
       } w-full lg:w-1/3 lg:-mt-px lg:mb-0 border-2 relative`}
     >
-      <div className="px-2 text-center h-36 flex flex-col items-center justify-center">
+      <div
+        className={`px-2 text-center ${
+          qry === "prime" ? "h-36" : "h-16"
+        } lg:h-36 flex flex-col items-center justify-center`}
+      >
         <h2
           className={`${
             !gold && "text-dusk"
@@ -43,7 +47,13 @@ const PriceItem = ({
             i === 0 && "-mt-px"
           }`}
         >
-          {price[qry] === "yes" ? <FaCheckCircle /> : price[qry]}
+          {price[qry] === "yes" ? (
+            <FaCheckCircle />
+          ) : price[qry] === "no" ? (
+            <FaTimesCircle />
+          ) : (
+            price[qry]
+          )}
         </p>
       ))}
       <div className="h-16"></div>
@@ -56,7 +66,13 @@ const PriceItem = ({
             i === 0 && "-mt-px"
           }`}
         >
-          {price[qry] === "yes" ? <FaCheckCircle /> : price[qry]}
+          {price[qry] === "yes" ? (
+            <FaCheckCircle />
+          ) : price[qry] === "no" ? (
+            <FaTimesCircle />
+          ) : (
+            price[qry]
+          )}
         </p>
       ))}
       <div className="h-16"></div>
@@ -69,7 +85,13 @@ const PriceItem = ({
             i === 0 && "-mt-px"
           }`}
         >
-          {price[qry] === "yes" ? <FaCheckCircle /> : price[qry]}
+          {price[qry] === "yes" ? (
+            <FaCheckCircle />
+          ) : price[qry] === "no" ? (
+            <FaTimesCircle />
+          ) : (
+            price[qry]
+          )}
         </p>
       ))}
     </div>
