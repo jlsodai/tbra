@@ -33,11 +33,7 @@ const PrimePricing = () => {
         </div>
         <div className=" flex flex-wrap">
           <div className="w-2/3 lg:w-2/5 block">
-            <div
-              className={`${
-                priceSwtch === 1 ? "h-36" : "h-16"
-              } lg:h-36 flex items-end`}
-            >
+            <div className={`h-36 flex items-end`}>
               <h5 className="bg-dawn inline-block px-8 py-2 font-bold">
                 All Access
               </h5>
@@ -73,7 +69,7 @@ const PrimePricing = () => {
             />
             <PriceItem
               title="Prime"
-              priceValue="For a $3,000 value"
+              subtitle="For a $3,000 value"
               amount="$500"
               qry="prime"
               pricing={primePricing}
@@ -84,6 +80,7 @@ const PrimePricing = () => {
               title="Corporate"
               pricing={primePricing}
               qry="corporate"
+              subtitle="Corporate-backed membership"
               priceSwitch={priceSwtch !== 2}
             />
           </div>

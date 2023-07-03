@@ -5,7 +5,7 @@ const PriceItem = ({
   pricing,
   amount,
   gold,
-
+  subtitle,
   priceValue,
   qry,
 }) => {
@@ -16,9 +16,7 @@ const PriceItem = ({
       } w-full lg:w-1/3 lg:-mt-px lg:mb-0 border-2 relative`}
     >
       <div
-        className={`px-2 text-center ${
-          qry === "prime" ? "h-36" : "h-16"
-        } lg:h-36 flex flex-col items-center justify-center`}
+        className={`px-2 text-center h-36 flex flex-col items-center justify-center`}
       >
         <h2
           className={`${
@@ -33,9 +31,9 @@ const PriceItem = ({
             <span className="text-gray-600 text-base ml-1">/year</span>
           </h2>
         )}
-        {priceValue && (
+        {subtitle && (
           <span className="text-sm -sm:text-[10px] leading-none text-gray-600">
-            For a $3,000 value
+            {subtitle}
           </span>
         )}
       </div>
