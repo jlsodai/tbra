@@ -80,7 +80,7 @@ const PrimePricing = () => {
               title="Corporate"
               pricing={primePricing}
               qry="corporate"
-              subtitle="Corporate-backed membership"
+              subtitle="Corporate-backed members"
               priceSwitch={priceSwtch !== 2}
             />
           </div>
