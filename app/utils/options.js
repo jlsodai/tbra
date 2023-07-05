@@ -26,18 +26,8 @@ export const menuLinks = [
 		],
 	},
 	{
-		name: "Board Roles",
-		href: "#",
-		submenu: [
-			{
-				name: "For Companies",
-				href: "/board-roles/company",
-			},
-			{
-				name: "For Individuals",
-				href: "/board-roles/individual",
-			},
-		],
+		name: "Find candidates",
+		href: "/board-roles/company",
 	},
 	{
 		name: "Executive Programmes",
