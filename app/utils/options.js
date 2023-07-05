@@ -26,7 +26,7 @@ export const menuLinks = [
 		],
 	},
 	{
-		name: "Find candidates",
+		name: "Find Candidates",
 		href: "/board-roles/company",
 	},
 	{
