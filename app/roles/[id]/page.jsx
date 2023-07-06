@@ -1,14 +1,18 @@
 /* eslint-disable @next/next/no-img-element */
 const RolesPage = () => {
   return (
-    <section className="py-16 bg-gray-50">
-      <div className="container p-20 border border-gray-400 rounded-lg max-w-5xl bg-white">
+    <section className="lg:py-16 bg-gray-50">
+      <div className="container p-8 lg:p-20 lg:border border-gray-400 rounded-lg max-w-5xl bg-white">
         <div className="flex justify-between items-start">
-          <img src="/images/logo-primary.svg" className="h-12" alt="Logo" />
+          <img
+            src="/images/logo-primary.svg"
+            className="h-8 lg:h-12"
+            alt="Logo"
+          />
           <img
             src="https://norsadcapital.com/wp-content/uploads/2022/08/nc-logo-retina.png"
             alt="Logo"
-            className="h-12"
+            className="h-8 lg:h-12"
           />
         </div>
         <div className="mt-12">
