@@ -2,10 +2,16 @@
 const RolesPage = () => {
   return (
     <section className="lg:pb-16 bg-gray-50">
-      <div className="container max-w-5xl">
+      <div className="container max-w-5xl -sm:p-0">
         <img
           src="https://res.cloudinary.com/dqngxqaha/image/upload/v1688979088/BriefPage_hyqoky.jpg"
           alt="Role Banner"
+          className="md:block hidden"
+        />
+        <img
+          src="https://res.cloudinary.com/dqngxqaha/image/upload/v1688981157/BriefBannerMobile_xvhvrf.jpg"
+          alt="Role Banner"
+          className="block md:hidden"
         />
         <div className="px-8 pb-8 lg:px-20 lg:pb-20 lg:border border-gray-400 bg-white">
           {/* <div className="flex justify-between items-start">
@@ -20,7 +26,7 @@ const RolesPage = () => {
               className="h-8 lg:h-12"
             />
           </div> */}
-          <div className="mt-16">
+          <div className="mt-12 lg:mt-16">
             {/* <h2 className="mb-4">Norsad Capital</h2> */}
             <p className="border-tender bg-gray-200 border-l-8 py-3 px-8 text-2xl font-light inline-block">
               1 Non-Executive Director
