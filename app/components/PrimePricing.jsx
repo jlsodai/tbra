@@ -1,10 +1,19 @@
 "use client";
 
 import { useState } from "react";
-import { primePricing } from "@/app/utils/options";
+import { newoffers, primePricing } from "@/app/utils/options";
 import PriceItem from "@/app/components/PriceItem";
+import ToolTipComp from "@/app/components/ToolTipComp";
 
 const PrimePricing = () => {
+  const flatoffers = [];
+  Object.keys(newoffers).forEach((key) =>
+    flatoffers.push(...newoffers[key].offering)
+  );
+  const findOffer = (id) => {
+    return flatoffers.find((offer) => offer.id === id)?.text;
+  };
+
   const [priceSwtch, setPriceSwitch] = useState(1);
   return (
     <section className="primeTable -sm:text-[12.5px] text-gray-700 body-font overflow-hidden border-t border-gray-200">
@@ -40,7 +49,12 @@ const PrimePricing = () => {
             </div>
             <div className="mt-px border-t border-gray-300 border-b border-l rounded-bl-lg overflow-hidden">
               {primePricing.access.map((price, i) => (
-                <PriceTitle key={i} id={i} title={price.title} />
+                <PriceTitle
+                  key={i}
+                  id={i}
+                  title={price.title}
+                  message={findOffer(price.id)}
+                />
               ))}
               <div className="h-16 flex items-end">
                 <h5 className="bg-dawn inline-block px-8 py-2 font-bold">
@@ -48,7 +62,12 @@ const PrimePricing = () => {
                 </h5>
               </div>
               {primePricing.ondemand.map((price, i) => (
-                <PriceTitle key={i} id={i} title={price.title} />
+                <PriceTitle
+                  key={i}
+                  id={i}
+                  title={price.title}
+                  message={findOffer(price.id)}
+                />
               ))}
               <div className="h-16 flex items-end">
                 <h5 className="bg-dawn inline-block px-8 py-2 font-bold">
@@ -56,7 +75,12 @@ const PrimePricing = () => {
                 </h5>
               </div>
               {primePricing.exec.map((price, i) => (
-                <PriceTitle key={i} id={i} title={price.title} />
+                <PriceTitle
+                  key={i}
+                  id={i}
+                  title={price.title}
+                  message={findOffer(price.id)}
+                />
               ))}
             </div>
           </div>
@@ -104,15 +128,15 @@ const SwitchBtn = ({ title, active = false, onClick }) => {
   );
 };
 
-const PriceTitle = ({ title, id }) => {
+const PriceTitle = ({ title, id, message }) => {
   return (
-    <p
+    <div
       className={`${
         id % 2 || "bg-gray-100"
       } h-12 px-4 flex items-center justify-start ${id === 0 && "-mt-px"}`}
     >
-      {title}
-    </p>
+      <ToolTipComp tooltip={title} message={message} />
+    </div>
   );
 };
 

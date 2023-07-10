@@ -837,64 +837,74 @@ export const filteredMeta = (meta) => {
 export const primePricing = {
 	access: [
 		{
-			title: "Unlimited Access to Members Forum",
+			title: "Unlimited Access to <<<Members Forum<<<",
 			standard: "yes",
 			prime: "yes",
 			corporate: "yes",
+			id: "agc"
 		},
 		{
-			title: "Access to Board Roles",
+			title: "Access to <<<Board Roles<<<",
 			standard: "yes",
 			prime: "yes",
 			corporate: "yes",
+			id: "fnf"
 		},
 		{
-			title: "Access to Member-Curated Webinars",
+			title: "Access to <<<Member-Curated Webinars<<<",
 			standard: "yes",
 			prime: "yes",
 			corporate: "yes",
+			id: "676"
 		},
 		{
-			title: "Get matched - Unlimited Monthly Virtual Matchings",
+			title: "<<<Get matched<<< - Unlimited Monthly Virtual Matchings",
 			standard: "yes",
 			prime: "yes",
 			corporate: "yes",
+			id: "c8y"
 		},
 		{
-			title: "Board & Leadership Resource Library",
+			title: "Board & Leadership <<<Resource Library<<<",
 			standard: "yes",
 			prime: "yes",
 			corporate: "yes",
+			id: "uno"
 		},
 		{
 			title: "Harvard Business Review Concept Submission",
 			standard: "yes",
 			prime: "yes",
 			corporate: "yes",
+			id: "2u8"
 		},
 		{
 			title: "25 % Havard Business Review Subscription",
 			standard: "yes",
 			prime: "yes",
 			corporate: "yes",
+			// id: "fnf"
 		},
 		{
 			title: "25% Discount on IoD Membership",
 			standard: "yes",
 			prime: "yes",
 			corporate: "yes",
+			// id: "fnf"
 		},
 		{
 			title: "TBrA Spotlight",
 			standard: "yes",
 			prime: "Priority",
 			corporate: "Priority",
+			// id: "fnf"
 		},
 		{
 			title: "Personal Talent Consultation",
 			standard: "no",
 			prime: "yes",
 			corporate: "yes",
+			// id: "fnf"
 		},
 	],
 	ondemand: [
@@ -903,48 +913,56 @@ export const primePricing = {
 			standard: "Full fee",
 			prime: "1 complimentary",
 			corporate: "3 complimentary",
+			// id: "fnf"
 		},
 		{
 			title: "LinkedIn Profile Audit",
 			standard: "Full fee",
 			prime: "14% discount",
 			corporate: "29% discount",
+			// id: "fnf"
 		},
 		{
 			title: "LinkedIn Makeover",
 			standard: "Full fee",
 			prime: "16% discount",
 			corporate: "20% discount",
+			// id: "fnf"
 		},
 		{
 			title: "Corporate Linkedin Session",
 			standard: "no",
 			prime: "no",
 			corporate: "yes",
+			// id: "fnf"
 		},
 		{
 			title: "Executive CV Consultation",
 			standard: "Full fee",
 			prime: "15% discount",
 			corporate: "33% discount",
+			// id: "fnf"
 		},
 		{
 			title: "Executive CV Makeover",
 			standard: "Full fee",
 			prime: "15% discount",
 			corporate: "20% discount",
+			// id: "fnf"
 		},
 		{
 			title: "Thought Leadership Positioning",
 			standard: "Full fee",
 			prime: "discounted",
 			corporate: "discounted",
+			// id: "fnf"
 		},
 		{
 			title: "Complimentary MBTI Assessments and follow-on executive coaching session",
 			standard: "no",
 			prime: "no",
 			corporate: "yes",
+			// id: "fnf"
 		},
 	],
 	exec: [
@@ -953,24 +971,28 @@ export const primePricing = {
 			standard: "Member fee",
 			prime: "5% discount",
 			corporate: "10% discount",
+			// id: "fnf"
 		},
 		{
 			title: "ESG Certificate",
 			standard: "Member fee",
 			prime: "5% discount",
 			corporate: "12% discount",
+			// id: "fnf"
 		},
 		{
 			title: "Ontological Growth Experience",
 			standard: "Member fee",
 			prime: "7% discount",
 			corporate: "14% discount",
+			// id: "fnf"
 		},
 		{
 			title: "Workshops",
 			standard: "Full fee",
 			prime: "17% discount",
 			corporate: "53% discount",
+			// id: "fnf"
 		},
 	],
 };
@@ -1035,18 +1057,22 @@ export const newoffers = {
 			{
 				title: "Unlimited Access to Members Forum",
 				text: "Get unlimited access to TBrA's private online community through the Members Forum. Engage with over 2,500 other women leaders, collaborate around shared interests, apply for board roles, register for events, and access resources to support your board and leadership journey.",
+				id: "agc"
 			},
 			{
 				title: "Access Board Roles",
 				text: "We partner with companies and organisations to bridge the diversity gap on their boards by leveraging our robust network to deliver a diverse range of board opportunities to you. Upgrade to Prime and get the additional positioning you need to gain board roles.",
+				id: "fnf"
 			},
 			{
 				title: "Access Member-Curated Webinars",
 				text: "Exclusive-content webinars designed for members featuring global experts from diverse sectors, featuring topics from preparing for commercial board opportunities to building an effective board.",
+				id: "676"
 			},
 			{
 				title: "Board & Leadership Resource Library",
 				text: "Browse our rich library of resources tailored to boards and leadership. In addition, you can access our collection of pre-recorded webinars on trending topics.",
+				id: "uno"
 			},
 		],
 	},
@@ -1057,12 +1083,14 @@ export const newoffers = {
 				title: "Get matched",
 				subTitle: "Orbiit Monthly Matching",
 				text: "- Opt in every month to be matched for a 45-minute curated virtual conversation with another member. You are matched based on compatible goals and experiences. Keep an eye out for the monthly email notification to opt-in.",
+				id: "c8y"
 			},
 			{
 				title: "Join Industry Groups",
 				subTitle:
 					"Connect with other members along areas of shared interest through Groups",
 				text: "- Expand your network today. Members can stay connected with other industry professionals through prepopulated virtual industry groups on the Members Forum. You may also join any group of interest.",
+				id: "5de"
 			},
 		],
 	},
@@ -1072,14 +1100,17 @@ export const newoffers = {
 			{
 				title: "Harvard Business Review Concept Submission",
 				text: "In collaboration with Harvard Business Review, members are periodically invited to share article concepts to be considered for Ascend, HBR's publication targeting the next generation of business leaders. Keep an eye out for email announcements notifications.",
+				id: "2u8"
 			},
 			{
 				title: "25% Off HBR Subscription",
-				text: "Exclusive to TBrA members, Harvard Business Review offers a 25% discount on its online publication"
+				text: "Exclusive to TBrA members, Harvard Business Review offers a 25% discount on its online publication",
+				id: "vja"
 			},
 			{
 				title: "25% Off IoD Membership",
 				text: "Exclusive to TBrA members, the Institute of Directors in London offers a 25% discount on its full membership. The membership is designed for practising executives and non-executive directors. Benefits range from but are not limited to calls to IoD's tax and legal specialist and director advice, and access to the exclusive 116 Pall Mall in London and our hubs across the UK.",
+				id: "soa"
 			},
 		],
 	},
@@ -1089,26 +1120,32 @@ export const newoffers = {
 			{
 				title: "Monthly Group Coaching",
 				text: "Connect with our executive coaches in small group sessions to explore intimate topics from deconstructing limiting beliefs, dealing with microaggressions and more.",
+				id: "63p"
 			},
 			{
 				title: "LinkedIn Profile Audit",
 				text: "We work with expert coaches to review your LinkedIn presence with the goal of positioning you for visibility. This service includes:\n- A review of your LinkedIn profile\n- A detailed report with recommendations for changes to your profile.",
+				id: "3mk"
 			},
 			{
 				title: "LinkedIn Makeover",
 				text: "Work with a visibility expert for a complete LinkedIn makeover with the goal of optimising your LinkedIn presence. This service includes:\n- An exploratory call on personal branding\n- Assessment of your CV\n- Maximum two drafts for your LinkedIn profile\n- Uploading changes to your LinkedIn on your behalf (optional)",
+				id: "imo"
 			},
 			{
 				title: "Executive CV Consultation",
 				text: "Get matched with a resume expert for an hour's consultation. Gain first-hand insight into what's working and what isn't. Learn ways to stand out through your CV and ways to position yourself for board or other executive roles.",
+				id: "wx8"
 			},
 			{
 				title: "Executive CV Makeover",
 				text: "Take the complication out of it and work with a CV writing expert and former Executive Search leader to craft a professional CV designed to position you for the opportunities you seek. This service includes:\n- An in-depth consultation to identify your career aspirations\n- 3-hour session with the expert to review your CV\n- Maximum two new CV drafts",
+				id: "980"
 			},
 			{
 				title: "Member Spotlight",
 				text: "Join a pipeline of members featured in our monthly spotlight newsletter, designed to position you for board opportunities. Prime members get priority spotlight features.",
+				id: "fiy"
 			},
 		],
 	},
@@ -1119,6 +1156,7 @@ export const newoffers = {
 				title: "Build Influence",
 				subTitle: "Position Yourself as a Global Thought Leader",
 				text: "- How do you get yourself heard and become a person of influence – not just in your own sector but across wider industries? A thought leadership presence has become important for today's leaders. We pair you with experts to help you brainstorm and share your ideas with the world. Sign up today and take advantage of our bundled thought leadership offers.",
+				id: "i4h"
 			},
 		],
 	},
