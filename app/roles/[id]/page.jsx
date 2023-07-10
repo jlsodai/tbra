@@ -4,7 +4,7 @@ const RolesPage = () => {
     <section className="lg:pb-16 bg-gray-50">
       <div className="container max-w-5xl">
         <img
-          src="https://res.cloudinary.com/dqngxqaha/image/upload/v1688977368/Meetgreet_mjddza.jpg"
+          src="https://res.cloudinary.com/dqngxqaha/image/upload/v1688979088/BriefPage_hyqoky.jpg"
           alt="Role Banner"
         />
         <div className="px-8 pb-8 lg:px-20 lg:pb-20 lg:border border-gray-400 bg-white">
