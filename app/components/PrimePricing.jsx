@@ -131,9 +131,9 @@ const SwitchBtn = ({ title, active = false, onClick }) => {
 const PriceTitle = ({ title, id, message }) => {
   return (
     <div
-      className={`${
-        id % 2 || "bg-gray-100"
-      } h-12 px-4 flex items-center justify-start ${id === 0 && "-mt-px"}`}
+      className={`${id % 2 || "bg-gray-100"} h-[60px] px-4 flex items-center ${
+        id === 0 && "-mt-px"
+      }`}
     >
       <ToolTipComp tooltip={title} message={message} />
     </div>

@@ -7,7 +7,7 @@ const ToolTipComp = ({ children, tooltip, message }) => {
   const container = useRef(null);
   const showToolTip = tooltip && message;
   return (
-    <>
+    <div>
       {left}
       {tip && (
         <div
@@ -17,7 +17,7 @@ const ToolTipComp = ({ children, tooltip, message }) => {
           }}
           className={`${
             showToolTip && "border-b-2 border-black border-dotted"
-          } group inline-block mx-1`}
+          } group inline`}
         >
           {tip}
           {showToolTip ? (
@@ -33,7 +33,7 @@ const ToolTipComp = ({ children, tooltip, message }) => {
         </div>
       )}
       {rest}
-    </>
+    </div>
   );
 };
 
