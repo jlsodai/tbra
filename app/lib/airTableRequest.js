@@ -8,7 +8,9 @@ export const airTableRequest = async (endpoint) => {
 	});
 
 	if (!res.ok) {
-		throw new Error("Failed to fetch data");
+		return { fields: {
+			error: true
+		} }
 	}
 	
 	return res.json();
