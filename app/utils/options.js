@@ -872,32 +872,32 @@ export const primePricing = {
 			id: "uno"
 		},
 		{
-			title: "Harvard Business Review Concept Submission",
+			title: "Harvard Business Review <<<Concept Submission<<<",
 			standard: "yes",
 			prime: "yes",
 			corporate: "yes",
 			id: "2u8"
 		},
 		{
-			title: "25 % Havard Business Review Subscription",
+			title: "25 % Havard Business <<<Review Subscription<<<",
 			standard: "yes",
 			prime: "yes",
 			corporate: "yes",
-			// id: "fnf"
+			id: "vja"
 		},
 		{
-			title: "25% Discount on IoD Membership",
+			title: "25% Discount on <<<IoD Membership<<<",
 			standard: "yes",
 			prime: "yes",
 			corporate: "yes",
-			// id: "fnf"
+			id: "soa"
 		},
 		{
-			title: "TBrA Spotlight",
+			title: "TBrA <<<Spotlight<<<",
 			standard: "yes",
 			prime: "Priority",
 			corporate: "Priority",
-			// id: "fnf"
+			id: "fiy"
 		},
 		{
 			title: "Personal Talent Consultation",
@@ -909,25 +909,25 @@ export const primePricing = {
 	],
 	ondemand: [
 		{
-			title: "Monthly Group Coaching",
+			title: "Monthly <<<Group Coaching<<<",
 			standard: "Full fee",
 			prime: "1 complimentary",
 			corporate: "3 complimentary",
-			// id: "fnf"
+			id: "63p"
 		},
 		{
-			title: "LinkedIn Profile Audit",
+			title: "LinkedIn <<<Profile Audit<<<",
 			standard: "Full fee",
 			prime: "14% discount",
 			corporate: "29% discount",
-			// id: "fnf"
+			id: "3mk"
 		},
 		{
-			title: "LinkedIn Makeover",
+			title: "LinkedIn <<<Makeover<<<",
 			standard: "Full fee",
 			prime: "16% discount",
 			corporate: "20% discount",
-			// id: "fnf"
+			id: "imo"
 		},
 		{
 			title: "Corporate Linkedin Session",
@@ -937,25 +937,25 @@ export const primePricing = {
 			// id: "fnf"
 		},
 		{
-			title: "Executive CV Consultation",
+			title: "<<<Executive CV Consultation<<<",
 			standard: "Full fee",
 			prime: "15% discount",
 			corporate: "33% discount",
-			// id: "fnf"
+			id: "wx8"
 		},
 		{
-			title: "Executive CV Makeover",
+			title: "Executive <<<CV Makeover<<<",
 			standard: "Full fee",
 			prime: "15% discount",
 			corporate: "20% discount",
-			// id: "fnf"
+			id: "980"
 		},
 		{
-			title: "Thought Leadership Positioning",
+			title: "<<<Thought Leadership<<< Positioning",
 			standard: "Full fee",
 			prime: "discounted",
 			corporate: "discounted",
-			// id: "fnf"
+			id: "i4h"
 		},
 		{
 			title: "Complimentary MBTI Assessments and follow-on executive coaching session",
