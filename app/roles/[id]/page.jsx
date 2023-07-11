@@ -28,10 +28,16 @@ const RolesPage = async ({ params }) => {
               />
             )}
             <div className="px-8 pb-8 lg:px-20 lg:pb-20 lg:border border-gray-400 bg-white">
-              <div className="mt-12 lg:mt-16">
+              <div className="mt-12 lg:mt-16 flex justify-between items-center">
                 <p className="border-tender bg-gray-200 border-l-8 py-3 px-8 text-2xl font-light inline-block">
                   {fields?.roles}
                 </p>
+                <a
+                  href={fields.ApplyUrl}
+                  className="btn bg-tender text-white rounded"
+                >
+                  Apply Now
+                </a>
               </div>
               {fields.brief && (
                 <div className="mt-12">
