@@ -4,7 +4,7 @@ export const airTableRequest = async (endpoint) => {
 
 	const res = await fetch(`${process.env.AIRTABLE_ROLES_URL}/${endpoint}`, {
 		headers: myHeaders,
-		cache: "no-store"
+		next: { revalidate: 10 }
 	});
 
 	if (!res.ok) {
