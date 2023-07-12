@@ -27,16 +27,24 @@ const RolesPage = async ({ params }) => {
               />
             )}
             <div className="px-8 pb-8 lg:px-20 lg:pb-20 lg:border border-gray-400 bg-white">
-              <div className="mt-12 lg:mt-16 flex justify-between items-center">
+              <div className="mt-12 lg:mt-16 md:flex justify-between items-center">
                 <p className="border-tender bg-gray-200 border-l-8 py-3 px-8 text-2xl font-light inline-block">
                   {fields?.roles}
                 </p>
-                <a
-                  href={fields.ApplyUrl}
-                  className="btn bg-tender text-white rounded"
-                >
-                  Apply Now
-                </a>
+                <div className="md:text-right">
+                  <a
+                    href={fields.ApplyUrl}
+                    className="btn bg-tender text-white rounded -sm:mt-8"
+                  >
+                    Apply Now
+                  </a>
+                  <a
+                    href="https://forms.theboardroomafrica.com/tbrarecommend"
+                    className="underline block mt-3"
+                  >
+                    Recommend Someone
+                  </a>
+                </div>
               </div>
               {fields.brief && (
                 <div className="mt-12">
@@ -73,6 +81,21 @@ const RolesPage = async ({ params }) => {
               <div className="mt-12">
                 <h2 className="mb-4 text-xl">Board meetings</h2>
                 <p>{fields["Board Meetings"]}</p>
+              </div>
+
+              <div className="text-center mt-12">
+                <a
+                  href={fields.ApplyUrl}
+                  className="btn bg-tender text-white rounded"
+                >
+                  Apply Now
+                </a>
+                <a
+                  href="https://forms.theboardroomafrica.com/tbrarecommend"
+                  className="underline block mt-4"
+                >
+                  Recommend Someone
+                </a>
               </div>
             </div>
           </div>
