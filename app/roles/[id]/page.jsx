@@ -5,7 +5,6 @@ import Markdown from "markdown-to-jsx";
 
 const RolesPage = async ({ params }) => {
   const { fields } = await airTableRequest(params.id);
-
   return (
     <>
       {fields.error ? (
@@ -13,16 +12,16 @@ const RolesPage = async ({ params }) => {
       ) : (
         <section className="lg:pb-16 bg-gray-50">
           <div className="container max-w-5xl -sm:p-0">
-            {fields.Banner && (
+            {fields.WebBanner[0]?.url && (
               <img
-                src={fields.Banner}
+                src={fields.WebBanner[0].url}
                 alt="Role Banner"
                 className="md:block hidden"
               />
             )}
-            {fields["Mobile Banner"] && (
+            {fields.MobileBanner[0]?.url && (
               <img
-                src={fields["Mobile Banner"]}
+                src={fields.MobileBanner[0].url}
                 alt="Role Banner"
                 className="block md:hidden"
               />
