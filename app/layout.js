@@ -2,7 +2,9 @@ import "@/styles/globals.css";
 import { Inter, Libre_Baskerville, Noto_Serif_Display } from "next/font/google";
 import localFont from "next/font/local";
 import AOSWrapper from "./wrappers/AOSWrapper";
-import GoogleAnalytics from "./components/GoogleAnalytics";
+import GoogleAnalytics from "@/app/components/GoogleAnalytics";
+import HubspotChat from "@/app/components/HubSpotChat";
+import Script from 'next/script'
 
 const noto = Noto_Serif_Display({
 	weight: ["400", "700", "900"],
@@ -102,6 +104,7 @@ export default function RootLayout({ children }) {
 				<main className="overflow-hidden">
 					<AOSWrapper>{children}</AOSWrapper>
 				</main>
+				<Script  id="hs-script-loader" async defer src="https://js-eu1.hs-scripts.com/140566945.js" />
 			</body>
 		</html>
 	);
