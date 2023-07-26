@@ -70,18 +70,28 @@ const RolesPage = async ({ params }) => {
                   </div>
                 </div>
               )}
-              <div className="mt-12">
-                <h2 className="mb-4 text-xl">Board Tenure</h2>
-                <p>{fields.tenure}</p>
-              </div>
-              <div className="mt-12">
-                <h2 className="mb-4 text-xl">Compensation</h2>
-                <p>{fields.compensation}</p>
-              </div>
+              {fields.tenure && (
+                <div className="mt-12">
+                  <h2 className="mb-4 text-xl">Board Tenure</h2>
+                  <p>{fields.tenure}</p>
+                </div>
+              )}
+              {fields.compensation && (
+                <div className="mt-12">
+                  <h2 className="mb-4 text-xl">Compensation</h2>
+                  <p>{fields.compensation}</p>
+                </div>
+              )}
               <div className="mt-12">
                 <h2 className="mb-4 text-xl">Board meetings</h2>
                 <p>{fields["Board Meetings"]}</p>
               </div>
+
+              {fields.notes && (
+                <div className="mt-12 p-6 rounded bg-gray-100 prose max-w-full">
+                  <Markdown>{fields.notes}</Markdown>
+                </div>
+              )}
 
               <div className="text-center mt-12">
                 <a

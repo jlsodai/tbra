@@ -104,7 +104,7 @@ export default function RootLayout({ children }) {
 				<main className="overflow-hidden">
 					<AOSWrapper>{children}</AOSWrapper>
 				</main>
-				<Script  id="hs-script-loader" async defer src="https://js-eu1.hs-scripts.com/140566945.js" />
+				{/* <Script  id="hs-script-loader" async defer src="https://js-eu1.hs-scripts.com/140566945.js" /> */}
 			</body>
 		</html>
 	);

@@ -669,6 +669,24 @@ export const pricingTable = [
 	},
 ];
 
+export const corporateBacked = [
+	{
+		title: "Exposure Plan",
+		amount: "",
+		list: ["Nominate up to 3 women executives for an enhanced TBrA membership experience", "3 complimentary MBTI Assessments and follow-on executive coaching sessions", "Corporate discounts on member services", "Monthly Corporate Members newsletter -targeted to business", "Corporate LinkedIn session", "TBrA corporate membership status with logo on TBrA's website and marketing materials - signalling a commitment to diversity",],
+	},
+	{
+		title: "Discovery Plan",
+		colored: true,
+		list : ["Nominate up to 5 women executives for an enhanced TBrA membership experience", "5 complimentary MBTI Assessments and follow-on executive coaching sessions", "Corporate discounts on member services", "Monthly Corporate Membership Newsletter", "Corporate LinkedIn session", "TBrA corporate membership status with logo on TBrA's website and marketing materials - signalling a commitment to diversity",],
+	},
+	{
+		title: "Growth Plan",
+		amount: "",
+		list: ["Nominate up to 10 women executives for an enhanced TBrA membership experience ","10 complimentary MBTI Assessments and follow-on executive coaching sessions","Corporate discounts on member services","Monthly Corporate Membership Newsletter","Corporate LinkedIn session","TBrA corporate membership status with logo on TBrA's website and marketing materials - signalling a commitment to diversity","TBrA Talent team's support with executive recruitment - customised to needs",]
+	}
+]
+
 export const memberSlides = [
 	{
 		title: "Society thrives when women are equal decision makers.",
