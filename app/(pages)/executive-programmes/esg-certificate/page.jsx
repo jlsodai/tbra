@@ -26,7 +26,7 @@ export default async function Page() {
 			<BrochureDrawer brochureDetails={attributes.brochureInfo} />
 			<HeaderTitle title="ESG Certificate" />
 
-			<ProgramBlocks attributes={attributes} />
+			<ProgramBlocks attributes={attributes} certified={true} />
 
 			<section className="bg-white" data-aos="fade-up">
 				<div className="container my-28">
