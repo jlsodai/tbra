@@ -10,27 +10,27 @@ import { teamData } from "@/app/lib/strapi";
 // };
 
 export async function generateMetadata() {
-	// const data = await pageData();
-	const { seo } = teamData;
-	return filteredMeta(seo);
+  // const data = await pageData();
+  const { seo } = teamData;
+  return filteredMeta(seo);
 }
 
 const page = async () => {
-	const data = await pageData();
-	const attributes = teamData;
+  // const data = await pageData();
+  const attributes = teamData;
 
-	return (
-		<>
-			<HeaderTitle title="Our Team" />
-			<section className="my-16" data-aos="fade-up">
-				<div className="container md:px-44">
-					<SectionTitle title={attributes.Heading.title} />
-					<div className="grid md:grid-cols-3 gap-10 mt-10">
-						<TeamCard teamInfo={attributes.TeamMember} />
-					</div>
-				</div>
-			</section>
-		</>
-	);
+  return (
+    <>
+      <HeaderTitle title="Our Team" />
+      <section className="my-16" data-aos="fade-up">
+        <div className="container md:px-44">
+          <SectionTitle title={attributes.Heading.title} />
+          <div className="grid md:grid-cols-3 gap-10 mt-10">
+            <TeamCard teamInfo={attributes.TeamMember} />
+          </div>
+        </div>
+      </section>
+    </>
+  );
 };
 export default page;
