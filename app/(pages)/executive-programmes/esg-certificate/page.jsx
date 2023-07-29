@@ -6,20 +6,21 @@ import { fetchData } from "@/app/lib/fetchData";
 import ProgramBlocks from "@/app/sections/ProgramBlocks";
 import ProgrammeLogos from "@/app/components/ProgrammeLogos";
 import { filteredMeta } from "@/app/utils/options";
+import { programmesData } from "@/app/lib/strapi";
 
-const pageData = async () => {
-  return await fetchData("programmes/3?populate=*");
-};
+// const pageData = async () => {
+//   return await fetchData("programmes/3?populate=*");
+// };
 
 export async function generateMetadata() {
-  const data = await pageData();
-  const { seo } = data?.data?.attributes;
+  //   const data = await pageData();
+  const { seo } = programmesData[2].attributes;
   return filteredMeta(seo);
 }
 
 export default async function Page() {
-  const data = await pageData();
-  const attributes = data?.data?.attributes;
+  //   const data = await pageData();
+  const attributes = programmesData[2].attributes;
 
   return (
     <>

@@ -7,47 +7,48 @@ import ProgramCard from "@/app/components/ProgramCard";
 import { certificates } from "@/app/lib/programmes";
 import { fetchData } from "@/app/lib/fetchData";
 import { filteredMeta } from "@/app/utils/options";
+import { execData } from "@/app/lib/strapi";
 
-const pageData = async () => {
-	return await fetchData("executive-dev?populate=*");
-};
+// const pageData = async () => {
+// 	return await fetchData("executive-dev?populate=*");
+// };
 
 export async function generateMetadata() {
-	const data = await pageData();
-	const { seo } = data?.data?.attributes;
-	return filteredMeta(seo);
+  // const data = await pageData();
+  const { seo } = execData;
+  return filteredMeta(seo);
 }
 
 const Page = async () => {
-	const data = await pageData();
-	const { intro, Programmes } = data?.data?.attributes;
-	return (
-		<>
-			<HeaderTitle title="Explore powerful executive programmes as you expand your influence at the table." />
+  // const data = await pageData();
+  const { intro, Programmes } = execData;
+  return (
+    <>
+      <HeaderTitle title="Explore powerful executive programmes as you expand your influence at the table." />
 
-			<section className="container" data-aos="fade-up">
-				<div className="keySectionWrap">
-					<KeySection heading={intro.Title}>
-						<p>{intro.content}</p>
-					</KeySection>
-					{/* <CascadeImg
+      <section className="container" data-aos="fade-up">
+        <div className="keySectionWrap">
+          <KeySection heading={intro.Title}>
+            <p>{intro.content}</p>
+          </KeySection>
+          {/* <CascadeImg
 						position="right"
 						negative
 						top
 						imgClass="object-right"
 						src="https://tbratest.my.canva.site/board-roles-individual-page/images/40a1c0cfce04c8c78e2edc7741812803.jpg"
 					/> */}
-				</div>
-			</section>
+        </div>
+      </section>
 
-			<section>
-				<div className="container grid md:grid-cols-2 gap-8 md:gap-20">
-					{Programmes.map((programme, i) => (
-						<ProgramCard key={i} programme={programme} />
-					))}
-				</div>
-			</section>
-		</>
-	);
+      <section>
+        <div className="container grid md:grid-cols-2 gap-8 md:gap-20">
+          {Programmes.map((programme, i) => (
+            <ProgramCard key={i} programme={programme} />
+          ))}
+        </div>
+      </section>
+    </>
+  );
 };
 export default Page;
