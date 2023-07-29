@@ -3,20 +3,21 @@ import HeaderTitle from "@/app/sections/HeaderTitle";
 import SectionTitle from "@/app/components/SectionTitle";
 import { fetchData } from "@/app/lib/fetchData";
 import { filteredMeta } from "@/app/utils/options";
+import { teamData } from "@/app/lib/strapi";
 
-const pageData = async () => {
-	return await fetchData("teams/1?populate=*");
-};
+// const pageData = async () => {
+// 	return await fetchData("teams/1?populate=*");
+// };
 
 export async function generateMetadata() {
-	const data = await pageData();
-	const { seo } = data?.data?.attributes;
+	// const data = await pageData();
+	const { seo } = teamData;
 	return filteredMeta(seo);
 }
 
 const page = async () => {
 	const data = await pageData();
-	const attributes = data?.data?.attributes;
+	const attributes = teamData;
 
 	return (
 		<>
