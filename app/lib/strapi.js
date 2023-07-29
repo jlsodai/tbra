@@ -919,7 +919,7 @@ export const boardData = {
     },
     {
       "id": 21,
-      "name": "Rosalind Kainyah MBE",
+      "name": "Rosalind Kainyah, MBE",
       "imageUrl": "https://res.cloudinary.com/tbra/image/upload/v1690559964/RachelK_l1ecvs.jpg",
       "linkedInUrl": null,
       "twitterUrl": null,
