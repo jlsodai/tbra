@@ -916,6 +916,15 @@ export const boardData = {
       "twitterUrl": null,
       "title": "Non-Executive Director",
       "companyName": "Executive Director, Nexus Global Financial Services"
+    },
+    {
+      "id": 21,
+      "name": "Rosalind Kainyah MBE",
+      "imageUrl": "https://res.cloudinary.com/tbra/image/upload/v1690559964/RachelK_l1ecvs.jpg",
+      "linkedInUrl": null,
+      "twitterUrl": null,
+      "title": "Non-Executive Director",
+      "companyName": "Managing Director, Kina Advisory"
     }
   ],
   "seo": null
