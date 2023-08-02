@@ -5,6 +5,7 @@ import AOSWrapper from "./wrappers/AOSWrapper";
 import GoogleAnalytics from "@/app/components/GoogleAnalytics";
 import HubspotChat from "@/app/components/HubSpotChat";
 import Script from 'next/script'
+import { Suspense } from 'react'
 
 const noto = Noto_Serif_Display({
 	weight: ["400", "700", "900"],
@@ -104,7 +105,10 @@ export default function RootLayout({ children }) {
 				<main className="overflow-hidden">
 					<AOSWrapper>{children}</AOSWrapper>
 				</main>
-				{/* <Script  id="hs-script-loader" async defer src="https://js-eu1.hs-scripts.com/140566945.js" /> */}
+				{/* <Suspense fallback={null}> */}
+					{/* <HubspotChat url="http://js-eu1.hs-scripts.com/140566945.js" id="hs-script-loader" /> */}
+				{/* </Suspense> */}
+				<Script strategy="afterInteractive" id="hs-script-loader" async defer src="https://js-eu1.hs-scripts.com/140566945.js" />
 			</body>
 		</html>
 	);
