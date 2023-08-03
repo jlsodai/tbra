@@ -7,8 +7,6 @@ const HubspotChat = ({ formSlug, showSpinner = 1 }) => {
   const searchParams = useSearchParams();
 
   useEffect(() => {
-    console.log(pathname);
-
     const d = document.getElementById("hs-script-loader");
     if (d) d.remove();
 

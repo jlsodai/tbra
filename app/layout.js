@@ -108,7 +108,7 @@ export default function RootLayout({ children }) {
 				{/* <Suspense fallback={null}> */}
 					{/* <HubspotChat url="http://js-eu1.hs-scripts.com/140566945.js" id="hs-script-loader" /> */}
 				{/* </Suspense> */}
-				<Script strategy="afterInteractive" id="hs-script-loader" async defer src="https://js-eu1.hs-scripts.com/140566945.js" />
+				{/* <Script strategy="afterInteractive" id="hs-script-loader" async defer src="https://js-eu1.hs-scripts.com/140566945.js" /> */}
 			</body>
 		</html>
 	);
