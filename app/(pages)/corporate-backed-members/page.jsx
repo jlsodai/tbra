@@ -32,21 +32,21 @@ const CorporateBackedPaged = () => {
 
   const benefits = [
     {
-      title: "A streamlined solution:",
+      title: "Streamlined solution:",
       description:
-        "Empower your women leaders with access to our cutting-edge platform, offering a seamless and tailored approach to support their professional growth. We understand the unique needs and ambitions of women executives and ensure  they have the resources and opportunities to excel in their careers.",
+        "Empower women leaders with our cutting-edge platform, tailored to support their professional growth. We understand their unique needs and ambitions, providing the resources and opportunities to excel in their careers.",
       icon: HiArrowRightCircle,
     },
     {
       title: "Executive  development suite:",
       description:
-        "Unlock the full potential of your organisation with our executive development programmes led by a global faculty. Our programmes equip your leaders with the essential tools and strategies to conquer new heights. We focus on empowering women leaders by offering specialised programmes that navigate the complexities of strategic leadership In today's complex business environment and providing them with the necessary resources to inspire organisational excellence and drive success.",
+        "Unleash your organisation's potential with our global faculty-led executive development programs that empower women leaders to navigate strategic leadership complexities and inspire organisational excellence.",
       icon: HiArrowRightCircle,
     },
     {
       title: "Formal sponsorship:",
       description:
-        "Take a courageous step by formally sponsoring your women leaders. By doing so,  you actively advocate for their career advancement. Prioritise the growth  of your leaders and give them access to leadership coaching, profile enhancement and structured thought leadership positioning. Join us in empowering women to thrive and succeed in their leadership roles.",
+        "Courageously sponsor your women leaders to actively advocate for their career advancement. Prioritise their growth with leadership coaching, profile enhancement, and structured thought leadership. Empower women to thrive and succeed in leadership roles with us.",
       icon: HiArrowRightCircle,
     },
   ];
@@ -128,6 +128,7 @@ const CorporateBackedPaged = () => {
                   <feature.icon className="text-white w-6 h-6" />
                 </div>
                 {feature.name}
+                <br />
               </dt>
               <dd class="mt-2 text-base ">{feature.description}</dd>
             </div>
@@ -139,14 +140,14 @@ const CorporateBackedPaged = () => {
         <div className="container">
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 items-center">
             <div className="lg:pr-8 pb-2">
-              <div className="lg:max-w-lg">
+              <div className="lg:max-w-xl">
                 <h3 className="">Transform your business leaders</h3>
                 <dl className="mt-10 max-w-xl space-y-4 text-base  lg:max-w-none">
                   {benefits.map((benefit) => (
-                    <div key={benefit.name} className="relative pl-9">
+                    <div key={benefit.name} className="relative pl-12">
                       <dt className="inline font-semibold ">
                         <benefit.icon
-                          className="absolute left-1 top-1 h-5 w-5 text-mustard-600"
+                          className="absolute left-1 top-0 h-8 w-8 text-mustard-600"
                           aria-hidden="true"
                         />
                         {benefit.title}
