@@ -982,6 +982,18 @@ export const primePricing = {
 			corporate: "yes",
 			// id: "fnf"
 		},
+		{
+			title: "Role Application Supporting Statement",
+			standard: "Full fee",
+			prime: "9% discount",
+			corporate: "14% discount",
+		},
+		{
+			title: "Interview Preparation",
+			standard: "Full fee",
+			prime: "9% discount",
+			corporate: "14% discount",
+		},
 	],
 	exec: [
 		{
@@ -1165,6 +1177,16 @@ export const newoffers = {
 				text: "Join a pipeline of members featured in our monthly spotlight newsletter, designed to position you for board opportunities. Prime members get priority spotlight features.",
 				id: "fiy"
 			},
+			{
+				title: "Role Application Supporting Statement",
+				text: "Experience the power of unlocking new possibilities and taking your applications to the next level with a personalised narrative that highlights your qualifications and aspirations. Collaborate with a skilled expert who will help you craft a concise summary showcasing your abilities and experiences when applying for prestigious board positions or executive roles. By working together, you can create a compelling story that sets you apart from the competition and maximises your chances of success.",
+				id: "qry"
+			},
+			{
+				title: "Interview Preparation",
+				text: "The interview preparation is designed to assist members in leaving a lasting impression on potential recruiters. Collaborate with an expert to employ guided strategies that enhance your confidence for any interview.",
+				id: "uvw"
+			}
 		],
 	},
 	thoughtLeadership: {
