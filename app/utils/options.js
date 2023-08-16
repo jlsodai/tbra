@@ -943,8 +943,8 @@ export const primePricing = {
 		{
 			title: "LinkedIn <<<Makeover<<<",
 			standard: "Full fee",
-			prime: "16% discount",
-			corporate: "20% discount",
+			prime: "9% discount",
+			corporate: "18% discount",
 			id: "imo"
 		},
 		{
@@ -957,15 +957,15 @@ export const primePricing = {
 		{
 			title: "<<<Executive CV Consultation<<<",
 			standard: "Full fee",
-			prime: "15% discount",
+			prime: "17% discount",
 			corporate: "33% discount",
 			id: "wx8"
 		},
 		{
 			title: "Executive <<<CV Makeover<<<",
 			standard: "Full fee",
-			prime: "15% discount",
-			corporate: "20% discount",
+			prime: "3% discount",
+			corporate: "7% discount",
 			id: "980"
 		},
 		{
@@ -999,14 +999,14 @@ export const primePricing = {
 		{
 			title: "Open Doors: Certificate in Company Direction Virtual",
 			standard: "Member fee",
-			prime: "5% discount",
+			prime: "4% discount",
 			corporate: "10% discount",
 			// id: "fnf"
 		},
 		{
 			title: "ESG Certificate",
 			standard: "Member fee",
-			prime: "5% discount",
+			prime: "4% discount",
 			corporate: "12% discount",
 			// id: "fnf"
 		},
