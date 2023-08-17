@@ -32,18 +32,22 @@ const RolesPage = async ({ params }) => {
                   {fields?.roles}
                 </p>
                 <div className="md:text-right">
-                  <a
-                    href={fields.ApplyUrl}
-                    className="btn bg-tender text-white rounded -sm:mt-8"
-                  >
-                    Apply Now
-                  </a>
-                  <a
-                    href="https://forms.theboardroomafrica.com/tbrarecommend"
-                    className="underline block mt-3"
-                  >
-                    Recommend Someone
-                  </a>
+                  {fields.ApplyUrl && (
+                    <a
+                      href={fields.ApplyUrl}
+                      className="btn bg-tender text-white rounded -sm:mt-8"
+                    >
+                      Apply Now
+                    </a>
+                  )}
+                  {fields.recommend && (
+                    <a
+                      href="https://forms.theboardroomafrica.com/tbrarecommend"
+                      className="underline block mt-3"
+                    >
+                      Recommend Someone
+                    </a>
+                  )}
                 </div>
               </div>
               {fields.brief && (
@@ -94,18 +98,22 @@ const RolesPage = async ({ params }) => {
               )}
 
               <div className="text-center mt-12">
-                <a
-                  href={fields.ApplyUrl}
-                  className="btn bg-tender text-white rounded"
-                >
-                  Apply Now
-                </a>
-                <a
-                  href="https://forms.theboardroomafrica.com/tbrarecommend"
-                  className="underline block mt-4"
-                >
-                  Recommend Someone
-                </a>
+                {fields.ApplyUrl && (
+                  <a
+                    href={fields.ApplyUrl}
+                    className="btn bg-tender text-white rounded"
+                  >
+                    Apply Now
+                  </a>
+                )}
+                {fields.recommend && (
+                  <a
+                    href="https://forms.theboardroomafrica.com/tbrarecommend"
+                    className="underline block mt-4"
+                  >
+                    Recommend Someone
+                  </a>
+                )}
               </div>
             </div>
           </div>
