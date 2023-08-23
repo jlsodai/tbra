@@ -12,16 +12,16 @@ const RolesPage = async ({ params }) => {
       ) : (
         <section className="lg:pb-16 bg-gray-50">
           <div className="container max-w-5xl -sm:p-0">
-            {fields.WebBanner[0]?.url && (
+            {fields?.BannerWeb && (
               <img
-                src={fields.WebBanner[0].url}
+                src={fields.BannerWeb}
                 alt="Role Banner"
                 className="md:block hidden"
               />
             )}
-            {fields.MobileBanner[0]?.url && (
+            {fields?.BannerMobile && (
               <img
-                src={fields.MobileBanner[0].url}
+                src={fields.BannerMobile}
                 alt="Role Banner"
                 className="block md:hidden"
               />
