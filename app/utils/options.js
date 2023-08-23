@@ -943,8 +943,8 @@ export const primePricing = {
 		{
 			title: "LinkedIn <<<Makeover<<<",
 			standard: "Full fee",
-			prime: "16% discount",
-			corporate: "20% discount",
+			prime: "9% discount",
+			corporate: "18% discount",
 			id: "imo"
 		},
 		{
@@ -957,15 +957,15 @@ export const primePricing = {
 		{
 			title: "<<<Executive CV Consultation<<<",
 			standard: "Full fee",
-			prime: "15% discount",
+			prime: "17% discount",
 			corporate: "33% discount",
 			id: "wx8"
 		},
 		{
 			title: "Executive <<<CV Makeover<<<",
 			standard: "Full fee",
-			prime: "15% discount",
-			corporate: "20% discount",
+			prime: "3% discount",
+			corporate: "7% discount",
 			id: "980"
 		},
 		{
@@ -982,19 +982,31 @@ export const primePricing = {
 			corporate: "yes",
 			// id: "fnf"
 		},
+		{
+			title: "Role Application Supporting Statement",
+			standard: "Full fee",
+			prime: "9% discount",
+			corporate: "14% discount",
+		},
+		{
+			title: "Interview Preparation",
+			standard: "Full fee",
+			prime: "9% discount",
+			corporate: "14% discount",
+		},
 	],
 	exec: [
 		{
 			title: "Open Doors: Certificate in Company Direction Virtual",
 			standard: "Member fee",
-			prime: "5% discount",
+			prime: "4% discount",
 			corporate: "10% discount",
 			// id: "fnf"
 		},
 		{
 			title: "ESG Certificate",
 			standard: "Member fee",
-			prime: "5% discount",
+			prime: "4% discount",
 			corporate: "12% discount",
 			// id: "fnf"
 		},
@@ -1165,6 +1177,16 @@ export const newoffers = {
 				text: "Join a pipeline of members featured in our monthly spotlight newsletter, designed to position you for board opportunities. Prime members get priority spotlight features.",
 				id: "fiy"
 			},
+			{
+				title: "Role Application Supporting Statement",
+				text: "Experience the power of unlocking new possibilities and taking your applications to the next level with a personalised narrative that highlights your qualifications and aspirations. Collaborate with a skilled expert who will help you craft a concise summary showcasing your abilities and experiences when applying for prestigious board positions or executive roles. By working together, you can create a compelling story that sets you apart from the competition and maximises your chances of success.",
+				id: "qry"
+			},
+			{
+				title: "Interview Preparation",
+				text: "The interview preparation is designed to assist members in leaving a lasting impression on potential recruiters. Collaborate with an expert to employ guided strategies that enhance your confidence for any interview.",
+				id: "uvw"
+			}
 		],
 	},
 	thoughtLeadership: {
