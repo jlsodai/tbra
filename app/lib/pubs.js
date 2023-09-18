@@ -994,7 +994,7 @@ export const pubs = {
           "imageUrl": "https://web.theboardroomafrica.com/wp-content/uploads/2023/05/EGX-2022.png",
           "venngageCode": null,
           "year": "2022",
-          "country": "Egypyt",
+          "country": "Egypt",
           "content": "As of July 2022, the Index reveals a sustained growth in the prioritization of gender diversity in Egypt with the percentage of women occupying board and non-director seats increasing from 2021 and the total number of women occupying board positions increasing by 21%. Additionally, the number of EGX-listed companies with no women on board declined from 42 in July 2021 (17.7%) to 26 in July  2022 (10.9%), a notable improvement of 35.7% over the period.",
           "type": "report"
         }
