@@ -1014,11 +1014,11 @@ export const teamData = {
     },
     {
       "id": 21,
-      "name": "Aba Wilson-Sam",
-      "imageUrl": "https://res.cloudinary.com/tbra/image/upload/v1680695816/1598545623187_n7mhtg.jpg",
+      "name": "Brenda Akinyi",
+      "imageUrl": "https://res.cloudinary.com/tbra/image/upload/v1695371353/Brenda_nogrjo.jpg",
       "linkedInUrl": null,
       "twitterUrl": null,
-      "title": "Senior Network and Initiatives Manager",
+      "title": "Operations Manager",
       "companyName": null
     },
     {
@@ -1036,7 +1036,7 @@ export const teamData = {
       "imageUrl": "https://theboardroomafrica.com/wp-content/uploads/2023/04/Mimi-300x300.jpg",
       "linkedInUrl": "https://www.linkedin.com/in/ayomide-mimi-aborowa-0b942774/",
       "twitterUrl": null,
-      "title": "Content Manager",
+      "title": "Marketing & Communications Manager",
       "companyName": null
     },
     {
@@ -1066,15 +1066,15 @@ export const teamData = {
       "title": "Data & Research Associate",
       "companyName": null
     },
-    {
-      "id": 12,
-      "name": "Mary Wamaitha",
-      "imageUrl": "https://theboardroomafrica.com/wp-content/uploads/2023/04/Wamaitha-300x300.jpg",
-      "linkedInUrl": "https://www.linkedin.com/in/marywamaitha/",
-      "twitterUrl": null,
-      "title": "Strategic Programmes Associate",
-      "companyName": null
-    },
+    // {
+    //   "id": 12,
+    //   "name": "Mary Wamaitha",
+    //   "imageUrl": "https://theboardroomafrica.com/wp-content/uploads/2023/04/Wamaitha-300x300.jpg",
+    //   "linkedInUrl": "https://www.linkedin.com/in/marywamaitha/",
+    //   "twitterUrl": null,
+    //   "title": "Strategic Programmes Associate",
+    //   "companyName": null
+    // },
     {
       "id": 15,
       "name": "Bryan Bahizi",
