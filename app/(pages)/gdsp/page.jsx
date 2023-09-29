@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import GetQuestionnaireForm from "@/app/components/GetQuestionnaireForm";
 import PaperForm from "@/app/components/PaperForm";
 import Link from "next/link";
 
@@ -19,7 +20,8 @@ const Page = () => {
                     Fill out the form below to receive the questionnaire via
                     email:
                   </p>
-                  <form className="grid gap-6 mb-6 md:grid-cols-2 mt-6">
+                  <GetQuestionnaireForm />
+                  {/* <form className="grid gap-6 mb-6 md:grid-cols-2 mt-6">
                     <div>
                       <label
                         for="full_name"
@@ -87,7 +89,7 @@ const Page = () => {
                     >
                       Get Questionnaire
                     </button>
-                  </form>
+                  </form> */}
                 </div>
               </div>
             </div>

@@ -96,4 +96,6 @@ html { font-size: 15px;}
 
   .keySectionWrap { @apply grid md:grid-cols-2 md:gap-20 }
   .primeTable p { height: 60px; line-height: 1.2;}
+
+  .gdspForm input { @apply bg-gray-50 outline-none }
 }
