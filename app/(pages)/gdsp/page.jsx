@@ -1,11 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
 import GetQuestionnaireForm from "@/app/components/GetQuestionnaireForm";
 import PaperForm from "@/app/components/PaperForm";
+import ScrollToTopBtn from "@/app/components/ScrollToTopBtn";
 import Link from "next/link";
 import { HiCheckCircle } from "react-icons/hi";
 
-const features = [];
-const benefits = [
+const features = [
   {
     title: "Strategic Alignment",
     content:
@@ -43,87 +43,11 @@ const Page = () => {
                     Fill out the form below to receive the questionnaire via
                     email:
                   </p>
-                  <GetQuestionnaireForm />
-                  {/* <form className="grid gap-6 mb-6 md:grid-cols-2 mt-6">
-                    <div>
-                      <label
-                        for="full_name"
-                        className="block mb-2 text-base font-medium"
-                      >
-                        Full name *
-                      </label>
-                      <input
-                        type="text"
-                        id="full_name"
-                        className="bg-gray-50 border border-gray-300 text-gray-900 text-base rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                        placeholder="Enter full name"
-                        required
-                      />
-                    </div>
-                    <div>
-                      <label
-                        for="email_address"
-                        className="block mb-2 text-base font-medium"
-                      >
-                        Email address *
-                      </label>
-                      <input
-                        type="text"
-                        id="email_address"
-                        className="bg-gray-50 border border-gray-300 text-gray-900 text-base rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                        placeholder="Enter email address"
-                        required
-                      />
-                    </div>
-                    <div>
-                      <label
-                        for="full_name"
-                        className="block mb-2 text-base font-medium"
-                      >
-                        Phone number *
-                      </label>
-                      <input
-                        type="text"
-                        id="full_name"
-                        className="bg-gray-50 border border-gray-300 text-gray-900 text-base rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                        placeholder="Enter full name"
-                        required
-                      />
-                    </div>
-                    <div>
-                      <label
-                        for="email_address"
-                        className="block mb-2 text-base font-medium"
-                      >
-                        Organisation *
-                      </label>
-                      <input
-                        type="text"
-                        id="email_address"
-                        className="bg-gray-50 border border-gray-300 text-gray-900 text-base rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                        placeholder="Enter email address"
-                        required
-                      />
-                    </div>
-                    <button
-                      className="mt-4 col-span-2 btn transition-all ease-in-out duration-300 font-normal text-black rounded"
-                      href="/tbraprime-upgrade"
-                      target="_blank"
-                    >
-                      Get Questionnaire
-                    </button>
-                  </form> */}
+                  <PaperForm formSlug="opengdsp" />
                 </div>
               </div>
             </div>
             <div className="lg:w-6/12 mb-7 lg:mb-0">
-              {/* <p
-                className="text-tender font-libreb mb-4"
-                data-aos="fade-up"
-                data-aos-delay="50"
-              >
-                A new experience
-              </p> */}
               <h2
                 className=" text-mustard mb-6 leading-normal"
                 data-aos="fade-up"
@@ -141,15 +65,19 @@ const Page = () => {
                 powerhouse? Begin today.
               </p>
               <p
-                className="mt-5 text-white"
+                className="mt-5 text-white text-base"
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
                 Powered by:
               </p>
-              <div className="mt-4 flex gap-8 mb-2">
-                <img src="https://via.placeholder.com/150x60" alt="" />
-                <img src="https://via.placeholder.com/150x60" alt="" />
+              <div className="mt-4 flex gap-8 mb-2 h-[60px]" data-aos="fade-up"
+                data-aos-delay="250">
+                <img src="/images/logo-white.svg" className="opacity-80" alt="" />
+                <img
+                  src="https://board-excellence.com/wp-content/uploads/2019/01/white.svg"
+                  alt="" className="opacity-80"
+                />
               </div>
             </div>
           </div>
@@ -176,7 +104,7 @@ const Page = () => {
             <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 items-center">
               <div className="lg:pr-8">
                 <div className="">
-                  {benefits.map((benefit, i) => (
+                  {features.map((feature, i) => (
                     <dl
                       key={i}
                       className={`${
@@ -186,9 +114,9 @@ const Page = () => {
                       <div className="relative pl-9">
                         <dt className="inline font-semibold text-gray-900">
                           <HiCheckCircle className="absolute left-1 top-1 h-5 w-5 text-tender" />
-                          {benefit.title}:
+                          {feature.title}:
                         </dt>
-                        <dd className="mt-2">{benefit.content}</dd>
+                        <dd className="mt-2">{feature.content}</dd>
                       </div>
                     </dl>
                   ))}
@@ -209,13 +137,7 @@ const Page = () => {
             <h3 className="text-3xl mb-0">
               Get Your Free Board Assessment Questionnaire Now.
             </h3>
-            <Link
-              className="btn transition-all ease-in-out duration-300 font-normal text-black rounded text-lg"
-              href="/tbraprime-upgrade"
-              target="_blank"
-            >
-              Get Questionnaire
-            </Link>
+            <ScrollToTopBtn />
           </div>
         </div>
       </section>
