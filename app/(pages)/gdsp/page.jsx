@@ -71,12 +71,20 @@ const Page = () => {
               >
                 Powered by:
               </p>
-              <div className="mt-4 flex gap-8 mb-2 h-[60px]" data-aos="fade-up"
-                data-aos-delay="250">
-                <img src="/images/logo-white.svg" className="opacity-80" alt="" />
+              <div
+                className="mt-4 flex gap-8 mb-2 h-[60px]"
+                data-aos="fade-up"
+                data-aos-delay="250"
+              >
+                <img
+                  src="/images/logo-white.svg"
+                  className="opacity-80"
+                  alt=""
+                />
                 <img
                   src="https://board-excellence.com/wp-content/uploads/2019/01/white.svg"
-                  alt="" className="opacity-80"
+                  alt=""
+                  className="opacity-80"
                 />
               </div>
             </div>
@@ -123,8 +131,8 @@ const Page = () => {
                 </div>
               </div>
               <img
-                src="https://res.cloudinary.com/tbra/image/upload/v1696335839/GDSP_Dashboard_hdimug.jpg"
-                alt="Product screenshot"
+                src="https://res.cloudinary.com/tbra/image/upload/v1696344803/GDSP_Dashboard_ibq0wh.jpg"
+                alt="GDSP Dashboard"
                 className="w-[68rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[68rem] md:-ml-4 lg:-ml-0"
                 width="1250"
               />
