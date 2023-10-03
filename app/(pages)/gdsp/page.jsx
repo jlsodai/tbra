@@ -2,8 +2,31 @@
 import GetQuestionnaireForm from "@/app/components/GetQuestionnaireForm";
 import PaperForm from "@/app/components/PaperForm";
 import Link from "next/link";
+import { HiCheckCircle } from "react-icons/hi";
 
 const features = [];
+const benefits = [
+  {
+    title: "Strategic Alignment",
+    content:
+      "Our assessment is crafted to align with your business goals. It helps you identify whether your board's decisions, actions, and structure are directly contributing to your strategic vision.",
+  },
+  {
+    title: "In-Depth Insights",
+    content:
+      "Delve into the heart of your board's dynamics and operations. Uncover strengths that can be leveraged and areas that require attention, all while gaining a holistic view of your board's overall performance.",
+  },
+  {
+    title: "Accelerate Growth",
+    content:
+      "For startups, a strong board can be a launchpad for growth. Our assessment equips you with insights to establish effective governance from the outset, setting the stage for sustainable success.",
+  },
+  {
+    title: "Diverse Industries",
+    content:
+      "No matter your industry, TBrA's assessment transcends sectors. Our questions are designed to accommodate the unique needs and challenges of various fields, ensuring relevance across the board.",
+  },
+];
 const Page = () => {
   return (
     <>
@@ -153,7 +176,7 @@ const Page = () => {
             <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 items-center">
               <div className="lg:pr-8">
                 <div className="">
-                  {[...Array(4)].map((e, i) => (
+                  {benefits.map((benefit, i) => (
                     <dl
                       key={i}
                       className={`${
@@ -162,33 +185,17 @@ const Page = () => {
                     >
                       <div className="relative pl-9">
                         <dt className="inline font-semibold text-gray-900">
-                          <svg
-                            className="absolute left-1 top-1 h-5 w-5 text-indigo-600"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                            aria-hidden="true"
-                          >
-                            <path
-                              fill-rule="evenodd"
-                              d="M5.5 17a4.5 4.5 0 01-1.44-8.765 4.5 4.5 0 018.302-3.046 3.5 3.5 0 014.504 4.272A4 4 0 0115 17H5.5zm3.75-2.75a.75.75 0 001.5 0V9.66l1.95 2.1a.75.75 0 101.1-1.02l-3.25-3.5a.75.75 0 00-1.1 0l-3.25 3.5a.75.75 0 101.1 1.02l1.95-2.1v4.59z"
-                              clipRule="evenodd"
-                            />
-                          </svg>
-                          Strategic Alignment:
+                          <HiCheckCircle className="absolute left-1 top-1 h-5 w-5 text-tender" />
+                          {benefit.title}:
                         </dt>
-                        <dd className="mt-2">
-                          Our assessment is crafted to align with your business
-                          goals. It helps you identify whether your board&apos;s
-                          decisions, actions, and structure are directly
-                          contributing to your strategic vision.
-                        </dd>
+                        <dd className="mt-2">{benefit.content}</dd>
                       </div>
                     </dl>
                   ))}
                 </div>
               </div>
               <img
-                src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+                src="https://res.cloudinary.com/tbra/image/upload/v1696335839/GDSP_Dashboard_hdimug.jpg"
                 alt="Product screenshot"
                 className="w-[68rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[68rem] md:-ml-4 lg:-ml-0"
                 width="1250"
