@@ -37,7 +37,7 @@ const Page = () => {
               <div className="flex items-end justify-center gap-4 my-4">
                 <div className="bg-white rounded h-[500px] w-full p-10">
                   <p className="font-bold text-3xl text-center">
-                    Get Your Free Board Assessment Questionnaire
+                    Get Your Free Governance Scorecard
                   </p>
                   <p className="mt-4 text-base">
                     Fill out the form below to receive the questionnaire via
