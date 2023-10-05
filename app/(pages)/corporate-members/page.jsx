@@ -118,13 +118,13 @@ const CorporateBackedPaged = () => {
               </p>
             </div>
           </div>
-          <dl class="grid grid-cols-2 gap-y-16 gap-x-px text-center lg:grid-cols-4 rounded-2xl overflow-hidden mt-16">
+          <dl class="grid grid-cols-2 gap-x-px text-center lg:grid-cols-4 rounded-2xl overflow-hidden mt-16">
             {[...Array(4)].map((stat, i) => (
               <div
                 key={i}
-                class={`mx-auto py-8 flex w-full flex-col gap-y-4 bg-tender`}
+                class={`mx-auto py-8 flex w-full flex-col gap-y-4 bg-tender px-4`}
               >
-                <dt class="text-base leading-3 text-gray-50">
+                <dt class="text-base text-gray-50">
                   Transactions every 24 hours
                 </dt>
                 <dd class="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">
@@ -145,8 +145,13 @@ const CorporateBackedPaged = () => {
           <h3 className="text-center">
             Let us help you transform your business leaders
           </h3>
-          <div className="grid grid-cols-2 gap-32 items-center mt-16">
-            <div className="px-16">
+          <div className="lg:grid grid-cols-2 gap-32 items-center mt-16">
+            <img
+              src="https://res.cloudinary.com/tbra/image/upload/v1691058076/corporate1_tekxek.jpg"
+              className="h-[300px] w-full object-cover rounded-lg -lg:mb-8"
+              alt=""
+            />
+            <div className="lg:px-16">
               <p className="font-semibold text-xl mb-4">Some title</p>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto
@@ -156,19 +161,14 @@ const CorporateBackedPaged = () => {
                 laudantium.
               </p>
             </div>
-            <img
-              src="https://res.cloudinary.com/tbra/image/upload/v1691058076/corporate1_tekxek.jpg"
-              className="h-[300px] w-full object-cover rounded-lg"
-              alt=""
-            />
           </div>
-          <div className="grid grid-cols-2 gap-32 items-center mt-12">
+          <div className="lg:grid grid-cols-2 gap-32 items-center mt-12">
             <img
               src="https://res.cloudinary.com/tbra/image/upload/v1691058076/corporate1_tekxek.jpg"
-              className="h-[300px] w-full object-cover rounded-lg"
+              className="h-[300px] w-full object-cover rounded-lg -lg:mb-8"
               alt=""
             />
-            <div className="px-16">
+            <div className="lg:px-16 order-first">
               <p className="font-semibold text-xl mb-4">Some title</p>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto
@@ -220,8 +220,13 @@ const CorporateBackedPaged = () => {
         <div className="container bg-gray-200 px-16">
           <div className="flex flex-col divide-y divide-gray-400  ">
             {[...Array(3)].map((e, i) => (
-              <div key={i} className="grid grid-cols-[2fr_5fr] py-12 px-8">
-                <h4 className="font-semibold px-8">Streamlined Solution</h4>
+              <div
+                key={i}
+                className="lg:grid grid-cols-[2fr_5fr] py-12 lg:px-8"
+              >
+                <h4 className="font-semibold mb-4 lg:px-8">
+                  Streamlined Solution
+                </h4>
                 <p>
                   At TheBoardroom Africa, we recognise the unique challenges
                   faced by women leaders in their professional journeys. Our
