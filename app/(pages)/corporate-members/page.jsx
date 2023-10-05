@@ -118,6 +118,26 @@ const CorporateBackedPaged = () => {
               </p>
             </div>
           </div>
+          <dl class="grid grid-cols-2 gap-y-16 gap-x-px text-center lg:grid-cols-4 rounded-2xl overflow-hidden mt-16">
+            {[...Array(4)].map((stat, i) => (
+              <div
+                key={i}
+                class={`mx-auto py-8 flex w-full flex-col gap-y-4 bg-tender`}
+              >
+                <dt class="text-base leading-3 text-gray-50">
+                  Transactions every 24 hours
+                </dt>
+                <dd class="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">
+                  38K
+                </dd>
+              </div>
+            ))}
+          </dl>
+          {/* <div className="grid grid-cols-4">
+            <div className="text-center">
+              
+            </div>
+          </div> */}
         </div>
       </section>
       <section className="bg-white py-16">
