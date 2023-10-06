@@ -33,20 +33,6 @@ const Page = () => {
       <section className="bg-darkblue py-20 overflow-x-hidden text-xl font-light">
         <div className="container transition-all ease-in-out duration-300">
           <div className="lg:flex justify-between items-center">
-            <div className="lg:w-5/12 order-2 mb-10 lg:mb-0">
-              <div className="flex items-end justify-center gap-4 my-4">
-                <div className="bg-white rounded h-[500px] w-full p-10">
-                  <p className="font-bold text-3xl text-center">
-                    Get Your Free Governance Assessment
-                  </p>
-                  <p className="mt-4 text-base">
-                    Fill out the form below to receive the questionnaire via
-                    email:
-                  </p>
-                  <PaperForm formSlug="opengdsp" />
-                </div>
-              </div>
-            </div>
             <div className="lg:w-6/12 mb-7 lg:mb-0">
               <h2
                 className=" text-mustard mb-6 leading-normal"
@@ -86,6 +72,20 @@ const Page = () => {
                   alt=""
                   className="opacity-80"
                 />
+              </div>
+            </div>
+            <div className="lg:w-5/12 mb-10 lg:mb-0">
+              <div className="flex items-end justify-center gap-4 my-4">
+                <div className="bg-white rounded h-[500px] w-full p-10">
+                  <p className="font-bold text-3xl text-center">
+                    Get Your Free Governance Assessment
+                  </p>
+                  <p className="mt-4 text-base">
+                    Fill out the form below to receive the questionnaire via
+                    email:
+                  </p>
+                  <PaperForm formSlug="opengdsp" />
+                </div>
               </div>
             </div>
           </div>
