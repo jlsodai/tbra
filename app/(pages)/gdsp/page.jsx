@@ -19,7 +19,7 @@ const features = [
   {
     title: "Accelerate Growth",
     content:
-      "For startups, a strong board can be a launchpad for growth. Our assessment equips you with insights to establish effective governance from the outset, setting the stage for sustainable success.",
+      "For an early-stage company, a strong board can be a launchpad for growth. Our assessment equips you with insights to establish effective governance from the outset, setting the stage for sustainable success. Improve your board's added value to help your company scale today.",
   },
   {
     title: "Diverse Industries",
@@ -37,7 +37,7 @@ const Page = () => {
               <div className="flex items-end justify-center gap-4 my-4">
                 <div className="bg-white rounded h-[500px] w-full p-10">
                   <p className="font-bold text-3xl text-center">
-                    Get Your Free Governance Scorecard
+                    Get Your Free Governance Assessment
                   </p>
                   <p className="mt-4 text-base">
                     Fill out the form below to receive the questionnaire via
@@ -98,12 +98,12 @@ const Page = () => {
             Discover Your Board&apos;s Effectiveness
           </h3>
           <p className="text-center max-w-4xl mt-8 mx-auto">
-            Whether you are a startup striving to establish a solid foundation
-            or a well-established corporation aiming to stay ahead of the curve,
+            Whether you are a well-established corporation aiming to stay ahead
+            of the curve or a startup striving to establish a solid foundation,
             the effectiveness of your board is a key determinant of your
-            success. Welcome to TBrA-BEL&apos;s Board Effectiveness Assessment –
-            a transformative tool designed to guide organizations of all sizes
-            and industries towards optimal governance.
+            success. Welcome to the Governance Baseline Assessment – a
+            transformative tool designed to guide organisations of all sizes and
+            industries towards optimal governance.
           </p>
         </div>
 
