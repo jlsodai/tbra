@@ -155,7 +155,7 @@ const Page = () => {
           Propel your board towards strategic prowess and unparalleled success.
         </h3>
         <img
-          src="https://res.cloudinary.com/tbra/image/upload/v1695743417/bulbProcess_hfizfp.png"
+          src="https://res.cloudinary.com/tbra/image/upload/v1696593713/GDSPInfographic_tna5hd.png"
           alt=""
           className="mx-auto lg:max-w-[80%] mt-16"
         />
