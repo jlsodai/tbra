@@ -131,7 +131,7 @@ const Page = () => {
                 </div>
               </div>
               <img
-                src="https://res.cloudinary.com/tbra/image/upload/v1696344803/GDSP_Dashboard_ibq0wh.jpg"
+                src="https://res.cloudinary.com/tbra/image/upload/v1696593376/GDSPDashboard_kbowyo.jpg"
                 alt="GDSP Dashboard"
                 className="w-[68rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[68rem] md:-ml-4 lg:-ml-0"
                 width="1250"
