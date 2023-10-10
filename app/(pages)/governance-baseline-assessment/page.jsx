@@ -85,7 +85,7 @@ const Page = () => {
                     Fill out the form below to receive the questionnaire via
                     email:
                   </p>
-                  <PaperForm formSlug="baselineassessmentoptin" />
+                  <PaperForm formSlug="gba-website" />
                 </div>
               </div>
             </div>
