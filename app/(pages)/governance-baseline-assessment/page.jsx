@@ -7,24 +7,25 @@ import { HiCheckCircle } from "react-icons/hi";
 
 const features = [
   {
-    title: "Strategic Alignment",
+    title: "Board - Executive team Alignment:",
     content:
-      "Our assessment is crafted to align with your business goals. It helps you identify whether your board's decisions, actions, and structure are directly contributing to your strategic vision.",
+      "Our assessment is designed to help identify key areas which are impacting the executive-non-executive director dynamics, such as quality of reporting, collaboration on strategy, lack of diversity and key skill sets.",
   },
   {
-    title: "In-Depth Insights",
+    title: "In-Depth Insights:",
     content:
-      "Delve into the heart of your board's dynamics and operations. Uncover strengths that can be leveraged and areas that require attention, all while gaining a holistic view of your board's overall performance.",
+      "Delve into the heart of your board's dynamics and operations. Build a baseline assessment of your board's effectiveness and governance that can be a powerful catalyst to drive improvement in key areas.",
   },
   {
-    title: "Accelerate Growth",
+    title:
+      "Initiate the conversation on improving the value-add of your board:",
     content:
-      "For an early-stage company, a strong board can be a launchpad for growth. Our assessment equips you with insights to establish effective governance from the outset, setting the stage for sustainable success. Improve your board's added value to help your company scale today.",
+      "For Board Chairs, CEOs, General Counsel and Company/Board Secretaries, our questionnaire and analysis, based on extensive external board evaluation experience, helps you build an initial baseline of your board effectiveness/governance and a solid foundation for internal/external board evaluations",
   },
   {
-    title: "Diverse Industries",
+    title: "Diverse Industries:",
     content:
-      "No matter your industry, TBrA's assessment transcends sectors. Our questions are designed to accommodate the unique needs and challenges of various fields, ensuring relevance across the board.",
+      "No matter your industry, TBrA-BEx’s assessment applies to all board types across all sectors. Our questions are designed by leading international board evaluation experts to help you identify key strengths and opportunities to drive sustained improvement in your board.",
   },
 ];
 const Page = () => {
@@ -47,8 +48,8 @@ const Page = () => {
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
-                Are you ready to transform your board into a strategic
-                powerhouse? Begin today.
+                Are you ready to transform the value your board adds to your
+                organisation? Begin today.
               </p>
               <p
                 className="mt-5 text-white text-base"
@@ -58,7 +59,7 @@ const Page = () => {
                 Powered by:
               </p>
               <div
-                className="mt-4 flex gap-8 mb-2 h-[60px]"
+                className="mt-4 flex gap-8 mb-2 -sm:h-[45px] h-[60px]"
                 data-aos="fade-up"
                 data-aos-delay="250"
               >
@@ -74,9 +75,9 @@ const Page = () => {
                 />
               </div>
             </div>
-            <div className="lg:w-5/12 mb-10 lg:mb-0">
+            <div className="lg:w-5/12 mt-16 lg:m-0">
               <div className="flex items-end justify-center gap-4 my-4">
-                <div className="bg-white rounded h-[500px] w-full p-10">
+                <div className="bg-white rounded -sm:h-[700px] h-[500px] w-full p-10">
                   <p className="font-bold text-3xl text-center">
                     Get Your Free Governance Assessment
                   </p>
@@ -102,8 +103,9 @@ const Page = () => {
             of the curve or a startup striving to establish a solid foundation,
             the effectiveness of your board is a key determinant of your
             success. Welcome to the Governance Baseline Assessment – a
-            transformative tool designed to guide organisations of all sizes and
-            industries towards optimal governance.
+            transformative tool designed to provide actionable insights and
+            guide organisations of all sizes and industries towards optimal
+            governance.
           </p>
         </div>
 
@@ -155,7 +157,7 @@ const Page = () => {
           Propel your board towards strategic prowess and unparalleled success.
         </h3>
         <img
-          src="https://res.cloudinary.com/tbra/image/upload/v1696593713/GDSPInfographic_tna5hd.png"
+          src="https://res.cloudinary.com/tbra/image/upload/v1696937422/GBAInfographic_jocnby.png"
           alt=""
           className="mx-auto lg:max-w-[80%] mt-16"
         />
