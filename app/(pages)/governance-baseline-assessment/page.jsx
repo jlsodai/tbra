@@ -133,7 +133,7 @@ const Page = () => {
                 </div>
               </div>
               <img
-                src="https://res.cloudinary.com/tbra/image/upload/v1696593376/GDSPDashboard_kbowyo.jpg"
+                src="https://res.cloudinary.com/tbra/image/upload/v1696940770/GDSP_Dashboard_a76a2k.jpg"
                 alt="GDSP Dashboard"
                 className="w-[68rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[68rem] md:-ml-4 lg:-ml-0"
                 width="1250"
@@ -157,7 +157,7 @@ const Page = () => {
           Elevate your Governance today
         </h3>
         <img
-          src="https://res.cloudinary.com/tbra/image/upload/v1696940770/GDSP_Dashboard_a76a2k.jpg"
+          src="https://res.cloudinary.com/tbra/image/upload/v1696937422/GBAInfographic_jocnby.png"
           alt=""
           className="mx-auto lg:max-w-[80%] mt-16"
         />
