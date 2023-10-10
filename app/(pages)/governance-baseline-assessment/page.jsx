@@ -157,7 +157,7 @@ const Page = () => {
           Elevate your Governance today
         </h3>
         <img
-          src="https://res.cloudinary.com/tbra/image/upload/v1696937422/GBAInfographic_jocnby.png"
+          src="https://res.cloudinary.com/tbra/image/upload/v1696945445/Governance_Baseline_Assessment_Infographic_yg8zmg.png"
           alt=""
           className="mx-auto lg:max-w-[80%] mt-16"
         />
