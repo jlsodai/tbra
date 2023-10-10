@@ -79,7 +79,7 @@ const Page = () => {
               <div className="flex items-end justify-center gap-4 my-4">
                 <div className="bg-white rounded -sm:h-[700px] h-[500px] w-full p-10">
                   <p className="font-bold text-3xl text-center">
-                    Get Your Free Governance Assessment
+                    Get Your Free Governance Baseline Assessment
                   </p>
                   <p className="mt-4 text-base">
                     Fill out the form below to receive the questionnaire via
@@ -145,7 +145,7 @@ const Page = () => {
         <div className="container">
           <div className="mt-16 bg-white border border-gray-600 p-8 lg:flex justify-between items-center">
             <h3 className="text-3xl mb-0">
-              Get Your Free Board Assessment Questionnaire Now.
+              Get Your Free Governance Baseline Assessment Questionnaire Now.
             </h3>
             <ScrollToTopBtn />
           </div>
@@ -154,10 +154,10 @@ const Page = () => {
 
       <div className="container text-center mt-24">
         <h3 className=" lg:max-w-[80%] mx-auto">
-          Propel your board towards strategic prowess and unparalleled success.
+          Elevate your Governance today
         </h3>
         <img
-          src="https://res.cloudinary.com/tbra/image/upload/v1696937422/GBAInfographic_jocnby.png"
+          src="https://res.cloudinary.com/tbra/image/upload/v1696940770/GDSP_Dashboard_a76a2k.jpg"
           alt=""
           className="mx-auto lg:max-w-[80%] mt-16"
         />
