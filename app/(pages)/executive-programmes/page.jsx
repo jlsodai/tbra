@@ -39,19 +39,15 @@ const Page = async () => {
 						imgClass="object-right"
 						src="https://tbratest.my.canva.site/board-roles-individual-page/images/40a1c0cfce04c8c78e2edc7741812803.jpg"
 					/> */}
-          <div className="md:flex item-center items-center justify-between gap-8 bg-dawn-200 px-8 py-6 mt-6">
+          {/* <div className="text-center">
             <img
-              className="sm:m-0 -sm:mb-4 -sm:mt-0  -sm:mx-auto"
+              className="sm:m-0 -sm:mb-4 -sm:mt-0 justify-center mx-auto  -sm:mx-auto"
               src="https://res.cloudinary.com/tbra/image/upload/v1690439782/cpdCertified_ysk3a2.png"
               alt="CPD Certified"
-              width="130px"
+              width="200px"
             />
-            <p className="m-0 leading-normal text-sm">
-              This programme is certified by The CPD Certification Service. It
-              may be applicable to individuals who are members of, or are
-              associated with, UK-based professional bodies.
-            </p>
-          </div>
+          </div> */}
+          {/* <div className="md:flex item-center items-center justify-between gap-8 px-8 py-6 mt-6"></div> */}
         </div>
       </section>
 
