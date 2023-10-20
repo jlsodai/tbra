@@ -149,17 +149,6 @@ export const execData = {
   ],
   "Programmes": [
     {
-      "id": 1,
-      "title": "Open Doors: Accredited Certificate in Company Direction",
-      "date": "March - June 2024",
-      "seatsRemaining": 30,
-      "venue": "Virtual",
-      "imageUrl": "https://tbratest.my.canva.site/executive-development-page/images/128b157c5a41f2c2b630bbb9d2543b69.jpg",
-      "applyBtnUrl": "/open-doors-application",
-      "learnmoreBtnUrl": "/executive-programmes/open-doors",
-      "groupName": null
-    },
-    {
       "id": 2,
       "title": "Risk Governance Programme",
       "date": "Self Paced",
@@ -168,6 +157,17 @@ export const execData = {
       "imageUrl": "https://res.cloudinary.com/tbra/image/upload/v1680957777/onthological_hdiqex.jpg",
       "applyBtnUrl": "/executive-programmes/risk-governance-programmen",
       "learnmoreBtnUrl": "/executive-programmes/risk-governance-programme",
+      "groupName": null
+    },
+    {
+      "id": 1,
+      "title": "Open Doors: Accredited Certificate in Company Direction",
+      "date": "March - June 2024",
+      "seatsRemaining": 30,
+      "venue": "Virtual",
+      "imageUrl": "https://tbratest.my.canva.site/executive-development-page/images/128b157c5a41f2c2b630bbb9d2543b69.jpg",
+      "applyBtnUrl": "/open-doors-application",
+      "learnmoreBtnUrl": "/executive-programmes/open-doors",
       "groupName": null
     },
     {
