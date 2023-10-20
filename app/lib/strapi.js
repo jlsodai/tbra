@@ -861,7 +861,7 @@ export const programmesData = [
       "impact": [],
       "brochureInfo": {
         "id": 2,
-        "upcoming": "February - March 2023 (Sold Out)\nAugust - September 2023 (Virtual)\n",
+        "upcoming": "February 2024 (Virtual)\nAugust - October 2024 (Virtual)\n",
         "structure": "14 live sessions with breakouts and case studies and a final course assignment",
         "brochureFormUrl": "esgbrochuredownload",
         "applyUrl": "/esg-certificate-application",
