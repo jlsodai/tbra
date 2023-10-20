@@ -182,6 +182,17 @@ export const execData = {
       "groupName": null
     },
     {
+      "id": 6,
+      "title": "Open Doors: Accredited Certificate in Company Direction",
+      "date": "November 2024",
+      "seatsRemaining": "30",
+      "venue": "CapeTown (In-Person)",
+      "imageUrl": "https://tbratest.my.canva.site/executive-development-page/images/128b157c5a41f2c2b630bbb9d2543b69.jpg",
+      "applyBtnUrl": "/open-doors-application",
+      "learnmoreBtnUrl": "/executive-programmes/open-doors",
+      "groupName": null
+    },
+    {
       "id": 4,
       "title": "Environmental Social and Governance (ESG) Certificate",
       "date": "February 2024",
@@ -193,7 +204,7 @@ export const execData = {
       "groupName": null
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "Environmental Social and Governance (ESG) Certificate",
       "date": "August to October 2023",
       "seatsRemaining": "30",
@@ -203,17 +214,6 @@ export const execData = {
       "learnmoreBtnUrl": "/executive-programmes/esg-certificate",
       "groupName": null
     },
-    {
-      "id": 6,
-      "title": "Open Doors: Accredited Certificate in Company Direction",
-      "date": "November 2024",
-      "seatsRemaining": "30",
-      "venue": "CapeTown (In-Person)",
-      "imageUrl": "https://tbratest.my.canva.site/executive-development-page/images/128b157c5a41f2c2b630bbb9d2543b69.jpg",
-      "applyBtnUrl": "/open-doors-application",
-      "learnmoreBtnUrl": "/executive-programmes/open-doors",
-      "groupName": null
-    }
   ],
   "intro": {
     "id": 22,
