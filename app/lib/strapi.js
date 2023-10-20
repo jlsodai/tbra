@@ -814,7 +814,7 @@ export const programmesData = [
         },
         {
           "id": 24,
-          "logourl": "https://theboardroomafrica.com/wp-content/uploads/2022/10/natixis.png",
+          "logourl": "https://res.cloudinary.com/tbra/image/upload/v1697806389/iod-logo_mq0whj.png",
           "logoStyle": null
         },
         {
