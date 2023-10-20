@@ -762,10 +762,10 @@ export const programmesData = [
         },
         {
           "id": 12,
-          "Name": "Harald Walkate",
+          "Name": "Janhavi Dadarkar",
           "Title": "Founder, Finding Ways Ahead",
-          "Profile": "Harald Walkate is the founder of Finding Ways Ahead, an independent ESG and impact investment advisory firm. From 2019 to 2021 he was the Head of Responsible Investment (ESG) and a member of the Executive Committee at Natixis Investment Managers. Prior to that, he worked for Aegon for fifteen years in different capacities, and lastly as Global Head of Responsible Investment at Aegon Asset Management. His work in ESG has included working with portfolio managers and analysts to integrate ESG considerations into investments, active ownership, policy and organizational issues, and identifying positive impact investment opportunities within different asset classes, with a particular focus on blended finance. Harald is a Senior Fellow with the University of Zurich Center for Sustainable Finance and Private Wealth (CSP) and a regular contributor to the University of Cambridge Institute for Sustainability Leadership (CISL) programs. He was also an advisor to the Impact Management Project and sat on the AIF Center for ESG and Sustainable Finance board. \n",
-          "instructorImage": "https://theboardroomafrica.com/wp-content/uploads/2022/10/harald.jpg"
+          "Profile": "Having started her career as a corporate media lawyer, Janhavi worked on film deals including the Harry Potter and the Bond movies whilst also acting for the public sector on energy deals and advising boards of well-known multinational companies and personalities from the sporting world, to enterprising individuals looking to commercialise space travel.\n\nJanhavi then successfully made the transition to building her own ventures and now holds board roles in very diverse sectors from companies in fintech, historical estate management, to organisations working at the supranational level.\n\nShe is also the Programme Lead at the London Institute of Directors (loD) for their flagship Governance course and is the youngest and only ethnic minority (male or female) to have served on their Board of Examiners, and subsequently in their course leader pool for loD's renowned Chartered Director programme.\n\nBeing first though, she hopes this means others will follow.",
+          "instructorImage": "https://res.cloudinary.com/tbra/image/upload/v1697806177/Janhavi-Dardarkar_fff2ao.jpg"
         },
         {
           "id": 13,
