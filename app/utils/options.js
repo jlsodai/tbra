@@ -45,6 +45,11 @@ export const menuLinks = [
 				name: "Ontological Growth Experience",
 				href: "/executive-programmes/ontological-growth-experience",
 			},
+			{
+				name: "Risk Governance Programme",
+				href: "/executive-programmes/risk-governance-programme",
+				target: "_blank"
+			},
 		],
 	},
 	{

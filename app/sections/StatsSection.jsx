@@ -18,7 +18,7 @@ const StatsSection = () => {
 							/>
 							<Stats stat="100+" info="women placed on boards" />
 							<Stats
-								stat="350+"
+								stat="500+"
 								info=" executive leadership alumni"
 							/>
 							<Stats

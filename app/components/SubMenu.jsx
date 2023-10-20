@@ -12,6 +12,7 @@ const SubMenu = ({ sublinks, mobile = false }) => {
 					<a
 						href={sublink.href}
 						className={`${mobile ? "py-2 w-full pl-4" : ""}`}
+						target={`sublink.target ?? ''`}
 					>
 						{sublink.name}
 					</a>

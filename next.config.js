@@ -29,6 +29,11 @@ const nextConfig = {
 				permanent: true,
 			},
 			{
+				source: "/executive-programmes/risk-governance-programme",
+				destination: "https://courses.dcroi.org/pages/tbra",
+				permanent: true,
+			},
+			{
 				source: "/registration-form",
 				destination: "/membership/application",
 				permanent: true,
