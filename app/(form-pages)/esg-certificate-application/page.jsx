@@ -6,7 +6,7 @@ const page = () => {
 		<>
 			<HeaderTitle title="ESG Certificate Application." />
 			<section className="container my-10" data-aos="fade-up">
-				<PaperForm formSlug="tbraesg2024" />
+				<PaperForm formSlug="esg-registration-web" />
 			</section>
 		</>
 	);

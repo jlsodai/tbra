@@ -6,7 +6,7 @@ const page = () => {
 		<>
 			<HeaderTitle title="Open Doors Application." />
 			<section className="container my-10" data-aos="fade-up">
-				<PaperForm formSlug="tbraopendoors2024" />
+				<PaperForm formSlug="od-registration-web" />
 			</section>
 		</>
 	);
