@@ -634,7 +634,7 @@ export const programmesData = [
       ],
       "brochureInfo": {
         "id": 3,
-        "upcoming": "June - July 2023 (Virtual)\n",
+        "upcoming": "TBC\n",
         "structure": "5 interactive modules, an MBTI assessment, and one-on-one coaching",
         "brochureFormUrl": "ogebrochuredownload",
         "applyUrl": "/onthological-growth-application",
