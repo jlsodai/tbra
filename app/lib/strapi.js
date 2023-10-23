@@ -311,7 +311,7 @@ export const programmesData = [
           "Name": "Janhavi Dadarkar",
           "Title": "The Role of Director and The Board",
           "Profile": "Having started her career as a corporate media lawyer, Janhavi worked on film deals including the Harry Potter and the Bond movies whilst also acting for the public sector on energy deals and advising boards of well-known multinational companies and personalities from the sporting world, to enterprising individuals looking to commercialise space travel. Janhavi then successfully made the transition to building her own ventures and now holds board roles in very diverse sectors from companies in fintech, historical estate management, to organisations working at the supranational level. She is also the Programme Lead at the London Institute of Directors (IoD) for their flagship Governance course and is the youngest and only ethnic minority (male or female) to have served on their Board of Examiners, and subsequently in their course leader pool for IoD’s renowned Chartered Director programme. Being first though, she hopes this means others will follow.",
-          "instructorImage": "https://theboardroomafrica.com/wp-content/uploads/2023/04/Janhavi.jpg"
+          "instructorImage": "https://res.cloudinary.com/tbra/image/upload/v1698049780/Janhavi-Dardarkar_r2p5q2.jpg"
         },
         {
           "id": 4,
@@ -764,8 +764,8 @@ export const programmesData = [
           "id": 12,
           "Name": "Janhavi Dadarkar",
           "Title": "Founder, Finding Ways Ahead",
-          "Profile": "Having started her career as a corporate media lawyer, Janhavi worked on film deals including the Harry Potter and the Bond movies whilst also acting for the public sector on energy deals and advising boards of well-known multinational companies and personalities from the sporting world, to enterprising individuals looking to commercialise space travel.\n\nJanhavi then successfully made the transition to building her own ventures and now holds board roles in very diverse sectors from companies in fintech, historical estate management, to organisations working at the supranational level.\n\nShe is also the Programme Lead at the London Institute of Directors (loD) for their flagship Governance course and is the youngest and only ethnic minority (male or female) to have served on their Board of Examiners, and subsequently in their course leader pool for loD's renowned Chartered Director programme.\n\nBeing first though, she hopes this means others will follow.",
-          "instructorImage": "https://res.cloudinary.com/tbra/image/upload/v1697806177/Janhavi-Dardarkar_fff2ao.jpg"
+          "Profile": "Janhavi comes with an eclectic background, which gives her a multidisciplinary and holistic approach to governance and ESG issues. Her expertise in the 'G' of ESG comes with over two decades of experience as a corporate media lawyer and more than a decade advising private equity and investors on developing better toolkits so organisations can be impactful as part of society, not outside of it. Janhavi, however, didn’t just provide legal or advisory support - she walked the talk by building her own ventures.\n\nAs a strategic investor in both ‘successful' and ‘failed' enterprises, she knows the ups and downs of being an invested stakeholder. Janhavi also understands the leadership imperative, having been in board roles in diverse sectors, from companies in fintech and historical estate management to organisations at the supranational level.\n\nShe is currently the CEO of the Academy for Board Excellence, which provides the subject matter experts and content for the IoD’s flagship Chartered Director programme.  She is a well-known and in-demand commentator and speaker who always inspires thought-provoking discussion.",
+          "instructorImage": "https://res.cloudinary.com/tbra/image/upload/v1698049780/Janhavi-Dardarkar_r2p5q2.jpg"
         },
         {
           "id": 13,
