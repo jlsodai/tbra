@@ -44,7 +44,7 @@ const Page = async () => {
               className="sm:m-0 -sm:mt-0 justify-center mx-auto -sm:mx-auto mb-4"
               src="https://res.cloudinary.com/tbra/image/upload/v1690439782/cpdCertified_ysk3a2.png"
               alt="CPD Certified"
-              width="200px"
+              width="250px"
             />
           </div>
           {/* <div className="md:flex item-center items-center justify-between gap-8 px-8 py-6 mt-6"></div> */}
