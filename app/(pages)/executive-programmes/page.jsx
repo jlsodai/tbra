@@ -41,7 +41,7 @@ const Page = async () => {
 					/> */}
           <div className="text-center flex justify-center items-center">
             <img
-              className="sm:m-0 -sm:mb-4 -sm:mt-0 justify-center mx-auto  -sm:mx-auto"
+              className="sm:m-0 -sm:mt-0 justify-center mx-auto -sm:mx-auto mb-4"
               src="https://res.cloudinary.com/tbra/image/upload/v1690439782/cpdCertified_ysk3a2.png"
               alt="CPD Certified"
               width="200px"
