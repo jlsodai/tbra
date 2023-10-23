@@ -42,13 +42,13 @@ export const menuLinks = [
 				href: "/executive-programmes/esg-certificate",
 			},
 			{
-				name: "Ontological Growth Experience",
-				href: "/executive-programmes/ontological-growth-experience",
+				name: "Risk Governance Programmes",
+				href: "/executive-programmes/risk-governance-programmes",
+				target: "_blank"
 			},
 			{
-				name: "Risk Governance Programme",
-				href: "/executive-programmes/risk-governance-programme",
-				target: "_blank"
+				name: "Ontological Growth Experience",
+				href: "/executive-programmes/ontological-growth-experience",
 			},
 		],
 	},

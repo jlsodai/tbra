@@ -149,17 +149,6 @@ export const execData = {
   ],
   "Programmes": [
     {
-      "id": 2,
-      "title": "Risk Governance Programme",
-      "date": "Self Paced",
-      "seatsRemaining": 50,
-      "venue": "Virtual",
-      "imageUrl": "https://res.cloudinary.com/tbra/image/upload/v1680957777/onthological_hdiqex.jpg",
-      "applyBtnUrl": "/executive-programmes/risk-governance-programmen",
-      "learnmoreBtnUrl": "/executive-programmes/risk-governance-programme",
-      "groupName": null
-    },
-    {
       "id": 1,
       "title": "Open Doors: Accredited Certificate in Company Direction",
       "date": "March - June 2024",
@@ -206,12 +195,23 @@ export const execData = {
     {
       "id": 5,
       "title": "Environmental Social and Governance (ESG) Certificate",
-      "date": "August to October 2023",
+      "date": "August to October 2024",
       "seatsRemaining": "30",
       "venue": "Virtual",
       "imageUrl": "https://theboardroomafrica.com/wp-content/uploads/2023/04/esgImg.jpg",
       "applyBtnUrl": "/esg-certificate-application",
       "learnmoreBtnUrl": "/executive-programmes/esg-certificate",
+      "groupName": null
+    },
+    {
+      "id": 2,
+      "title": "Risk Governance Programmes",
+      "date": "Self Paced",
+      "seatsRemaining": 50,
+      "venue": "Virtual",
+      "imageUrl": "https://res.cloudinary.com/tbra/image/upload/v1680957777/onthological_hdiqex.jpg",
+      "applyBtnUrl": "/executive-programmes/risk-governance-programmes",
+      "learnmoreBtnUrl": "/executive-programmes/risk-governance-programmes",
       "groupName": null
     },
   ],

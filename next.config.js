@@ -29,7 +29,12 @@ const nextConfig = {
 				permanent: true,
 			},
 			{
-				source: "/executive-programmes/risk-governance-programme",
+				source: "/executive-programmes/risk-governance-programmes",
+				destination: "https://courses.dcroi.org/pages/tbra",
+				permanent: true,
+			},
+			{
+				source: "/executive-programmes/risk-governance-programmes",
 				destination: "https://courses.dcroi.org/pages/tbra",
 				permanent: true,
 			},
