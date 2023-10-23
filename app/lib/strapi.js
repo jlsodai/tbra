@@ -210,7 +210,7 @@ export const execData = {
       "seatsRemaining": 50,
       "venue": "Virtual",
       "imageUrl": "https://res.cloudinary.com/tbra/image/upload/v1680957777/onthological_hdiqex.jpg",
-      "applyBtnUrl": "/executive-programmes/risk-governance-programmes",
+      "applyBtnUrl": "risk-governance-programmes-application",
       "learnmoreBtnUrl": "/executive-programmes/risk-governance-programmes",
       "groupName": null
     },
@@ -861,8 +861,8 @@ export const programmesData = [
       "impact": [],
       "brochureInfo": {
         "id": 2,
-        "upcoming": "February 2024 (Virtual)\nAugust - October 2024 (Virtual)\n",
-        "structure": "14 live sessions with breakouts and case studies and a final course assignment",
+        "upcoming": "01 - 29 February 2024 (Virtual)\n06 August - 03 October 2024 (Virtual)\n",
+        "structure": "14 live sessions with breakouts, case studies and a final course assignment",
         "brochureFormUrl": "esgbrochuredownload",
         "applyUrl": "/esg-certificate-application",
         "subsidyText": "Reach out to discuss a payment plan at",
