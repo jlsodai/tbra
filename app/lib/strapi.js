@@ -661,23 +661,28 @@ export const programmesData = [
       "CourseOutline": [
         {
           "id": 26,
-          "title": "Meet the Cohort",
-          "description": "We centre our executive programmes around the concept of shared learning, and strong communities create a supportive environment for enhanced learning and growth. Our cohort Meet and Greets are the perfect starting point. Here, among others, you’ll get the chance to meet your fellow course delegates, lecturers and programme delivery team and explore the shared motivations around the transformative agenda of ESG."
+          "title": "Meet and Greet",
+          "description": "Our cohort Meet and Greets are the perfect starting point for an enhanced learning experience. Here, among others, you’ll get the chance to meet your fellow course delegates, lecturers and programme delivery team and explore the shared motivations around the transformative agenda of ESG."
         },
         {
           "id": 27,
-          "title": "Introduction to ESG: Past and Present",
+          "title": "Introduction to ESG",
           "description": "This session provides an overview of the evolution of corporate responsibility, focusing on the shift from CSR to ESG. You'll learn about key ESG issues affecting businesses today, explore debates and controversies on ESG, and discover how to respond to ESG drivers strategically. \n\nBy the end of the session, you'll have the knowledge and tools to navigate the constantly evolving ESG discourse."
         },
         {
           "id": 28,
-          "title": "Global Trends Driving the Sustainability Agenda",
+          "title": "Global Trends Driving the ESG Agenda",
           "description": "ESG plays a significant role in shaping markets. The session explores the factors driving growing momentum around the ESG agenda and the business implications of ESG trends for various stakeholder groups and locations. \n\nYou will also delve into trends such as \"Generation-Z in the workplace and the new era of speaking up\" and \"corporate and employee activism\"."
         },
         {
           "id": 30,
-          "title": "The Role of Regulation in Advancing ESG",
-          "description": "Regulatory scrutiny of ESG is on the rise as a growing number of countries seem to encourage companies to report on their environmental and social risk. You will learn what’s driving new regulations and reporting standards. \n\nBy the end of this session, you will understand the “alphabet soup” of regulation around ESG and how it impacts corporate strategy and compliance requirements."
+          "title": "The Role of Regulation in Advancing ESG: Looking at the \"G\" as a driver for excellence",
+          "description": "Environmental, social, and governance (ESG) has become the preferred terminology to describe the frameworks organisations are judged on in relation to their impact on environmental and social issues. In this session, you will explore the evolution of the \"G\" in ESG, gain insights into the current regulatory landscape, and anticipate its future trajectory. You will also acquire the knowledge necessary to comprehend and adhere to ESG regulations while discovering how to leverage these regulations to your advantage. This will involve developing ESG strategies that align with your business objectives and meet regulatory mandates."
+        },
+        {
+          "id": 36,
+          "title": "ESG Reporting: Communicating your ESG Story and Avoiding Greenwashing",
+          "description": "ESG reporting is essential for businesses to communicate their ESG performance to stakeholders and to demonstrate their commitment to ESG principles. Most countries are now requiring organisations to disclose specific ESG information. However, the plethora of standards, metrics and language around ESG reporting can create challenges for organisations and stakeholders regarding what information to convey and trust. This session will focus on navigating the reporting requirements and avoiding greenwashing, to effectively communicate your company's ESG story and build trust with investors, consumers, and other stakeholders."
         },
         {
           "id": 29,
@@ -686,42 +691,42 @@ export const programmesData = [
         },
         {
           "id": 31,
-          "title": "The Business Case: ESG and Value Creation",
+          "title": "ESG and Value Creation",
           "description": "Research shows that thinking and acting proactively on ESG can generate commercial, reputation and societal returns. Your ESG journey should take a holistic approach that considers how to optimise value creation. \n\nYou will explore how a strong ESG proposition can accelerate top-line growth, reduce costs, garner government support, attract talent and enhance long-term returns. "
         },
         {
           "id": 32,
-          "title": "Developing a Corporate ESG Strategy (ESG Risks and Opportunities)",
+          "title": "Developing a Corporate ESG Strategy",
           "description": "ESG variables can have a considerable impact on a company’s long-term sustainability and profitability. Overlooking these risks can result in financial and reputation losses. This session breaks down key considerations when assessing and managing ESG risks to help you understand how to move from a compliance-driven approach to a proactive risk reduction strategy. \n\nYou will also learn about best practices when designing an effective Environmental and Social Management System (ESMS)."
         },
         {
           "id": 33,
-          "title": "Role of the Board: Setting & Overseeing the Implementation of ESG Agenda",
+          "title": "Role of the Board",
           "description": "There are extensive legal, academic and investor arguments for and against incorporating ESG into decision-making. This session will explore contemporary debates around the evidence and rationale around addressing the material impacts of ESG in corporate strategy. "
         },
         {
           "id": 34,
-          "title": "Determining an effective ESG governance model - Board Composition & Structure",
+          "title": "Determining an Effective ESG Governance Model",
           "description": "There is no “one-size-fits-all” approach for determining how ESG will be overseen by the board and its committees. The session will cover the factors to be considered in determining an effective board governance model around ESG. \n\nYou will also learn about board diversity from an ESG perspective as well as how to optimise ESG oversight models in the boardroom and how to consider ESG data in board decision-making."
         },
         {
-          "id": 35,
-          "title": "Case studies on Environmental and Social Issues ",
-          "description": "You will engage in two immersive case study sessions focused on managing environmental and social challenges. Each session will entail a case study of a company navigating a major environmental and social issue. \n\nThrough a practical, discussion-based session, you will apply what you’ve learned about effective ESG strategy to develop approaches for crisis mitigation, risk management and future value creation. "
-        },
-        {
-          "id": 36,
-          "title": "ESG reporting and How to Avoid/Spot Greenwashing",
-          "description": "It can be tricky to parse out the \"sense and nonsense\" of ESG reporting frameworks, which are numerous and ever-evolving. You will be introduced to frameworks and best practices around developing an ESG narrative so that you are equipped to prioritise factors and metrics that matter. By the end of this session, you will be able to: \n- Determine – as a potential client – which ESG funds are ‘genuinely’ ESG\n- Better articulate – as an asset manager – why your ESG fund is 'genuinely' ESG\n- Better articulate – as a manager – how your company defines ESG / CSR"
+          "id": 82,
+          "title": "Reflections and Next Steps",
+          "description": "As you set out to shape your corporate ESG strategy, this session sheds light on the pivotal considerations and questions that business leaders must take into account throughout the process.  During the session, you will reflect on these key facets spanning from board engagement, organisational culture, reporting, and more."
         },
         {
           "id": 37,
-          "title": "The business implications of ESG Issues",
+          "title": "The Business Case for ESG: A practical approach",
           "description": "Having understood key ESG considerations, companies need to take action. To be successful, you must adopt a practical approach. You will learn how to design an ESG action plan built around key ESG themes that are material for most businesses across industries whilst taking into account the \"5 signals\": regulation, litigation, clients, employees/investors and activism. \n\nThe session will also explore practical approaches focused on materiality and competitive advantage, developed by leading academics from London Business School and New York University."
         },
         {
+          "id": 35,
+          "title": "Case Study Sessions",
+          "description": "You will engage in two immersive case study sessions focused on managing environmental and social challenges. Each session will entail a case study of a company navigating a major environmental and social issue. \n\nThrough a practical, discussion-based session, you will apply what you’ve learned about effective ESG strategy to develop approaches for crisis mitigation, risk management and future value creation. "
+        },
+        {
           "id": 38,
-          "title": "Round-up",
+          "title": "Round-up Session",
           "description": "The final session allows you to share your insights and your feedback and reflect on how your learnings can be applied within your own organisational context. \n\nHere, you’ll also learn more about the final programme assignment and post-programme expectations."
         }
       ],
