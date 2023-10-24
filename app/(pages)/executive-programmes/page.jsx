@@ -40,12 +40,14 @@ const Page = async () => {
 						src="https://tbratest.my.canva.site/board-roles-individual-page/images/40a1c0cfce04c8c78e2edc7741812803.jpg"
 					/> */}
           <div className="text-center flex justify-center items-center">
-            <img
-              className="sm:m-0 -sm:mt-0 justify-center mx-auto -sm:mx-auto mb-4"
-              src="https://res.cloudinary.com/tbra/image/upload/v1690439782/cpdCertified_ysk3a2.png"
-              alt="CPD Certified"
-              width="250px"
-            />
+            <a href="https://cpduk.co.uk/providers/theboardroom-africa" target="_blank">
+              <img
+                className="sm:m-0 -sm:mt-0 justify-center mx-auto -sm:mx-auto mb-4"
+                src="https://res.cloudinary.com/tbra/image/upload/v1690439782/cpdCertified_ysk3a2.png"
+                alt="CPD Certified"
+                width="250px"
+              />
+            </a>
           </div>
           {/* <div className="md:flex item-center items-center justify-between gap-8 px-8 py-6 mt-6"></div> */}
         </div>
