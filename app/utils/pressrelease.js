@@ -1,6 +1,4 @@
-export const pressrelease = `# Empowering Women and Elevating Risk Governance: The DCRO Institute and TheBoardroom Africa Join Forces
-
-**October 25, 2023**
+export const pressrelease = `**October 25, 2023**
 
 The DCRO Institute, the esteemed global collaborative of board members and C-level executives that offers comprehensive risk governance credentialing programmes for leaders, proudly announces its partnership with TheBoardroom Africa (TBrA), a leading organisation dedicated to advancing women in leadership across the African continent. Together, they aim to enhance risk governance practices and empower women to serve on boards, marking a significant milestone in fostering diversity and excellence in corporate leadership. 
 
