@@ -2,6 +2,13 @@ import Markdown from "markdown-to-jsx";
 import { pressrelease } from "@/app/utils/pressrelease";
 import HeaderTitle from "@/app/sections/HeaderTitle";
 
+export const metadata = {
+	title: "Empowering Women and Elevating Risk Governance: The DCRO Institute and TheBoardroom Africa Join Forces",
+	openGraph: {
+		images: 'https://res.cloudinary.com/tbra/image/upload/v1698250891/TBRA-DCRO-Press-Release_bvmzjo.jpg'
+	},
+}
+
 const page = () => {
 	return (
 		<>
