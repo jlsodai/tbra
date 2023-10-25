@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 import Markdown from "markdown-to-jsx";
 import { pressrelease } from "@/app/utils/pressrelease";
