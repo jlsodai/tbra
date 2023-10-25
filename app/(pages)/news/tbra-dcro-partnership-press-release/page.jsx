@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 import Markdown from "markdown-to-jsx";
 import { pressrelease } from "@/app/utils/pressrelease";
@@ -20,14 +19,14 @@ const page = () => {
 				<div className="prose max-w-full lg:mx-16">
 					<div className="flex items-center">
 						<h1>Empowering Women and Elevating Risk Governance: <br/>The DCRO Institute and TheBoardroom Africa Join Forces</h1>
-						<img className="mt-0 ml-16 self-baseline -sm:hidden" src="https://res.cloudinary.com/tbra/image/upload/v1698241406/dcro_slumhm.jpg" width="200px" />
+						<img alt="DCRO logo" className="mt-0 ml-16 self-baseline -sm:hidden" src="https://res.cloudinary.com/tbra/image/upload/v1698241406/dcro_slumhm.jpg" width="200px" />
 					</div>
 					{/* <Markdown>{pressrelease}</Markdown> */}
 					<div className="news-content">
 						<div className="md:float-right bg-gray-50 border border-gray-400 p-4 md:ml-8 md:mb-8 w-[300px]">
-							<img src="https://img.einpresswire.com/medium/558062/marcia-ashong.jpeg" className="m-0" />
+							<img alt="Marcia Ashong" src="https://img.einpresswire.com/medium/558062/marcia-ashong.jpeg" className="m-0" />
 							<p>Marcia Ashong, Founder and CEO of TheBoardroom Africa</p>
-							<img src="https://img.einpresswire.com/medium/351205/david-r-koenig-new.jpeg" className="m-0" />
+							<img alt="David Koenig" src="https://img.einpresswire.com/medium/351205/david-r-koenig-new.jpeg" className="m-0" />
 							<p className="mb-0">David R. Koenig, QRD®, President and Chief Executive Officer</p>
 						</div>
 						<p><strong>October 25, 2023</strong></p>
