@@ -999,6 +999,26 @@ export const pubs = {
           "type": "report"
         }
       }
+    },
+    {
+      "id": 51,
+      "attributes": {
+        "title": "Board Diversity Index: 2023 Ghana Edition",
+        "slug": "board-diversity-index-2023-ghana-edition",
+        "createdAt": "2023-10-25T10:09:46.783Z",
+        "updatedAt": "2023-10-25T10:13:49.857Z",
+        "publishedAt": "2023-10-25T10:13:49.848Z",
+        "publication": {
+          "id": 51,
+          "pdfUrl": "https://web.theboardroomafrica.com/wp-content/uploads/2023/10/Ghana-Diversity-Index-2023-Edition.pdf",
+          "imageUrl": "https://web.theboardroomafrica.com/wp-content/uploads/2023/10/2023-Ghana.png",
+          "venngageCode": null,
+          "year": "2023",
+          "country": "Ghana",
+          "content": "**The number of women on Ghana’s boards has risen sharply: **The number of women serving on boards of Ghana-listed companies has surged impressively, reaching 75 in 2023 compared to 67 in the previous year—a noteworthy 12% increase.\n\nIn Ghana, where women form nearly half of the workforce, the journey toward gender parity in boardrooms has seen remarkable progress in 2023. The release of the 2023 Ghana Board Diversity Index today not only unveils encouraging developments but also underscores the ongoing need for unwavering efforts to champion gender equality in leadership roles.\n\nThe key highlights of the report provide a comprehensive snapshot of gender diversity in Ghana's corporate boardrooms",
+          "type": "report"
+        }
+      }
     }
   ],
   "meta": {
