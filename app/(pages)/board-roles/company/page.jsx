@@ -26,7 +26,7 @@ const Page = () => {
             <p>
               Our <strong>board recruitment</strong> and{" "}
               <strong>advertisement</strong> offerings ensure we meet our
-              clients where there are on their recruitment journies.
+              clients where they are on their recruitment journeys.
             </p>
             <p>Take a look at our recruitment offerings and get in touch.</p>
           </KeySection>
