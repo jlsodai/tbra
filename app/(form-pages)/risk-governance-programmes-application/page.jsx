@@ -6,7 +6,7 @@ const page = () => {
 		<>
 			<HeaderTitle title="Risk Governance Programmes" />
 			<section className="container my-10" data-aos="fade-up">
-				<PaperForm formSlug="risk-gov-web" />
+				<PaperForm formSlug="riskgovernanceprogrammes-registration" />
 			</section>
 		</>
 	);

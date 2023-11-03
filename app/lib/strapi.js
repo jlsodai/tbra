@@ -210,7 +210,7 @@ export const execData = {
       "seatsRemaining": 50,
       "venue": "Virtual",
       "imageUrl": "https://res.cloudinary.com/tbra/image/upload/v1680957777/onthological_hdiqex.jpg",
-      "applyBtnUrl": "risk-governance-programmes-application",
+      "applyBtnUrl": "risk-governance-programmes-application?hideBanner=true",
       "learnmoreBtnUrl": "/executive-programmes/risk-governance-programmes",
       "groupName": null
     },
