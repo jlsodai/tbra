@@ -8,6 +8,6 @@ const PaperForm = ({ formSlug, showSpinner = 1 }) => {
 		document.body.appendChild(script);
 	}, []);
 
-	return <div data-paperform-id={formSlug} data-spinner={showSpinner} />;
+	return <div prefill-inherit="true" data-paperform-id={formSlug} data-spinner={showSpinner} />;
 };
 export default PaperForm;
