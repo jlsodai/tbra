@@ -778,6 +778,20 @@ export const programmesData = [
           "Title": "Senior Climate Finance Advisor, USAID",
           "Profile": "Jacqueline Musiitwa is an international attorney specialising in business transformation, innovation and sustainability. Jacqueline has close to 20 years' experience in leading legal and corporate relations functions in financial services and the industrial sectors.\n\nBefore joining the Biden-Harris administration as a Senior Climate Finance Advisor at the United States Agency for International Development, Jacqueline sat on the boards of Bushveld Minerals (AIM: BMN), PPC Zimbabwe Limited, the International Rescue Committee UK and ide.org.  She was the Chair of the New York State Bar Association's Energy and Natural Resources Committee and a member of the United Nations Committee for Development Policy. She has experience as a board chair and chairing governance, sustainability and risk committees. She previously served in various leadership capacities at Rio Tinto, the Trade and Development Bank (TDB Group), World Trade Organization.\n\nShe is a member of the faculty at Georgetown University.\n\nShe holds a Juris Doctor from the University of Melbourne Law School and a Bachelor of Arts from Davidson College. She holds a Certificate of Company Direction from the Institute of Directors UK. Jacqueline lives in Washington D.C. with her husband and their three children.",
           "instructorImage": "https://theboardroomafrica.com/wp-content/uploads/2022/10/jacqueline.jpg"
+        },
+        {
+          "id": 14,
+          "Name": "Nick Jefferies",
+          "Title": "Group Chief Executive, discoverIE",
+          "Profile": "Nick joined discoverIE as Group Chief Executive in 2009. Formerly General Manager for electronics globally at Electrocomponents plc, he started his career as an electronics engineer for Racal Defence (now part of Thales plc) before joining Toshiba and then Hitachi's European electronic components businesses.",
+          "instructorImage": "https://res.cloudinary.com/tbra/image/upload/w_700,h_534,c_fill,g_north/v1699440559/nick_p5joyi.jpg",
+        },
+        {
+          "id": 15,
+          "Name": "Petrina Gill",
+          "Title": "Environmental, Social and Governance (ESG) Director – Rio Tinto Simandou Project",
+          "Profile": "Petrina has over twenty-three years of experience in the extractive, energy and infrastructure sectors across a range of corporate and project support functions. For much of the last eighteen years, she has been a social performance practitioner working on a range of international exploration and major infrastructure projects across Africa, the Middle East, the Former Soviet Union and Australia. Trina has extensive experience in supporting assets and projects to secure project financing from international financial institutions by ensuring they satisfy lender environmental, social and governance requirements. Trina joined Rio Tinto as General Manager of Communities and Social Performance (CSP) for the Copper Product Group in February 2021. Prior to this, Trina was based in Cairo, working across the Middle East and North Africa on a range of natural resource projects, including wind power development in Egypt, refinery construction in Oman and oil and gas condensate expansions in Central Iraq. Today, Trina splits her time between London and Guinea and leads the ESG function for Rio Tinto’s Simandou Project.",
+          "instructorImage": "https://res.cloudinary.com/tbra/image/upload/w_700,h_534,c_fill/v1699440560/petrina_vleoqk.jpg"
         }
       ],
       "Intro": {
