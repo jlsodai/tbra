@@ -638,7 +638,7 @@ export const pricingTable = [
 		once: true,
 		recruiters: true,
 		list: [
-			"The role is advertised on the Members' Forum for a month to a membership pool of 2500+ executives.",
+			"The role is advertised on the Members' Forum for a month to a membership pool of 2700+ executives.",
 			"One-month feature in the weekly newsletter. The newsletter reaches a broader audience which includes our members, clients, partners, subscribers and other stakeholders.",
 			"Applicant profiles are shared every two weeks.",
 			"The client manages the recruitment process and communicates directly with applicants regarding the status of their applications.",
@@ -652,7 +652,7 @@ export const pricingTable = [
 		recruiters: true,
 		colored: true,
 		list: [
-			"The role is advertised on the Members' Forum for a month to a membership pool of 2500+ executives.",
+			"The role is advertised on the Members' Forum for a month to a membership pool of 2700+ executives.",
 			"One-month feature in the weekly newsletter. The newsletter reaches a broader audience which includes our members, clients, partners, subscribers and other stakeholders.",
 			"Applicant profiles are shared on a weekly basis.",
 			"The client manages the recruitment process and communicates directly with applicants regarding the status of their applications.",
@@ -1246,7 +1246,7 @@ export const faqs = [
 	},
 	{
 		title: "How do I engage TheBoardroom Africa to find candidates for an open board seat at my company?",
-		text: "We have an efficient and streamlined search process to support your board search needs that takes the complication out of matching great female candidates with board opportunities. We define, promote, and sustain the presence of women on boards through our online community of 2500+ women across 65 countries who are senior professionals seeking private and public company board service. Feel free to get in touch via info@theboardroomafrica.com",
+		text: "We have an efficient and streamlined search process to support your board search needs that takes the complication out of matching great female candidates with board opportunities. We define, promote, and sustain the presence of women on boards through our online community of 2700+ women across 65 countries who are senior professionals seeking private and public company board service. Feel free to get in touch via info@theboardroomafrica.com",
 	},
 	{
 		title: "Is there a cost to search TheBoardroom Africa for Candidates?",

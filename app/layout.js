@@ -107,10 +107,10 @@ export default function RootLayout({ children }) {
           <AOSWrapper>{children}</AOSWrapper>
         </main>
         {/* <Suspense fallback={null}> */}
-        <HubspotChat
+        {/* <HubspotChat
           url="http://js-eu1.hs-scripts.com/140566945.js"
           id="hs-script-loader"
-        />
+        /> */}
         {/* <Script
           id="intercom"
           dangerouslySetInnerHTML={{
