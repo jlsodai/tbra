@@ -86,10 +86,12 @@ const RolesPage = async ({ params }) => {
                   <p>{fields.compensation}</p>
                 </div>
               )}
-              <div className="mt-12">
-                <h2 className="mb-4 text-xl">Board meetings</h2>
-                <p>{fields["Board Meetings"]}</p>
-              </div>
+              {fields["Board Meetings"] && (
+                <div className="mt-12">
+                  <h2 className="mb-4 text-xl">Board meetings</h2>
+                  <p>{fields["Board Meetings"]}</p>
+                </div>
+              )}
 
               {fields.notes && (
                 <div className="mt-12 p-6 rounded bg-gray-100 prose max-w-full">
