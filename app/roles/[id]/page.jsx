@@ -10,16 +10,16 @@ const RolesPage = async ({ params }) => {
       {fields.error ? (
         <NotFound />
       ) : (
-        <section className="lg:pb-16 bg-gray-50">
+        <section className="lg:pb-16 bg-gray-50 roles">
           <div className="container max-w-5xl -sm:p-0">
-            {fields?.BannerWeb && (
+            {fields?.BannerWeb && fields.BannerWeb.trim() !== "" && (
               <img
                 src={fields.BannerWeb}
                 alt="Role Banner"
                 className="md:block hidden"
               />
             )}
-            {fields?.BannerMobile && (
+            {fields?.BannerMobile && fields.BannerMobile.trim() !== "" && (
               <img
                 src={fields.BannerMobile}
                 alt="Role Banner"
@@ -32,7 +32,7 @@ const RolesPage = async ({ params }) => {
                   {fields?.roles}
                 </p>
                 <div className="md:text-right">
-                  {fields.ApplyUrl && (
+                  {fields.ApplyUrl && fields.ApplyUrl.trim() !== "" && (
                     <a
                       href={fields.ApplyUrl}
                       className="btn bg-tender text-white rounded -sm:mt-8"
@@ -50,7 +50,7 @@ const RolesPage = async ({ params }) => {
                   )}
                 </div>
               </div>
-              {fields.brief && (
+              {fields.brief && fields.brief.trim() !== "" && (
                 <div className="mt-12">
                   <h2 className="mb-4 text-xl">Company Background</h2>
                   <div className="prose max-w-full">
@@ -58,7 +58,7 @@ const RolesPage = async ({ params }) => {
                   </div>
                 </div>
               )}
-              {fields.composition && (
+              {fields.composition && fields.composition.trim() !== "" && (
                 <div className="mt-12">
                   <h2 className="mb-4 text-xl">Current Board Composition</h2>
                   <div className="prose max-w-full">
@@ -66,7 +66,7 @@ const RolesPage = async ({ params }) => {
                   </div>
                 </div>
               )}
-              {fields.requirements && (
+              {fields.requirements && fields.requirements.trim() !== "" && (
                 <div className="mt-12">
                   <h2 className="mb-4 text-xl">Role Requirements</h2>
                   <div className="prose max-w-full">
@@ -74,33 +74,43 @@ const RolesPage = async ({ params }) => {
                   </div>
                 </div>
               )}
-              {fields.tenure && (
+              {fields.responsibilities &&
+                fields.responsibilities.trim() !== "" && (
+                  <div className="mt-12">
+                    <h2 className="mb-4 text-xl">Role Requirements</h2>
+                    <div className="prose max-w-full">
+                      <Markdown>{fields.responsibilities}</Markdown>
+                    </div>
+                  </div>
+                )}
+              {fields.tenure && fields.tenure.trim() !== "" && (
                 <div className="mt-12">
                   <h2 className="mb-4 text-xl">Board Tenure</h2>
                   <p>{fields.tenure}</p>
                 </div>
               )}
-              {fields.compensation && (
+              {fields.compensation && fields.compensation.trim() !== "" && (
                 <div className="mt-12">
                   <h2 className="mb-4 text-xl">Compensation</h2>
                   <p>{fields.compensation}</p>
                 </div>
               )}
-              {fields["Board Meetings"] && (
-                <div className="mt-12">
-                  <h2 className="mb-4 text-xl">Board meetings</h2>
-                  <p>{fields["Board Meetings"]}</p>
-                </div>
-              )}
+              {fields["Board Meetings"] &&
+                fields["Board Meetings"].trim() !== "" && (
+                  <div className="mt-12">
+                    <h2 className="mb-4 text-xl">Board meetings</h2>
+                    <p>{fields["Board Meetings"]}</p>
+                  </div>
+                )}
 
-              {fields.notes && (
+              {fields.notes && fields.notes.trim() !== "" && (
                 <div className="mt-12 p-6 rounded bg-gray-100 prose max-w-full">
                   <Markdown>{fields.notes}</Markdown>
                 </div>
               )}
 
               <div className="text-center mt-12">
-                {fields.ApplyUrl && (
+                {fields.ApplyUrl && fields.ApplyUrl.trim() !== "" && (
                   <a
                     href={fields.ApplyUrl}
                     className="btn bg-tender text-white rounded"
