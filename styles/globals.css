@@ -216,6 +216,6 @@ html {
   }
 
   .roles h2 {
-    @apply mb-4 text-xl text-mustard;
+    @apply mb-4 text-xl text-mustard !font-normal;
   }
 }
