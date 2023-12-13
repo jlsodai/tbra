@@ -77,7 +77,7 @@ const RolesPage = async ({ params }) => {
               {fields.responsibilities &&
                 fields.responsibilities.trim() !== "" && (
                   <div className="mt-12">
-                    <h2 className="mb-4 text-xl">Role Requirements</h2>
+                    <h2 className="mb-4 text-xl">Role Responsibilities</h2>
                     <div className="prose max-w-full">
                       <Markdown>{fields.responsibilities}</Markdown>
                     </div>
