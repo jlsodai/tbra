@@ -5,7 +5,7 @@ import HeaderTitle from "@/app/sections/HeaderTitle";
 const page = () => {
   return (
     <>
-      <HeaderTitle title="Open Doors Terms and Conditions" />
+      <HeaderTitle title="Open Doors Terms & Conditions" />
       <section className="container">
         <div className="prose max-w-full md:mx-44 mt-16">
           <Markdown>{odtocs}</Markdown>
