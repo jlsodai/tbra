@@ -1,4 +1,9 @@
-export const odtocs = `## Definitions
+export const odtocs = `
+This agreement sets out the terms and conditions between TheBoardroom Africa (TBrA) and all individuals who are registered delegates of the Certificate and Diploma editions of the Open Doors programme hosted by TBrA.
+
+Delegates or their sponsors must carefully review these terms and conditions and any referenced addendums before participating in the programmes.
+
+## Definitions
 
 In these terms, the following words and expressions shall have the following meanings:
 
