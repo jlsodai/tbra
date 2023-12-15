@@ -9,7 +9,7 @@ In these terms, the following words and expressions shall have the following mea
 
 **'TBrA'** means TheBoardroom Africa
 
-**'Delegates'** means any person who has paid to attend a TBrA Executive Leadership Programme
+**'Delegates/Participants’'** means any person who has paid to attend a TBrA Executive Leadership Programme
 
 **'Fees'** means the fees due to TheBoardroom Africa as set out in paragraph 3.
 
@@ -91,9 +91,9 @@ For the in-person programme, the refund schedule will be as follows:
 
 7.5 TBrA may offer complimentary transportation at its discretion. If provided, such transportation will be limited and subject to the following conditions:
 
-7.5.1 Complimentary transportation will be available only on the dates specified in the program schedule or agenda for arrivals and departures.
+&nbsp;&nbsp;&nbsp;&nbsp; 7.5.1 Complimentary transportation will be available only on the dates specified in the program schedule or agenda for arrivals and departures.
 
-7.5.2 Complimentary transportation will be offered exclusively for transfers from the airport to the accommodation before the program officially begins and from the accommodation to the airport after the program officially concludes.
+&nbsp;&nbsp;&nbsp;&nbsp; 7.5.2 Complimentary transportation will be offered exclusively for transfers from the airport to the accommodation before the program officially begins and from the accommodation to the airport after the program officially concludes.
 
 **8. Conduct**
 
@@ -113,11 +113,11 @@ For the in-person programme, the refund schedule will be as follows:
 
 10.2 TBrA does not exclude or limit in any way its liability for:
 
-10.2.1 death or personal injury caused by the negligence of TBrA or its employees, agents or subcontractors;
+&nbsp;&nbsp;&nbsp;&nbsp; 10.2.1 death or personal injury caused by the negligence of TBrA or its employees, agents or subcontractors;
 
-10.2.2 fraud or fraudulent misrepresentation; or
+&nbsp;&nbsp;&nbsp;&nbsp; 10.2.2 fraud or fraudulent misrepresentation; or
 
-10.2.3 any other act or omission, liability for which may not be limited by law.
+&nbsp;&nbsp;&nbsp;&nbsp; 10.2.3 any other act or omission, liability for which may not be limited by law.
 
 10.3 TBrA's total liability to you (whether in contract, tort (including negligence), breach of statutory duty, or otherwise) in connection with your contract with TBrA shall be limited to the value of Open Doors fees paid by you or on your behalf or the amount, if any, that TBrA receives from its insurers in respect of a particular loss, whichever is the greater.
 
@@ -127,17 +127,17 @@ For the in-person programme, the refund schedule will be as follows:
 
 11.1 We may terminate this agreement with immediate effect in writing and terminate your registration as a programme delegate in any one or more of the following circumstances:
 
-11.1.1 If you do not meet any conditions attached to TBrA's offer of a place,
+&nbsp;&nbsp;&nbsp;&nbsp; 11.1.1 If you do not meet any conditions attached to TBrA's offer of a place,
 
-11.1.2 If, in our reasonable opinion, you provide us during the process of your acceptance with information which is fraudulent, untrue, inaccurate, incomplete and/or misleading,
+&nbsp;&nbsp;&nbsp;&nbsp; 11.1.2 If, in our reasonable opinion, you provide us during the process of your acceptance with information which is fraudulent, untrue, inaccurate, incomplete and/or misleading,
 
-11.1.3 If you voluntarily withdraw from the programme,
+&nbsp;&nbsp;&nbsp;&nbsp; 11.1.3 If you voluntarily withdraw from the programme,
 
-11.1.4 If you are removed from the programme as a result of your failure to adhere to the rules which regulate the conduct of Delegates;
+&nbsp;&nbsp;&nbsp;&nbsp; 11.1.4 If you are removed from the programme as a result of your failure to adhere to the rules which regulate the conduct of Delegates,
 
-11.1.5 If your continued registration places TBrA in breach of any of our legal obligations;
+&nbsp;&nbsp;&nbsp;&nbsp; 11.1.5 If your continued registration places TBrA in breach of any of our legal obligations,
 
-11.1.6 If you materially breach any of the provisions contained within this agreement.
+&nbsp;&nbsp;&nbsp;&nbsp; 11.1.6 If you materially breach any of the provisions contained within this agreement.
 
 11.2 A decision to terminate your registration as a delegate will mean that you shall be required to cease attending programme sessions.
 
@@ -147,9 +147,9 @@ For the in-person programme, the refund schedule will be as follows:
 
 12.1 If there is any conflict or inconsistency between this document and the other documents which form part of your contract with TBrA, the following will apply in order of priority:
 
-12.1.1 TBrA's offer to you;
+&nbsp;&nbsp;&nbsp;&nbsp; 12.1.1 TBrA's offer to you;
 
-12.1.2  This document;
+&nbsp;&nbsp;&nbsp;&nbsp; 12.1.2  This document;
 
 12.2 Your contract with TBrA (of which this document forms part) is between you and TBrA. No other person shall have any rights to enforce any of its terms.
 
