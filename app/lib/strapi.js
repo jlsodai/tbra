@@ -937,7 +937,7 @@ export const programmesData = [
         id: 3,
         Title: "Prepare for the future",
         content:
-          "The Environmental, Social and Governance (ESG) Certificate programme targets women directors and executives looking to develop their understanding of ESG issues and concepts, equipping them with the tools required to drive ESG agendas in their respective organisations. \n\nThis expert-led curriculum incorporates ESG theoretical frameworks and trends, situating them within a global context, with practical inputs intended to support executives as they review their roles in driving the ESG agenda.",
+          "The Environmental, Social and Governance (ESG) Certificate programme targets women directors and executives looking to develop their understanding of ESG issues and concepts, equipping them with the tools required to drive ESG agendas in their respective organisations.\n\nThis expert-led curriculum incorporates ESG theoretical frameworks and trends, situating them within a global context, with practical inputs intended to support executives as they review their roles in driving the ESG agenda.\n\nOur primary goal is to empower leaders to navigate a rapidly evolving and intricate subject equipped with the necessary tools to make valuable contributions to ESG discourse and leadership decisions.\n\nThis programme is certified by The CPD Certification Service.",
         imageUrl:
           "https://theboardroomafrica.com/wp-content/uploads/2023/04/esgImg.jpg",
         link: null,
