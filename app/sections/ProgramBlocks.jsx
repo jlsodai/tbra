@@ -20,18 +20,18 @@ const ProgramBlocks = ({ attributes, introImg, certified = false }) => {
           <KeySection heading={attributes.Intro.Title}>
             <p className="whitespace-pre-wrap">{attributes.Intro.content}</p>
             {certified && (
-              <div className="md:flex items-center justify-between gap-8 bg-dawn-200 px-8 py-6 mt-6">
+              <div className="md:flex items-center justify-center gap-8 px-8 py-6 mt-6">
                 <img
                   className="sm:m-0 -sm:mb-4 -sm:mt-0  -sm:mx-auto"
-                  src="https://res.cloudinary.com/tbra/image/upload/v1690439782/cpdCertified_ysk3a2.png"
+                  src="https://res.cloudinary.com/dhhw72iwq/image/upload/v1704974637/cpd_certified_fvjqic.png"
                   alt="CPD Certified"
                   width="130px"
                 />
-                <p className="m-0 leading-normal text-sm">
+                {/* <p className="m-0 leading-normal text-sm">
                   This programme is certified by The CPD Certification Service.
                   It may be applicable to individuals who are members of, or are
                   associated with, UK-based professional bodies.
-                </p>
+                </p> */}
               </div>
             )}
           </KeySection>
