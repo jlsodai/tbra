@@ -17,9 +17,9 @@ In these terms, the following words and expressions shall have the following mea
 
 **1. Introduction**
 
-1.1 To be accepted and allotted a seat in the Environmental, Social and Governance (hereinafter referred to as 'ESG programme,' 'ESG', or 'the programme'), you agree to be bound by these terms and conditions.
+1.1 To be accepted and allotted a seat in the Environmental, Social and Governance programme (hereinafter referred to as 'ESG programme,' 'ESG', or 'the programme'), you agree to be bound by these terms and conditions.
 
-1.2 The terms and conditions included in this document, together with any addendums, constitute the terms of the contract which apply between TBrA and you in connection with our delivery of the programme. The contract will continue to apply throughout your registration and may be terminated in accordance with section 9 below.
+1.2 The terms and conditions included in this document, together with any addendums, constitute the terms of the agreement which apply between TBrA and you in connection with our delivery of the programme. The agreement will continue to apply throughout your registration and may be terminated in accordance with section 9 below.
 
 1.3 There may be particular services offered by (and/or on behalf of) TBrA, which are subject to separate terms and conditions. In such instances, you will have an opportunity to review and consider those terms and conditions before accessing such services.
 
@@ -41,7 +41,7 @@ In these terms, the following words and expressions shall have the following mea
 
 4.2 A request to transfer participation to future sessions will be subject to TBrA's approval. Each request will be reviewed on a case-by-case basis and may require that you supply additional supporting documentation. Medical cases and or medical emergencies will immediately be approved upon satisfactory evidence.
 
-4.3 Requests for transfers that are not based on medical or emergency reasons will be subject to a $150 transfer fee if made within two weeks before the program's scheduled start date. 
+4.3 Requests for transfers that are not based on medical or emergency reasons will be subject to a $150 transfer fee if made within two weeks before the programme's scheduled start date. 
 
 **5. Fees, Payments**
 
@@ -57,13 +57,13 @@ In these terms, the following words and expressions shall have the following mea
 
 The refund schedule will be as follows:
 
-6.1 A full refund of any deposit or full payment will be issued if a cancellation request is received at any time up to 14 days prior to the program's scheduled start date.
+6.1 A full refund of any deposit or full payment will be issued if a cancellation request is received at any time up to 14 days prior to the programme's scheduled start date.
 
 6.2 Cancellation requests received within two weeks (or 14 days) of the scheduled commencement date will result in a $500 cancellation fee. 
 
 **7. Conduct**
 
-7.1 You must actively engage in the program and assume full responsibility for your own learning. Failure to actively participate in the program without adequate notice may result in your termination from the programme.
+7.1 You must actively engage in the programme and assume full responsibility for your own learning. Failure to actively participate in the programme without adequate notice may result in your termination from the programme.
 
 7.2 TBrA takes delegates' well-being seriously and works to create a safe, supportive and respectful community. To ensure that our environment remains inclusive and welcoming to all, we expect high standards of behaviour: you must be respectful of others and must not use offensive or discriminatory language against your peers.
 
@@ -77,7 +77,7 @@ The refund schedule will be as follows:
 
 **9. TBrA's liability to you**
 
-9.1 If TBrA fails to comply with its contract with you, TBrA is responsible for any loss or damage you suffer that is a foreseeable result of TBrA's breach of contract or failure to use reasonable skill and care. However, TBrA is not responsible for any loss or damage that is not foreseeable. Loss or damage is foreseeable if it is an obvious consequence of TBrA's breach or if it was contemplated by you and TBrA at the time the contract was entered into.
+9.1 If TBrA fails to comply with its agreement with you, TBrA is responsible for any loss or damage you suffer that is a foreseeable result of TBrA's breach of agreement or failure to use reasonable skill and care. However, TBrA is not responsible for any loss or damage that is not foreseeable. Loss or damage is foreseeable if it is an obvious consequence of TBrA's breach or if it was contemplated by you and TBrA at the time the agreement was entered into.
 
 9.2 TBrA does not exclude or limit in any way its liability for:
 
@@ -87,9 +87,9 @@ The refund schedule will be as follows:
 
 9.2.3 any other act or omission, liability for which may not be limited by law.
 
-9.3 TBrA's total liability to you (whether in contract, tort (including negligence), breach of statutory duty, or otherwise) in connection with your contract with TBrA, shall be limited to the value of the programme fees paid by you or on your behalf or the amount, if any, that TBrA receives from its insurers in respect of a particular loss, whichever is the greater.
+9.3 TBrA's total liability to you (whether in agreement, tort (including negligence), breach of statutory duty, or otherwise) in connection with your agreement with TBrA, shall be limited to the value of the programme fees paid by you or on your behalf or the amount, if any, that TBrA receives from its insurers in respect of a particular loss, whichever is the greater.
 
-9.4 You will not be liable to TBrA for any failure or delay in performing your obligations under this contract which is due to any cause beyond your reasonable control. Similarly, TBrA will not be  liable to you for any failure or delay in performing its obligations under this contract which is due to any cause beyond its reasonable control.
+9.4 You will not be liable to TBrA for any failure or delay in performing your obligations under this agreement which is due to any cause beyond your reasonable control. Similarly, TBrA will not be  liable to you for any failure or delay in performing its obligations under this agreement which is due to any cause beyond its reasonable control.
 
 **10. Termination of this agreement**
 
@@ -109,21 +109,21 @@ The refund schedule will be as follows:
 
 10.2 A decision to terminate your registration as a delegate will mean that you shall be required to cease attending programme sessions.
 
-10.3 This contract will terminate automatically if you withdraw from the programme.
+10.3 This agreement will terminate automatically if you withdraw from the programme.
 
 **11. Other important terms**
 
-11.1 If there is any conflict or inconsistency between this document and the other documents which form part of your contract with TBrA, the following will apply in order of priority:
+11.1 If there is any conflict or inconsistency between this document and the other documents which form part of your agreement with TBrA, the following will apply in order of priority:
 
 11.1.1 TBrA's offer to you;
 
 11.1.2  This document;
 
-11.2 Your contract with TBrA (of which this document forms part) is between you and TBrA. No other person shall have any rights to enforce any of its terms.
+11.2 Your agreement with TBrA (of which this document forms part) is between you and TBrA. No other person shall have any rights to enforce any of its terms.
 
-11.3 Each of the provisions of your contract operates separately. If any court or relevant authority decides that any provision is unlawful (in whole or part), it shall be deemed to have been modified to the minimum extent necessary to make it lawful, and the remaining provisions will be unaffected and will remain in full force and effect.
+11.3 Each of the provisions of your agreement operates separately. If any court or relevant authority decides that any provision is unlawful (in whole or part), it shall be deemed to have been modified to the minimum extent necessary to make it lawful, and the remaining provisions will be unaffected and will remain in full force and effect.
 
-11.4 If you are in breach of your contract with TBrA and TBrA decides to waive that breach or refrains from, or delays in, enforcing its rights against you or requiring you to perform your obligations, that will not mean that TBrA has waived its rights against you for that or any other breach, nor that you have been released from those obligations.
+11.4 If you are in breach of your agreement with TBrA and TBrA decides to waive that breach or refrains from, or delays in, enforcing its rights against you or requiring you to perform your obligations, that will not mean that TBrA has waived its rights against you for that or any other breach, nor that you have been released from those obligations.
 
 11.5 This document is governed by Mauritian law. You and TBrA both agree to submit to the exclusive jurisdiction of the Mauritian courts.
 `;
