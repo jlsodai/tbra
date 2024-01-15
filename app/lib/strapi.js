@@ -1154,6 +1154,16 @@ export const teamData = {
       companyName: null,
     },
     {
+      id: 7,
+      name: "Natacha Leopold",
+      imageUrl:
+        "https://res.cloudinary.com/dhhw72iwq/image/upload/v1705328408/natacha_cml3o4.jpg",
+      linkedInUrl: "https://www.linkedin.com/in/natachaleopold",
+      twitterUrl: null,
+      title: "Communications and Marketing Director",
+      companyName: null,
+    },
+    {
       id: 3,
       name: "Lanre Fisher",
       imageUrl:
@@ -1203,17 +1213,17 @@ export const teamData = {
       title: "Senior Technology Manager",
       companyName: null,
     },
-    {
-      id: 7,
-      name: "Osayomon Gaius-Obaseki",
-      imageUrl:
-        "https://theboardroomafrica.com/wp-content/uploads/2023/04/Osayamon-300x300.jpg",
-      linkedInUrl:
-        "https://www.linkedin.com/in/osayomon-gaius-obaseki-6b586058/",
-      twitterUrl: null,
-      title: "Senior Strategic Programmes Manager",
-      companyName: null,
-    },
+    // {
+    //   id: 7,
+    //   name: "Osayomon Gaius-Obaseki",
+    //   imageUrl:
+    //     "https://theboardroomafrica.com/wp-content/uploads/2023/04/Osayamon-300x300.jpg",
+    //   linkedInUrl:
+    //     "https://www.linkedin.com/in/osayomon-gaius-obaseki-6b586058/",
+    //   twitterUrl: null,
+    //   title: "Senior Strategic Programmes Manager",
+    //   companyName: null,
+    // },
     {
       id: 21,
       name: "Brenda Akinyi",
