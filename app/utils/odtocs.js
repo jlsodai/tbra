@@ -9,7 +9,7 @@ In these terms, the following words and expressions shall have the following mea
 
 **'TBrA'** means TheBoardroom Africa
 
-**'Delegates/Participants’'** means any person who has paid to attend a TBrA Executive Leadership Programme
+**'Delegates/Participants'** means any person who has paid to attend a TBrA Executive Leadership Programme
 
 **'Fees'** means the fees due to TheBoardroom Africa as set out in paragraph 3.
 
@@ -75,7 +75,9 @@ For the in-person programme, the refund schedule will be as follows:
 
 6.2 A partial refund of 90% will be issued if the cancellation request is received up to 60 days before the programme is scheduled to commence.
 
-6.3 A partial refund of 50% will be issued if the cancellation request is received up to 15 days before the programme is scheduled to commence. 
+6.3 A partial refund of 50% will be issued if the cancellation request is received up to 30 days before the programme is scheduled to commence. 
+
+6.4 A partial refund of 20% will be issued if the cancellation request is received up to 15 days before the programme is scheduled to commence.
 
 6.4 No refund will be issued if the cancellation request is received within two weeks or less before the programme is scheduled to commence.
 
