@@ -42,7 +42,7 @@ export default async function Page() {
       <ProgramBlocks
         attributes={attributes}
         certifiedImg="https://web.theboardroomafrica.com/wp-content/uploads/2022/02/IoD_Black_transparent.png"
-        certifiedText="The Boardroom Africa’s Open Doors programme is delivered in collaboration with the Institute of Directors (IoD). Upon completing the programme, graduates will receive an accredited certificate in Company Direction awarded by the IoD, UK."
+        certifiedText="The Boardroom Africa’s Open Doors programme is delivered in collaboration with the Institute of Directors (IoD), UK. Upon completing the programme, graduates will receive an accredited certificate in Company Direction awarded by the IoD, UK."
         certified
       />
 
