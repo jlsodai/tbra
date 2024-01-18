@@ -39,7 +39,12 @@ export default async function Page() {
         </div>
       </section>
 
-      <ProgramBlocks attributes={attributes} />
+      <ProgramBlocks
+        attributes={attributes}
+        certifiedImg="https://web.theboardroomafrica.com/wp-content/uploads/2022/02/IoD_Black_transparent.png"
+        certifiedText="The Boardroom Africa’s Open Doors programme is delivered in collaboration with the Institute of Directors (IoD). Upon completing the programme, graduates will receive an accredited certificate of Company Direction awarded by the IoD, UK."
+        certified
+      />
 
       <section className="bg-white" data-aos="fade-up">
         <div className="container my-28">

@@ -12,7 +12,13 @@ import {
   RiArticleLine,
 } from "react-icons/ri";
 
-const ProgramBlocks = ({ attributes, introImg, certified = false }) => {
+const ProgramBlocks = ({
+  attributes,
+  introImg,
+  certifiedImg,
+  certifiedText,
+  certified = false,
+}) => {
   return (
     <>
       <section className="container" data-aos="fade-up">
@@ -21,17 +27,17 @@ const ProgramBlocks = ({ attributes, introImg, certified = false }) => {
             <p className="whitespace-pre-wrap">{attributes.Intro.content}</p>
             {certified && (
               <div className="md:flex items-center justify-between gap-8 bg-dawn-200 px-8 py-6 mt-6">
-                <img
-                  className="sm:m-0 -sm:mb-4 -sm:mt-0  -sm:mx-auto"
-                  src="https://res.cloudinary.com/dhhw72iwq/image/upload/v1704974637/cpd_certified_fvjqic.png"
-                  alt="CPD Certified"
-                  width="130px"
-                />
-                <p className="m-0 leading-normal text-sm">
-                  TheBoardroom Africa&apos;s ESG Certificate Programme is
-                  certified by the CPD Certification Service. The programme has
-                  an estimated 45 hours of learning.
-                </p>
+                {certifiedImg && (
+                  <img
+                    className="sm:m-0 -sm:mb-4 -sm:mt-0  -sm:mx-auto"
+                    src={certifiedImg}
+                    alt="certification partner"
+                    width="130px"
+                  />
+                )}
+                {certifiedImg && (
+                  <p className="m-0 leading-normal text-sm">{certifiedText}</p>
+                )}
               </div>
             )}
           </KeySection>

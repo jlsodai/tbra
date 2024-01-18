@@ -27,7 +27,12 @@ export default async function Page() {
       <BrochureDrawer brochureDetails={attributes.brochureInfo} />
       <HeaderTitle title="ESG Certificate" />
 
-      <ProgramBlocks attributes={attributes} certified />
+      <ProgramBlocks
+        attributes={attributes}
+        certifiedText="TheBoardroom Africa's ESG Certificate Programme is certified by the CPD Certification Service. The programme has an estimated 45 hours of learning."
+        certifiedImg="https://res.cloudinary.com/dhhw72iwq/image/upload/v1704974637/cpd_certified_fvjqic.png"
+        certified
+      />
 
       <section className="bg-white" data-aos="fade-up">
         <div className="container my-28">
