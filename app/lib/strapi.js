@@ -932,6 +932,15 @@ export const programmesData = [
           instructorImage:
             "https://res.cloudinary.com/tbra/image/upload/w_700,h_534,c_fill/v1699440560/petrina_vleoqk.jpg",
         },
+        {
+          id: 30,
+          Name: "Christine Uri",
+          Title: "Founder, Christine Uri Consulting & ESG for In-house",
+          Profile:
+            "Christine is a seasoned C-Suite executive and experienced general counsel who has led global legal and sustainability teams at a Fortune 500 energy company.\n\nShe has first-hand experience implementing ESG programms addressing climate change, human rights, ethics, and other emerging areas. Today, Christine leverages her rare combination of leadership, strategic thinking, legal expertise, and sustainability experience to advise companies on the integration of ESG principles into operations. ",
+          instructorImage:
+            "https://res.cloudinary.com/dhhw72iwq/image/upload/v1705566771/uri_vqdxa3.jpg",
+        },
       ],
       Intro: {
         id: 3,
