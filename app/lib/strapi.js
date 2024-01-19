@@ -1322,6 +1322,17 @@ export const teamData = {
       title: "Office Administrator",
       companyName: null,
     },
+    {
+      id: 15,
+      name: "Auguster Asantewa Boateng",
+      imageUrl:
+        "https://res.cloudinary.com/dhhw72iwq/image/upload/v1705652203/auguster_i0epx3.jpg",
+      linkedInUrl:
+        "https://www.linkedin.com/in/auguster-boateng-she-her-%F0%9F%87%AC%F0%9F%87%AD-9608a898/",
+      twitterUrl: null,
+      title: "Strategic Programmes Administrator",
+      companyName: null,
+    },
   ],
   seo: null,
 };
