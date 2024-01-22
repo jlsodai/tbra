@@ -939,7 +939,7 @@ export const programmesData = [
           Profile:
             "Christine is a seasoned C-Suite executive and experienced general counsel who has led global legal and sustainability teams at a Fortune 500 energy company.\n\nShe has first-hand experience implementing ESG programms addressing climate change, human rights, ethics, and other emerging areas. Today, Christine leverages her rare combination of leadership, strategic thinking, legal expertise, and sustainability experience to advise companies on the integration of ESG principles into operations. ",
           instructorImage:
-            "https://res.cloudinary.com/dhhw72iwq/image/upload/v1705566771/uri_vqdxa3.jpg",
+            "https://res.cloudinary.com/dhhw72iwq/image/upload/v1705912617/uriProfilePic_zoqezu.jpg",
         },
       ],
       Intro: {
