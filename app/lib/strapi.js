@@ -1229,7 +1229,7 @@ export const teamData = {
         "https://res.cloudinary.com/dhhw72iwq/image/upload/v1706270055/carollyn_dad9om.jpg",
       linkedInUrl: "https://www.linkedin.com/in/carollyn-nekatambe/",
       twitterUrl: null,
-      title: "Senior Strategic Programmes Manager",
+      title: "Senior Manager: Executive Programmes",
       companyName: null,
     },
     {
