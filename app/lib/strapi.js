@@ -172,7 +172,7 @@ export const execData = {
     {
       id: 1,
       title: "Open Doors: Accredited Certificate in Company Direction",
-      date: "March - June 2024",
+      date: "April - June 2024",
       seatsRemaining: 30,
       venue: "Virtual",
       imageUrl:
@@ -524,7 +524,7 @@ export const programmesData = [
       brochureInfo: {
         id: 1,
         upcoming:
-          "5 March - 27 June 2024 (Virtual)\n11 July - 15 October 2024 (Virtual)\n18 - 23 November 2024 (Cape Town)",
+          "April - June 2024 (Virtual)\n11 July - 15 October 2024 (Virtual)\n18 - 23 November 2024 (Cape Town)",
         structure:
           "4 immersive modules, 3 workshops, and a board simulation led by world-class faculty",
         brochureFormUrl: "opendoorsbrochuredownload",
