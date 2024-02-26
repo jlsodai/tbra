@@ -959,14 +959,14 @@ export const primePricing = {
     {
       title: "Monthly <<<Group Coaching<<<",
       standard: "Full fee",
-      prime: "1 complimentary",
+      prime: "6 complimentary",
       corporate: "3 complimentary",
       id: "63p",
     },
     {
       title: "LinkedIn <<<Profile Audit<<<",
       standard: "Full fee",
-      prime: "14% discount",
+      prime: "Complimentary",
       corporate: "29% discount",
       id: "3mk",
     },
