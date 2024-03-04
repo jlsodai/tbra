@@ -2,8 +2,26 @@
 import HeaderTitle from "@/app/sections/HeaderTitle";
 import Link from "next/link";
 import MemberTestimonial from "../components/MemberTestimonial";
+import { membershipData } from "@/app/lib/strapi";
+import { communityLogos, filteredMeta } from "@/app/utils/options";
 
-const page = () => {
+export async function generateMetadata() {
+  // const data = await pageData();
+  const { seo } = membershipData;
+  return filteredMeta(seo);
+}
+
+const page = async () => {
+  // const data = await pageData();
+  const {
+    testimonials,
+    community,
+    curated,
+    groupCoaching,
+    inspireBusiness,
+    tools,
+    heroSlides,
+  } = membershipData;
   return (
     <>
       <section className="bg-[linear-gradient(rgba(19,30,61,0.75),rgba(19,30,61,0.75)),url('https://res.cloudinary.com/dhhw72iwq/image/upload/v1708510120/member-services-herobg_dpdh7z.jpg')] bg-cover bg-[-400px] md:bg-top items-center min-h-screen flex relative">
@@ -248,6 +266,43 @@ const page = () => {
           >
             Learn more
           </Link>
+        </div>
+      </section>
+
+      <section className="membership-testimonial">
+        <div className="flex flex-col container md:min-h-screen relative py-28 justify-center items-center gap-y-10">
+          <img
+            src="/images/white-key.png"
+            className="absolute left-0 h-[75%] -z-1 opacity-3"
+            alt=""
+          />
+          <div className="text-mustard md:max-w-[60%] z-10 text-center">
+            <h4 className="text-3xl md:text-6xl font-libreb">
+              Join the movement
+            </h4>
+            <p className="mt-4 font-halyard font-extralight text-2xl md:text-3xl text-mustard">
+              Discover the power of doing it together.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-10 text-white md:max-w-[80%]">
+            {testimonials.map((testimonial, i) => (
+              <div key={i} className="border border-white p-6">
+                <p>{testimonial.quote}</p>
+                <p className="mt-8">- {testimonial.author}</p>
+                <p>{testimonial.title}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="text-center text-white flex gap-10 uppercase">
+            <Link
+              href="/membership/application"
+              className="border-2 btn border-mustard"
+            >
+              Apply
+            </Link>
+          </div>
         </div>
       </section>
 
