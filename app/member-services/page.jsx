@@ -19,7 +19,7 @@ const page = () => {
             </p>
             <div className="mt-8">
               <Link
-                href="https://tbramemberoffers.paperform.co/?sectionDisplay=linkedin"
+                href="#"
                 className="btn bg-mustard md:text-xl uppercase text-darkblue font-medium"
               >
                 Learn More
@@ -59,6 +59,7 @@ const page = () => {
             </p>
             <div className="mt-8">
               <Link
+                target="_blank"
                 href="https://tbramemberoffers.paperform.co/?sectionDisplay=linkedin"
                 className="btn bg-mustard px-16 text-darkblue font-bold"
               >
@@ -95,6 +96,7 @@ const page = () => {
             </p>
             <div className="mt-8">
               <Link
+                target="_blank"
                 href="https://tbramemberoffers.paperform.co/?sectionDisplay=thought"
                 className="btn bg-transparent border border-darkblue text-darkblue font-medium"
               >
@@ -186,6 +188,7 @@ const page = () => {
               alt=""
             />
             <Link
+              target="_blank"
               href="https://tbramemberoffers.paperform.co/?sectionDisplay=thought"
               className="btn bg-mustard px-16 text-darkblue font-bold -md:mb-16 md:mt-8"
             >
@@ -204,6 +207,7 @@ const page = () => {
         <div className="md:container grid md:grid-cols-3 items-center md:mt-24">
           <div className="-md:mb-16 mt-8 text-center">
             <Link
+              target="_blank"
               href="https://tbramemberoffers.paperform.co/?sectionDisplay=cv"
               className="btn bg-transparent border px-16 border-darkblue text-darkblue font-bold"
             >
@@ -238,6 +242,7 @@ const page = () => {
             Embark on a journey of growth and self-discovery
           </p>
           <Link
+            target="_blank"
             href="https://tbramemberoffers.paperform.co/?sectionDisplay=gc"
             className="btn bg-transparent hover:bg-white hover:text-dusk border px-16 mt-8 text-white font-bold"
           >
