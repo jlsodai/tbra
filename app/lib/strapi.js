@@ -1044,8 +1044,7 @@ export const programmesData = [
       impact: [],
       brochureInfo: {
         id: 2,
-        upcoming:
-          "06 August - 03 October 2024 (Virtual)\n",
+        upcoming: "06 August - 03 October 2024 (Virtual)\n",
         structure:
           "14 live sessions with breakouts, case studies and a final course assignment",
         brochureFormUrl: "esgbrochuredownload",
@@ -1309,6 +1308,27 @@ export const teamData = {
       linkedInUrl: "https://www.linkedin.com/in/bryanbahizi/",
       twitterUrl: null,
       title: "Talent Associate",
+      companyName: null,
+    },
+    {
+      id: 15,
+      name: "Uduak Ndiokho",
+      imageUrl:
+        "https://res.cloudinary.com/dhhw72iwq/image/upload/v1709647509/Uduak_arcn8g.jpg",
+      linkedInUrl: "https://www.linkedin.com/in/undiokho/",
+      twitterUrl: null,
+      title: "Executive Programme Associate",
+      companyName: null,
+    },
+    {
+      id: 15,
+      name: "Katleho Cathy Mthenjane",
+      imageUrl:
+        "https://res.cloudinary.com/dhhw72iwq/image/upload/w_640,h_540,g_south,c_fill/v1709647478/Kat_xtg9me.jpg",
+      linkedInUrl:
+        "https://www.linkedin.com/in/katleho-cathy-mthenjane-12424b207",
+      twitterUrl: null,
+      title: "Executive Programme Associate",
       companyName: null,
     },
     {
