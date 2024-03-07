@@ -1317,7 +1317,7 @@ export const teamData = {
         "https://res.cloudinary.com/dhhw72iwq/image/upload/v1709823365/uduak_kthtir.jpg",
       linkedInUrl: "https://www.linkedin.com/in/undiokho/",
       twitterUrl: null,
-      title: "Executive Programme Associate",
+      title: "Executive Programmes Associate",
       companyName: null,
     },
     {
@@ -1328,7 +1328,7 @@ export const teamData = {
       linkedInUrl:
         "https://www.linkedin.com/in/katleho-cathy-mthenjane-12424b207",
       twitterUrl: null,
-      title: "Executive Programme Associate",
+      title: "Executive Programmes Associate",
       companyName: null,
     },
     {
@@ -1349,7 +1349,7 @@ export const teamData = {
       linkedInUrl:
         "https://www.linkedin.com/in/auguster-boateng-she-her-%F0%9F%87%AC%F0%9F%87%AD-9608a898/",
       twitterUrl: null,
-      title: "Strategic Programmes Administrator",
+      title: "Executive Programmes Administrator",
       companyName: null,
     },
   ],
