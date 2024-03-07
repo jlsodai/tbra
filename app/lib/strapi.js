@@ -1314,7 +1314,7 @@ export const teamData = {
       id: 15,
       name: "Uduak Ndiokho",
       imageUrl:
-        "https://res.cloudinary.com/dhhw72iwq/image/upload/v1709647509/Uduak_arcn8g.jpg",
+        "https://res.cloudinary.com/dhhw72iwq/image/upload/v1709823365/uduak_kthtir.jpg",
       linkedInUrl: "https://www.linkedin.com/in/undiokho/",
       twitterUrl: null,
       title: "Executive Programme Associate",
