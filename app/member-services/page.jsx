@@ -56,7 +56,7 @@ const page = async () => {
             <img
               src="/images/white-key.png"
               data-aos="flip-right"
-              data-aos-delay="950"
+              data-aos-delay="1950"
               data-aos-once="false"
               className="md:block w-[60px] md:w-[100px] absolute bottom-14"
               alt=""
@@ -116,7 +116,7 @@ const page = async () => {
               {/* <p className="mt-8">Lorem ipsum dolor</p> */}
             </div>
           </div>
-          <div className="px-8 py-16 md:p-16 flex flex-col justify-center">
+          <div className="px-8 py-16 md:p-16 flex flex-col justify-center md:h-screen md:max-h-[800px]">
             <h2
               className="!leading-tight text-2xl md:text-5xl text-darkblue"
               data-aos="fade-up"
@@ -343,7 +343,7 @@ const page = async () => {
         </div>
       </section>
 
-      <section className="membership-testimonial">
+      <section className="member-services-testimonial bg-[linear-gradient(rgba(19,30,61,0.75),rgba(19,30,61,0.75)),url('https://res.cloudinary.com/dhhw72iwq/image/upload/v1710162724/woman-holding-ipad_rc8oa6.jpg')] bg-cover">
         <div className="flex flex-col container md:min-h-screen relative py-28 justify-center items-center gap-y-10">
           <img
             src="/images/white-key.png"
@@ -367,19 +367,8 @@ const page = async () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-10 text-white md:max-w-[80%]">
-            {testimonials.map((testimonial, i) => (
-              <div
-                key={i}
-                className="border border-white p-6"
-                data-aos="fade-up"
-                data-aos-delay={350 * i}
-              >
-                <p>{testimonial.quote}</p>
-                <p className="mt-8">- {testimonial.author}</p>
-                <p>{testimonial.title}</p>
-              </div>
-            ))}
+          <div className="grid gap-10 text-white md:max-w-[80%]">
+            <MemberTestimonial testimonials={testimonials} />
           </div>
 
           <div className="text-center text-white flex gap-10 uppercase">
@@ -394,16 +383,6 @@ const page = async () => {
           </div>
         </div>
       </section>
-
-      {/* <section className="bg-black py-16">
-        <div className="container">
-          <div className="grid grid-cols-3 gap-16">
-            <MemberTestimonial />
-            <MemberTestimonial />
-            <MemberTestimonial />
-          </div>
-        </div>
-      </section> */}
     </>
   );
 };
