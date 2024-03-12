@@ -369,22 +369,22 @@ const page = async () => {
               data-aos="fade-up"
               data-aos-delay="150"
             >
-              Join the movement
+              Testimonials
             </h4>
-            <p
+            {/* <p
               className="mt-4 font-halyard font-extralight text-2xl md:text-3xl text-mustard"
               data-aos="fade-up"
               data-aos-delay="350"
             >
               Discover the power of doing it together.
-            </p>
+            </p> */}
           </div>
 
           <div className="grid gap-10 text-white md:max-w-[80%]">
             <MemberTestimonial testimonials={testimonials} />
           </div>
 
-          <div className="text-center text-white flex gap-10 uppercase">
+          {/* <div className="text-center text-white flex gap-10 uppercase">
             <Link
               href="/membership/application"
               className="border-2 btn border-mustard"
@@ -393,7 +393,7 @@ const page = async () => {
             >
               Apply
             </Link>
-          </div>
+          </div> */}
         </div>
       </section>
     </>
