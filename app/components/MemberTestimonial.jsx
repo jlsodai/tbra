@@ -48,8 +48,8 @@ const MemberTestimonial = ({ testimonials, imageUrl }) => {
           // </SwiperSlide>
           <SwiperSlide key={i}>
             <div className="testimonial flex">
-              <div className="box relative before:absolute before:h-full before:top-8 before:left-8 before:border-mustard before:border-8 before:w-full">
-                <div className="bg-white p-8 relative text-gray-700">
+              <div className="box relative">
+                <div className="bg-white p-8 md:p-12 relative text-gray-700">
                   <div className="flex mb-4 items-center gap-4">
                     <img
                       src="https://placehold.co/80"
@@ -63,7 +63,7 @@ const MemberTestimonial = ({ testimonials, imageUrl }) => {
                       </p>
                     </div>
                   </div>
-                  <p>
+                  <p className="text-2xl font-[300]">
                     In TBrA, I found my &quot;stiletto network&quot;, a group of
                     powerful women willing to share their expertise, life
                     lessons, a sounding board for ideas, and good for a hearty
