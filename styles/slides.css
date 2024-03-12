@@ -89,7 +89,11 @@
 }
 
 .member-services-testimonial .swiper {
-  padding-bottom: 45px;
+  max-width: 700px;
+}
+
+.member-services-testimonial .swiper .testimonial {
+  padding: 40px 40px 80px 20px;
 }
 
 .member-services-testimonial .swiper-pagination-bullet {

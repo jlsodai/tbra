@@ -34,27 +34,6 @@ const page = async () => {
       author: "Tokunboh Ishmael",
       title: "Managing Director Alitheia Capital",
     },
-    {
-      id: 11,
-      quote:
-        'In TBrA, I found my "stiletto network", a group of powerful women willing to share their expertise, life lessons, a sounding board for ideas, and good for a hearty laugh.  The reunion in Marrakesh cemented friendships, created new bonds, and I am truly honoured to be in a community of influencers and leaders impacting the world.',
-      author: "Jackie Namara Rukare",
-      title: "Managing Consultant Iguru Consult Ltd",
-    },
-    {
-      id: 10,
-      quote:
-        "TBrA is my ally in my continuous personal and professional development. I have access to quality resources, an inspiring Network in one platform managed by a professional team with exceptional human qualities. Thank you TBrA for existing!",
-      author: "Nadine Tinen",
-      title: "CEO, PwC Afrique Francophone Sub-Saharienne",
-    },
-    {
-      id: 12,
-      quote:
-        "I joined TheBoardroom Africa because I saw it as a platform to meet other amazing women, but also to have a platform that has eyes where I don't have eyes. It's a lonely road for executive women, and being part of a platform that provides this ecosystem of like-minded people that can champion but also critique, and promote you, is a win win for everyone.",
-      author: "Tokunboh Ishmael",
-      title: "Managing Director Alitheia Capital",
-    },
   ];
   return (
     <>
