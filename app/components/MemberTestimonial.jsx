@@ -49,21 +49,8 @@ const MemberTestimonial = ({ testimonials, imageUrl }) => {
           <SwiperSlide key={i}>
             <div className="testimonial flex">
               <div className="box relative">
-                <div className="bg-white p-8 md:p-12 relative text-gray-700">
-                  <div className="flex mb-4 items-center gap-4">
-                    <img
-                      src="https://placehold.co/80"
-                      className="rounded-full"
-                      alt=""
-                    />
-                    <div>
-                      <p className="font-bold">Jackie Namara Rukare</p>
-                      <p className="leading-tight">
-                        Managing Consultant Iguru Consult Ltd
-                      </p>
-                    </div>
-                  </div>
-                  <p className="text-2xl font-[300]">
+                <div className="border-white border p-8 md:p-12 relative">
+                  <p className="mb-4">
                     In TBrA, I found my &quot;stiletto network&quot;, a group of
                     powerful women willing to share their expertise, life
                     lessons, a sounding board for ideas, and good for a hearty
@@ -71,6 +58,19 @@ const MemberTestimonial = ({ testimonials, imageUrl }) => {
                     created new bonds, and I am truly honoured to be in a
                     community of influencers and leaders impacting the world.
                   </p>
+                  <div className="flex items-center gap-4">
+                    {/* <img
+                      src="https://placehold.co/80"
+                      className="rounded-full"
+                      alt=""
+                    /> */}
+                    <div>
+                      <p className="font-bold">Jackie Namara Rukare</p>
+                      <p className="leading-tight">
+                        Managing Consultant Iguru Consult Ltd
+                      </p>
+                    </div>
+                  </div>
                 </div>
                 <img
                   src="https://res.cloudinary.com/dhhw72iwq/image/upload/co_rgb:cdad7d,e_colorize:100/v1706523446/quote_vzpd3d.png"
