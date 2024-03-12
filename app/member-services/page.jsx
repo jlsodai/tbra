@@ -56,14 +56,14 @@ const page = async () => {
               leadership positioning, we&apos;ve curated an experience to
               elevate every facet of your professional journey.
             </p>
-            <div className="mt-8" data-aos="fade-up" data-aos-delay="550">
+            {/* <div className="mt-8" data-aos="fade-up" data-aos-delay="550">
               <Link
                 href="#"
                 className="btn bg-mustard md:text-xl uppercase text-darkblue font-medium"
               >
                 Learn More
               </Link>
-            </div>
+            </div> */}
           </div>
           <div className="flex justify-end items-end">
             <img
