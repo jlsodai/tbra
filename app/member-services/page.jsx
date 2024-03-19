@@ -4,6 +4,7 @@ import Link from "next/link";
 import MemberTestimonial from "../components/MemberTestimonial";
 import { membershipData } from "@/app/lib/strapi";
 import { communityLogos, filteredMeta } from "@/app/utils/options";
+import PaperFormModal from "@/app/components/PaperFormModal";
 
 export async function generateMetadata() {
   // const data = await pageData();
@@ -102,15 +103,14 @@ const page = async () => {
               who will provide customised advice to boost your visibility. They
               are also ready to apply those improvements on your behalf.
             </p>
-            <div className="mt-8" data-aos="fade-up" data-aos-delay="550">
-              <Link
-                target="_blank"
-                href="https://tbramemberoffers.paperform.co/?sectionDisplay=linkedin"
-                className="btn bg-mustard px-16 text-darkblue font-bold"
-              >
-                SIGN UP
-              </Link>
-            </div>
+
+            <PaperFormModal
+              btnText="SIGN UP"
+              paperform="tbramemberoffers"
+              prefill="sectionDisplay=linkedin"
+              aosDelay="550"
+              className="btn bg-mustard px-16 text-darkblue font-bold mt-8"
+            />
           </div>
         </div>
       </section>
@@ -145,8 +145,7 @@ const page = async () => {
             </p>
             <div className="mt-8" data-aos="fade-up" data-aos-delay="550">
               <Link
-                target="_blank"
-                href="https://tbramemberoffers.paperform.co/?sectionDisplay=thought"
+                href="/thought-leadership"
                 className="btn bg-transparent border border-darkblue text-darkblue font-medium"
               >
                 Learn more
@@ -178,7 +177,7 @@ const page = async () => {
             </p>
             <div className="mt-8" data-aos="fade-up" data-aos-delay="550">
               <Link
-                href="https://theboardroomafrica.com/tbraprime"
+                href="/tbraprime"
                 className="btn bg-transparent hover:bg-white hover:text-dusk border px-16 text-white font-bold"
               >
                 Discover prime
@@ -266,15 +265,13 @@ const page = async () => {
               className="-md:hidden"
               alt=""
             />
-            <Link
-              target="_blank"
-              href="https://tbramemberoffers.paperform.co/?sectionDisplay=thought"
+            <PaperFormModal
+              btnText="Learn more"
+              paperform="tbramemberoffers"
+              prefill="sectionDisplay=thought"
+              aosDelay="350"
               className="btn bg-mustard px-16 text-darkblue font-bold -md:mb-16 md:mt-8"
-              data-aos="fade-up"
-              data-aos-delay="350"
-            >
-              SIGN UP
-            </Link>
+            />
           </div>
         </div>
       </section>
@@ -288,19 +285,15 @@ const page = async () => {
           >
             Unlock Your Potential with Our Tailored Executive CV Services
           </h1>
+          <PaperFormModal
+            btnText="SIGN UP"
+            paperform="tbramemberoffers"
+            prefill="sectionDisplay=cv"
+            aosDelay="550"
+            className="btn bg-transparent border px-16 border-darkblue text-darkblue font-bold mt-8"
+          />
         </div>
         <div className="md:container grid md:grid-cols-3 items-center md:mt-24">
-          <div className="-md:mb-16 mt-8 text-center">
-            <Link
-              target="_blank"
-              href="https://tbramemberoffers.paperform.co/?sectionDisplay=cv"
-              className="btn bg-transparent border px-16 border-darkblue text-darkblue font-bold"
-              data-aos="fade-up"
-              data-aos-delay="350"
-            >
-              SIGN UP
-            </Link>
-          </div>
           <div
             className="text-darkblue bg-[#DADEDA] p-12 md:p-20 h-full"
             data-aos="fade-up"
@@ -325,6 +318,20 @@ const page = async () => {
               crafted draft for an impactful leadership profile.
             </p>
           </div>
+          <div
+            className="text-darkblue bg-[#AAB6AA] p-12 md:p-20 h-full"
+            data-aos="fade-up"
+            data-aos-delay="750"
+          >
+            <h2 className="text-darkblue">
+              Role Application Supporting Statement
+            </h2>
+            <p className="mt-8">
+              Craft a compelling narrative that highlights your skills and
+              goals, maximising your chances of securing board positions or
+              executive roles.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -344,15 +351,13 @@ const page = async () => {
           >
             Embark on a journey of growth and self-discovery
           </p>
-          <Link
-            target="_blank"
-            href="https://tbramemberoffers.paperform.co/?sectionDisplay=gc"
+          <PaperFormModal
+            btnText="Learn more"
+            paperform="tbramemberoffers"
+            prefill="sectionDisplay=gc"
+            aosDelay="550"
             className="btn bg-transparent hover:bg-white hover:text-dusk border px-16 mt-8 text-white font-bold"
-            data-aos="fade-up"
-            data-aos-delay="550"
-          >
-            Learn more
-          </Link>
+          />
         </div>
       </section>
 
@@ -371,29 +376,11 @@ const page = async () => {
             >
               Testimonials
             </h4>
-            {/* <p
-              className="mt-4 font-halyard font-extralight text-2xl md:text-3xl text-mustard"
-              data-aos="fade-up"
-              data-aos-delay="350"
-            >
-              Discover the power of doing it together.
-            </p> */}
           </div>
 
           <div className="grid gap-10 text-white md:max-w-[80%]">
             <MemberTestimonial testimonials={testimonials} />
           </div>
-
-          {/* <div className="text-center text-white flex gap-10 uppercase">
-            <Link
-              href="/membership/application"
-              className="border-2 btn border-mustard"
-              data-aos="fade-up"
-              data-aos-delay="550"
-            >
-              Apply
-            </Link>
-          </div> */}
         </div>
       </section>
     </>
