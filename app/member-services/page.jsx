@@ -351,13 +351,15 @@ const page = async () => {
           >
             Embark on a journey of growth and self-discovery
           </p>
-          <PaperFormModal
-            btnText="Learn more"
-            paperform="tbramemberoffers"
-            prefill="sectionDisplay=gc"
-            aosDelay="550"
+          <Link
+            target="_blank"
+            href="https://web.theboardroomafrica.com/wp-content/uploads/2023/11/Group-Coaching-2024-Brochure.pdf"
             className="btn bg-transparent hover:bg-white hover:text-dusk border px-16 mt-8 text-white font-bold"
-          />
+            data-aos="fade-up"
+            data-aos-delay="550"
+          >
+            Learn more
+          </Link>
         </div>
       </section>
 
