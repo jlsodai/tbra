@@ -9,14 +9,16 @@ const page = () => {
       <section className="bg-[url('https://res.cloudinary.com/dhhw72iwq/image/upload/v1710757248/ThoughtLeadershipBanner_wbfomt.jpg')] bg-cover bg-[-400px] md:bg-top items-center min-h-screen flex relative">
         <div className="container grid md:grid-cols-2">
           <div className="py-8">
-            <img
-              src="/images/white-key.png"
-              data-aos="flip-right"
-              data-aos-delay="150"
-              data-aos-once="false"
-              className="md:block w-[50px] md:w-[70px] mb-32"
-              alt=""
-            />
+            <a href="/">
+              <img
+                src="/images/white-key.png"
+                data-aos="flip-right"
+                data-aos-delay="150"
+                data-aos-once="false"
+                className="md:block w-[50px] md:w-[70px] mb-32"
+                alt=""
+              />
+            </a>
             <p
               className="text-white text-xl mt-8"
               data-aos="fade-up"
@@ -92,7 +94,7 @@ const page = () => {
         </div>
       </section>
 
-      <section className="bg-[#071A30]">
+      {/* <section className="bg-[#071A30]">
         <div className="container grid md:grid-cols-[1fr_2fr] gap-4 items-center py-16">
           <h1 className="text-white" data-aos="fade-up" data-aos-delay="150">
             Did you know?
@@ -109,7 +111,7 @@ const page = () => {
             evidence facts.
           </p>
         </div>
-      </section>
+      </section> */}
 
       <section className="bg-[#F8F8F8] flex items-center">
         <div className="container grid md:grid-cols-2 gap-x-16 items-center py-16">

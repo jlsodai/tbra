@@ -67,14 +67,16 @@ const page = async () => {
             </div> */}
           </div>
           <div className="flex justify-end items-end">
-            <img
-              src="/images/white-key.png"
-              data-aos="flip-right"
-              data-aos-delay="1950"
-              data-aos-once="false"
-              className="md:block w-[60px] md:w-[100px] absolute bottom-14"
-              alt=""
-            />
+            <a href="/">
+              <img
+                src="/images/white-key.png"
+                data-aos="flip-right"
+                data-aos-delay="1950"
+                data-aos-once="false"
+                className="md:block w-[60px] md:w-[100px] absolute bottom-14"
+                alt=""
+              />
+            </a>
           </div>
         </div>
       </section>
@@ -255,20 +257,18 @@ const page = async () => {
               </p>
             </div>
           </div>
-          <div
-            className="md:flex flex-col justify-center items-center md:my-32"
-            data-aos="fade-up"
-            data-aos-delay="150"
-          >
+          <div className="md:flex flex-col justify-center items-center md:my-32">
             <img
               src="https://res.cloudinary.com/dhhw72iwq/image/upload/w_500,h_500,g_east,c_fill/v1709022763/woman-sitting_p1vxfb.jpg"
               className="-md:hidden"
+              data-aos="fade-up"
+              data-aos-delay="150"
               alt=""
             />
             <PaperFormModal
               btnText="Learn more"
               paperform="tbramemberoffers"
-              prefill="sectionDisplay=thought"
+              prefill="sectionDisplay=role"
               aosDelay="350"
               className="btn bg-mustard px-16 text-darkblue font-bold -md:mb-16 md:mt-8"
             />
