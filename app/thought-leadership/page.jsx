@@ -82,13 +82,13 @@ const page = () => {
               busy schedules.
             </p>
             <p className="mt-8" data-aos="fade-up" data-aos-delay="350">
-              In partnership with Meet the Leader, an award winning content
-              agency, we bring you a tailored thought leadership service
-              designed to amplify your personal brand and position you as an
-              influential voice in your field. Your dedicated and experienced
-              expert will work with you to optimise your LinkedIn profile and
-              craft compelling thought leadership content for your platform to
-              ensure your insights prompt critical thinking among your audience.
+              In partnership with an award winning content agency, we bring you
+              a tailored thought leadership service designed to amplify your
+              personal brand and position you as an influential voice in your
+              field. Your dedicated and experienced expert will work with you to
+              optimise your LinkedIn profile and craft compelling thought
+              leadership content for your platform to ensure your insights
+              prompt critical thinking among your audience.
             </p>
           </div>
         </div>
