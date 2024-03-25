@@ -50,25 +50,11 @@ const MemberTestimonial = ({ testimonials, imageUrl }) => {
             <div className="testimonial flex">
               <div className="box relative">
                 <div className="border-white border p-8 md:p-12 relative">
-                  <p className="mb-4">
-                    In TBrA, I found my &quot;stiletto network&quot;, a group of
-                    powerful women willing to share their expertise, life
-                    lessons, a sounding board for ideas, and good for a hearty
-                    laugh. The reunion in Marrakesh cemented friendships,
-                    created new bonds, and I am truly honoured to be in a
-                    community of influencers and leaders impacting the world.
-                  </p>
+                  <p className="mb-4">{testimonial.quote}</p>
                   <div className="flex items-center gap-4">
-                    {/* <img
-                      src="https://placehold.co/80"
-                      className="rounded-full"
-                      alt=""
-                    /> */}
                     <div>
-                      <p className="font-bold">Jackie Namara Rukare</p>
-                      <p className="leading-tight">
-                        Managing Consultant Iguru Consult Ltd
-                      </p>
+                      <p className="font-bold">{testimonial.author}</p>
+                      <p className="leading-tight">{testimonial.title}</p>
                     </div>
                   </div>
                 </div>
