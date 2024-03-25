@@ -351,15 +351,24 @@ const page = async () => {
           >
             Embark on a journey of growth and self-discovery
           </p>
-          <Link
-            target="_blank"
-            href="https://web.theboardroomafrica.com/wp-content/uploads/2023/11/Group-Coaching-2024-Brochure.pdf"
-            className="btn bg-transparent hover:bg-white hover:text-dusk border px-16 mt-8 text-white font-bold"
-            data-aos="fade-up"
-            data-aos-delay="550"
-          >
-            Learn more
-          </Link>
+          <div className="flex gap-8 items-center mt-8">
+            <PaperFormModal
+              btnText="SIGN UP"
+              paperform="tbramemberoffers"
+              prefill="sectionDisplay=gc"
+              aosDelay="550"
+              className="btn bg-transparent hover:bg-white hover:text-dusk border px-16 text-white font-bold"
+            />
+            <Link
+              target="_blank"
+              href="https://web.theboardroomafrica.com/wp-content/uploads/2023/11/Group-Coaching-2024-Brochure.pdf"
+              className="text-white font-bold hover:text-dawn"
+              data-aos="fade-up"
+              data-aos-delay="550"
+            >
+              Learn more →
+            </Link>
+          </div>
         </div>
       </section>
 
