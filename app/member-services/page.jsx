@@ -268,7 +268,7 @@ const page = async () => {
             <PaperFormModal
               btnText="Learn more"
               paperform="tbramemberoffers"
-              prefill="sectionDisplay=role"
+              prefill="sectionDisplay=interview"
               aosDelay="350"
               className="btn bg-mustard px-16 text-darkblue font-bold -md:mb-16 md:mt-8"
             />
