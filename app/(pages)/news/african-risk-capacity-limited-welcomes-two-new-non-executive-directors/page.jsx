@@ -34,6 +34,20 @@ const page = () => {
           </div>
           {/* <Markdown>{pressrelease}</Markdown> */}
           <div className="news-content">
+            <div className="md:float-right bg-gray-50 border border-gray-400 p-4 md:ml-8 md:mb-8 w-[300px]">
+              <img
+                alt="Susan Kasinga"
+                src="https://res.cloudinary.com/dhhw72iwq/image/upload/v1711531322/susan_ixerow.jpg"
+                className="m-0"
+              />
+              <p className="mt-2">Susan Kasinga</p>
+              <img
+                alt="Helen Amarquaye"
+                src="https://res.cloudinary.com/dhhw72iwq/image/upload/v1711531322/helen_zrrj1y.jpg"
+                className="m-0"
+              />
+              <p className="mt-2 mb-0">Helen Amarquaye</p>
+            </div>
             <p>
               <strong>JOHANNESBURG, 12 March 2024</strong> – African Risk
               Capacity (ARC) Limited has appointed Susan Kasinga and Helen
