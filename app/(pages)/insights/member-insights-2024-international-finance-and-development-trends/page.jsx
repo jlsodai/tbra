@@ -2,6 +2,7 @@
 import Markdown from "markdown-to-jsx";
 import { pressrelease } from "@/app/utils/pressrelease";
 import HeaderTitle from "@/app/sections/HeaderTitle";
+import RelatedArticle from "@/app/components/RelatedArticle";
 
 export const metadata = {
   title: "Member Insights: 2024 International Finance & Development Trends",
@@ -138,15 +139,17 @@ const page = () => {
           <p className="font-bold mb-2">Managing Director of Falémé Conseil</p>
           <p>
             Malado Kaba is a development economist and professional in
-            international development and finance. Malado Kaba is the managing
-            director of Falémé Conseil and former Economy and Finance minister
-            of the Republic of Guinea. Until recently, she sat as the chairwoman
-            of Orabank Guinea and the Chair of the board of the Authority
+            international development and finance. She is the managing director
+            of Falémé Conseil and former Economy and Finance minister of the
+            Republic of Guinea. Until recently, she sat as the chairwoman of
+            Orabank Guinea and the Chair of the board of the Authority
             regulating electricity and water in Guinea. She is a Trustee at
             International Budget Parnership.
           </p>
         </div>
       </section>
+
+      <RelatedArticle omit={2} />
     </>
   );
 };
