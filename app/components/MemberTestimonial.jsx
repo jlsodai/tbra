@@ -3,7 +3,7 @@
 
 import React, { useRef, useState } from "react";
 // Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide, Autoplay } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
@@ -23,6 +23,10 @@ const MemberTestimonial = ({ testimonials, imageUrl }) => {
         pagination={{
           clickable: true,
         }}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: true,
+        }}
         breakpoints={{
           640: {
             slidesPerView: 1,
@@ -37,7 +41,7 @@ const MemberTestimonial = ({ testimonials, imageUrl }) => {
             spaceBetween: 50,
           },
         }}
-        modules={[Pagination]}
+        modules={[Pagination, Autoplay]}
         className="mySwiper"
       >
         {testimonials.map((testimonial, i) => (
