@@ -24,7 +24,7 @@ const MemberTestimonial = ({ testimonials, imageUrl }) => {
           clickable: true,
         }}
         autoplay={{
-          delay: 2500,
+          delay: 12000,
           disableOnInteraction: true,
         }}
         breakpoints={{
