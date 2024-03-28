@@ -72,9 +72,9 @@ const page = () => {
             businesses requires nimble and solid boardrooms.
           </h2>
           <p>
-            <b>Boardrooms in &quot;transition&quot; countries:</b>{" "} a silver lining for
-            directors?: Transition countries (as they are referred to by
-            development institutions, countries that undergo a political
+            <b>Boardrooms in &quot;transition&quot; countries - a silver
+            lining for directors?:</b> Transition countries (as they are referred to
+            by development institutions, countries that undergo a political
             transition with sometimes far-reaching socio-economic consequences)
             challenge the boardroom.
           </p>
@@ -104,10 +104,13 @@ const page = () => {
             the possibilities offered by artificial intelligence (AI)&quot;
           </h2>
           <p>
-            Data economy - what we know is what we measure and can ultimately
-            improve: Increasing evidence-based policymaking to deliver better
-            public services in support of our economies and improve the lives of
-            the populations matters.
+            <b>
+              Data economy - what we know is what we measure and can ultimately
+              improve:
+            </b>{" "}
+            Increasing evidence-based policymaking to deliver better public
+            services in support of our economies and improve the lives of the
+            populations matters.
           </p>
           <p>
             This is crucial to avoid leading in the dark, and to increase both
