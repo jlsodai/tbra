@@ -40,13 +40,13 @@ const page = () => {
                 src="https://res.cloudinary.com/dhhw72iwq/image/upload/v1711531322/susan_ixerow.jpg"
                 className="m-0"
               />
-              <p className="mt-2">Susan Kasinga</p>
+              <p className="mt-2 text-center">Susan Kasinga</p>
               <img
                 alt="Helen Amarquaye"
                 src="https://res.cloudinary.com/dhhw72iwq/image/upload/v1711531322/helen_zrrj1y.jpg"
                 className="m-0"
               />
-              <p className="mt-2 mb-0">Helen Amarquaye</p>
+              <p className="mt-2 mb-0 text-center">Helen Amarquaye</p>
             </div>
             <p>
               <strong>JOHANNESBURG, 12 March 2024</strong> – African Risk
@@ -116,9 +116,9 @@ const page = () => {
               globally.
             </p>
             <p>
-              The collaboration with ARC Ltd. for these recent appointments
-              comes less than a year after the successful placement of two other
-              non-executive directors on the Board.
+              The collaboration with African Risk Capacity Limited. for these
+              recent appointments comes less than a year after the successful
+              placement of two other non-executive directors on the Board.
             </p>
           </div>
 
@@ -133,21 +133,16 @@ const page = () => {
             .
           </p>
           <p>
-            <strong>About ARC Ltd.</strong>
+            <strong>About African Risk Capacity Limited</strong>
           </p>
           <p>
             The African Risk Capacity Limited (ARC Ltd.) is a financial
             affiliate of the African Risk Capacity (ARC) Group, a specialised
             agency of the African Union (AU), an initiative designed to improve
-            current responses to climate-related food security emergencies.
-          </p>
-          <p>
-            ARC Ltd. is a mutual insurance facility comprised of its members,
-            which have included Kenya, Mauritania, Niger, Senegal, Mali, Malawi,
-            the Gambia, Burkina Faso, Chad, Zimbabwe, Togo, Madagascar, and
-            Zambia.
-          </p>
-          <p>
+            current responses to climate-related food security emergencies. ARC
+            Ltd. is a mutual insurance facility comprised of its members, which
+            have included Kenya, Mauritania, Niger, Senegal, Mali, Malawi, the
+            Gambia, Burkina Faso, Chad, Zimbabwe, Togo, Madagascar, and Zambia.
             The membership also includes its capital contributors who have
             provided premium subsidies, including USAID, FCDO, SDC, KFW/BMZ,
             IFAD, AFDB, WFP and START NETWORK.
