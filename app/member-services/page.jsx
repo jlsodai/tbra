@@ -19,21 +19,21 @@ const page = async () => {
       quote:
         'In TBrA, I found my "stiletto network", a group of powerful women willing to share their expertise, life lessons, a sounding board for ideas, and good for a hearty laugh.  The reunion in Marrakesh cemented friendships, created new bonds, and I am truly honoured to be in a community of influencers and leaders impacting the world.',
       author: "Jackie Namara Rukare",
-      title: "Managing Consultant Iguru Consult Ltd",
+      title: "Managing Consultant, Iguru Consult Ltd",
     },
     {
       id: 10,
       quote:
-        "TBrA is my ally in my continuous personal and professional development. I have access to quality resources, an inspiring Network in one platform managed by a professional team with exceptional human qualities. Thank you TBrA for existing!",
-      author: "Nadine Tinen",
-      title: "CEO, PwC Afrique Francophone Sub-Saharienne",
+        "TBrA has been a great catalyst in my board journey. From providing me with a Boardroom mentor to subsidising my IoD training and connecting me with peers in my profession who have become a lifelong network of support. TBrA is the network to belong if you are a woman seeking to accelerate your board career. I have gained support, recognition and relevance in positioning myself as the right fit for board roles.",
+      author: "Yvonne Ofosu Appiah",
+      title: "Chief Investment Officer, Wangara Green Ventures",
     },
     {
       id: 12,
       quote:
-        "I joined TheBoardroom Africa because I saw it as a platform to meet other amazing women, but also to have a platform that has eyes where I don't have eyes. It's a lonely road for executive women, and being part of a platform that provides this ecosystem of like-minded people that can champion but also critique, and promote you, is a win win for everyone.",
-      author: "Tokunboh Ishmael",
-      title: "Managing Director Alitheia Capital",
+        "My boardroom journey truly started with TBrA. I not only gained skills and strategies but also the courage to pursue my board goals. More specifically, I met phenomenal women in my cohort that now serve as industry contacts, cheerleaders, and accountability partners. TBrA demystified the boardroom journey and established the perfect enabling environment for me.",
+      author: "Chinwe Ajene-Sagna",
+      title: "Founder & Managing Partner, Catalyst Realty Solutions (CRS)",
     },
   ];
   return (
