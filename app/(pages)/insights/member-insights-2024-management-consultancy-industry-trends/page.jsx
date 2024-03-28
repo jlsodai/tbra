@@ -44,26 +44,28 @@ const page = () => {
             competitive&quot;
           </h2>
           <p>
-            The rapid pace of technological advancement is pushing companies to
-            adopt digital solutions to stay competitive. We are increasingly
-            focusing on guiding organisations through digital transformation,
-            which includes implementing new technologies, digitising business
-            processes, and fostering a digital culture amongst their people.
+            <b>Digital Transformation:</b> The rapid pace of technological
+            advancement is pushing companies to adopt digital solutions to stay
+            competitive. We are increasingly focusing on guiding organisations
+            through digital transformation, which includes implementing new
+            technologies, digitising business processes, and fostering a digital
+            culture amongst their people.
           </p>
           <h2>
             &quot;...companies are increasingly establishing SMOs to enhance
             strategic execution.&quot;
           </h2>
           <p>
-            We have observed that companies are increasingly establishing SMOs
-            to enhance strategic execution. These SMOs often incorporate
-            critical functions such as brand experience, innovation, social
-            impact, and analytics. A notable trend we have picked up is that
-            People & Culture is assuming a more strategic position within these
-            offices, reflecting the growing recognition of human capital as a
-            key driver of organisational success. This holistic approach ensures
-            that strategy is not only aligned with business objectives but also
-            with evolving market demands and workforce dynamics.
+            <b>Strategy Management Offices (SMOs):</b> We have observed that
+            companies are increasingly establishing SMOs to enhance strategic
+            execution. These SMOs often incorporate critical functions such as
+            brand experience, innovation, social impact, and analytics. A
+            notable trend we have picked up is that People & Culture is assuming
+            a more strategic position within these offices, reflecting the
+            growing recognition of human capital as a key driver of
+            organisational success. This holistic approach ensures that strategy
+            is not only aligned with business objectives but also with evolving
+            market demands and workforce dynamics.
           </p>
           <h2>
             &quot;... companies are adapting their workplaces to better align
@@ -71,6 +73,7 @@ const page = () => {
             integration, and purpose-driven work.&quot;
           </h2>
           <p>
+            <b>Adaptation of Workplaces to Gen Z Preferences and Strengths:</b>{" "}
             Organisations are increasingly recognising the unique skills and
             perspectives that Gen Z brings to the workforce. As a result,
             companies are adapting their workplaces to better align with Gen
@@ -79,7 +82,7 @@ const page = () => {
             work options, leveraging digital tools and platforms for
             collaboration, and focusing on sustainability and social impact
             initiatives. By creating an environment that resonates with Gen
-            Z&apos;s values and leveraging their digital fluency, organizations
+            Z&apos;s values and leveraging their digital fluency, organisations
             are harnessing their capabilities to drive innovation and stay
             competitive in the evolving business landscape.
           </p>
@@ -89,6 +92,14 @@ const page = () => {
           <p className="font-bold mb-4">About the author</p>
           <p className="text-tender text-4xl font-bold">MIRANDA NAIMAN</p>
           <p className="font-bold mb-2">Founder & CEO, Empower</p>
+          <p>
+            Miranda Naiman is the visionary behind Empower, a transformative
+            consulting firm advancing businesses across Africa. Honoured by
+            Forbes, her transition from education to eminent entrepreneurship
+            has led her to significant board positions and advocacy for
+            women&apos;s entrepreneurship. Based in Tanzania, Miranda is a key
+            player in shaping Africa&apos;s next generation of leaders.
+          </p>
         </div>
       </section>
 

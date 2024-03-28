@@ -43,7 +43,7 @@ const page = () => {
             and accelerating investment in women, particularly in Africa.&quot;
           </h2>
           <p>
-            Macroeconomic policies working for women and climate change:
+            <b>Macroeconomic policies working for women and climate change:</b>{" "}
             Macroeconomic policies are not neutral to gender and are central to
             pursuing gender equality and accelerating investment in women,
             particularly in Africa.
@@ -72,7 +72,7 @@ const page = () => {
             businesses requires nimble and solid boardrooms.
           </h2>
           <p>
-            Boardrooms in &quot;transition&quot; countries: a silver lining for
+            <b>Boardrooms in &quot;transition&quot; countries:</b>{" "} a silver lining for
             directors?: Transition countries (as they are referred to by
             development institutions, countries that undergo a political
             transition with sometimes far-reaching socio-economic consequences)
@@ -104,7 +104,7 @@ const page = () => {
             the possibilities offered by artificial intelligence (AI)&quot;
           </h2>
           <p>
-            Data economy: what we know is what we measure and can ultimately
+            Data economy - what we know is what we measure and can ultimately
             improve: Increasing evidence-based policymaking to deliver better
             public services in support of our economies and improve the lives of
             the populations matters.
