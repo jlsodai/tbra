@@ -379,7 +379,7 @@ const page = async () => {
             className="absolute left-0 h-[75%] -z-1 opacity-3"
             alt=""
           />
-          <div className="text-mustard md:max-w-[60%] z-10 text-center">
+          <div className="text-mustard md:max-w-[60%] text-center">
             <h4
               className="text-3xl md:text-6xl font-libreb"
               data-aos="fade-up"
