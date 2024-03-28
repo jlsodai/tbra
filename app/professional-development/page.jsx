@@ -37,7 +37,7 @@ const page = async () => {
     },
   ];
   return (
-    <>
+    <div className="text-xl">
       <section className="bg-[linear-gradient(rgba(19,30,61,0.75),rgba(19,30,61,0.75)),url('https://res.cloudinary.com/dhhw72iwq/image/upload/v1708510120/member-services-herobg_dpdh7z.jpg')] bg-cover bg-[-400px] md:bg-top items-center min-h-screen flex relative">
         <div className="container grid md:grid-cols-2">
           <div className="py-8">
@@ -394,7 +394,7 @@ const page = async () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 
