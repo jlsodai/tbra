@@ -23,6 +23,7 @@ export const menuLinks = [
       { name: "About TBrA", href: "/about-us" },
       { name: "Our Team", href: "/our-team" },
       { name: "Our Board", href: "/our-board" },
+      { name: "Our Partners", href: "/partners" },
     ],
   },
   {
@@ -30,7 +31,7 @@ export const menuLinks = [
     href: "/board-roles/company",
   },
   {
-    name: "Executive Programmes",
+    name: "Executive Education",
     href: "/executive-programmes",
     submenu: [
       {
@@ -53,8 +54,8 @@ export const menuLinks = [
     ],
   },
   {
-    name: "Partners",
-    href: "/partners",
+    name: "Professional Development",
+    href: "/professional-development",
   },
   {
     name: "Research",
