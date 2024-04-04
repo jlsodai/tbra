@@ -66,16 +66,13 @@ const page = async () => {
               elevate every facet of your professional journey.
             </p>
             <div className="mt-8" data-aos="fade-up" data-aos-delay="550">
-              <p className="md:text-2xl text-[#EEEAD6] mb-8">
-                Become a member and access more services
-              </p>
               <div className="mt-12 flex gap-12 items-center">
-                <Link href="/membership/application" className="btn bg-mustard">
-                  Apply Now
+                <Link
+                  href="/membership/application"
+                  className="btn bg-transparent border border-white text-white font-medium"
+                >
+                  Explore membership to gain more
                 </Link>
-                <a href="/membership" className="text-white">
-                  Learn more &nbsp;→
-                </a>
               </div>
             </div>
           </div>
