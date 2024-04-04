@@ -41,6 +41,14 @@ const page = async () => {
       <section className="bg-[linear-gradient(rgba(19,30,61,0.75),rgba(19,30,61,0.75)),url('https://res.cloudinary.com/dhhw72iwq/image/upload/v1708510120/member-services-herobg_dpdh7z.jpg')] bg-cover bg-[-400px] md:bg-top items-center min-h-screen flex relative">
         <div className="container grid md:grid-cols-2">
           <div className="py-8">
+            <Link href="/">
+              <img
+                src="/images/logo-primary.svg"
+                className="img-white mb-12"
+                width="150px"
+                alt="Logo"
+              />
+            </Link>
             <h1
               className="!leading-tight text-4xl md:text-6xl"
               data-aos="fade-up"
@@ -57,14 +65,19 @@ const page = async () => {
               leadership positioning, we&apos;ve curated an experience to
               elevate every facet of your professional journey.
             </p>
-            {/* <div className="mt-8" data-aos="fade-up" data-aos-delay="550">
-              <Link
-                href="#"
-                className="btn bg-mustard md:text-xl uppercase text-darkblue font-medium"
-              >
-                Learn More
-              </Link>
-            </div> */}
+            <div className="mt-8" data-aos="fade-up" data-aos-delay="550">
+              <p className="md:text-2xl text-[#EEEAD6] mb-8">
+                Become a member and access more services
+              </p>
+              <div className="mt-12 flex gap-12 items-center">
+                <Link href="/membership/application" className="btn bg-mustard">
+                  Apply Now
+                </Link>
+                <a href="/membership" className="text-white">
+                  Learn more &nbsp;→
+                </a>
+              </div>
+            </div>
           </div>
           <div className="flex justify-end items-end">
             <a href="/">
@@ -107,7 +120,7 @@ const page = async () => {
             </p>
 
             <PaperFormModal
-              btnText="SIGN UP"
+              btnText="Sign up"
               paperform="tbramemberoffers"
               prefill="sectionDisplay=linkedin"
               aosDelay="550"
@@ -286,7 +299,7 @@ const page = async () => {
             Unlock Your Potential with Our Tailored Executive CV Services
           </h1>
           <PaperFormModal
-            btnText="SIGN UP"
+            btnText="Sign up"
             paperform="tbramemberoffers"
             prefill="sectionDisplay=cv"
             aosDelay="550"
@@ -353,7 +366,7 @@ const page = async () => {
           </p>
           <div className="flex gap-8 items-center mt-8">
             <PaperFormModal
-              btnText="SIGN UP"
+              btnText="Sign up"
               paperform="tbramemberoffers"
               prefill="sectionDisplay=gc"
               aosDelay="550"
