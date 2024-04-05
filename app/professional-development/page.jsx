@@ -68,8 +68,8 @@ const page = async () => {
             <div className="mt-8" data-aos="fade-up" data-aos-delay="550">
               <div className="mt-12 flex gap-12 items-center">
                 <Link
-                  href="/membership/application"
-                  className="btn bg-transparent border border-white text-white font-medium"
+                  href="/membership"
+                  className="btn bg-transparent border border-white text-white"
                 >
                   Explore membership to gain more
                 </Link>
