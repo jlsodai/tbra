@@ -51,7 +51,7 @@ export default function PaperFormModal({
                   >
                     ×
                   </button>
-                  <div className="bg-white px-4 pt-12">
+                  <div className="bg-white px-4 pt-12 min-h-[400px]">
                     <div
                       prefill={prefill}
                       prefill-inherit="true"

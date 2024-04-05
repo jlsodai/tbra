@@ -69,7 +69,7 @@ const page = async () => {
               <div className="mt-12 flex gap-12 items-center">
                 <Link
                   href="/membership"
-                  className="btn bg-transparent border border-white text-white"
+                  className="btn bg-transparent border border-white text-white font-normal"
                 >
                   Explore membership to gain more
                 </Link>
