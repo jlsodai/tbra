@@ -41,8 +41,11 @@ const page = async () => {
     <>
       <div className="flex flex-col h-screen">
         <Navigation />
-        <section className="bg-[linear-gradient(rgba(19,30,61,0.75),rgba(19,30,61,0.75)),url('https://res.cloudinary.com/dhhw72iwq/image/upload/v1708510120/member-services-herobg_dpdh7z.jpg')] bg-cover bg-[-400px] md:bg-top items-center flex-1 flex relative">
-          <div className="container grid md:grid-cols-2">
+        <section className="bg-[linear-gradient(rgba(19,30,61,0.75),rgba(19,30,61,0.75)),url('https://res.cloudinary.com/dhhw72iwq/image/upload/v1708510120/member-services-herobg_dpdh7z.jpg')] bg-cover bg-[-400px] md:bg-top items-center flex-1 flex flex-col justify-between relative">
+          <p className="self-center text-white justify-self-center mb-8">
+            &nbsp;
+          </p>
+          <div className="container grid md:grid-cols-2 justify-between">
             <div className="py-8">
               {/* <Link href="/">
                   <img
@@ -53,11 +56,12 @@ const page = async () => {
                   />
                 </Link> */}
               <h1
-                className="!leading-tight text-4xl md:text-6xl"
+                className="!leading-tight text-4xl md:text-5xl"
                 data-aos="fade-up"
                 data-aos-delay="150"
               >
-                Membership to support your leadership journey
+                Professional Development Services to support your leadership
+                journey
               </h1>
               <p
                 className="mt-8 md:text-2xl text-[#EEEAD6]"
@@ -92,6 +96,9 @@ const page = async () => {
               </a>
             </div>
           </div>
+          <p className="self-center text-white justify-self-center mb-8">
+            Scroll down ↓
+          </p>
         </section>
       </div>
       <div className="text-xl">
