@@ -5,7 +5,9 @@ import HeaderTitle from "@/app/sections/HeaderTitle";
 const page = () => {
   return (
     <>
-      <PaperForm formSlug="membershipapplication" />
+      <section className="bg-[#202945] py-16">
+        <PaperForm formSlug="membershipapplication" />
+      </section>
     </>
   );
 };
