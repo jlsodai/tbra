@@ -102,7 +102,7 @@ const page = async () => {
         </section>
       </div>
       <div className="text-xl">
-        <section className="bg-[#DADEDA] flex items-center">
+        <section className="bg-[#DADEDA] flex items-center" id="linkedin">
           <div className="container grid md:grid-cols-2 gap-x-16 items-center">
             <div className="self-end items-end justify-end flex md:order-last">
               <img
@@ -138,7 +138,7 @@ const page = async () => {
           </div>
         </section>
 
-        <section className="bg-[#F4F1EC] flex">
+        <section className="bg-[#F4F1EC] flex" id="thoughtLeadership">
           <div className="md:container grid md:grid-cols-2 gap-x-16">
             <div className=" bg-white" data-aos="fade-up" data-aos-delay="150">
               <img
@@ -178,7 +178,10 @@ const page = async () => {
           </div>
         </section>
 
-        <section className="bg-[url('https://res.cloudinary.com/dhhw72iwq/image/upload/v1708963279/more-with-prime-bulbs_vxdjmc.jpg')] bg-cover flex items-center">
+        <section
+          id="tbraprime"
+          className="bg-[url('https://res.cloudinary.com/dhhw72iwq/image/upload/v1708963279/more-with-prime-bulbs_vxdjmc.jpg')] bg-cover flex items-center"
+        >
           <div className="container grid md:grid-cols-2 gap-x-16">
             <div className="py-24">
               <h1
@@ -213,7 +216,7 @@ const page = async () => {
           </div>
         </section>
 
-        <section className="bg-[#DADEDA] flex items-center">
+        <section id="interview" className="bg-[#DADEDA] flex items-center">
           <div className="container grid md:grid-cols-2 gap-x-16 items-center">
             <div className="py-8">
               <img
@@ -297,7 +300,7 @@ const page = async () => {
           </div>
         </section>
 
-        <section className="bg-[#F4F1EC] flex flex-col justify-end">
+        <section id="cv" className="bg-[#F4F1EC] flex flex-col justify-end">
           <div className="container mt-16 md:mt-24">
             <h1
               className="!leading-tight text-2xl md:text-5xl text-darkblue max-w-xl md:mt-32"
@@ -356,7 +359,10 @@ const page = async () => {
           </div>
         </section>
 
-        <section className="bg-[linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('https://res.cloudinary.com/dhhw72iwq/image/upload/v1708521754/member-services-gcbg_aucprn.jpg')] bg-cover bg-top items-end h-screen max-h-[900px] flex">
+        <section
+          id="gc"
+          className="bg-[linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('https://res.cloudinary.com/dhhw72iwq/image/upload/v1708521754/member-services-gcbg_aucprn.jpg')] bg-cover bg-top items-end h-screen max-h-[900px] flex"
+        >
           <div className="container md:mb-32">
             <span
               className="bg-[#4A4F54]/60 text-white px-16 py-3"
