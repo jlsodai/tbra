@@ -1310,16 +1310,16 @@ export const teamData = {
       title: "Talent Associate",
       companyName: null,
     },
-    {
-      id: 15,
-      name: "Uduak Ndiokho",
-      imageUrl:
-        "https://res.cloudinary.com/dhhw72iwq/image/upload/v1709823365/uduak_kthtir.jpg",
-      linkedInUrl: "https://www.linkedin.com/in/undiokho/",
-      twitterUrl: null,
-      title: "Executive Programmes Associate",
-      companyName: null,
-    },
+    // {
+    //   id: 15,
+    //   name: "Uduak Ndiokho",
+    //   imageUrl:
+    //     "https://res.cloudinary.com/dhhw72iwq/image/upload/v1709823365/uduak_kthtir.jpg",
+    //   linkedInUrl: "https://www.linkedin.com/in/undiokho/",
+    //   twitterUrl: null,
+    //   title: "Executive Programmes Associate",
+    //   companyName: null,
+    // },
     {
       id: 15,
       name: "Katleho Cathy Mthenjane",
@@ -1349,7 +1349,7 @@ export const teamData = {
       linkedInUrl:
         "https://www.linkedin.com/in/auguster-boateng-she-her-%F0%9F%87%AC%F0%9F%87%AD-9608a898/",
       twitterUrl: null,
-      title: "Executive Programmes Administrator",
+      title: "Junior Office Administrator",
       companyName: null,
     },
   ],
