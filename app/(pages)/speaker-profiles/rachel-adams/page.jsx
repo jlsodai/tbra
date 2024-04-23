@@ -6,7 +6,7 @@ import Markdown from "markdown-to-jsx";
 const page = () => {
   return (
     <>
-      <HeaderTitle title="Speaker Profiles" />
+      <HeaderTitle title="Speaker Profile" />
 
       <section
         className="container grid md:grid-cols-2 mt-16 gap-8 md:gap-16 items-center"
