@@ -9,11 +9,15 @@ const page = () => {
       <HeaderTitle title="Speaker Profiles" />
 
       <section
-        className="container grid grid-cols-2 mt-16 gap-16 items-center"
+        className="container grid md:grid-cols-2 mt-16 gap-8 md:gap-16 items-center"
         data-aos="fade-up"
       >
-        <div>
-          <p className="font-bold text-4xl font-libreb mb-4">
+        <img
+          src="https://theboardroomafrica.com/wp-content/uploads/2022/06/Mask-Group-3.jpg"
+          alt=""
+        />
+        <div className="md:order-first">
+          <p className="font-bold text-4xl font-libreb mb-8">
             Rachel Nyaradzo Adams
           </p>
           <p className="mt-4">
@@ -39,10 +43,6 @@ const page = () => {
             is also a contributor for IncAfrica.
           </p>
         </div>
-        <img
-          src="https://theboardroomafrica.com/wp-content/uploads/2022/06/Mask-Group-3.jpg"
-          alt=""
-        />
       </section>
     </>
   );
