@@ -170,18 +170,6 @@ export const execData = {
   ],
   Programmes: [
     {
-      id: 1,
-      title: "Open Doors: Accredited Certificate in Company Direction",
-      date: "April - June 2024",
-      seatsRemaining: 30,
-      venue: "Virtual",
-      imageUrl:
-        "https://tbratest.my.canva.site/executive-development-page/images/128b157c5a41f2c2b630bbb9d2543b69.jpg",
-      applyBtnUrl: "/open-doors-application?hideBanner=true",
-      learnmoreBtnUrl: "/executive-programmes/open-doors",
-      groupName: null,
-    },
-    {
       id: 3,
       title: "Open Doors: Accredited Certificate in Company Direction",
       date: "July - October 2024",
@@ -515,7 +503,7 @@ export const programmesData = [
       brochureInfo: {
         id: 1,
         upcoming:
-          "April - June 2024 (Virtual)\n11 July - 15 October 2024 (Virtual)\n18 - 23 November 2024 (Cape Town)",
+          "11 July - 15 October 2024 (Virtual)\n18 - 23 November 2024 (Cape Town)",
         structure:
           "4 immersive modules, 3 workshops, and a board simulation led by world-class faculty",
         brochureFormUrl: "opendoorsbrochuredownload",
@@ -628,7 +616,7 @@ export const programmesData = [
           Name: "Rachel Nyaradzo Adams",
           Title: "Founder, Narachi Leadership",
           Profile:
-            "Rachel is a leadership and transformation specialist, a neuroscience, ontological, personality coach, a speaker, and the founder of Narachi Leadership, where she empowers leaders to unlock their courageous and authentic leadership. She believes that Africa will only get the future it deserves if leaders can access their highest courage and most authentic power. \n\nShe is a graduate of the University of Oxford and University of Cape Town, and has worked with executives and emerging leaders at the highest levels including at the UN, World Bank, McKinsey, Yale, Obama Leaders, TEDx, L’Oreal and, and of course here at TheBoardroom Africa. Rachel is a Mandela Rhodes Scholar, A Mellon Mays Fellow, a Tutu Fellow and was named one of the 100 Most Influential Young Africans of 2019. \n\nRachel sits on the boards of MINDS, Jakes Gerwel Fellowship, St. George’s College and Old Mutual Youth Fund. She is also a contributor for IncAfrica.",
+            "Rachel is a leadership and transformation specialist, a neuroscience, ontological and personality coach, a speaker and the founder of Narachi Leadership, where she empowers leaders towards courageous and authentic leadership. She believes Africa will only get the future it deserves if leaders can access their highest courage and most authentic power. She graduated from the University of Oxford and the University of Cape Town. She has worked with executives and emerging leaders at the highest levels, including the UN, World Bank, McKinsey, Yale, Obama Leaders, TEDx, L'Oreal and, of course, our very own TheBoardroom Africa. Rachel is a Mandela Rhodes Scholar, A Mellon Mays Fellow, a Tutu Fellow and was named one of the 100 Most Influential Young Africans of 2019.",
           instructorImage:
             "https://theboardroomafrica.com/wp-content/uploads/2022/06/Mask-Group-4.jpg",
         },
@@ -873,7 +861,7 @@ export const programmesData = [
           Name: "Rosalind Kainyah MBE",
           Title: "Managing Director, Kina Advisory",
           Profile:
-            "Rosalind Kainyah MBE is an authority on Sustainability and responsible business with over 30 years of combined legal, international, executive and board-level experience. She is a trusted advisor to Boards and Senior Executives of companies on leveraging opportunities and managing Sustainability related risk. Rosalind has advised companies across various sectors, including the extractives industry, energy, private equity, financial services, healthcare, agriculture, consumer goods, logistics, manufacturing and technology. Rosalind is also an experienced non-executive director. She currently serves on the boards of discoverIE plc, Gem Diamonds Limited, CalBank Plc, Lekela Power and BTE Renewables. In the not-for-profit sector, she is a trustee and Vice Chairperson of the Africa Gifted Foundation and a Board member of Results for Development (R4D). She has previously served on the Boards of Aker Energy, the Ghana Food &Drugs Authority and The Africa-America Institute.",
+            "Rosalind Kainyah MBE is an authority on Sustainability and responsible business with over 30 years of combined legal, international, executive and board level experience. She is a trusted advisor to Boards and Senior Executives of companies on leveraging opportunities and managing Sustainability related risk. Rosalind has advised companies across various sectors, including the extractives industry, energy, private equity, financial services, healthcare, agriculture, consumer goods, logistics, manufacturing and technology. Rosalind is also an experienced non-executive director. She currently serves on the boards of discoverIE plc, Gem Diamonds Limited, CalBank Plc, and Lekela Power. In the not-for-profit sector, she is a trustee and Vice Chairperson of the Africa Gifted Foundation and a Board member of Results for Development (R4D). She has previously served on the Boards of Aker Energy, the Ghana Food & Drugs Authority and The Africa-America Institute. Rosalind holds a Bachelor's degree in English from the University of Ghana, a Bachelor of Laws degree from the University of London and a Master of Laws degree from University College, London. She is a member of the Bar of England and Wales and the Chartered Institute of Arbitrators.",
           instructorImage:
             "https://theboardroomafrica.com/wp-content/uploads/2023/04/Rosalind.jpg",
         },
@@ -882,7 +870,7 @@ export const programmesData = [
           Name: "Alison Taylor",
           Title: "Clinical Professor, NYU Stern School of Business",
           Profile:
-            "Alison Taylor works on challenges at the intersection of corporate integrity, risk and responsibility. She is a Clinical Professor at NYU Stern School of Business, where she teaches professional responsibility, sustainability, and leadership classes to undergraduates, MBA and Executive MBA students. She's also the Executive Director of Ethical Systems, which is part of NYU Stern School of Business and is a collaboration between leading academics working on behavioural science, systems thinking and organisational psychology. She's currently writing a book for HBR Press on how the landscape for business ethics is transforming. Alison holds Senior Advisor roles at BSR, Zai Lab, and Wallbrook. She's a board director at Preventable Surprises and on the advisory board of Venture ESG. She's a 2022 LinkedIn Top Voice on sustainability, a member of the WEF Global Future Council on Good Governance 2023-24, and a BCG Brighthouse Luminary Fellow.\n",
+            "Alison Taylor works on challenges at the intersection of corporate integrity, risk and responsibility. She is a Clinical Professor at NYU Stern School of Business, where she teaches professional responsibility, sustainability, and leadership classes to undergraduates, MBA and Executive MBA students. She's also the Executive Director of Ethical Systems, which is part of NYU Stern School of Business and is a collaboration between leading academics working on behavioural science, systems thinking and organisational psychology. She's currently writing a book for HBR Press on how the landscape for business ethics is transforming. Alison holds Senior Advisor roles at BSR, Zai Lab, and Wallbrook. She's a board director at Preventable Surprises and on the advisory board of Venture ESG. She's a 2022 LinkedIn Top Voice on sustainability, a member of the WEF Global Future Council on Good Governance 2023-24, and a BCG Brighthouse Luminary Fellow. Alison has advised hundreds of large multinational companies on strategy, sustainability, political and social risk, culture and behaviour, human rights, ethics and compliance, stakeholder engagement, ESG, and anti-corruption. She regularly speaks and writes on all aspects of business responsibility and ethics, has written articles in Harvard Business Review, WSJ, Quartz, Reuters, Barron's, MIT Sloan, and Forbes, and is quoted in New York Times, Financial Times, Time, Axios, Bloomberg, NBC News, Strategy + Business, Foreign Policy, Fortune, The Guardian, and Politico. She frequently gives keynote talks, speaks on panels and podcasts, and does executive training at companies, conferences and events.",
           instructorImage:
             "https://theboardroomafrica.com/wp-content/uploads/2023/04/Alison.jpg",
         },
@@ -891,7 +879,7 @@ export const programmesData = [
           Name: "Janhavi Dadarkar",
           Title: "Founder, Finding Ways Ahead",
           Profile:
-            "Janhavi comes with an eclectic background, which gives her a multidisciplinary and holistic approach to governance and ESG issues. Her expertise in the 'G' of ESG comes with over two decades of experience as a corporate media lawyer and more than a decade advising private equity and investors on developing better toolkits so organisations can be impactful as part of society, not outside of it. Janhavi, however, didn’t just provide legal or advisory support - she walked the talk by building her own ventures.\n\nAs a strategic investor in both ‘successful' and ‘failed' enterprises, she knows the ups and downs of being an invested stakeholder. Janhavi also understands the leadership imperative, having been in board roles in diverse sectors, from companies in fintech and historical estate management to organisations at the supranational level.\n\nShe is currently the CEO of the Academy for Board Excellence, which provides the subject matter experts and content for the IoD’s flagship Chartered Director programme.  She is a well-known and in-demand commentator and speaker who always inspires thought-provoking discussion.",
+            "Janhavi has over three decades of experience advising companies, directors and enterprising individuals on company law, corporate governance and intellectual property protection. She is a recognised expert on commercial transactions with an international flavour and has worked with directors, organisations at start-up as well as highest levels of government and supranational organisations. Janhavi started her career in well-known international city law firms as a corporate and media lawyer but went on to build her own niche Boutique firm and now is the CEO of the Academy for Board Excellence and Programme Lead for IOD's Governance flagship programmes. She particularly enjoys facilitating business and philanthropic aspirations through her roles on advisory boards as a non-executive, an in-house general counsel or thinking partner for boards and individuals.",
           instructorImage:
             "https://res.cloudinary.com/tbra/image/upload/v1698049780/Janhavi-Dardarkar_r2p5q2.jpg",
         },
@@ -900,7 +888,7 @@ export const programmesData = [
           Name: "Jacqueline Musiitwa ",
           Title: "Senior Climate Finance Advisor, USAID",
           Profile:
-            "Jacqueline Musiitwa is an international attorney specialising in business transformation, innovation and sustainability. Jacqueline has close to 20 years' experience in leading legal and corporate relations functions in financial services and the industrial sectors.\n\nBefore joining the Biden-Harris administration as a Senior Climate Finance Advisor at the United States Agency for International Development, Jacqueline sat on the boards of Bushveld Minerals (AIM: BMN), PPC Zimbabwe Limited, the International Rescue Committee UK and ide.org.  She was the Chair of the New York State Bar Association's Energy and Natural Resources Committee and a member of the United Nations Committee for Development Policy. She has experience as a board chair and chairing governance, sustainability and risk committees. She previously served in various leadership capacities at Rio Tinto, the Trade and Development Bank (TDB Group), World Trade Organization.\n\nShe is a member of the faculty at Georgetown University.\n\nShe holds a Juris Doctor from the University of Melbourne Law School and a Bachelor of Arts from Davidson College. She holds a Certificate of Company Direction from the Institute of Directors UK. Jacqueline lives in Washington D.C. with her husband and their three children.",
+            "Jacqueline Musiitwa was recently appointed by the Biden-Harris Administration as Senior Climate Advisor at USAID - leading USAID's goal to mobilise $150 billion in public and private finance for climate. As an international attorney specialising in business transformation, innovation and sustainability. Jacqueline has close to 20 years of experience in leading legal and corporate relations functions in financial services and the industrial sectors. She is a member of the faculty at Georgetown University. Prior to joining the government, Jacqueline sat on the boards of Bushveld Minerals (AIM: BMN), PPC Zimbabwe Limited, International Rescue Committee UK, ideo.org and was the Chair of the New York State Bar Association's Energy and Natural Resources Committee. She has experience as a board Chair and chairing governance and risk committees. She previously served in various leadership capacities at Rio Tinto, the Trade and Development Bank (TDB Group), and the World Trade Organisation. She was a Young Global Leader of WEF, a Tutu Fellow, and a Mo Ibrahim Foundation fellow.",
           instructorImage:
             "https://theboardroomafrica.com/wp-content/uploads/2022/10/jacqueline.jpg",
         },
@@ -928,7 +916,7 @@ export const programmesData = [
           Name: "Christine Uri",
           Title: "Founder, Christine Uri Consulting & ESG for In-house",
           Profile:
-            "Christine is a seasoned C-Suite executive and experienced general counsel who has led global legal and sustainability teams at a Fortune 500 energy company.\n\nShe has first-hand experience implementing ESG programms addressing climate change, human rights, ethics, and other emerging areas. Today, Christine leverages her rare combination of leadership, strategic thinking, legal expertise, and sustainability experience to advise companies on the integration of ESG principles into operations. ",
+            "Christine is a seasoned C-Suite executive and experienced general counsel who has led global legal and sustainability teams at a Fortune 500 energy company. She has been named one of the Top 10 Women in Sustainability. Christine has first-hand experience implementing ESG programs addressing climate change, human rights, ethics, and other emerging areas. Today, Christine leverages her executive experience, legal background, and sustainability expertise to help general counsel improve their organization's ESG performance. She leads board and executive training on ESG and provides company leaders with strategic advice on how to integrate ESG principles into operations. Look for Christine on LinkedIn where she frequently shares tools and resources.",
           instructorImage:
             "https://res.cloudinary.com/dhhw72iwq/image/upload/v1705912617/uriProfilePic_zoqezu.jpg",
         },
