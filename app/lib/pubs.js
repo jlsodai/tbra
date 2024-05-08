@@ -1,7 +1,7 @@
 export const pubs = {
   data: [
     {
-      id: 37,
+      id: 91,
       attributes: {
         title: "BDI Reports: 2023 Egypt Edition",
         slug: "board-diversity-index-egypt-2023-edition",
@@ -9,11 +9,11 @@ export const pubs = {
         updatedAt: "2024-05-09T10:21:44.982Z",
         publishedAt: "2024-05-09T10:00:33.951Z",
         publication: {
-          id: 40,
+          id: 91,
           pdfUrl:
             "https://web.theboardroomafrica.com/wp-content/uploads/2024/05/Egypt-Diversity-Index-2023-Edition.pdf",
           imageUrl:
-            "https://res.cloudinary.com/dhhw72iwq/image/upload/v1715178272/BDI-Report-Egypt_ptinpd.jpg",
+            "https://res.cloudinary.com/dhhw72iwq/image/upload/v1715178839/BDI-Egypt-2023-Report_dlpnrf.jpg",
           venngageCode: null,
           year: "2023",
           country: "Egypt",
