@@ -1,6 +1,29 @@
 export const pubs = {
   data: [
     {
+      id: 37,
+      attributes: {
+        title: "BDI Reports: 2023 Egypt Edition",
+        slug: "board-diversity-index-egypt-2023-edition",
+        createdAt: "2024-05-09T10:00:34.478Z",
+        updatedAt: "2024-05-09T10:21:44.982Z",
+        publishedAt: "2024-05-09T10:00:33.951Z",
+        publication: {
+          id: 40,
+          pdfUrl:
+            "https://web.theboardroomafrica.com/wp-content/uploads/2024/05/Egypt-Diversity-Index-2023-Edition.pdf",
+          imageUrl:
+            "https://res.cloudinary.com/dhhw72iwq/image/upload/v1715178272/BDI-Report-Egypt_ptinpd.jpg",
+          venngageCode: null,
+          year: "2023",
+          country: "Egypt",
+          content:
+            "Recent efforts exerted in Egypt have catalysed significant progress in boardroom gender diversity. Key legislative measures have also played a pivotal role in this advancement. The Financial Regulatory Authority's decision number (50) in 2020 mandated at least one female representative on the boards of its companies by the end of 2020. This was bolstered by decrees in 2021—Decree No. 109 and Decree No. 110—requiring a minimum of 25% women representation or at least two women members on the boards of EGX-listed companies and the non-banking financial sector companies regulated by the Financial Regulatory Authority, respectively.",
+          type: "report",
+        },
+      },
+    },
+    {
       id: 90,
       attributes: {
         title: "BDI Snapshots: 2023 Egypt Edition",
