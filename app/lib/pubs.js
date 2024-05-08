@@ -1,6 +1,28 @@
 export const pubs = {
   data: [
     {
+      id: 90,
+      attributes: {
+        title: "BDI Snapshots: 2023 Egypt Edition",
+        slug: "bdi-snapshots-2023-egypt-edition",
+        createdAt: "2024-05-08T09:59:21.932Z",
+        updatedAt: "2024-05-08T09:59:21.932Z",
+        publishedAt: "2024-05-08T09:59:20.337Z",
+        publication: {
+          id: 90,
+          pdfUrl: null,
+          imageUrl:
+            "https://web.theboardroomafrica.com/wp-content/uploads/2024/05/Egypt-2023-infographic-preview.png",
+          venngageCode:
+            '<script src="https://infograph.venngage.com/js/embed/v1/embed.js" data-vg-id="b08wJbLJTP4" data-title="2023 Egypt" data-w="816" data-h="1056" data-multipage="true" data-f="false"></script>',
+          year: "2023",
+          country: "Egypt",
+          content: null,
+          type: "infographic",
+        },
+      },
+    },
+    {
       id: 81,
       attributes: {
         title: "BDI Snapshots: 2023 Ghana Edition",
