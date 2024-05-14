@@ -1261,6 +1261,16 @@ export const teamData = {
       companyName: null,
     },
     {
+      id: 23,
+      name: "Eleanor Khupe",
+      imageUrl:
+        "https://res.cloudinary.com/dhhw72iwq/image/upload/v1715677385/Elle_Khupe_wvv1a7.jpg",
+      linkedInUrl: "https://www.linkedin.com/in/eleanorkhupe/",
+      twitterUrl: null,
+      title: "Executive Programmes Lead",
+      companyName: null,
+    },
+    {
       id: 13,
       name: "Charles Ababio Kumah",
       imageUrl:
