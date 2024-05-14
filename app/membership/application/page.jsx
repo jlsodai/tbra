@@ -9,7 +9,7 @@ const page = () => {
       {/* <section className="container my-10" data-aos="fade-up">
         <PaperForm formSlug="tbra-membership-application" />
       </section> */}
-      <section className="bg-[#202945] py-16">
+      <section className="bg-[#202945] py-16 min-h-screen">
         <PaperForm formSlug="membershipapplication" />
       </section>
     </>
