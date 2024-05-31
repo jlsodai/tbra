@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@gocontento/next": "^0.0.14",
     "@headlessui/react": "^1.7.13",
     "@material-tailwind/react": "^1.4.2",
     "aos": "^2.3.4",
