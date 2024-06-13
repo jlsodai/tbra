@@ -115,7 +115,19 @@ html {
   }
 
   .partnerLogos img {
-    @apply max-w-[130px] max-h-[70px] -sm:!max-h-[38px] -sm:!max-w-[170px];
+    @apply float-left mr-8 mb-4;
+  }
+
+  .leftalign img {
+    @apply float-left mr-8 mb-4;
+  }
+
+  .centeralign img {
+    @apply mx-auto;
+  }
+
+  .prose blockquote strong {
+    @apply text-xl;
   }
 
   .brochure-wrap h2 {
