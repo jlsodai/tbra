@@ -370,24 +370,24 @@ export const programmesData = [
           instructorImage:
             "https://theboardroomafrica.com/wp-content/uploads/2022/06/Mask-Group-3.jpg",
         },
-        {
-          id: 8,
-          Name: "Marjorie Ngwenya",
-          Title: "Leadership Coach and Non-executive Director",
-          Profile:
-            "Marjorie serves an independent non-executive director in the financial services sector. She is also a trustee of two social justice non-for-profit organisations active in Southern Africa and the Legal Resources Centre Chairperson. She is appointed as an external member of the Prudential Regulation Committee of the Bank of England. Through her work as a leadership and life coach she demonstrates her passion for personal growth. She is also an advocate for diversity, equity and inclusion. She is a Past President of the Institute and Faculty of Actuaries, UK and was the first person of colour to hold office in the organisation's 160 years and also its youngest. Her prior roles include being a member of the Group Executive Committee of Liberty Group in South Africa, playing the role of Chief Strategist and Chief Risk Officer of Old Mutual's African Operations. Marjorie trained as an actuary and holds a Sloan Masters of Leadership and Strategy from the London Business School.",
-          instructorImage:
-            "https://theboardroomafrica.com/wp-content/uploads/2022/09/marjorie.jpg",
-        },
-        {
-          id: 9,
-          Name: "Kieran Moynihan",
-          Title: "Managing Partner of Board Excellence",
-          Profile:
-            "Kieran is the Managing Partner of Board Excellence, a leading international board consulting practice, specialising in board evaluations, operating across over 35 countries. Kieran has over 24 years of experience serving on boards as a CEO & Executive Director, Non-Executive Director and Board Chair. Kieran is an internationally-recognized thought leader in board dynamics, effectiveness, performance, and corporate governance and regularly contributes to leading international board publications. Board Excellence have delivered board evaluations, training and board/governance advisory services to board across the African continent including Morocco, Ghana, Nigeria, Kenya, Tanzania, Lesotho and South Africa, across the corporate, private company, public and non-profit sectors.",
-          instructorImage:
-            "https://theboardroomafrica.com/wp-content/uploads/2022/09/kieran.jpg",
-        },
+        // {
+        //   id: 8,
+        //   Name: "Marjorie Ngwenya",
+        //   Title: "Leadership Coach and Non-executive Director",
+        //   Profile:
+        //     "Marjorie serves an independent non-executive director in the financial services sector. She is also a trustee of two social justice non-for-profit organisations active in Southern Africa and the Legal Resources Centre Chairperson. She is appointed as an external member of the Prudential Regulation Committee of the Bank of England. Through her work as a leadership and life coach she demonstrates her passion for personal growth. She is also an advocate for diversity, equity and inclusion. She is a Past President of the Institute and Faculty of Actuaries, UK and was the first person of colour to hold office in the organisation's 160 years and also its youngest. Her prior roles include being a member of the Group Executive Committee of Liberty Group in South Africa, playing the role of Chief Strategist and Chief Risk Officer of Old Mutual's African Operations. Marjorie trained as an actuary and holds a Sloan Masters of Leadership and Strategy from the London Business School.",
+        //   instructorImage:
+        //     "https://theboardroomafrica.com/wp-content/uploads/2022/09/marjorie.jpg",
+        // },
+        // {
+        //   id: 9,
+        //   Name: "Kieran Moynihan",
+        //   Title: "Managing Partner of Board Excellence",
+        //   Profile:
+        //     "Kieran is the Managing Partner of Board Excellence, a leading international board consulting practice, specialising in board evaluations, operating across over 35 countries. Kieran has over 24 years of experience serving on boards as a CEO & Executive Director, Non-Executive Director and Board Chair. Kieran is an internationally-recognized thought leader in board dynamics, effectiveness, performance, and corporate governance and regularly contributes to leading international board publications. Board Excellence have delivered board evaluations, training and board/governance advisory services to board across the African continent including Morocco, Ghana, Nigeria, Kenya, Tanzania, Lesotho and South Africa, across the corporate, private company, public and non-profit sectors.",
+        //   instructorImage:
+        //     "https://theboardroomafrica.com/wp-content/uploads/2022/09/kieran.jpg",
+        // },
       ],
       Intro: {
         id: 1,
