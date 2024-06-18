@@ -313,7 +313,7 @@ export const programmesData = [
         {
           id: 5,
           quote:
-            "The Open Doors programme delivered a powerful mix of first-class teachings and insightful, actionable advice. I can apply the learned strategies in boardroom activities and have also formed some great networks with like-minded women leaders on the Continent. It brought clarity to how I can most effectively contribute towards the strategic direction of any company/fund more so than any mentor, book, or past experience has done",
+            "The Open Doors programme delivered a powerful mix of first-class teachings and insightful, actionable advice. I can apply the learned strategies in boardroom activities and have also formed great networks with like-minded leaders on the Continent. It brought clarity to how I can most effectively contribute towards the strategic direction of any company/fund more so than any mentor, book, or past experience has done",
           author: "Christine Kamugisha",
           title: "Senior Legal Counsel, Multichoice Support Services",
         },
@@ -393,7 +393,7 @@ export const programmesData = [
         id: 1,
         Title: "Transform your board career",
         content:
-          "Open Doors is not just a governance programme; it explores the full range of director responsibilities in governance, finance, strategy and leadership. Tailored to women leaders, the curriculum blends technical analysis with a practical application of the fundamental principles, ensuring that delegates have a well-rounded understanding of the expectations and requirements of an effective board director.\n\nThe programme leads to an accredited Certificate in Company Direction by the UK Institute of Directors, a bachelor's level (SCQF) qualification in its own right. The curriculum is supplemented with bonus workshops and a board simulation. Open Doors alumnae include over 250+ women across the continent and the diaspora, with over 50+ countries represented across 150+ companies.\n",
+          "Open Doors is not just a governance programme; it explores the full range of director responsibilities in governance, finance, strategy and leadership. Tailored to women leaders, the curriculum blends technical analysis with a practical application of the fundamental principles, ensuring that delegates have a well-rounded understanding of the expectations and requirements of an effective board director.\n\nThe programme leads to an accredited Certificate in Company Direction by the UK Institute of Directors, a bachelor's level (SCQF) qualification in its own right. The curriculum is supplemented with bonus workshops and a board simulation. Open Doors alumni include over 280+ leaders across the continent and the diaspora, with over 50+ countries represented across 150+ companies.\n",
         imageUrl:
           "https://tbratest.my.canva.site/open-doors-page/images/d14259c959fe4c98eacf9d8b308c88d9.jpg",
         link: null,
@@ -515,7 +515,7 @@ export const programmesData = [
         id: 8,
         metaTitle: "TheBoardroom Africa | Open Doors: Director Certificate",
         metaDescription:
-          "Tailored to women leaders, Open Doors is a director certificate programme that explores the full range of directors' duties and responsibilities.",
+          "Tailored to leaders, Open Doors is a director certificate programme that explores the full range of directors' duties and responsibilities.",
         keywords: null,
         metaRobots: null,
         structuredData: null,
