@@ -12,9 +12,9 @@ const StatsSection = () => {
               Our<span className="md:text-tender"> impact</span>
             </h1>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-10 mt-10">
-              <Stats stat="2700+" info="community of women leaders" />
-              <Stats stat="100+" info="executives placed on boards" />
-              <Stats stat="500+" info=" executive leadership alumni" />
+              <Stats stat="3500+" info="community of women leaders" />
+              <Stats stat="200+" info="executives placed on boards" />
+              <Stats stat="600+" info=" executive leadership alumni" />
               <Stats stat="70+" info="sectors and countries represented" />
             </div>
           </div>

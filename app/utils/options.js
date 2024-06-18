@@ -720,7 +720,7 @@ export const corporateBacked = [
 
 export const memberSlides = [
   {
-    title: "Society thrives when women are equal decision makers.",
+    title: "Diverse leadership talent to the world.",
     content:
       "TheBoardroom Africa is Africa's leading private membership network that promotes exceptional female talent to boards and executive teams while transforming the presence and influence of African women on a global stage.",
     style: {

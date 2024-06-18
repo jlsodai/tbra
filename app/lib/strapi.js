@@ -5,7 +5,7 @@ export const homeData = {
   intro: {
     id: 9,
     Title:
-      "Connecting women leaders in Africa and the diaspora to board opportunities and more.",
+      "Connecting leaders in Africa and the diaspora to board opportunities and more.",
     content: null,
     imageUrl:
       "https://tbratest.my.canva.site/marcia-s-colors-landing/images/29d039a30767dbcf5ee0736e92f32d98.jpg",
@@ -56,14 +56,14 @@ export const homeData = {
   },
   hero: {
     id: 1,
-    title: "Society thrives when women are equal decision makers.",
+    title: "Diverse leadership talent to the world.",
     details:
-      "TheBoardroom Africa is the continent’s leading private membership network of women executives. We promote exceptional female talent to boards across the globe and break down barriers to help organisations realise the benefits of increased diversity.",
+      "TheBoardroom Africa (TBrA) is the region's premier business dedicated to promoting exceptional, diverse talent to board and executive positions in Africa and across the globe. We are passionate about diversity and utilise it to achieve exceptional results for all our stakeholders.",
   },
   testimonial: {
     id: 13,
     quote:
-      "As investors and grantmakers, we believe in the critical value of equipping leaders with skills to build and scale talented, diverse teams. We are thrilled to partner with TheBoardroom Africa on its journey to increase the gender diversity of company boards and investment committees across the continent. We are especially proud to support its team as they evolve and launch a suite of professional trainings and member services for the organization’s most valuable asset – its community of accomplished women leaders.",
+      "As investors and grantmakers, we believe in the critical value of equipping leaders with skills to build and scale talented, diverse teams. We are thrilled to partner with TheBoardroom Africa on its journey to increase the diversity of company boards and investment committees across the continent. We are especially proud to support its team as they evolve and launch a suite of professional trainings and member services for the organization's most valuable asset – its community of accomplished women leaders.",
     author: "Liesel Pritzker Simmons",
     title: "Co-founder and Principle, Blue Haven Initiative",
   },
@@ -370,24 +370,24 @@ export const programmesData = [
           instructorImage:
             "https://theboardroomafrica.com/wp-content/uploads/2022/06/Mask-Group-3.jpg",
         },
-        // {
-        //   id: 8,
-        //   Name: "Marjorie Ngwenya",
-        //   Title: "Leadership Coach and Non-executive Director",
-        //   Profile:
-        //     "Marjorie serves an independent non-executive director in the financial services sector. She is also a trustee of two social justice non-for-profit organisations active in Southern Africa and the Legal Resources Centre Chairperson. She is appointed as an external member of the Prudential Regulation Committee of the Bank of England. Through her work as a leadership and life coach she demonstrates her passion for personal growth. She is also an advocate for diversity, equity and inclusion. She is a Past President of the Institute and Faculty of Actuaries, UK and was the first person of colour to hold office in the organisation's 160 years and also its youngest. Her prior roles include being a member of the Group Executive Committee of Liberty Group in South Africa, playing the role of Chief Strategist and Chief Risk Officer of Old Mutual's African Operations. Marjorie trained as an actuary and holds a Sloan Masters of Leadership and Strategy from the London Business School.",
-        //   instructorImage:
-        //     "https://theboardroomafrica.com/wp-content/uploads/2022/09/marjorie.jpg",
-        // },
-        // {
-        //   id: 9,
-        //   Name: "Kieran Moynihan",
-        //   Title: "Managing Partner of Board Excellence",
-        //   Profile:
-        //     "Kieran is the Managing Partner of Board Excellence, a leading international board consulting practice, specialising in board evaluations, operating across over 35 countries. Kieran has over 24 years of experience serving on boards as a CEO & Executive Director, Non-Executive Director and Board Chair. Kieran is an internationally-recognized thought leader in board dynamics, effectiveness, performance, and corporate governance and regularly contributes to leading international board publications. Board Excellence have delivered board evaluations, training and board/governance advisory services to board across the African continent including Morocco, Ghana, Nigeria, Kenya, Tanzania, Lesotho and South Africa, across the corporate, private company, public and non-profit sectors.",
-        //   instructorImage:
-        //     "https://theboardroomafrica.com/wp-content/uploads/2022/09/kieran.jpg",
-        // },
+        {
+          id: 8,
+          Name: "Marjorie Ngwenya",
+          Title: "Leadership Coach and Non-executive Director",
+          Profile:
+            "Marjorie serves an independent non-executive director in the financial services sector. She is also a trustee of two social justice non-for-profit organisations active in Southern Africa and the Legal Resources Centre Chairperson. She is appointed as an external member of the Prudential Regulation Committee of the Bank of England. Through her work as a leadership and life coach she demonstrates her passion for personal growth. She is also an advocate for diversity, equity and inclusion. She is a Past President of the Institute and Faculty of Actuaries, UK and was the first person of colour to hold office in the organisation's 160 years and also its youngest. Her prior roles include being a member of the Group Executive Committee of Liberty Group in South Africa, playing the role of Chief Strategist and Chief Risk Officer of Old Mutual's African Operations. Marjorie trained as an actuary and holds a Sloan Masters of Leadership and Strategy from the London Business School.",
+          instructorImage:
+            "https://theboardroomafrica.com/wp-content/uploads/2022/09/marjorie.jpg",
+        },
+        {
+          id: 9,
+          Name: "Kieran Moynihan",
+          Title: "Managing Partner of Board Excellence",
+          Profile:
+            "Kieran is the Managing Partner of Board Excellence, a leading international board consulting practice, specialising in board evaluations, operating across over 35 countries. Kieran has over 24 years of experience serving on boards as a CEO & Executive Director, Non-Executive Director and Board Chair. Kieran is an internationally-recognized thought leader in board dynamics, effectiveness, performance, and corporate governance and regularly contributes to leading international board publications. Board Excellence have delivered board evaluations, training and board/governance advisory services to board across the African continent including Morocco, Ghana, Nigeria, Kenya, Tanzania, Lesotho and South Africa, across the corporate, private company, public and non-profit sectors.",
+          instructorImage:
+            "https://theboardroomafrica.com/wp-content/uploads/2022/09/kieran.jpg",
+        },
       ],
       Intro: {
         id: 1,
@@ -1473,7 +1473,7 @@ export const membershipData = {
   heroSlides: [
     {
       id: 3,
-      title: "Society thrives when women are equal decision makers",
+      title: "Diverse leadership talent to the world",
       details:
         "TheBoardroom Africa is Africa's leading private membership network that promotes exceptional female talent to boards and executive teams while transforming the presence and influence of African women on a global stage.",
       btnLink: "/membership/application",
