@@ -1475,7 +1475,7 @@ export const membershipData = {
       id: 3,
       title: "Diverse leadership talent to the world",
       details:
-        "TheBoardroom Africa is Africa's leading private membership network that promotes exceptional female talent to boards and executive teams while transforming the presence and influence of African women on a global stage.",
+        "TheBoardroom Africa (TBrA) is the region's premier business dedicated to promoting exceptional, diverse talent to board and executive positions in Africa and across the globe",
       btnLink: "/membership/application",
       imgUrl:
         "https://tbratest.my.canva.site/membership-landing-page/images/90710e7cced9762fbf374e15a4c488c0.jpg",
@@ -1487,9 +1487,9 @@ export const membershipData = {
     },
     {
       id: 1,
-      title: "Influential network of women leaders",
+      title: "Diverse community of influential leaders",
       details:
-        "Being a woman at the top can be a lonely experience; TheBoardroom Africa enables our members to realise they don’t have to go at it alone. Join the most influential private community of women leaders on the continent and together transform your leadership while staying at the top.",
+        "A curated private community of thousands of exceptional leaders",
       btnLink: "/membership/application",
       imgUrl:
         "https://res.cloudinary.com/tbra/image/upload/v1680257493/influential_axcerl.jpg",
@@ -1503,7 +1503,7 @@ export const membershipData = {
       id: 2,
       title: "Transforming the face of leadership",
       details:
-        "To disrupt the status quo, we must intentionally cultivate a pipeline of leaders. Connect to a network of other leading women and together, unlock access to opportunities, transform your presence through executive development, peer networking, in-person gatherings and more.",
+        "To disrupt the status quo, we must intentionally cultivate a pipeline of leaders. Connect to a network of other changemakers and together, unlock access to opportunities and transform your leadership presence.",
       btnLink: "/membership/application",
       imgUrl:
         "https://res.cloudinary.com/tbra/image/upload/v1680257489/face_of_leadership_pwc0pk.jpg",
@@ -1533,7 +1533,7 @@ export const membershipData = {
     id: 6,
     metaTitle: "TheBoardroom Africa | Join Us",
     metaDescription:
-      "Our highly-selective network is a rapidly-growing community of talented women executives representing more than 65 countries across Africa and the diaspora.",
+      "Our highly-selective network is a rapidly growing community of talented executives spans the continent and the diaspora (3,500+),  representing more than 70 countries that also come from leading African and multinational companies, including African Finance Corporation, MTN, McKinsey, Google, General Electric, Unilever, Standard Chartered, Actis and more.",
     keywords: null,
     metaRobots: null,
     structuredData: null,
