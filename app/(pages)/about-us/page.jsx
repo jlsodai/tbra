@@ -55,9 +55,9 @@ const About = async () => {
           <div>
             <h3 className="text-mustard">Mission</h3>
             <p>
-              To accelerate the appointment of women on boards and build a
-              growing pipeline of board-ready women, while inspiring and
-              educating the business community on the power of diverse
+              To accelerate the appointment of underrepresented talent on boards
+              and build a growing pipeline of board-ready women, while inspiring
+              and educating the business community on the power of diverse
               leadership.
             </p>
           </div>
