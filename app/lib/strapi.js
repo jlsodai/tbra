@@ -1414,7 +1414,7 @@ export const membershipData = {
     content:
       "Our highly-selective network is a rapidly growing community of talented executives spans the continent and the diaspora (3,500+),  representing more than 70 countries that also come from leading African and multinational companies, including African Finance Corporation, MTN, McKinsey, Google, General Electric, Unilever, Standard Chartered, Actis and more.",
     imageUrl:
-      "https://res.cloudinary.com/tbra/image/upload/v1681228153/MembershipCollage_ldvgd0.png",
+      "https://res.cloudinary.com/dhhw72iwq/image/upload/v1718815950/membership-collage_fl7z4w.png",
     link: null,
     btn: null,
     linkTitle: null,
@@ -1503,7 +1503,7 @@ export const membershipData = {
       id: 1,
       title: "Transforming the face of leadership",
       details:
-      "To disrupt the status quo, we must intentionally cultivate a pipeline of leaders. Connect to a network of other changemakers and together, unlock access to opportunities and transform your leadership presence.",
+        "To disrupt the status quo, we must intentionally cultivate a pipeline of leaders. Connect to a network of other changemakers and together, unlock access to opportunities and transform your leadership presence.",
       btnLink: "/membership/application",
       imgUrl:
         "https://res.cloudinary.com/tbra/image/upload/v1680257493/influential_axcerl.jpg",
