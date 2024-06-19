@@ -108,7 +108,7 @@ const MembershipHome = async () => {
         </div>
       </section>
 
-      <section className="bg-[linear-gradient(rgba(32,41,69,0.9),rgba(32,41,69,0.9)),url('https://tbratest.my.canva.site/membership-learn-more-page/images/a00b60f40dce31fa319e4dcd91c0d494.jpg')] bg-cover bg-center">
+      <section className="bg-[linear-gradient(rgba(32,41,69,0.9),rgba(32,41,69,0.9)),url('https://res.cloudinary.com/dhhw72iwq/image/upload/v1718813187/male-gc_zbyxcu.jpg')] bg-cover bg-center">
         <div className="flex flex-col container md:min-h-screen -sm:py-28 relative justify-center">
           <img
             src="/images/white-key.png"

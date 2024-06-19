@@ -1486,6 +1486,20 @@ export const membershipData = {
       },
     },
     {
+      id: 5,
+      title: "Diverse community of influential leaders",
+      details:
+        "A curated private community of thousands of exceptional leaders",
+      btnLink: "/membership/application",
+      imgUrl:
+        "https://res.cloudinary.com/dhhw72iwq/image/upload/v1718812990/male-member_owvr9z.jpg",
+      style: {
+        background:
+          "linear-gradient(rgba(34,35,68, 0.75), rgba(34,35,68, 0.75)), url('https://res.cloudinary.com/dhhw72iwq/image/upload/v1718812990/male-member_owvr9z.jpg')",
+        backgroundSize: "cover",
+      },
+    },
+    {
       id: 1,
       title: "Diverse community of influential leaders",
       details:
@@ -1497,21 +1511,6 @@ export const membershipData = {
         background:
           "linear-gradient(rgba(34,35,68, 0.75), rgba(34,35,68, 0.75)), url('https://res.cloudinary.com/tbra/image/upload/v1680257493/influential_axcerl.jpg')",
         backgroundSize: "cover",
-      },
-    },
-    {
-      id: 2,
-      title: "Transforming the face of leadership",
-      details:
-        "To disrupt the status quo, we must intentionally cultivate a pipeline of leaders. Connect to a network of other changemakers and together, unlock access to opportunities and transform your leadership presence.",
-      btnLink: "/membership/application",
-      imgUrl:
-        "https://res.cloudinary.com/tbra/image/upload/v1680257489/face_of_leadership_pwc0pk.jpg",
-      style: {
-        background:
-          "linear-gradient(rgba(34,35,68, 0.75), rgba(34,35,68, 0.75)), url('https://res.cloudinary.com/tbra/image/upload/v1680257489/face_of_leadership_pwc0pk.jpg')",
-        backgroundSize: "cover",
-        backgroundPosition: "300px",
       },
     },
     {
