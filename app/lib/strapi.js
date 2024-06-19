@@ -1412,7 +1412,7 @@ export const membershipData = {
     id: 14,
     Title: " Powerful community",
     content:
-      "Our highly-selective network is a rapidly-growing community of talented women executives representing more than 65 countries across Africa and the diaspora. Our network’s executives come from leading African and multinational companies, including Actis, General Electric, African Finance Corporation, Google, GlaxoSmithKline, Standard Chartered, Uber and more.",
+      "Our highly-selective network is a rapidly growing community of talented executives spans the continent and the diaspora (3,500+),  representing more than 70 countries that also come from leading African and multinational companies, including African Finance Corporation, MTN, McKinsey, Google, General Electric, Unilever, Standard Chartered, Actis and more.",
     imageUrl:
       "https://res.cloudinary.com/tbra/image/upload/v1681228153/MembershipCollage_ldvgd0.png",
     link: null,
@@ -1533,7 +1533,7 @@ export const membershipData = {
     id: 6,
     metaTitle: "TheBoardroom Africa | Join Us",
     metaDescription:
-      "Our highly-selective network is a rapidly growing community of talented executives spans the continent and the diaspora (3,500+), representing more than 70 countries that also come from leading African and multinational companies, including African Finance Corporation, MTN, McKinsey, Google, General Electric, Unilever, Standard Chartered, Actis and more.",
+      "Our highly-selective network is a rapidly growing community of talented executives spans the continent and the diaspora (3,500+),  representing more than 70 countries that also come from leading African and multinational companies, including African Finance Corporation, MTN, McKinsey, Google, General Electric, Unilever, Standard Chartered, Actis and more.",
     keywords: null,
     metaRobots: null,
     structuredData: null,
