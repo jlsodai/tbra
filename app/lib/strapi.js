@@ -393,7 +393,7 @@ export const programmesData = [
         id: 1,
         Title: "Transform your board career",
         content:
-          "Open Doors is not just a governance programme; it explores the full range of director responsibilities in governance, finance, strategy and leadership. Tailored to women leaders, the curriculum blends technical analysis with a practical application of the fundamental principles, ensuring that delegates have a well-rounded understanding of the expectations and requirements of an effective board director.\n\nThe programme leads to an accredited Certificate in Company Direction by the UK Institute of Directors, a bachelor's level (SCQF) qualification in its own right. The curriculum is supplemented with bonus workshops and a board simulation. Open Doors alumni include over 280+ leaders across the continent and the diaspora, with over 50+ countries represented across 150+ companies.\n",
+          "Open Doors is not just a governance programme; it explores the full range of director responsibilities in governance, finance, strategy and leadership. Tailored to leaders, the curriculum blends technical analysis with a practical application of the fundamental principles, ensuring that delegates have a well-rounded understanding of the expectations and requirements of an effective board director.\n\nThe programme leads to an accredited Certificate in Company Direction by the UK Institute of Directors, a bachelor's level (SCQF) qualification in its own right. The curriculum is supplemented with bonus workshops and a board simulation. Open Doors alumni include over 280+ leaders across the continent and the diaspora, with over 50+ countries represented across 150+ companies.\n",
         imageUrl:
           "https://tbratest.my.canva.site/open-doors-page/images/d14259c959fe4c98eacf9d8b308c88d9.jpg",
         link: null,
@@ -1533,7 +1533,7 @@ export const membershipData = {
     id: 6,
     metaTitle: "TheBoardroom Africa | Join Us",
     metaDescription:
-      "Our highly-selective network is a rapidly growing community of talented executives spans the continent and the diaspora (3,500+),  representing more than 70 countries that also come from leading African and multinational companies, including African Finance Corporation, MTN, McKinsey, Google, General Electric, Unilever, Standard Chartered, Actis and more.",
+      "Our highly-selective network is a rapidly growing community of talented executives spans the continent and the diaspora (3,500+), representing more than 70 countries that also come from leading African and multinational companies, including African Finance Corporation, MTN, McKinsey, Google, General Electric, Unilever, Standard Chartered, Actis and more.",
     keywords: null,
     metaRobots: null,
     structuredData: null,
