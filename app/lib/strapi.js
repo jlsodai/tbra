@@ -1501,9 +1501,9 @@ export const membershipData = {
     },
     {
       id: 1,
-      title: "Diverse community of influential leaders",
+      title: "Transforming the face of leadership",
       details:
-        "A curated private community of thousands of exceptional leaders",
+      "To disrupt the status quo, we must intentionally cultivate a pipeline of leaders. Connect to a network of other changemakers and together, unlock access to opportunities and transform your leadership presence.",
       btnLink: "/membership/application",
       imgUrl:
         "https://res.cloudinary.com/tbra/image/upload/v1680257493/influential_axcerl.jpg",
