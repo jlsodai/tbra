@@ -8,7 +8,7 @@ export const homeData = {
       "Connecting leaders in Africa and the diaspora to board opportunities and more.",
     content: null,
     imageUrl:
-      "https://tbratest.my.canva.site/marcia-s-colors-landing/images/29d039a30767dbcf5ee0736e92f32d98.jpg",
+      "https://res.cloudinary.com/dhhw72iwq/image/upload/w_800,h_815,c_fill,g_east/v1718888328/HomepageImage_u6d28w.jpg",
     link: "/membership",
     btn: true,
     linkTitle: "About Membership",
