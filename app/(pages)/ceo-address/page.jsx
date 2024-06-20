@@ -125,7 +125,7 @@ const page = () => {
             continue to be the cornerstone of our community, embodying our
             unwavering commitment to challenge and change the gender narratives
             in leadership across Africa. Alongside these changes, we plan to
-            provide enhanced services and programs, including a broader talent
+            provide enhanced services and programmes, including a broader talent
             base for executive search clients and richer learning experiences
             that benefit from wider perspectives.
           </p>
