@@ -1414,7 +1414,7 @@ export const membershipData = {
     content:
       "Our highly-selective network is a rapidly growing community of talented executives spans the continent and the diaspora (3,500+),  representing more than 70 countries that also come from leading African and multinational companies, including African Finance Corporation, MTN, McKinsey, Google, General Electric, Unilever, Standard Chartered, Actis and more.",
     imageUrl:
-      "https://res.cloudinary.com/dhhw72iwq/image/upload/v1718817927/membership-collage_bwppij.png",
+      "https://res.cloudinary.com/dhhw72iwq/image/upload/v1718868802/membership-collage_yap8ze.png",
     link: null,
     btn: null,
     linkTitle: null,
