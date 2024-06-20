@@ -18,8 +18,7 @@ const page = () => {
 
           <img
             src="https://res.cloudinary.com/tbra/image/upload/v1680706201/marcia_yzavpl.jpg"
-            width="250px"
-            className="float-left mr-8 mb-8 mt-0"
+            className="sm:float-left mr-8 mb-8 mt-0 w-[250px] -sm:w-full"
             alt=""
           />
 
