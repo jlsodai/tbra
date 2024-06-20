@@ -23,7 +23,7 @@ const page = () => {
             alt=""
           />
 
-          <p>To all our stakeholders,</p>
+          <p>To our stakeholders,</p>
 
           <p>
             Since its inception, TheBoardroom Africa (TBrA) has been dedicated
