@@ -1255,8 +1255,8 @@ export const maleFaqs = [
     text: "Incorporating men into our membership will create a more diverse and inclusive network, enhancing the richness of our community. This diversity will lead to more robust discussions, innovative ideas, and a stronger collective influence on corporate governance across the continent.\n\nThe organisations we support with our recruitment services will benefit from a wider pool of talent to ensure their need for both quality candidates and diversity are adequately met.",
   },
   {
-    title: "How can current members refer men for membership?",
-    text: "Current members can refer exceptional men for membership via [submitting a referral form](https://forms.theboardroomafrica.com/hchaeqcb). We encourage you to recommend professionals who meet our membership criteria and share our commitment to diversity and leadership excellence.",
+    title: "How can current members refer male candidates for membership?",
+    text: "Current members can refer exceptional male candidates for membership via [submitting a referral form](https://forms.theboardroomafrica.com/hchaeqcb). We encourage you to recommend professionals who meet our membership criteria and share our commitment to diversity and leadership excellence.",
   },
   {
     title: "What criteria will be used to select new male members?",
