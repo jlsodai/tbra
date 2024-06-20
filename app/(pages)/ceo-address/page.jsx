@@ -72,10 +72,10 @@ const page = () => {
 
           <p>
             Today, I am writing to share an important and exciting development
-            in our ongoing mission to foster diversity within the corporate
-            landscape. In our efforts to find the best, most effective ways to
-            elevate the status of women leaders, we are continuously listening,
-            learning and unlearning to stay relevant to our mission.
+            in our ongoing mission to foster inclusion in leadership. In our
+            efforts to find the best, most effective ways to elevate the status
+            of women leaders, we are continuously listening, learning and
+            unlearning to stay relevant to our mission.
           </p>
 
           <p>
@@ -83,10 +83,10 @@ const page = () => {
             teams diverse, we need to be equally intentional and ensure that all
             leaders, regardless of gender, are provided with the right tools and
             that our mission to enhance leadership opportunities for women is
-            made richer in discourse and networks and communities that are also
-            diverse. We recognise that for women to advance in leadership, they
-            need to be part of a supportive community and expand their access to
-            men who hold the majority of leadership positions.
+            made richer in discourse and networks that are also diverse. We
+            recognise that for women to advance in leadership, they need to be
+            part of a supportive community and expand their access to men who
+            hold the majority of leadership positions.
           </p>
 
           <p>
