@@ -50,8 +50,8 @@ const page = () => {
             practical solutions, have equipped more than 600 women leaders with
             the knowledge and skills necessary to transform their approaches to
             governance and sustainability. We&apos;ve done this all while also
-            providing our members with a vibrant community of fellow leaders
-            with whom they can support and collaborate.
+            providing our members with a supportive and vibrant community of
+            fellow leaders with whom they can collaborate.
           </p>
 
           <div className="bg-[#DADFE5] mb-8 ml-8 text-black px-8 float-right max-w-[400px] font-libreb text-2xl">
