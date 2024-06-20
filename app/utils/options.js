@@ -1333,11 +1333,11 @@ export const faqs = [
   },
   {
     title: "What countries/regions does TBrA cover?",
-    text: "TheBoardroom Africa has a global membership network of over 3,500 leaders across 70 countries globally. We pride ourselves in our curated community of geographically diverse talent.",
+    text: "TheBoardroom Africa has a membership network of over 3,500 leaders across 70 countries globally. We pride ourselves in our curated community of geographically diverse talent.",
   },
   {
     title:
-      "TheBoardroom Africa is advancing it's mission of fostering diversity within the leadership landscape by opening up membership to male candidates. Why has this decision been made and what implication(s) does it have on it's work around advocating for women in leadership positions?",
+      "TheBoardroom Africa is strengthening it's mission of fostering diversity within the leadership landscape by opening up membership to male candidates. Why has this decision been made and what implication(s) does it have on it's work around advocating for women in leadership positions?",
     text: "We believe the inclusion of men in our community will make our impact more transformational, and we also see this as a way to engage men broadly around conversations of inclusion and diversity - and truly make them part of the solution.\n\nIn order to make leadership teams diverse, we need to be equally intentional and ensure that all leaders, regardless of gender, are provided with the right tools and that our mission to enhance leadership opportunities for women is made richer in discourse and networks and communities that are also diverse. We recognise that for women to advance in leadership, they need to be part of a supportive community and expand their access to men who hold the majority of leadership positions.",
   },
 ];

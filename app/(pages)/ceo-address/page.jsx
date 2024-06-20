@@ -9,7 +9,7 @@ const page = () => {
       <section className="container mt-16">
         <div className="prose max-w-full lg:mx-16">
           <h1 className="max-w-4xl">
-            Strengthening our Mission by Ensuring Men Are Part of the Solution
+            Strengthening our Mission by Ensuring Men are Part of the Solution
           </h1>
 
           <p className="mb-8 mt-4">
