@@ -39,7 +39,8 @@ const page = () => {
             agenda, directly impacting the leadership journeys of thousands of
             women. We have collaborated with regional and global businesses and
             organisations to reshape their leadership spaces by placing over 200
-            women on boards, investment committees, and other leadership roles.
+            women on boards, investment committees, and in other leadership
+            roles.
           </p>
 
           <p>
@@ -97,14 +98,37 @@ const page = () => {
           </p>
 
           <p>This change is motivated by:</p>
-          
+
           <ul>
-            <li>Our belief that expanding our network by including influential male leaders will provide women members with richer expert networking opportunities, facilitating greater access to opportunity, collaboration, and learning.</li>
-            <li>Our desire to hone in on diversity more broadly, to include diversity in age, ethnicity, and more,  aligns with our belief that varied perspectives enrich leadership.</li>
-            <li>Our vision for a collaborative society and our belief that where men and women work side by side, society as a whole thrives. This change amplifies our vision for harmonious and effective leadership.</li>
+            <li>
+              Our belief that expanding our network by including influential
+              male leaders will provide women members with richer expert
+              networking opportunities, facilitating greater access to
+              opportunity, collaboration, and learning.
+            </li>
+            <li>
+              Our desire to hone in on diversity more broadly, to include
+              diversity in age, ethnicity, and more, aligns with our belief that
+              varied perspectives enrich leadership.
+            </li>
+            <li>
+              Our vision for a collaborative society and our belief that where
+              men and women work side by side, society as a whole thrives. This
+              change amplifies our vision for harmonious and effective
+              leadership.
+            </li>
           </ul>
 
-          <p>While we are opening our doors to male members, our core commitment to addressing gender diversity remains steadfast. Women will continue to be the cornerstone of our community, embodying our unwavering commitment to challenge and change the gender narratives in leadership across Africa. Alongside these changes, we plan to provide enhanced services and programs, including a broader talent base for executive search clients and richer learning experiences that benefit from wider perspectives.</p>
+          <p>
+            While we are opening our doors to male members, our core commitment
+            to addressing gender diversity remains steadfast. Women will
+            continue to be the cornerstone of our community, embodying our
+            unwavering commitment to challenge and change the gender narratives
+            in leadership across Africa. Alongside these changes, we plan to
+            provide enhanced services and programs, including a broader talent
+            base for executive search clients and richer learning experiences
+            that benefit from wider perspectives.
+          </p>
 
           <p>
             We understand that change can bring about questions. We have
