@@ -69,7 +69,7 @@ export const homeData = {
   },
   seo: {
     id: 1,
-    metaTitle: "TheBoardroom Africa | A leading leadership network.",
+    metaTitle: "TheBoardroom Africa | Diverse Leadership Talent to the World",
     metaDescription:
       "Promoting exceptional female talent to boards in Africa and the globe, and breaking down barriers to help companies realise the benefits of increased diversity.",
     keywords: "Female executives in Africa, Board Recruitment",
