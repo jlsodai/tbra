@@ -47,10 +47,10 @@ export const menuLinks = [
         href: "/executive-programmes/risk-governance-programmes",
         target: "_blank",
       },
-      {
-        name: "Ontological Growth Experience",
-        href: "/executive-programmes/ontological-growth-experience",
-      },
+      // {
+      //   name: "Ontological Growth Experience",
+      //   href: "/executive-programmes/ontological-growth-experience",
+      // },
     ],
   },
   {
