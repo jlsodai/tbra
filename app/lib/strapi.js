@@ -5,7 +5,7 @@ export const homeData = {
   intro: {
     id: 9,
     Title:
-      "Connecting leaders in Africa and the diaspora to board opportunities and more.",
+      "Join the largest, and fastest growing leadership community on the continent.",
     content: null,
     imageUrl:
       "https://res.cloudinary.com/dhhw72iwq/image/upload/w_800,h_815,c_fill,g_east/v1718888328/HomepageImage_u6d28w.jpg",

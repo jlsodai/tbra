@@ -31,7 +31,7 @@ const HeroSection = ({ hero }) => {
           <h1 className="text-mustard text-7xl max-w-5xl" ref={el}></h1>
           <div className="md:max-w-[65%]">
             <p className=" text-dawn">{hero.details}</p>
-            <div className="mt-10 flex gap-12 items-center">
+            {/* <div className="mt-10 flex gap-12 items-center">
               <Link
                 href="/membership/application"
                 className="btn bg-dawn font-normal"
@@ -41,7 +41,7 @@ const HeroSection = ({ hero }) => {
               <a href="/membership" className="text-white">
                 Learn more &nbsp;→
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
