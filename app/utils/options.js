@@ -1300,10 +1300,10 @@ export const faqs = [
       "How do you bridge the challenge of executives who have no board experience, but want to get on boards as most board roles require previous board experience?",
     text: "We work with business networks, companies, investors, and TBrA members to identify rising stars, and provide them with the additional training or certification to help get them “board ready”. We always assess the boards of our clients to understand the skills currently on the board and the essential skills required – prior board experience is not always a requirement.",
   },
-  {
-    title: "Are you a for-profit business?",
-    text: "TheBoardroom Africa is a nonprofit foundation.",
-  },
+  // {
+  //   title: "Are you a for-profit business?",
+  //   text: "TheBoardroom Africa is a nonprofit foundation.",
+  // },
   {
     title: "How do I become a member of TheBoardroom Africa?",
     text: "To apply for membership with TheBoardroom Africa, please review our membership criteria [here](https://theboardroomafrica.com/membership/application/) and submit your application through the provided link. We will respond within 10 working days to inform you of the status of your application.",
