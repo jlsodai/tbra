@@ -142,7 +142,8 @@ const page = async () => {
           <div className="md:container grid md:grid-cols-2 gap-x-16">
             <div className=" bg-white" data-aos="fade-up" data-aos-delay="150">
               <img
-                src="https://res.cloudinary.com/dhhw72iwq/image/upload/w_800,h_434,c_fill,g_north/v1708962811/tell-story_fafqbn.jpg"
+                className="w-full"
+                src="https://res.cloudinary.com/dhhw72iwq/image/upload/v1719407677/leadership-presence_cocijh.jpg"
                 alt=""
               />
               <div className="px-8 py-16 md:px-32">
