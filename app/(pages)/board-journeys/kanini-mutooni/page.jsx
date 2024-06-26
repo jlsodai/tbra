@@ -6,7 +6,7 @@ import Link from "next/link";
 import RelatedArticle from "@/app/components/RelatedArticle";
 
 export const metadata = {
-  title: "Board Journeys: 2024 Management Consultancy Industry Trends",
+  title: "Board Journeys: Kanini Mutooni",
   // openGraph: {
   // 	images: 'https://res.cloudinary.com/tbra/image/upload/v1698250891/TBRA-DCRO-Press-Release_bvmzjo.jpg'
   // },
