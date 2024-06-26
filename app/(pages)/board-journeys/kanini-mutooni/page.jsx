@@ -141,9 +141,9 @@ const page = () => {
             experience to my day job as a result of the boards that I serve on,
             plus I have learned to manage my time skillfully to be effective in
             my day job and my board roles. Finally, my personal brand has grown
-            over the last 11 years as a result of the boards I have served on
-            and I feel that I have personally grown and learned to listen and
-            interact with all manner of individuals as a result.
+            as a result of the boards I have served on and I feel that I have
+            personally grown and learned to listen and interact with all manner
+            of individuals as a result.
           </p>
         </div>
 
@@ -153,7 +153,7 @@ const page = () => {
           <div className="bg-[url('https://res.cloudinary.com/dhhw72iwq/image/upload/v1719399608/CVImg_wf70st.jpg')] bg-cover">
             <img
               src="https://res.cloudinary.com/dhhw72iwq/image/upload/v1719399608/CVImg_wf70st.jpg"
-              className="w-full md:hidden"
+              className="w-full md:hidden aspect-square object-cover"
               alt=""
             />
           </div>
