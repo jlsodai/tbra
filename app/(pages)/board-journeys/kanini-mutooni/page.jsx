@@ -99,16 +99,15 @@ const page = () => {
             years?
           </h2>
           <p>
-            I look out for boards in new thematic areas and just apply for them.
-            My focus over the last 2 years has been the corporate listed boards
-            and I have been lucky to join 2 listed companies. I started off
-            serving in non-profits boards then graduated to serving in boards in
-            the early stage ecosystem and continued to diversify my portfolio to
-            listed corporate boards. Diversification is key in any board journey
-            and my advice is that once one is able to identify their value
-            proposition at board level, those skills then become highly
-            transferable irrespective of the sector that the organisation
-            represents.
+            I look out for board opportunities in thematic areas. My focus over
+            the last 2 years has been the corporate listed boards and I have
+            been lucky to join 2 listed companies. I started off serving in
+            non-profits boards then graduated to serving in boards in the early
+            stage ecosystem and continued to diversify my portfolio to listed
+            corporate boards. Diversification is key in any board journey and my
+            advice is that once one is able to identify their value proposition
+            at board level, those skills then become highly transferable
+            irrespective of the sector that the organisation represents.
           </p>
           <h2>
             From your experience, what are some unexpected insights you&apos;ve
