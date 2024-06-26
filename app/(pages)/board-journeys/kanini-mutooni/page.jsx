@@ -34,7 +34,7 @@ const page = () => {
 
         <div className="h-[2px] mx-auto max-w-[400px] bg-mustard my-12"></div>
 
-        <div className="max-w-5xl grid md:grid-cols-[3fr_5fr] p-8 mx-auto md:gap-8 bg-[#F4F4F5] mb-16">
+        <div className="max-w-5xl grid md:grid-cols-[3fr_5fr] md:p-8 mx-auto md:gap-8 bg-[#F4F4F5] mb-16">
           <div className="bg-[url('https://res.cloudinary.com/dhhw72iwq/image/upload/v1719396919/Kanini_wjjsuw.jpg')] bg-cover bg-left-bottom">
             <img
               src="https://res.cloudinary.com/dhhw72iwq/image/upload/v1719396919/Kanini_wjjsuw.jpg"
@@ -42,7 +42,7 @@ const page = () => {
               alt=""
             />
           </div>
-          <div className="font-libreb text-2xl md:text-3xl p-8 bg-[#EBE5DB]">
+          <div className="font-libreb text-md md:text-3xl p-8 bg-[#EBE5DB]">
             <img
               className="float-left mr-4"
               width="35px"
@@ -63,7 +63,7 @@ const page = () => {
             My board journey has been gradual and I currently chair 3
             organisations as well as Chair the Audit and Nominations committees
             of these organisations. I cover Telcoms, Agriculture, Insurance and
-            the early stage fintech sector in both Africa, Europe and the US. My
+            the early stage Fintech sector in Africa, Europe and the US. My
             greatest impact has been in the early stage sector where I have
             supported over 15 organisations build up their boards and improve
             their governance as they grow and scale.
@@ -77,7 +77,7 @@ const page = () => {
             them succeed. Board leadership exposes me to multiple industries and
             networks that I wouldn&apos;t have had access to. I feel completely
             comfortable in a boardroom set-up and believe that I add real value
-            in the boards that I serve.
+            to the boards that I serve.
           </p>
           <h2>
             What were the foundational steps you took in your journey towards
@@ -159,7 +159,7 @@ const page = () => {
             />
           </div>
           <div className="bg-darkblue p-8">
-            <h2 className="text-white mb-4 leading-normal text-3xl">
+            <h2 className="text-white mb-4 leading-normal text-xl md:text-3xl">
               Need to craft a distinctive value proposition for your Executive
               CV?
             </h2>
