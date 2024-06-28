@@ -199,8 +199,8 @@ const page = async () => {
               >
                 TBrA Prime is an enhanced premium membership experience, crafted
                 to enable you to get the absolute best from your membership.
-                Enjoy 6 complimentary group coaching sessions, priority access
-                to member services, exclusive discounts, and more.
+                Enjoy priority access to member services, exclusive discounts,
+                and more.
               </p>
               <div className="mt-8" data-aos="fade-up" data-aos-delay="550">
                 <Link

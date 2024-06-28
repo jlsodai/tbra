@@ -960,8 +960,8 @@ export const primePricing = {
     {
       title: "Monthly <<<Group Coaching<<<",
       standard: "Full fee",
-      prime: "6 complimentary",
-      corporate: "3 complimentary",
+      prime: "Full fee",
+      corporate: "Full fee",
       id: "63p",
     },
     {
