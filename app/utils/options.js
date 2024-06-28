@@ -642,7 +642,7 @@ export const pricingTable = [
     once: true,
     recruiters: true,
     list: [
-      "The role is advertised on the Members' Forum for a month to a membership pool of 2700+ executives.",
+      "The role is advertised on our Members' Forum for a month to a membership pool of 3500+ executives.",
       "One-month feature in the weekly newsletter. The newsletter reaches a broader audience which includes our members, clients, partners, subscribers and other stakeholders.",
       "Applicant profiles are shared every two weeks.",
       "The client manages the recruitment process and communicates directly with applicants regarding the status of their applications.",
@@ -656,7 +656,7 @@ export const pricingTable = [
     recruiters: true,
     colored: true,
     list: [
-      "The role is advertised on the Members' Forum for a month to a membership pool of 2700+ executives.",
+      "The role is advertised on our Members' Forum for a month to a membership pool of 3500+ executives.",
       "One-month feature in the weekly newsletter. The newsletter reaches a broader audience which includes our members, clients, partners, subscribers and other stakeholders.",
       "Applicant profiles are shared on a weekly basis.",
       "The client manages the recruitment process and communicates directly with applicants regarding the status of their applications.",
