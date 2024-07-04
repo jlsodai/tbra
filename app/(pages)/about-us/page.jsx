@@ -47,7 +47,7 @@ const About = async () => {
         </div>
       </section>
 
-      <section className="mt-10 md:py-24" data-aos="fade-up">
+      {/* <section className="mt-10 md:py-24" data-aos="fade-up">
         <div
           className="container keySectionWrap items-center"
           data-aos="fade-up"
@@ -107,7 +107,7 @@ const About = async () => {
             width="330px"
           />
         </div>
-      </section>
+      </section> */}
       <StatsSection />
     </>
   );
