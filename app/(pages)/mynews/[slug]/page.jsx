@@ -35,6 +35,7 @@ const Page = async ({ params }) => {
   return (
     <>
       <HeaderTitle title={article.heading || "News"} />
+
       <section className="container mt-16">
         <div className="prose max-w-full lg:mx-16">
           <div className="flex items-center">
@@ -51,22 +52,24 @@ const Page = async ({ params }) => {
             )}
           </div>
           <div className="news-content">
-            <div className="md:float-right bg-gray-50 border border-gray-400 p-4 md:ml-8 md:mb-4 w-[300px]">
-              {article.profiles.map((profile, i) => (
-                <div className={`${i ? "mt-4" : ""}`} key={i}>
-                  <img
-                    key={i}
-                    alt={profile.profileName}
-                    src={profile.profilePicture.url}
-                    className="m-0"
-                  />
-                  <p className="text-center my-0">{profile.profileName}</p>
-                </div>
-              ))}
-            </div>
-            <div className="leftalign rightalign centeralign blockquote">
-              {article.imageAlignment}
-            </div>
+            {article.profiles.length ? (
+              <div className="md:float-right bg-gray-50 border border-gray-400 p-4 md:ml-8 md:mb-4 w-[300px]">
+                {article.profiles.map((profile, i) => (
+                  <div className={`${i ? "mt-4" : ""}`} key={i}>
+                    <img
+                      key={i}
+                      alt={profile.profileName}
+                      src={profile.profilePicture.url}
+                      className="m-0"
+                    />
+                    <p className="text-center my-0">{profile.profileName}</p>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              ""
+            )}
+            <div className="leftalign rightalign centeralign blockquote"></div>
             <div className={`${article.imageAlignment ?? "centeralign"}`}>
               <div
                 dangerouslySetInnerHTML={{ __html: article.content.html }}
