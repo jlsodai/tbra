@@ -7,6 +7,7 @@ import { notFound } from "next/navigation";
 const generateQuery = ({ slug }) => ({
   query: `query MyQuery {
         article(where: {slug: "${slug}"}) {
+            heading
             title
             logo {
                 url
@@ -28,12 +29,12 @@ const generateQuery = ({ slug }) => ({
 
 const Page = async ({ params }) => {
   const { article } = await fetchHygraph(generateQuery(params));
-  console.log(article);
+  // console.log(article);
   if (!article) return notFound();
 
   return (
     <>
-      <HeaderTitle title="Press Release" />
+      <HeaderTitle title={article.heading || "News"} />
       <section className="container mt-16">
         <div className="prose max-w-full lg:mx-16">
           <div className="flex items-center">
@@ -63,11 +64,14 @@ const Page = async ({ params }) => {
                 </div>
               ))}
             </div>
-            <div className="leftalign rightalign centeralign blockquote"></div>
-            <div
-              className={`${article.imageAlignment || ""}`}
-              dangerouslySetInnerHTML={{ __html: article.content.html }}
-            ></div>
+            <div className="leftalign rightalign centeralign blockquote">
+              {article.imageAlignment}
+            </div>
+            <div className={`${article.imageAlignment ?? "centeralign"}`}>
+              <div
+                dangerouslySetInnerHTML={{ __html: article.content.html }}
+              ></div>
+            </div>
           </div>
         </div>
       </section>

@@ -119,11 +119,15 @@ html {
   }
 
   .leftalign img {
-    @apply float-left mr-8 mb-4;
+    @apply float-left mr-8 mb-4 max-w-sm;
+  }
+
+  .rightalign img {
+    @apply float-right ml-8 mb-4 max-w-sm;
   }
 
   .centeralign img {
-    @apply mx-auto;
+    @apply mx-auto max-w-[900px];
   }
 
   .prose blockquote strong {
