@@ -181,18 +181,18 @@ export const execData = {
       learnmoreBtnUrl: "/executive-programmes/open-doors",
       groupName: null,
     },
-    {
-      id: 6,
-      title: "Open Doors: Accredited Certificate in Company Direction",
-      date: "November 2024",
-      seatsRemaining: "30",
-      venue: "CapeTown (In-Person)",
-      imageUrl:
-        "https://tbratest.my.canva.site/executive-development-page/images/128b157c5a41f2c2b630bbb9d2543b69.jpg",
-      applyBtnUrl: "/open-doors-application?hideBanner=true",
-      learnmoreBtnUrl: "/executive-programmes/open-doors",
-      groupName: null,
-    },
+    // {
+    //   id: 6,
+    //   title: "Open Doors: Accredited Certificate in Company Direction",
+    //   date: "November 2024",
+    //   seatsRemaining: "30",
+    //   venue: "CapeTown (In-Person)",
+    //   imageUrl:
+    //     "https://tbratest.my.canva.site/executive-development-page/images/128b157c5a41f2c2b630bbb9d2543b69.jpg",
+    //   applyBtnUrl: "/open-doors-application?hideBanner=true",
+    //   learnmoreBtnUrl: "/executive-programmes/open-doors",
+    //   groupName: null,
+    // },
     // {
     //   id: 4,
     //   title: "Environmental Social and Governance (ESG) Certificate",
@@ -502,8 +502,7 @@ export const programmesData = [
       ],
       brochureInfo: {
         id: 1,
-        upcoming:
-          "11 July - 15 October 2024 (Virtual)\n18 - 23 November 2024 (Cape Town)",
+        upcoming: "11 July - 15 October 2024 (Virtual)",
         structure:
           "4 immersive modules, 3 workshops, and a board simulation led by world-class faculty",
         brochureFormUrl: "opendoorsbrochuredownload",
