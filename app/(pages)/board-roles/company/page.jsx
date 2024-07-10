@@ -44,7 +44,7 @@ const Page = () => {
         <div className="container keySectionWrap">
           <CascadeImg
             position="left"
-            src="https://tbratest.my.canva.site/board-roles/images/0223b0a6949672c5d258491373d270ed.jpg"
+            src="https://res.cloudinary.com/dhhw72iwq/image/upload/v1720605891/AdvertiseNow_jqgvtq.jpg"
           />
           <KeySection
             heading="Advertise Now"
