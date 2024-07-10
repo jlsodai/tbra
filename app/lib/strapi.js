@@ -1022,7 +1022,7 @@ export const programmesData = [
       impact: [],
       brochureInfo: {
         id: 2,
-        upcoming: "06 August - 03 October 2024 (Virtual)\n",
+        upcoming: "21 August - 03 October 2024 (Virtual)\n",
         structure:
           "14 live sessions with breakouts, case studies and a final course assignment",
         brochureFormUrl: "esgbrochuredownload",
