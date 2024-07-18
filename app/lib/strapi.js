@@ -1249,16 +1249,16 @@ export const teamData = {
       title: " Memberships Lead",
       companyName: null,
     },
-    {
-      id: 22,
-      name: "Diana Agbenyo",
-      imageUrl:
-        "https://theboardroomafrica.com/wp-content/uploads/2023/04/Diana-300x300.jpg",
-      linkedInUrl: "https://www.linkedin.com/in/dianasetsofiaagbenyo/",
-      twitterUrl: null,
-      title: "Digital Marketing Lead",
-      companyName: null,
-    },
+    // {
+    //   id: 22,
+    //   name: "Diana Agbenyo",
+    //   imageUrl:
+    //     "https://theboardroomafrica.com/wp-content/uploads/2023/04/Diana-300x300.jpg",
+    //   linkedInUrl: "https://www.linkedin.com/in/dianasetsofiaagbenyo/",
+    //   twitterUrl: null,
+    //   title: "Digital Marketing Lead",
+    //   companyName: null,
+    // },
     {
       id: 23,
       name: "Eleanor Khupe",
@@ -1308,17 +1308,17 @@ export const teamData = {
     //   title: "Executive Programmes Associate",
     //   companyName: null,
     // },
-    {
-      id: 15,
-      name: "Katleho Cathy Mthenjane",
-      imageUrl:
-        "https://res.cloudinary.com/dhhw72iwq/image/upload/w_640,h_540,g_south,c_fill/v1709647478/Kat_xtg9me.jpg",
-      linkedInUrl:
-        "https://www.linkedin.com/in/katleho-cathy-mthenjane-12424b207",
-      twitterUrl: null,
-      title: "Executive Programmes Associate",
-      companyName: null,
-    },
+    // {
+    //   id: 15,
+    //   name: "Katleho Cathy Mthenjane",
+    //   imageUrl:
+    //     "https://res.cloudinary.com/dhhw72iwq/image/upload/w_640,h_540,g_south,c_fill/v1709647478/Kat_xtg9me.jpg",
+    //   linkedInUrl:
+    //     "https://www.linkedin.com/in/katleho-cathy-mthenjane-12424b207",
+    //   twitterUrl: null,
+    //   title: "Executive Programmes Associate",
+    //   companyName: null,
+    // },
     {
       id: 14,
       name: "Jane Chidi-Ezeakanwa ",
@@ -1329,17 +1329,17 @@ export const teamData = {
       title: "Office Administrator",
       companyName: null,
     },
-    {
-      id: 15,
-      name: "Auguster Asantewa Boateng",
-      imageUrl:
-        "https://res.cloudinary.com/dhhw72iwq/image/upload/v1705652203/auguster_i0epx3.jpg",
-      linkedInUrl:
-        "https://www.linkedin.com/in/auguster-boateng-she-her-%F0%9F%87%AC%F0%9F%87%AD-9608a898/",
-      twitterUrl: null,
-      title: "Junior Office Administrator",
-      companyName: null,
-    },
+    // {
+    //   id: 15,
+    //   name: "Auguster Asantewa Boateng",
+    //   imageUrl:
+    //     "https://res.cloudinary.com/dhhw72iwq/image/upload/v1705652203/auguster_i0epx3.jpg",
+    //   linkedInUrl:
+    //     "https://www.linkedin.com/in/auguster-boateng-she-her-%F0%9F%87%AC%F0%9F%87%AD-9608a898/",
+    //   twitterUrl: null,
+    //   title: "Junior Office Administrator",
+    //   companyName: null,
+    // },
   ],
   seo: null,
 };
