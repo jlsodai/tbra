@@ -1320,7 +1320,7 @@ export const teamData = {
     //   companyName: null,
     // },
     {
-      id: 14,
+      id: 17,
       name: "Jane Chidi-Ezeakanwa ",
       imageUrl:
         "https://theboardroomafrica.com/wp-content/uploads/2023/04/Jane-300x300.jpg",
