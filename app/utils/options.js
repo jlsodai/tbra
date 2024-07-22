@@ -955,6 +955,13 @@ export const primePricing = {
       corporate: "yes",
       // id: "fnf"
     },
+    {
+      title: "Regular Tailored Resources",
+      standard: "no",
+      prime: "yes",
+      corporate: "no",
+      // id: "xuf"
+    },
   ],
   ondemand: [
     {
