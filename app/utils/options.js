@@ -951,7 +951,7 @@ export const primePricing = {
     {
       title: "Personal Talent Consultation",
       standard: "no",
-      prime: "yes",
+      prime: "30 minutes",
       corporate: "yes",
       // id: "fnf"
     },
@@ -988,7 +988,7 @@ export const primePricing = {
     {
       title: "<<<Executive CV Consultation<<<",
       standard: "Full fee",
-      prime: "17% discount",
+      prime: "Complimentary",
       corporate: "33% discount",
       id: "wx8",
     },
