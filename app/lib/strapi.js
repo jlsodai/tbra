@@ -1093,7 +1093,7 @@ export const boardData = {
       linkedInUrl: null,
       twitterUrl: null,
       title: "Non-Executive Director",
-      companyName: "Futurist & Talent Strategist",
+      companyName: "Futurist, Talent Strategist & Author",
     },
     {
       id: 16,
