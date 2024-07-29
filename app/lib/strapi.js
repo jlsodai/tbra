@@ -1105,6 +1105,16 @@ export const boardData = {
       title: "Non-Executive Director",
       companyName: "Managing Director, Kina Advisory",
     },
+    {
+      id: 22,
+      name: "Steve Cadigan",
+      imageUrl:
+        "https://res.cloudinary.com/dhhw72iwq/image/upload/v1722260630/Steve_jvokbm.jpg",
+      linkedInUrl: null,
+      twitterUrl: null,
+      title: "Non-Executive Director",
+      companyName: "Futurist & Talent Strategist",
+    },
   ],
   seo: null,
 };
