@@ -1056,26 +1056,6 @@ export const boardData = {
       companyName: "Partner, Olajide Oyewole LLP (DLA Piper)",
     },
     {
-      id: 16,
-      name: "Isaac Fokuo",
-      imageUrl:
-        "https://theboardroomafrica.com/wp-content/uploads/2020/12/Isaac-Fokuo.jpeg",
-      linkedInUrl: null,
-      twitterUrl: null,
-      title: "Non-Executive Director",
-      companyName: "Founder, Botho Emerging Markets Group",
-    },
-    {
-      id: 18,
-      name: "Liz Agbor-Tabi Oton",
-      imageUrl:
-        "https://theboardroomafrica.com/wp-content/uploads/2020/12/Elizabeth-Agbor-Tabi-Oton.jpeg",
-      linkedInUrl: null,
-      twitterUrl: null,
-      title: "Non-Executive Director ",
-      companyName: "Vice President Global Policy,  Global Citizen",
-    },
-    {
       id: 19,
       name: "Jean Philippe Prosper",
       imageUrl:
@@ -1114,6 +1094,26 @@ export const boardData = {
       twitterUrl: null,
       title: "Non-Executive Director",
       companyName: "Futurist & Talent Strategist",
+    },
+    {
+      id: 16,
+      name: "Isaac Fokuo",
+      imageUrl:
+        "https://theboardroomafrica.com/wp-content/uploads/2020/12/Isaac-Fokuo.jpeg",
+      linkedInUrl: null,
+      twitterUrl: null,
+      title: "Non-Executive Director",
+      companyName: "Founder, Botho Emerging Markets Group",
+    },
+    {
+      id: 18,
+      name: "Liz Agbor-Tabi Oton",
+      imageUrl:
+        "https://theboardroomafrica.com/wp-content/uploads/2020/12/Elizabeth-Agbor-Tabi-Oton.jpeg",
+      linkedInUrl: null,
+      twitterUrl: null,
+      title: "Non-Executive Director ",
+      companyName: "Vice President Global Policy,  Global Citizen",
     },
   ],
   seo: null,
