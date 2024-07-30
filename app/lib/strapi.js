@@ -72,7 +72,7 @@ export const homeData = {
     metaTitle: "TheBoardroom Africa | Diverse Leadership Talent to the World",
     metaDescription:
       "Promoting exceptional, diverse talent to board and executive positions in Africa and across the globe. We are passionate about diversity and utilise it to achieve exceptional results for all our stakeholders.",
-    keywords: "Female executives in Africa, Board Recruitment",
+    keywords: "Executives in Africa, Board Recruitment",
     metaRobots: null,
     structuredData: null,
     metaViewport: null,
