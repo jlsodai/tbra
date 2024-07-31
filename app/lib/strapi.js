@@ -58,7 +58,7 @@ export const homeData = {
     id: 1,
     title: "Diverse leadership talent to the world.",
     details:
-      "TheBoardroom Africa (TBrA) is the region's premier business dedicated to promoting exceptional, diverse talent to board and executive positions in Africa and across the globe. We are passionate about diversity and utilise it to achieve exceptional results for all our stakeholders.",
+      "TheBoardroom Africa (TBrA) is the region’s premier business dedicated to promoting exceptional, diverse talent to board and executive positions and providing comprehensive executive education to empower leaders to transform the businesses they lead.",
   },
   testimonial: {
     id: 13,
