@@ -722,7 +722,7 @@ export const memberSlides = [
   {
     title: "Diverse leadership talent to the world.",
     content:
-      "TheBoardroom Africa is Africa's leading private membership network that promotes exceptional talent to boards and executive teams while transforming the presence and influence of African women on a global stage.",
+      "TheBoardroom Africa (TBrA) is the region’s premier business dedicated to promoting exceptional, diverse talent to board and executive positions and providing comprehensive executive education to empower leaders to transform the businesses they lead.",
     style: {
       background:
         'linear-gradient(rgba(34,35,68, 0.75), rgba(34,35,68, 0.75)), url("https://tbratest.my.canva.site/membership-landing-page/images/90710e7cced9762fbf374e15a4c488c0.jpg")',

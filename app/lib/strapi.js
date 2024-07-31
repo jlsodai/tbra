@@ -1484,7 +1484,7 @@ export const membershipData = {
       id: 3,
       title: "Diverse leadership talent to the world",
       details:
-        "TheBoardroom Africa (TBrA) is the region's premier business dedicated to promoting exceptional, diverse talent to board and executive positions in Africa and across the globe",
+        "TheBoardroom Africa (TBrA) is the region’s premier business dedicated to promoting exceptional, diverse talent to board and executive positions and providing comprehensive executive education to empower leaders to transform the businesses they lead.",
       btnLink: "/membership/application",
       imgUrl:
         "https://tbratest.my.canva.site/membership-landing-page/images/90710e7cced9762fbf374e15a4c488c0.jpg",
