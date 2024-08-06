@@ -169,18 +169,18 @@ export const execData = {
     },
   ],
   Programmes: [
-    {
-      id: 3,
-      title: "Open Doors: Accredited Certificate in Company Direction",
-      date: "July - October 2024",
-      seatsRemaining: "30",
-      venue: "Virtual",
-      imageUrl:
-        "https://tbratest.my.canva.site/executive-development-page/images/128b157c5a41f2c2b630bbb9d2543b69.jpg",
-      applyBtnUrl: "/open-doors-application?hideBanner=true",
-      learnmoreBtnUrl: "/executive-programmes/open-doors",
-      groupName: null,
-    },
+    // {
+    //   id: 3,
+    //   title: "Open Doors: Accredited Certificate in Company Direction",
+    //   date: "July - October 2024",
+    //   seatsRemaining: "30",
+    //   venue: "Virtual",
+    //   imageUrl:
+    //     "https://tbratest.my.canva.site/executive-development-page/images/128b157c5a41f2c2b630bbb9d2543b69.jpg",
+    //   applyBtnUrl: "/open-doors-application?hideBanner=true",
+    //   learnmoreBtnUrl: "/executive-programmes/open-doors",
+    //   groupName: null,
+    // },
     // {
     //   id: 6,
     //   title: "Open Doors: Accredited Certificate in Company Direction",
