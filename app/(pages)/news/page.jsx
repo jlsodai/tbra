@@ -3,6 +3,7 @@
 import HeaderTitle from "@/app/sections/HeaderTitle";
 import { fetchHygraph } from "@/app/lib/gquery";
 import Link from "next/link";
+import { formattedDate } from "@/app/lib/utils";
 
 const featuredQuery = () => ({
   query: `query MyQuery {
@@ -21,7 +22,7 @@ const featuredQuery = () => ({
 
 const generateQuery = () => ({
   query: `query MyQuery {
-        articles(orderBy: publishDate_DESC, first: 5, skip: 1) {
+        articles(orderBy: publishDate_DESC, skip: 1) {
             title
             id
             publishDate
@@ -44,21 +45,22 @@ const page = async () => {
     <>
       <HeaderTitle title="News" />
       <section className="my-16" data-aos="fade-up">
-        <div className="container md:px-44">
+        <div className="container">
           {featuredArticles.map((article, i) => (
             <div
               key={i}
-              className="featured-news grid grid-cols-2 gap-16 items-center"
+              className="featured-news grid md:grid-cols-2 items-center"
             >
               {article?.featuredImage?.url && (
                 <img
                   src={article.featuredImage.url}
-                  className="object-cover h-[300px] w-full"
+                  className="object-cover h-[400px] w-full"
                   alt={article.title}
                 />
               )}
-              <div className="">
-                <h1 className="font-libreb font-bold text-2xl text-dusk">
+              <div className="flex flex-col justify-between h-full p-12 lg:p-16 bg-gray-100 md:order-first">
+                <p>{formattedDate(article.publishDate)}</p>
+                <h1 className="font-libreb font-bold text-xl lg:text-2xl text-dusk mt-4">
                   {article.title}
                 </h1>
                 {article.excerpt && <p className="mt-4">{article.excerpt}</p>}
@@ -72,28 +74,28 @@ const page = async () => {
             </div>
           ))}
 
-          <div className="news-item grid grid-cols-2 gap-16 items-center mt-16">
+          <div className="news-item grid md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16 mt-16">
             {articles.map((article, i) => (
-              <div key={i}>
+              <Link
+                href={`/news/${article.slug}`}
+                key={i}
+                className="bg-gray-100 hover:bg-tender-200"
+              >
                 {article?.featuredImage?.url && (
                   <img
                     src={article.featuredImage.url}
-                    className="object-cover h-[300px] w-full"
+                    className="object-cover h-[250px] w-full"
                     alt={article.title}
                   />
                 )}
-                <div className="mt-4">
-                  <h1 className="font-libreb font-bold text-2xl text-dusk">
+                <div className="p-6">
+                  <p>{formattedDate(article.publishDate)}</p>
+                  <h1 className="font-libreb font-bold text-xl text-dusk mt-2">
                     {article.title}
                   </h1>
-                  <Link
-                    href={`/news/${article.slug}`}
-                    className="text-mustard font-bold mt-4"
-                  >
-                    Read more...
-                  </Link>
+                  {/* <p className="text-mustard font-bold mt-4">Read more...</p> */}
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
