@@ -60,9 +60,12 @@ const page = async () => {
               )}
               <div className="flex flex-col justify-between h-full p-12 lg:p-16 bg-gray-100 md:order-first">
                 <p>{formattedDate(article.publishDate)}</p>
-                <h1 className="font-libreb font-bold text-xl lg:text-2xl text-dusk mt-4">
+                <Link
+                  href={`/news/${article.slug}`}
+                  className="font-libreb font-bold text-xl lg:text-2xl text-dusk mt-4"
+                >
                   {article.title}
-                </h1>
+                </Link>
                 {article.excerpt && <p className="mt-4">{article.excerpt}</p>}
                 <Link
                   href={`/news/${article.slug}`}
