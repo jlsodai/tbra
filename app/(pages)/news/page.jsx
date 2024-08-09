@@ -59,7 +59,7 @@ const generateQuery = (pageNum, featuredId) => ({
 const page = async ({ searchParams }) => {
   const { articles: featuredArticle } = await fetchHygraph(featuredQuery());
 
-  const pageNum = searchParams.page || 1;
+  const pageNum = parseInt(searchParams.page || 1);
   const { articlesConnection } = await fetchHygraph(
     generateQuery(pageNum, featuredArticle[0].id)
   );
@@ -147,9 +147,8 @@ const page = async ({ searchParams }) => {
                 {pageNum > 1 && (
                   <li>
                     <Link
-                      href={`/news?page=${pages - 1}`}
-                      className={`hidden md:inline-block rounded py-1.5 px-3 
-                        }`}
+                      href={`/news?page=${pageNum - 1}`}
+                      className={`md:inline-block rounded py-1.5 px-3 hover:bg-dawn-500`}
                     >
                       Previous
                     </Link>
@@ -172,8 +171,8 @@ const page = async ({ searchParams }) => {
                 {pageNum < pages && (
                   <li>
                     <Link
-                      href={`/news?page=${pageNum - 1}`}
-                      className={`hidden md:inline-block rounded py-1.5 px-3 hover:bg-dawn-500 pointer-events-none`}
+                      href={`/news?page=${pageNum + 1}`}
+                      className={`md:inline-block rounded py-1.5 px-3 hover:bg-dawn-500`}
                     >
                       Next
                     </Link>
