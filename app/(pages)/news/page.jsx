@@ -172,7 +172,7 @@ const page = async ({ searchParams }) => {
                 {pageNum < pages && (
                   <li>
                     <Link
-                      href="#"
+                      href={`/news?page=${pageNum - 1}`}
                       className={`hidden md:inline-block rounded py-1.5 px-3 hover:bg-dawn-500 pointer-events-none`}
                     >
                       Next
