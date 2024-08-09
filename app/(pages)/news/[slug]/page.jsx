@@ -3,33 +3,80 @@ import Markdown from "markdown-to-jsx";
 import HeaderTitle from "@/app/sections/HeaderTitle";
 import { fetchHygraph } from "@/app/lib/gquery";
 import { notFound } from "next/navigation";
+import Link from "next/link";
 
 const generateQuery = ({ slug }) => ({
   query: `query MyQuery {
-        article(where: {slug: "${slug}"}) {
-            heading
-            title
-            logo {
-                url
-            }
-            profiles {
-                profileName
-                profilePicture {
-                url
-                }
-            }
-            content {
-                html
-                markdown
-            }
-            imageAlignment
+    article(where: {slug: "${slug}"}) {
+      heading
+      id
+      publishDate
+      title
+      logo {
+        url
+      }
+      profiles {
+        profileName
+        profilePicture {
+          url
         }
-    }`,
+      }
+      content {
+        html
+        markdown
+      }
+      imageAlignment
+    }
+  }`,
+});
+
+const generateNextQuery = (date, id) => ({
+  query: `query relatedArticles {
+    articles(
+      orderBy: publishDate_DESC
+      first: 1
+      where: {publishDate_gte: "${date}", id_not: "${id}"}
+    ) {
+      title
+      id
+      publishDate
+      slug
+      featuredImage {
+        url
+      }
+      excerpt
+    }
+  }`,
+});
+
+const generatePreviousQuery = (date, id) => ({
+  query: `query relatedArticles {
+    articles(
+      orderBy: publishDate_DESC
+      first: 1
+      where: {publishDate_lte: "${date}", id_not: "${id}"}
+    ) {
+      title
+      id
+      publishDate
+      slug
+      featuredImage {
+        url
+      }
+      excerpt
+    }
+  }`,
 });
 
 const Page = async ({ params }) => {
   const { article } = await fetchHygraph(generateQuery(params));
-  // console.log(article);
+  const { articles: nextArticle } = await fetchHygraph(
+    generatePreviousQuery(article.publishDate, article.id)
+  );
+  const { articles: previousArticle } = await fetchHygraph(
+    generatePreviousQuery(article.publishDate, article.id)
+  );
+
   if (!article) return notFound();
 
   return (
@@ -77,14 +124,31 @@ const Page = async ({ params }) => {
             </div>
           </div>
           <div className="flex justify-between mt-16">
-            <p className="rounded py-1.5 px-3 hover:bg-dawn-500 bg-dawn-500">
-              {" "}
-              ← Previous
-            </p>
-            <p className="rounded py-1.5 px-3 underline">View All</p>
-            <p className="rounded py-1.5 px-3 hover:bg-dawn-500 bg-dawn-500">
-              Next →{" "}
-            </p>
+            <div>
+              {nextArticle.length && (
+                <Link
+                  className="rounded py-1.5 px-3 hover:bg-dawn-500 bg-dawn-500 no-underline"
+                  href={`/news/${previousArticle[0].slug}`}
+                >
+                  ← Previous
+                </Link>
+              )}
+            </div>
+            <div>
+              <Link href="/news" className="rounded py-1.5 px-3 underline">
+                View all articles
+              </Link>
+            </div>
+            <div>
+              {previousArticle.length && (
+                <Link
+                  className="rounded py-1.5 px-3 hover:bg-dawn-500 bg-dawn-500 no-underline"
+                  href={`/news/${previousArticle[0].slug}`}
+                >
+                  Next →
+                </Link>
+              )}
+            </div>
           </div>
         </div>
       </section>
