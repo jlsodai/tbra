@@ -76,6 +76,16 @@ const Page = async ({ params }) => {
               ></div>
             </div>
           </div>
+          <div className="flex justify-between mt-16">
+            <p className="rounded py-1.5 px-3 hover:bg-dawn-500 bg-dawn-500">
+              {" "}
+              ← Previous
+            </p>
+            <p className="rounded py-1.5 px-3 underline">View All</p>
+            <p className="rounded py-1.5 px-3 hover:bg-dawn-500 bg-dawn-500">
+              Next →{" "}
+            </p>
+          </div>
         </div>
       </section>
     </>
