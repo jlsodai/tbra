@@ -534,6 +534,10 @@ export const bottomMenu = [
         name: "Executive Programmes",
         href: "/executive-programmes",
       },
+      {
+        name: "Contact Us",
+        href: "/get-in-touch",
+      },
     ],
   },
   {
@@ -547,12 +551,12 @@ export const bottomMenu = [
         href: "/faqs",
       },
       {
-        name: "Privacy Statement",
-        href: "/privacy-policy",
+        name: "Terms of service",
+        href: "/terms-of-service",
       },
       {
-        name: "Contact Us",
-        href: "/get-in-touch",
+        name: "Privacy Statement",
+        href: "/privacy-policy",
       },
     ],
   },
