@@ -6,7 +6,7 @@ import Link from "next/link";
 import RelatedArticle from "@/app/components/RelatedArticle";
 
 export const metadata = {
-  title: "Board Journeys: Kanini Mutooni",
+  title: "Board Journeys: Marjorie Ngwenya da Silva",
   // openGraph: {
   // 	images: 'https://res.cloudinary.com/tbra/image/upload/v1698250891/TBRA-DCRO-Press-Release_bvmzjo.jpg'
   // },
