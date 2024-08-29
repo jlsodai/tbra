@@ -884,12 +884,12 @@ export const programmesData = [
         },
         {
           id: 13,
-          Name: "Jacqueline Musiitwa ",
-          Title: "Senior Climate Finance Advisor, USAID",
+          Name: "Marjorie Ngwenya da Silva",
+          Title: "Author | External Member, PRC, Bank of England",
           Profile:
-            "Jacqueline Musiitwa was recently appointed by the Biden-Harris Administration as Senior Climate Advisor at USAID - leading USAID's goal to mobilise $150 billion in public and private finance for climate. As an international attorney specialising in business transformation, innovation and sustainability. Jacqueline has close to 20 years of experience in leading legal and corporate relations functions in financial services and the industrial sectors. She is a member of the faculty at Georgetown University. Prior to joining the government, Jacqueline sat on the boards of Bushveld Minerals (AIM: BMN), PPC Zimbabwe Limited, International Rescue Committee UK, ideo.org and was the Chair of the New York State Bar Association's Energy and Natural Resources Committee. She has experience as a board Chair and chairing governance and risk committees. She previously served in various leadership capacities at Rio Tinto, the Trade and Development Bank (TDB Group), and the World Trade Organisation. She was a Young Global Leader of WEF, a Tutu Fellow, and a Mo Ibrahim Foundation fellow.",
+            "Marjorie serves as an independent non-executive director in the financial services sector. She is also a trustee of two social justice non-for-profit organisations active in Southern Africa and the Legal Resources Centre Chairperson. She is appointed as an external member of the Prudential Regulation Committee of the Bank of England. Through her work as a leadership and life coach she demonstrates her passion for personal growth. She is also an advocate for diversity, equity and inclusion. She is a Past President of the Institute and Faculty of Actuaries, UK and was the first person of colour to hold office in the organisation’s 160 years and also its youngest. Her prior roles include being a member of the Group Executive Committee of Liberty Group in South Africa, playing the role of Chief Strategist and Chief Risk Officer of Old Mutual’s African Operations. Marjorie trained as an actuary and holds a Sloan Masters of Leadership and Strategy from the London Business School.",
           instructorImage:
-            "https://theboardroomafrica.com/wp-content/uploads/2022/10/jacqueline.jpg",
+            "https://res.cloudinary.com/dhhw72iwq/image/upload/v1724854316/Majorie__xdk0t0.jpg",
         },
         {
           id: 14,
