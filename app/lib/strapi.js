@@ -205,18 +205,18 @@ export const execData = {
     //   learnmoreBtnUrl: "/executive-programmes/esg-certificate",
     //   groupName: null,
     // },
-    {
-      id: 5,
-      title: "Environmental Social and Governance (ESG) Certificate",
-      date: "August to October 2024",
-      seatsRemaining: "30",
-      venue: "Virtual",
-      imageUrl:
-        "https://theboardroomafrica.com/wp-content/uploads/2023/04/esgImg.jpg",
-      applyBtnUrl: "/esg-certificate-application?hideBanner=true",
-      learnmoreBtnUrl: "/executive-programmes/esg-certificate",
-      groupName: null,
-    },
+    // {
+    //   id: 5,
+    //   title: "Environmental Social and Governance (ESG) Certificate",
+    //   date: "August to October 2024",
+    //   seatsRemaining: "30",
+    //   venue: "Virtual",
+    //   imageUrl:
+    //     "https://theboardroomafrica.com/wp-content/uploads/2023/04/esgImg.jpg",
+    //   applyBtnUrl: "/esg-certificate-application?hideBanner=true",
+    //   learnmoreBtnUrl: "/executive-programmes/esg-certificate",
+    //   groupName: null,
+    // },
     {
       id: 2,
       title: "Risk Governance Programmes",
@@ -1022,7 +1022,7 @@ export const programmesData = [
       impact: [],
       brochureInfo: {
         id: 2,
-        upcoming: "21 August - 03 October 2024 (Virtual)\n",
+        upcoming: "",
         structure:
           "14 live sessions with breakouts, case studies and a final course assignment",
         brochureFormUrl: "esgbrochuredownload",

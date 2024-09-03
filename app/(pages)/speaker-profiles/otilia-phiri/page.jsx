@@ -28,14 +28,15 @@ const page = () => {
             evolving technology regulatory landscape.
           </p>
           <p className="mt-4">
-            Prior to joining Microsoft, she worked in various roles in both the
-            technology and infrastructure development space. She served as Legal
-            Advisor, Development Projects at Nakheel and as well at Samsung
-            Construction & Engineering working on iconic developments in the
-            region such as the Palm Jumeirah and Burj Khalifa. She also served
-            in various capacities including Legal Counsel Middle East & Africa
-            at Nokia Corporation during the period leading to the acquisition of
-            Nokia devices and services business by Microsoft Corporation.
+            Prior to joining Microsoft, she worked in various roles within the
+            technology and infrastructure development space. She served as a
+            Legal Advisor for Development Projects at Nakheel, and later at
+            Samsung Construction & Engineering working on iconic developments in
+            the region such as the Palm Jumeirah and Burj Khalifa. She also
+            served in various capacities including Legal Counsel Middle East &
+            Africa at Nokia Corporation during the period leading to the
+            acquisition of Nokia devices and services business by Microsoft
+            Corporation.
           </p>
           <p className="mt-4">
             Otilia holds an LLB from the University of Cape Town, South Africa,
