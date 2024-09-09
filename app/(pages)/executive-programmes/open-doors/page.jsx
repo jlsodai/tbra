@@ -33,18 +33,12 @@ export default async function Page() {
             alt=""
           />
           <h1 className="md:max-w-[80%] py-16">
-            Open Doors: Certificate <br />
-            in Company Direction
+            Certificate in Company Direction
           </h1>
         </div>
       </section>
 
-      <ProgramBlocks
-        attributes={attributes}
-        certifiedImg="https://web.theboardroomafrica.com/wp-content/uploads/2022/02/IoD_Black_transparent.png"
-        certifiedText="The Boardroom Africa’s Open Doors programme is delivered in collaboration with the Institute of Directors (IoD), UK. Upon completing the programme, graduates will receive an accredited certificate in Company Direction awarded by the IoD, UK."
-        certified
-      />
+      <ProgramBlocks attributes={attributes} />
 
       <section className="bg-white" data-aos="fade-up">
         <div className="container my-28">

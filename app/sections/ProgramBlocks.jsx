@@ -70,6 +70,7 @@ const ProgramBlocks = ({
                 alt={attributes.Heading.title}
               />
             )}
+            { attributes.CourseOutline && (
             <div className="-sm:mt-8">
               <KeySection
                 heading="Browse course outline"
@@ -78,13 +79,14 @@ const ProgramBlocks = ({
               />
               <AccordionSection outlines={attributes.CourseOutline} />
             </div>
+            )}
           </div>
         </div>
       </section>
 
-      <InstructorSlides instructors={attributes.Instructors} />
+      { attributes.Instructors && (<InstructorSlides instructors={attributes.Instructors} />)}
 
-      <section className="my-24" data-aos="fade-up">
+      {/* <section className="my-24" data-aos="fade-up">
         <div className="container">
           <h2 className="text-center text-gray-700">Key features</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 text-center gap-10 text-xs mt-16 md:mx-48">
@@ -102,7 +104,7 @@ const ProgramBlocks = ({
             </Expectation>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };

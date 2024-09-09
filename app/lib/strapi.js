@@ -271,44 +271,44 @@ export const programmesData = [
         title: "Open Doors: Accredited Certificate in Company Direction",
         description: null,
       },
-      CourseOutline: [
-        {
-          id: 14,
-          title: "Role of the Director and the Board",
-          description:
-            "This module provides a thorough insight into a director’s duties and legal responsibilities and the board’s role in corporate governance and risk management. It also explores the emergence of corporate governance as a core feature of the modern international business environment and the business and economic benefits of corporate governance as identified by recent research.",
-        },
-        {
-          id: 13,
-          title: "Finance for Directors",
-          description:
-            "This module looks at the director’s role and responsibilities to finance and examines the relationship between financial strategy and corporate strategy. It also explores financial and corporate risk management and the board's role in risk management. It is highly recommended for both finance and non-finance professionals.",
-        },
-        {
-          id: 15,
-          title: "Strategy for Directors",
-          description:
-            "This module explores the relationship between strategy, governance and risk. Delegates will learn how to use tools and frameworks that support strategic thinking and decision-making. The module also provides practical insights into delivering their current business objectives while futureproofing their organisation.",
-        },
-        {
-          id: 16,
-          title: "Leadership for Directors",
-          description:
-            "The module assesses different leadership and decision-making techniques. It helps delegates determine how to build and sustain high-performing teams and evaluate how these can be applied to their organisation to contribute to its increased success.",
-        },
-        {
-          id: 17,
-          title: "Board Simulation",
-          description:
-            "Scenario-based board simulation focused on group dynamics and resolving conflicts at the board level. At the end of the exercise, delegates receive feedback on their decisions during the simulation, with further recommendations for application in practice.",
-        },
-        {
-          id: 18,
-          title: "Workshops",
-          description:
-            "The curriculum is supplemented with our expert-led bonus workshops designed to introduce a set of skills and manoeuvres that are fundamental to succeeding and thriving as executive leaders and board directors.",
-        },
-      ],
+      // CourseOutline: [
+      //   {
+      //     id: 14,
+      //     title: "Role of the Director and the Board",
+      //     description:
+      //       "This module provides a thorough insight into a director’s duties and legal responsibilities and the board’s role in corporate governance and risk management. It also explores the emergence of corporate governance as a core feature of the modern international business environment and the business and economic benefits of corporate governance as identified by recent research.",
+      //   },
+      //   {
+      //     id: 13,
+      //     title: "Finance for Directors",
+      //     description:
+      //       "This module looks at the director’s role and responsibilities to finance and examines the relationship between financial strategy and corporate strategy. It also explores financial and corporate risk management and the board's role in risk management. It is highly recommended for both finance and non-finance professionals.",
+      //   },
+      //   {
+      //     id: 15,
+      //     title: "Strategy for Directors",
+      //     description:
+      //       "This module explores the relationship between strategy, governance and risk. Delegates will learn how to use tools and frameworks that support strategic thinking and decision-making. The module also provides practical insights into delivering their current business objectives while futureproofing their organisation.",
+      //   },
+      //   {
+      //     id: 16,
+      //     title: "Leadership for Directors",
+      //     description:
+      //       "The module assesses different leadership and decision-making techniques. It helps delegates determine how to build and sustain high-performing teams and evaluate how these can be applied to their organisation to contribute to its increased success.",
+      //   },
+      //   {
+      //     id: 17,
+      //     title: "Board Simulation",
+      //     description:
+      //       "Scenario-based board simulation focused on group dynamics and resolving conflicts at the board level. At the end of the exercise, delegates receive feedback on their decisions during the simulation, with further recommendations for application in practice.",
+      //   },
+      //   {
+      //     id: 18,
+      //     title: "Workshops",
+      //     description:
+      //       "The curriculum is supplemented with our expert-led bonus workshops designed to introduce a set of skills and manoeuvres that are fundamental to succeeding and thriving as executive leaders and board directors.",
+      //   },
+      // ],
       Testimonial: [
         {
           id: 5,
@@ -333,67 +333,67 @@ export const programmesData = [
           title: "Former Asia Legal Regional Director, Microsoft",
         },
       ],
-      Instructors: [
-        {
-          id: 3,
-          Name: "Janhavi Dadarkar",
-          Title: "The Role of Director and The Board",
-          Profile:
-            "Janhavi has over three decades of experience advising companies, directors and enterprising individuals on company law, corporate governance and intellectual property protection. She is a recognised expert on commercial transactions with an international flavour and has worked with directors, organisations at start-up as well as highest levels of government and supranational organisations. Janhavi started her career in well-known international city law firms as a corporate and media lawyer but went on to build her own niche Boutique firm and now is the CEO of the Academy for Board Excellence and Programme Lead for IOD's Governance flagship programmes. She particularly enjoys facilitating business and philanthropic aspirations through her roles on advisory boards as a non-executive, an in-house general counsel or thinking partner for boards and individuals.",
-          instructorImage:
-            "https://res.cloudinary.com/tbra/image/upload/v1698049780/Janhavi-Dardarkar_r2p5q2.jpg",
-        },
-        {
-          id: 4,
-          Name: "Deborah Morton Dare",
-          Title: "Finance for Non-Finance Directors",
-          Profile:
-            "Deborah is Programme Lead for the IOD Finance for Non Finance Directors. Alongside her role for the IOD, Deborah continues to be both a Company Director and a Trustee and advises start up and early stage businesses. Current roles include Advisory Board for a global risk and compliance organisation and charity trustee. Deborah is also a professional development partner for the Investor Relations (IR) Society where she is involved in syllabus development, content and course tutor for the professional qualification in IR. Deborah’s broad career started with qualifying as a Chartered Accountant with a big 4 accountancy firm in London, working in corporate finance gaining wide ranging experience in a variety of corporates and financial institutions. The next stage in Deborah’s career was to gain experience as a company director, having set up and run several businesses and acted in a number of advisory roles.",
-          instructorImage:
-            "https://theboardroomafrica.com/wp-content/uploads/2021/12/Deborah-Morton-Dare.jpg",
-        },
-        {
-          id: 6,
-          Name: "Talita Ferreira",
-          Title: "Leadership for Directors",
-          Profile:
-            'Talita is an experienced C-Suite executive with over 25 years of corporate experience in multiple countries, including KPMG, Investec Bank, BMW, Ford Credit Bank Europe Plc, Tandem Bank and Henry Boot Plc. She has led and implemented award-winning cultural transformation programmes in various industries, including the automotive and regulated financial services sectors. Talita has a rare combination of finance, risk, human resources, strategy and change leadership expertise. She has held positions such as Chief Financial Officer and Chief People Officer and published a book called "The Authenticity Dilemma Resolved®" in 2016. Talita is a Non-Executive Director, consultant, author, and board adviser passionate about mindset, high-performing boards, purpose-driven collaboration, and inspiring change leadership.',
-          instructorImage:
-            "https://theboardroomafrica.com/wp-content/uploads/2021/12/Talita-Ferreira.jpg",
-        },
-        {
-          id: 7,
-          Name: "Rachel Nyaradzo Adams",
-          Title: "Founder, Narachi Leadership",
-          Profile:
-            "Rachel is a leadership and transformation specialist, a neuroscience, ontological and personality coach, a speaker and the founder of Narachi Leadership, where she empowers leaders towards courageous and authentic leadership. She believes Africa will only get the future it deserves if leaders can access their highest courage and most authentic power. She graduated from the University of Oxford and the University of Cape Town. She has worked with executives and emerging leaders at the highest levels, including the UN, World Bank, McKinsey, Yale, Obama Leaders, TEDx, L'Oreal and, of course, our very own TheBoardroom Africa. Rachel is a Mandela Rhodes Scholar, A Mellon Mays Fellow, a Tutu Fellow and was named one of the 100 Most Influential Young Africans of 2019.",
-          instructorImage:
-            "https://theboardroomafrica.com/wp-content/uploads/2022/06/Mask-Group-3.jpg",
-        },
-        {
-          id: 8,
-          Name: "Marjorie Ngwenya",
-          Title: "Leadership Coach and Non-executive Director",
-          Profile:
-            "Marjorie serves an independent non-executive director in the financial services sector. She is also a trustee of two social justice non-for-profit organisations active in Southern Africa and the Legal Resources Centre Chairperson. She is appointed as an external member of the Prudential Regulation Committee of the Bank of England. Through her work as a leadership and life coach she demonstrates her passion for personal growth. She is also an advocate for diversity, equity and inclusion. She is a Past President of the Institute and Faculty of Actuaries, UK and was the first person of colour to hold office in the organisation's 160 years and also its youngest. Her prior roles include being a member of the Group Executive Committee of Liberty Group in South Africa, playing the role of Chief Strategist and Chief Risk Officer of Old Mutual's African Operations. Marjorie trained as an actuary and holds a Sloan Masters of Leadership and Strategy from the London Business School.",
-          instructorImage:
-            "https://theboardroomafrica.com/wp-content/uploads/2022/09/marjorie.jpg",
-        },
-        {
-          id: 9,
-          Name: "Kieran Moynihan",
-          Title: "Managing Partner of Board Excellence",
-          Profile:
-            "Kieran is the Managing Partner of Board Excellence, a leading international board consulting practice, specialising in board evaluations, operating across over 35 countries. Kieran has over 24 years of experience serving on boards as a CEO & Executive Director, Non-Executive Director and Board Chair. Kieran is an internationally-recognized thought leader in board dynamics, effectiveness, performance, and corporate governance and regularly contributes to leading international board publications. Board Excellence have delivered board evaluations, training and board/governance advisory services to board across the African continent including Morocco, Ghana, Nigeria, Kenya, Tanzania, Lesotho and South Africa, across the corporate, private company, public and non-profit sectors.",
-          instructorImage:
-            "https://theboardroomafrica.com/wp-content/uploads/2022/09/kieran.jpg",
-        },
-      ],
+      // Instructors: [
+      //   {
+      //     id: 3,
+      //     Name: "Janhavi Dadarkar",
+      //     Title: "The Role of Director and The Board",
+      //     Profile:
+      //       "Janhavi has over three decades of experience advising companies, directors and enterprising individuals on company law, corporate governance and intellectual property protection. She is a recognised expert on commercial transactions with an international flavour and has worked with directors, organisations at start-up as well as highest levels of government and supranational organisations. Janhavi started her career in well-known international city law firms as a corporate and media lawyer but went on to build her own niche Boutique firm and now is the CEO of the Academy for Board Excellence and Programme Lead for IOD's Governance flagship programmes. She particularly enjoys facilitating business and philanthropic aspirations through her roles on advisory boards as a non-executive, an in-house general counsel or thinking partner for boards and individuals.",
+      //     instructorImage:
+      //       "https://res.cloudinary.com/tbra/image/upload/v1698049780/Janhavi-Dardarkar_r2p5q2.jpg",
+      //   },
+      //   {
+      //     id: 4,
+      //     Name: "Deborah Morton Dare",
+      //     Title: "Finance for Non-Finance Directors",
+      //     Profile:
+      //       "Deborah is Programme Lead for the IOD Finance for Non Finance Directors. Alongside her role for the IOD, Deborah continues to be both a Company Director and a Trustee and advises start up and early stage businesses. Current roles include Advisory Board for a global risk and compliance organisation and charity trustee. Deborah is also a professional development partner for the Investor Relations (IR) Society where she is involved in syllabus development, content and course tutor for the professional qualification in IR. Deborah’s broad career started with qualifying as a Chartered Accountant with a big 4 accountancy firm in London, working in corporate finance gaining wide ranging experience in a variety of corporates and financial institutions. The next stage in Deborah’s career was to gain experience as a company director, having set up and run several businesses and acted in a number of advisory roles.",
+      //     instructorImage:
+      //       "https://theboardroomafrica.com/wp-content/uploads/2021/12/Deborah-Morton-Dare.jpg",
+      //   },
+      //   {
+      //     id: 6,
+      //     Name: "Talita Ferreira",
+      //     Title: "Leadership for Directors",
+      //     Profile:
+      //       'Talita is an experienced C-Suite executive with over 25 years of corporate experience in multiple countries, including KPMG, Investec Bank, BMW, Ford Credit Bank Europe Plc, Tandem Bank and Henry Boot Plc. She has led and implemented award-winning cultural transformation programmes in various industries, including the automotive and regulated financial services sectors. Talita has a rare combination of finance, risk, human resources, strategy and change leadership expertise. She has held positions such as Chief Financial Officer and Chief People Officer and published a book called "The Authenticity Dilemma Resolved®" in 2016. Talita is a Non-Executive Director, consultant, author, and board adviser passionate about mindset, high-performing boards, purpose-driven collaboration, and inspiring change leadership.',
+      //     instructorImage:
+      //       "https://theboardroomafrica.com/wp-content/uploads/2021/12/Talita-Ferreira.jpg",
+      //   },
+      //   {
+      //     id: 7,
+      //     Name: "Rachel Nyaradzo Adams",
+      //     Title: "Founder, Narachi Leadership",
+      //     Profile:
+      //       "Rachel is a leadership and transformation specialist, a neuroscience, ontological and personality coach, a speaker and the founder of Narachi Leadership, where she empowers leaders towards courageous and authentic leadership. She believes Africa will only get the future it deserves if leaders can access their highest courage and most authentic power. She graduated from the University of Oxford and the University of Cape Town. She has worked with executives and emerging leaders at the highest levels, including the UN, World Bank, McKinsey, Yale, Obama Leaders, TEDx, L'Oreal and, of course, our very own TheBoardroom Africa. Rachel is a Mandela Rhodes Scholar, A Mellon Mays Fellow, a Tutu Fellow and was named one of the 100 Most Influential Young Africans of 2019.",
+      //     instructorImage:
+      //       "https://theboardroomafrica.com/wp-content/uploads/2022/06/Mask-Group-3.jpg",
+      //   },
+      //   {
+      //     id: 8,
+      //     Name: "Marjorie Ngwenya",
+      //     Title: "Leadership Coach and Non-executive Director",
+      //     Profile:
+      //       "Marjorie serves an independent non-executive director in the financial services sector. She is also a trustee of two social justice non-for-profit organisations active in Southern Africa and the Legal Resources Centre Chairperson. She is appointed as an external member of the Prudential Regulation Committee of the Bank of England. Through her work as a leadership and life coach she demonstrates her passion for personal growth. She is also an advocate for diversity, equity and inclusion. She is a Past President of the Institute and Faculty of Actuaries, UK and was the first person of colour to hold office in the organisation's 160 years and also its youngest. Her prior roles include being a member of the Group Executive Committee of Liberty Group in South Africa, playing the role of Chief Strategist and Chief Risk Officer of Old Mutual's African Operations. Marjorie trained as an actuary and holds a Sloan Masters of Leadership and Strategy from the London Business School.",
+      //     instructorImage:
+      //       "https://theboardroomafrica.com/wp-content/uploads/2022/09/marjorie.jpg",
+      //   },
+      //   {
+      //     id: 9,
+      //     Name: "Kieran Moynihan",
+      //     Title: "Managing Partner of Board Excellence",
+      //     Profile:
+      //       "Kieran is the Managing Partner of Board Excellence, a leading international board consulting practice, specialising in board evaluations, operating across over 35 countries. Kieran has over 24 years of experience serving on boards as a CEO & Executive Director, Non-Executive Director and Board Chair. Kieran is an internationally-recognized thought leader in board dynamics, effectiveness, performance, and corporate governance and regularly contributes to leading international board publications. Board Excellence have delivered board evaluations, training and board/governance advisory services to board across the African continent including Morocco, Ghana, Nigeria, Kenya, Tanzania, Lesotho and South Africa, across the corporate, private company, public and non-profit sectors.",
+      //     instructorImage:
+      //       "https://theboardroomafrica.com/wp-content/uploads/2022/09/kieran.jpg",
+      //   },
+      // ],
       Intro: {
         id: 1,
         Title: "Transform your board career",
         content:
-          "Open Doors is not just a governance programme; it explores the full range of director responsibilities in governance, finance, strategy and leadership. Tailored to leaders, the curriculum blends technical analysis with a practical application of the fundamental principles, ensuring that delegates have a well-rounded understanding of the expectations and requirements of an effective board director.\n\nThe programme leads to an accredited Certificate in Company Direction by the UK Institute of Directors, a bachelor's level (SCQF) qualification in its own right. The curriculum is supplemented with bonus workshops and a board simulation. Open Doors alumni include over 280+ leaders across the continent and the diaspora, with over 50+ countries represented across 150+ companies.\n",
+          "Open Doors is not just a governance programme; it explores the full range of director responsibilities in governance, finance, strategy and leadership. Tailored to leaders, the curriculum blends technical analysis with a practical application of the fundamental principles, ensuring that delegates have a well-rounded understanding of the expectations and requirements of an effective board director.",
         imageUrl:
           "https://tbratest.my.canva.site/open-doors-page/images/d14259c959fe4c98eacf9d8b308c88d9.jpg",
         link: null,
@@ -502,13 +502,13 @@ export const programmesData = [
       ],
       brochureInfo: {
         id: 1,
-        upcoming: "11 July - 15 October 2024 (Virtual)",
-        structure:
-          "4 immersive modules, 3 workshops, and a board simulation led by world-class faculty",
-        brochureFormUrl: "opendoorsbrochuredownload",
+        upcoming: "Quarter 1 2025 (Virtual) - Dates to be announced soon",
+        structure: "",
+        // brochureFormUrl: "opendoorsbrochuredownload",
         applyUrl: "/open-doors-application?hideBanner=true",
-        subsidyText: "Reach out to discuss a payment plan at",
-        subsidyEmail: "opendoors@theboardroomafrica.com",
+        subsidyText:
+          "The Open Doors Programme returns  in the first Quarter of 2025.  As we finalise dates please click the button below to  register your interest in being part of the programme and we will reach out to you soon with more information.",
+        // subsidyEmail: "opendoors@theboardroomafrica.com",
       },
       seo: {
         id: 8,
@@ -1022,13 +1022,13 @@ export const programmesData = [
       impact: [],
       brochureInfo: {
         id: 2,
-        upcoming: "",
+        upcoming: "Quarter 1 2025 (Virtual) - Dates to be announced soon",
         structure:
           "14 live sessions with breakouts, case studies and a final course assignment",
-        brochureFormUrl: "esgbrochuredownload",
+        // brochureFormUrl: "esgbrochuredownload",
         applyUrl: "/esg-certificate-application?hideBanner=true",
-        subsidyText: "Reach out to discuss a payment plan at",
-        subsidyEmail: "esg@theboardroomafrica.com",
+        subsidyText: "The ESG Certificate Programme returns  in the first Quarter of 2025.  As we finalise dates please click the button below to  register your interest in being part of the programme and we will reach out to you soon with more information.",
+        // subsidyEmail: "esg@theboardroomafrica.com",
       },
       seo: null,
     },
