@@ -1026,7 +1026,7 @@ export const programmesData = [
       impact: [],
       brochureInfo: {
         id: 2,
-        upcoming: "Quarter 1 2025 (Virtual) - Dates to be announced soon",
+        upcoming: "Quarter 1 2025 - Dates to be announced soon",
         structure:
           "14 live sessions with breakouts, case studies and a final course assignment",
         // brochureFormUrl: "esgbrochuredownload",
