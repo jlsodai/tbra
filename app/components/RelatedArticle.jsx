@@ -16,6 +16,13 @@ const articles = [
     image:
       "https://res.cloudinary.com/dhhw72iwq/image/upload/v1711449462/malado_kxil5y.jpg",
   },
+  {
+    id: 3,
+    title: "2024 2024 Medical Industry Trends",
+    url: "/insights/member-insights-2024-medical-industry-trends",
+    image:
+      "https://res.cloudinary.com/dhhw72iwq/image/upload/w_650,h_800,c_fill,g_north/v1727710384/totimehInsight_fcj6ig.jpg",
+  },
 ];
 
 const RelatedArticle = ({ omit = null }) => {
