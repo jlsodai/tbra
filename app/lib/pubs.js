@@ -18,7 +18,7 @@ export const pubs = {
           year: "2024",
           country: "Ghana",
           content:
-            "Ghana&aposs Listed Boards Show Mixed Results in 2024: Female leadership numbers grow, but their representation on boards declined. 1% decline in overall female board presence, despite increases in the number of women in top executive roles such as CEOs, CFOs, and COOs. While women's leadership in executive roles has increased, the report shows a decline in their overall representation on boards, indicating mixed progress in advancing gender diversity in Ghana’s corporate leadership landscape.",
+            "Ghana's Listed Boards Show Mixed Results in 2024: Female leadership numbers grow, but their representation on boards declined. 1% decline in overall female board presence, despite increases in the number of women in top executive roles such as CEOs, CFOs, and COOs. While women's leadership in executive roles has increased, the report shows a decline in their overall representation on boards, indicating mixed progress in advancing gender diversity in Ghana’s corporate leadership landscape.",
           type: "report",
         },
       },
