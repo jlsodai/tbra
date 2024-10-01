@@ -10,8 +10,7 @@ export const pubs = {
         publishedAt: "2024-09-09T10:00:33.951Z",
         publication: {
           id: 92,
-          pdfUrl:
-            "https://web.theboardroomafrica.com/wp-content/uploads/2024/09/Ghana-Board-Diversity-Index-Report-2024-5th-Edition.pdf",
+          pdfUrl: " https://bit.ly/2024GhanaBDI",
           imageUrl:
             "https://res.cloudinary.com/dhhw72iwq/image/upload/v1727700749/BDIGh_dc2gpk.png",
           venngageCode: null,
