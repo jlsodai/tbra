@@ -25,7 +25,9 @@ const page = () => {
           <div className="md:max-w-[90%] py-16">
             <h1 className="text-4xl md:text-6xl">
               Member Insights: <br />
-              <span className="text-white">2024 Medical Industry Trends</span>
+              <span className="text-white block mt-4">
+                2024 Medical Industry Trends
+              </span>
             </h1>
           </div>
         </div>
